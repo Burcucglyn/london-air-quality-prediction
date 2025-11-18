@@ -4,22 +4,25 @@ To run the tests, laqn_get.py and config.py files should be in the src/ folder. 
 #importing necessary libraries for testing.
 import unittest
 import pandas as pd
-import os #to check file existence
+import os, sys #os to check file existence. sys to modify the system path for imports.
+#importing laqn_test.py file below.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Importing the laqnGet class from laqn_get.py file.
 from src.laqn_get import laqnGet
 from config import Config
 
 # creating a class to test laqnGet class function below.
-
 class TestLaqnGet(unittest.TestCase):
     """Class to test laqnGet class functions."""
 
     def setUp(self):
         """Set up the laqnGet instance for testing."""
         self.laqn_getter = laqnGet()
-        # Define the path for the groups.csv file to check its existence.
-        self.groups_csv_path = '../data/laqn/groups.csv'
+         # used os.path.join to create the path to groups.csv file for path consistency across different OS.
+        self.groups_csv_path = os.path.join(
+            os.path.dirname(__file__), '..', 'data', 'laqn', 'groups.csv'
+        )
 
 
     def test_get_groups(self):
