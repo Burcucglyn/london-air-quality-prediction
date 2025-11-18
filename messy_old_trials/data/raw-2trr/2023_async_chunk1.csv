@@ -1,1 +1,3 @@
-@MeasurementDateGMT,@LocalAuthorityName,@SiteCode,@SiteName,@SiteType,@SpeciesCode,@Value,@DateClosed,@DateOpened,@Latitude,@Longitude
+version https://git-lfs.github.com/spec/v1
+oid sha256:1dff26f133f9db7a3c5d562d4a5e05fee4815f44a3966d81315d09808ab35383
+size 136

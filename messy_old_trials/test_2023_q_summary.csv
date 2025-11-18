@@ -1,5 +1,3 @@
-out_file,rows,successful_tasks,failed_tasks,quarter,start,end
-test_2023_q_Q1.csv,3308076,3308076,0,Q1,2023-01-01,2023-03-31
-test_2023_q_Q2.csv,3345228,3345228,0,Q2,2023-04-01,2023-06-30
-test_2023_q_Q3.csv,3382380,3382380,0,Q3,2023-07-01,2023-09-30
-test_2023_q_Q4.csv,3382380,3382380,0,Q4,2023-10-01,2023-12-31
+version https://git-lfs.github.com/spec/v1
+oid sha256:d51ce372f00aadc24f3db0369adc3a77ff3df3b1d2d2d1382478204bd735b1dd
+size 310
