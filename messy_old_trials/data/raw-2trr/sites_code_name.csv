@@ -1,0 +1,259 @@
+@LocalAuthorityName,@SiteCode
+Richmond,TD0
+Barking and Dagenham,BG3
+Barking and Dagenham,BG1
+Barking and Dagenham,BG2
+Barnet,BN2
+Barnet,BN3
+Barnet,BN1
+Bexley,BX5
+Bexley,BX2
+Bexley,BX0
+Bexley,BQ7
+Bexley,BQ8
+Bexley,BX4
+Bexley,BQ6
+Bexley,BQ5
+Bexley,BX1
+Bexley,BX9
+Bexley,BQ9
+Bexley,BX7
+Bexley,BX6
+Bexley,BX8
+Bexley,BX3
+Bexley,BQ3
+Bexley,BQ4
+Bexley,BQ2
+Bexley,BQ1
+Brent,BT8
+Brent,BT3
+Brent,BT4
+Brent,BT2
+Brent,BT6
+Brent,BT1
+Brent,BT5
+Brent,BT7
+Bromley,BY5
+Bromley,BY7
+Bromley,BY1
+Bromley,BY4
+Camden,BL0
+Camden,KX4
+Camden,CD9
+Camden,IM1
+Camden,CD3
+Camden,CD4
+Camden,CD5
+Camden,CD1
+City of London,CT4
+City of London,CTA
+City of London,CT2
+City of London,CT9
+City of London,CT1
+City of London,CT3
+City of London,CT8
+City of London,CT6
+Croydon,CR6
+Croydon,CR4
+Croydon,CR5
+Croydon,CR8
+Croydon,CR9
+Croydon,CR2
+Croydon,CR7
+Croydon,CR3
+Croydon,CY1
+Ealing,EA2
+Ealing,EG1
+Ealing,EA0
+Ealing,EI3
+Ealing,EA9
+Ealing,EA1
+Ealing,EI0
+Ealing,EA6
+Ealing,EA8
+Ealing,EI8
+Ealing,EA7
+Ealing,EI7
+Ealing,EI2
+Ealing,EI1
+Enfield,EN5
+Enfield,EN1
+Enfield,EN2
+Enfield,EN4
+Enfield,EN7
+Enfield,EN3
+Greenwich,GN0
+Greenwich,GR7
+Greenwich,GR4
+Bexley,GB6
+Bexley,GB0
+Greenwich,GN4
+Greenwich,GN6
+Greenwich,GN2
+Greenwich,GN3
+Greenwich,GR5
+Greenwich,GN5
+Greenwich,TL4
+Greenwich,GR9
+Greenwich,GR8
+Hackney,HN0
+Hackney,HK4
+Hackney,HN1
+Hackney,HK6
+Hackney,HK9
+Hammersmith and Fulham,HF1
+Hammersmith and Fulham,HF2
+Hammersmith and Fulham,HF3
+Hammersmith and Fulham,HF4
+Haringey,HG4
+Haringey,HG3
+Haringey,HG1
+Haringey,HG2
+Harrow,HR2
+Harrow,HR1
+Havering,HV2
+Havering,HV1
+Havering,HV3
+Hillingdon,LH2
+Hillingdon,LH0
+Hillingdon,HI2
+Hillingdon,HI0
+Hillingdon,HI3
+Hillingdon,HI1
+Hounslow,HS3
+Hounslow,HS1
+Hounslow,HS5
+Hounslow,HS4
+Hounslow,HS2
+Hounslow,HS9
+Hounslow,HS7
+Hounslow,HS6
+Hounslow,HS8
+Islington,IS6
+Islington,IS5
+Islington,IS4
+Islington,IS2
+Islington,IS1
+Kensington and Chelsea,KC2
+Kensington and Chelsea,KC5
+Kensington and Chelsea,KG2
+Kensington and Chelsea,KG1
+Kensington and Chelsea,KC4
+Kensington and Chelsea,KC3
+Kensington and Chelsea,KC1
+Kensington and Chelsea,KC7
+Kensington and Chelsea,KF1
+Kensington and Chelsea,WE0
+Kensington and Chelsea,GT1
+Kingston,KT1
+Kingston,A30
+Kingston,KT2
+Kingston,KT5
+Kingston,KT6
+Kingston,KT3
+Kingston,KT4
+Lambeth,LB5
+Lambeth,LB4
+Lambeth,LB1
+Lambeth,LB3
+Lambeth,LB6
+Lambeth,LB2
+Wandsworth,WAC
+Lewisham,LW1
+Lewisham,LW5
+Lewisham,HP1
+Lewisham,LW6
+Lewisham,LW4
+Lewisham,LW3
+Lewisham,LW2
+Richmond,TD5
+Westminster,MR8
+Merton,ME5
+Merton,ME6
+Merton,ME2
+Merton,MEA
+Merton,ME1
+Merton,ME9
+Merton,MEB
+Merton,ME7
+Newham,TL6
+Newham,NM2
+Newham,NM4
+Newham,TL5
+Newham,NM1
+Newham,NM3
+Redbridge,RB3
+Redbridge,RB4
+Redbridge,RB2
+Redbridge,RB7
+Redbridge,RB1
+Redbridge,RB5
+Westminster,CE3
+Westminster,CE1
+Richmond,RI2
+Richmond,RI1
+Richmond,RHG
+Richmond,RHI
+Enfield,AZ99
+Southwark,SK5
+Southwark,SK9
+Southwark,SK6
+Southwark,SK7
+Southwark,SK1
+Southwark,SKA
+Southwark,SK2
+Southwark,SKC
+Southwark,SK8
+Southwark,SKB
+Sutton,ST8
+Sutton,ST5
+Sutton,ST9
+Sutton,ST3
+Sutton,ST2
+Sutton,ST1
+Sutton,ST7
+Sutton,ST4
+Sutton,ST6
+Tower Hamlets,TH3
+Tower Hamlets,TH4
+Hackney,CW3
+Tower Hamlets,TH7
+Tower Hamlets,TH2
+Tower Hamlets,TH6
+Tower Hamlets,TH1
+Tower Hamlets,TH5
+Waltham Forest,WL3
+Waltham Forest,WL4
+Waltham Forest,WL1
+Waltham Forest,WL5
+Waltham Forest,WL2
+Wandsworth,WAA
+Wandsworth,WA1
+Wandsworth,WA4
+Wandsworth,WA9
+Wandsworth,WA7
+Wandsworth,WA8
+Wandsworth,WA3
+Wandsworth,WA6
+Wandsworth,WAB
+Wandsworth,WA2
+Westminster,CE2
+Westminster,BP0
+Westminster,WMA
+Westminster,WMC
+Westminster,WM4
+Westminster,WM5
+Westminster,GV2
+Westminster,GV1
+Westminster,WMD
+Westminster,WM0
+Westminster,MY1
+Westminster,MY7
+Westminster,WM6
+Westminster,WMZ
+Westminster,WMB
+Westminster,WME
+Westminster,NB1
+Westminster,WM8
+Westminster,WM9
+Westminster,VS1

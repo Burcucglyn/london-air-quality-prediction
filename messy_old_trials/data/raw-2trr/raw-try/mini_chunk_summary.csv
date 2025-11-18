@@ -1,0 +1,3 @@
+out_file,rows,successful_tasks,failed_tasks,chunk,start,end,file
+data/raw/tests/mini_chunk_chunk1.csv,74820,74820,0,1,2023-01-01,2023-01-07,data/raw/tests/mini_chunk_chunk1.csv
+data/raw/tests/mini_chunk_chunk2.csv,74820,74820,0,2,2023-01-08,2023-01-14,data/raw/tests/mini_chunk_chunk2.csv
