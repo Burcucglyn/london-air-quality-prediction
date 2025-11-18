@@ -657,3 +657,5 @@ def create_pollutants_csv(output_file: str = "data/raw/pollutants_info.csv", api
 
     return out_file, df
 
+.venv/
+
