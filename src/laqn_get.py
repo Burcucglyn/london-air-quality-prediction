@@ -7,12 +7,11 @@
 
 #import statements below for necessary libraries to make API requests and handle data.
 import requests
-import json, csv
+import json, csv, os
 
 #config.py file importing Config class to access the API endpoint URLs.
 from config import Config
 import pandas as pd
-
 
 
 class laqnGet:
@@ -26,14 +25,16 @@ class laqnGet:
         """Fetch the available monitoring groups from the LAQN API."""
         url = self.config.get_groups
         response = requests.get(url)
-        df = pd.DataFrame(response.json()['Groups']['Group'])
 
-        #save to csv file as groups.csv in data/laqn folder
-        df.to_csv('../data/laqn/groups.csv', index=False)
-        if response.status_code == 200:
-            return df
-        else:
-            response.raise_for_status()
+        if response.status_code != 200 or not response.text.strip():
+            raise Exception(f"API request failed or returned empty response: {response.status_code}")
+
+        try:
+            data = response.json()
+        except Exception as e:
+            print("JSON decode error:", e)
+            raise
+        df = pd.DataFrame(data['Groups']['Group'])
 
     
             
