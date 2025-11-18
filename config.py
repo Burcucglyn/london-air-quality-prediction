@@ -1,7 +1,8 @@
 class Config:
     # API Settings
     laqn_url  = "https://api.erg.ic.ac.uk/AirQuality"
-    get_groups= "https://api.erg.ic.ac.uk/AirQuality/Annual/MonitoringObjective/GroupName={GROUPNAME}/Json"
+    #endpoint URLs for get_groups groupname={GROUPNAME} changed to London to fetch monitoring groups.
+    get_groups= "https://api.erg.ic.ac.uk/AirQuality/Annual/MonitoringObjective/GroupName={London}/Json"
     get_monitor_sites = "https://api.erg.ic.ac.uk/AirQuality/Information/MonitoringSiteSpecies/GroupName={GROUPNAME}/Json"
     get_hourly_data = "https://api.erg.ic.ac.uk/AirQuality/Data/SiteSpecies/SiteCode={SITECODE}/SpeciesCode={SPECIESCODE}/StartDate={STARTDATE}/EndDate={ENDDATE}/Period={PERIOD}/Units={UNITS}/Step={STEP}/Json"
     OPENMETEO_BASE_URL = "https://api.open-meteo.com/v1"
