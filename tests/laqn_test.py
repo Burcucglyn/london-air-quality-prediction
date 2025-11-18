@@ -25,9 +25,9 @@ class TestLaqnGet(unittest.TestCase):
         )
 
 
-    def test_get_groups(self):
-        """Test the get_groups function."""
-        df = self.laqn_getter.get_groups()
+    def test_get_sites_species(self):
+        """Test the get_sites_species function."""
+        df = self.laqn_getter.get_sites_species()
         print(df.head())  # Preview first 5 rows
         print(df.columns) # Preview column names
 
@@ -36,16 +36,16 @@ class TestLaqnGet(unittest.TestCase):
         # Check if the DataFrame is not empty.
         self.assertFalse(df.empty)
         # Check if specific columns exist in the DataFrame.
-        expected_columns = {'@GroupName', '@Description', '@WebsiteURL'}
+        expected_columns = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName'}
         self.assertTrue(expected_columns.issubset(set(df.columns)))
 
-        # Check if groups.csv was saved.
-        self.assertTrue(os.path.exists(self.groups_csv_path), "groups.csv does not exist.")
-        df = pd.read_csv(self.groups_csv_path)
+        # Check if sites_species_london.csv was saved.
+        self.assertTrue(os.path.exists(self.sites_species_csv_path), "sites_species_london.csv does not exist.")
+        df_saved = pd.read_csv(self.sites_species_csv_path)
         # Check for missing values in key columns.
         for col in expected_columns:
-            self.assertFalse(df[col].isnull().any(), f"Missing values found in column: {col}")
+            self.assertFalse(df_saved[col].isnull().any(), f"Missing values found in column: {col}")
 
 if __name__ == '__main__':
-    unittest.main() #that will be run the test cases nested in the TestLaqnGet class.
-    print("Testing for get_groups function is completed.")
+    unittest.main()
+    print("Testing for get_sites_species function is completed.")
