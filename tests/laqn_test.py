@@ -20,8 +20,8 @@ class TestLaqnGet(unittest.TestCase):
         """Set up the laqnGet instance for testing."""
         self.laqn_getter = laqnGet()
          # used os.path.join to create the path to groups.csv file for path consistency across different OS.
-        self.groups_csv_path = os.path.join(
-            os.path.dirname(__file__), '..', 'data', 'laqn', 'groups.csv'
+        self.sites_species_csv_path = os.path.join(
+            os.path.dirname(__file__), '..', 'data', 'laqn', 'sites_species_london.csv'
         )
 
 
@@ -36,7 +36,7 @@ class TestLaqnGet(unittest.TestCase):
         # Check if the DataFrame is not empty.
         self.assertFalse(df.empty)
         # Check if specific columns exist in the DataFrame.
-        expected_columns = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName'}
+        expected_columns = {'@SiteCode', '@SiteName', '@SpeciesCode', '@SpeciesDescription'}
         self.assertTrue(expected_columns.issubset(set(df.columns)))
 
         # Check if sites_species_london.csv was saved.
