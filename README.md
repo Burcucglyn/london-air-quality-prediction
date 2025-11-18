@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # London Air Pollution Prediction
 
 Machine learning project for predicting NO2 and PM2.5 air pollution levels in London using historical air quality data, meteorological conditions, and traffic patterns. This research aims to create accurate, interpretable models that can assist in environmental policy planning and public health protection.
@@ -16,20 +15,22 @@ This project develops predictive models using time series analysis and ensemble 
 ```
 air-pollution-levels/
 ├── data/                       # Data storage
-│   ├── external/              # Reference data
-│   ├── processed/             # Cleaned datasets
-│   └── raw/                   # Original API responses
+│   ├── LAQN/              # Reference data
+│   ├──--├─external/              # Reference data
+│   ├──--├ processed/             # Cleaned datasets
+│   └──--├ raw/                   # Original API responses
 ├── docs/                      # Documentation
-│   └── api_guide.md          # API usage guide
-├── notebooks/                 # Jupyter notebooks for analysis
+│   └── api_guide.md          # How to use API?
 ├── results/                   # Model outputs and figures
 │   ├── figures/              # Visualizations
 │   └── models/               # Trained models
 ├── src/                      # Source code modules
-│   └── __init__.py          
+│   └── __init__.py
+│   └──LAQN_get/              #LAQN Api Code files
+│   ├──--| get.py              # Getting data from LAQN API points         
 ├── tests/                    # Testing framework
 │   ├── __init__.py          
-│   └── test_api.py          # API connectivity tests
+│   └── laqn_test.py          # laqn_test
 ├── config.py                 # Project configuration
 ├── main.py                   # Main execution script
 ├── requirements.txt          # Python dependencies
