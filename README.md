@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # London Air Pollution Prediction
 
 Machine learning project for predicting NO2 and PM2.5 air pollution levels in London using historical air quality data, meteorological conditions, and traffic patterns. This research aims to create accurate, interpretable models that can assist in environmental policy planning and public health protection.
@@ -197,3 +198,7 @@ The complete analysis pipeline is designed for reproducibility with:
 - Automated testing of data collection processes
 
 All code follows Python best practices with comprehensive documentation, type hints where appropriate, and modular design for easy extension and modification.
+=======
+# london-air-quality-prediction
+MSc dissertation project predicting air pollution levels across London using machine learning. Combines environmental data from LAQN, TfL traffic data, and meteorological APIs to forecast NO2 and PM2.5 concentrations with seasonal pattern analysis.
+>>>>>>> 81c0db85f01978b8b4a4201cddb5b87db8f3b774
