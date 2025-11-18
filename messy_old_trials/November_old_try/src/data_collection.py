@@ -48,7 +48,7 @@ import aiohttp
 from tqdm import tqdm
 import tempfile
 import json
-
+import http
 # Configure logging for the module
 logger = logging.getLogger(__name__)
 
@@ -284,6 +284,7 @@ def get_hourly_7days_fixed(
     logger.info(f"Starting data collection: {len(site_codes)} sites, {len(species)} species, {total_requests} total requests")
     
     # Collect data for each site and species combination
+    # tqdm nested neighbo
     with tqdm(total=total_requests, desc="Collecting hourly data") as pbar:
         for site_code in site_codes:
             for species_code in species:
