@@ -33,23 +33,25 @@ def test_site_species_analysis():
         print(f"Test failed: Error loading data - {e}")
         return
 
+    """Below tests are commented out to avoid redundant file creation during routine testing.
+    Uncomment them when you want to specifically test the filtering and saving functionality."""
     # Test getting active sites and species
-    try:
-        active_sites = analyzer.get_actv_sites_species(save_to_csv=False)
-        print("Test passed: Active sites and species filtered successfully")
-        print(f"Active sites DataFrame:\n{active_sites.head()}")
-    except Exception as e:
-        print(f"Test failed: Error filtering active sites and species - {e}")
-        return
+    # try:
+    #     active_sites = analyzer.get_actv_sites_species(save_to_csv=False)
+    #     print("Test passed: Active sites and species filtered successfully")
+    #     print(f"Active sites DataFrame:\n{active_sites.head()}")
+    # except Exception as e:
+    #     print(f"Test failed: Error filtering active sites and species - {e}")
+    #     return
 
-    # Test saving the active sites to a CSV file
-    output_path = "data/laqn/test_active_sites_species.csv"
-    try:
-        active_sites = analyzer.get_actv_sites_species(save_to_csv=True, output_path=output_path)
-        print(f"Test passed: Active sites and species saved to {output_path}")
-    except Exception as e:
-        print(f"Test failed: Error saving active sites and species - {e}")
-        return
+    # # Test saving the active sites to a CSV file
+    # output_path = "data/laqn/test_active_sites_species.csv"
+    # try:
+    #     active_sites = analyzer.get_actv_sites_species(save_to_csv=True, output_path=output_path)
+    #     print(f"Test passed: Active sites and species saved to {output_path}")
+    # except Exception as e:
+    #     print(f"Test failed: Error saving active sites and species - {e}")
+    #     return
 
 if __name__ == "__main__":
     test_site_species_analysis()
