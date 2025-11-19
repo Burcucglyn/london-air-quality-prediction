@@ -72,7 +72,7 @@ class laqnGet:
         # df_sites_species.to_csv(output_path, index=False)
         return df_sites_species
     
-    def get_hourly_data(self, site_code, species_code, start_date, end_date, period="Hourly", units="Metric", step="1"):
+    def get_hourly_data(self, site_code, species_code, start_date, end_date):
         """Fetch hourly air quality data for a specific site and species within a date range."""
         # normalize dates to YYYY-MM-DD (API expects simple date strings)
         start_date = pd.to_datetime(start_date).strftime('%Y-%m-%d')
@@ -82,56 +82,43 @@ class laqnGet:
             SITECODE=site_code,
             SPECIESCODE=species_code,
             STARTDATE=start_date,
-            ENDDATE=end_date,
-            PERIOD=period,
-            UNITS=units,
-            STEP=step
+            ENDDATE=end_date
         )
-        response = requests.get(url)
+        response = requests.get(url, timeout=30)
         print(f"[get_hourly_data] URL: {url} Status: {response.status_code}")
         if response.status_code != 200 or not response.text.strip():
             print(f"[get_hourly_data] Response text: {response.text[:1000]}")
             return pd.DataFrame()
+        
 
         try:
             data = response.json()
         except Exception as e:
-            print("JSON decode error:", e)
-            raise
+            print(f"JSON decode error: {e}")
+            return pd.DataFrame()
 
-        # Extract the relevant data (assuming it's under 'Data' -> 'HourlyData')
-        hourly_data = data.get('Data', {}).get('HourlyData') or data.get('HourlyData') or data.get('Data', {}).get('Series') or []
-        if isinstance(hourly_data, dict):  # Handle single data object
+        # ERawAQData exsist in data dictionary, then check if Data key exists inside RawAQData, boolean true/true to proceed.
+        if 'RawAQData' in data and 'Data' in data['RawAQData']:
+             # result rawdata can be either a list of measurements or a single measurement dict.
+            raw_data = data['RawAQData']['Data']
+            
 
-            #single object, I will ttry to find list inside.
-            hourly_items = hourly_data.get('Item') or hourly_data.get('Reading') or [hourly_data]
-        elif isinstance(hourly_data, list):
-            hourly_items = hourly_data
-        else:
-            hourly_items = []
-
-        df_hourly = pd.DataFrame(hourly_items)
-
-        # If empty, inform and return
-        if df_hourly.empty:
-            print(f"[get_hourly_data] No hourly measurements returned for {site_code}/{species_code} ({start_date} to {end_date}) - returning empty DataFrame.")
+            if isinstance(raw_data, dict):
+                raw_data = [raw_data]
+            
+            #create DataFrame from raw_data list of dicts.
+            df_hourly = pd.DataFrame(raw_data)
+            
+            # Add site/species codes if not present
+            if '@SiteCode' not in df_hourly.columns:
+                df_hourly['@SiteCode'] = site_code
+            if '@SpeciesCode' not in df_hourly.columns:
+                df_hourly['@SpeciesCode'] = species_code
+            
             return df_hourly
-
-        # Ensure site/species codes present in the DF
-        if '@SiteCode' not in df_hourly.columns:
-            df_hourly['@SiteCode'] = site_code
-        if '@SpeciesCode' not in df_hourly.columns:
-            df_hourly['@SpeciesCode'] = species_code
-
-        # Normalize measurement/value column: create '@Value' if a common name exists
-        value_candidates = ['@Value', 'Value', 'value', 'Reading', 'reading', 'Measurement', 'measurement']
-        if '@Value' not in df_hourly.columns:
-            for c in value_candidates:
-                if c in df_hourly.columns:
-                    df_hourly['@Value'] = df_hourly[c]
-                    break
-
-        return df_hourly
+        else:
+            print(f"[get_hourly_data] Unexpected response structure")
+            return pd.DataFrame()
        
 
     """I will use the site codes from  actv_sites_species.csv.csv to fetch the hourly data for each site and species.
@@ -149,18 +136,28 @@ class laqnGet:
         Returns:
             dict: Dictionary keyed by (site_code, species_code) with DataFrame values.
         """
-
-        #yConvert dates to API format ISO, copy-pasted from check.py
-        start_date = isoparse(start_date).strftime("%Y-%m-%d")
-        end_date = isoparse(end_date).strftime("%Y-%m-%d")
+        url = self.config.get_hourly_data
+        #Convert dates to API format ISO, copy-pasted from check.py
+        try:
+            api_start_date = isoparse(start_date).strftime("%Y-%m-%d")
+            api_end_date = isoparse(end_date).strftime("%Y-%m-%d")
+        except Exception as e:
+            raise ValueError(f"Data format ISO not working, check here: {e}")
 
         # read site/species pairs describe the paths.
         csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
-        df_sites_species = pd.read_csv(csv_path, encoding='utf-8')
+        
+        try:
+            df_sites_species = pd.read_csv(csv_path, encoding='utf-8')
+            print(f"loaded {len(df_sites_species)} rows from {csv_path}")
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Can't find the file Burcu, try again +102390239480 time more maybe than: {csv_path}")
+        except Exception as e:
+                raise ValueError(f"I'm getting an error reading the CSV file Burcu, check here: {e}")
 
         # validate CSV read
-        if csv_path is None or df_sites_species.empty:
-            raise ValueError("Site/species CSV path is invalid or the file is empty.")
+        if df_sites_species.empty:
+            raise ValueError("Stop being sloppy and fix the path, the file is not empty, impossible!")
         
         # took of the block of code to normalise @ prefix columns as the csv is already cleaned.
         required = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName'}
@@ -169,7 +166,8 @@ class laqnGet:
         
         # filter site/species pairs based on measurement dates overlapping with requested date range
         pairs = df_sites_species[['SiteCode', 'SpeciesCode']].drop_duplicates()
-        print(f"[helper_fetch_hourly_data] Filtering: {len(df_sites_species)} rows -> {len(pairs)} valid site/species pairs for {start_date} to {end_date}")
+        total_pairs = len(pairs) # total site/species pairs number to use in progress tracking.
+        print(f"Found {len(pairs)} unique site/species pairs to fetch data for {api_start_date} to {api_end_date}")
 
         results = {}# dict to hold DataFrames keyed by (site_code, species_code), add to empty dict.
 
@@ -177,42 +175,68 @@ class laqnGet:
         if save_dir:
             out_dir = os.path.join(os.path.dirname(__file__), '..', save_dir)
             os.makedirs(out_dir, exist_ok=True)
+            print(f"Will save CSVs to: {out_dir}")
         else:
             out_dir = None
         
-        for _, row in pairs.iterrows():
+        #changing tuple to progress count.
+        for idx, (_, row) in enumerate(pairs.iterrows(), 1):
             site_code = row['SiteCode']
             species_code = row['SpeciesCode']
             try:
-                df_hourly = self.get_hourly_data(
-                    site_code=site_code,
-                    species_code=species_code,
-                    start_date=start_date,
-                    end_date=end_date,
-                    period=period,
-                    units=units,
-                    step=step
+                #added formatting here to replace string placeholders on get_hourly_data url.
+                formatted_url = url.format(
+                    SITECODE=site_code,
+                    SPECIESCODE=species_code,
+                    STARTDATE=api_start_date,
+                    ENDDATE=api_end_date,
                 )
+
+                #let's request the url here. hope it says 200ok.
+                response = requests.get(formatted_url, timeout=30)
+
+                if response.status_code ==200:
+                    data = response.json()
+
+                    #extract data from response.
+                    if 'RawAQData' in data and 'Data' in data['RawAQData']:
+                        raw_data = data['RawAQData']['Data']
+
+                        #handle the single record case (dict instead of list) vs multiple records list.
+                        if isinstance(raw_data, dict):
+                            raw_data = [raw_data]
+                        
+                        #create dataframe
+                        df_hourly = pd.DataFrame(raw_data)
+
+                        if df_hourly.empty:
+                            print(f"No data for this periofd {site_code}/{species_code} - skipping.")
+                        else:
+                            print(f"Retrieved {len(df_hourly)} records for {site_code}/{species_code}.")
+
+                            #store in results 
+                            results[(site_code, species_code)] = df_hourly
+
+                            #save to csv if out_dir specified.
+                            if out_dir is not None:
+                                fname = f"{site_code}_{species_code}_{api_start_date}_{api_end_date}.csv"
+                                df_hourly.to_csv(os.path.join(out_dir, fname), index=False)
+                    else: 
+                        print(f"Failed to response because of structure.")
+                else:
+                    print(f" HTTP {response.status_code}.")
+            except requests.exceptions.Timeout:
+                    print(f"Request timeout for site {site_code}, species {species_code}.")
             except Exception as e:
-                print(f"[Error] {site_code} {species_code}: {e}")
-                continue
-
-            if df_hourly.empty:
-                print(f"[helper_fetch_hourly_data] Empty result for {site_code}/{species_code} - skipping save.")
-                results[(site_code, species_code)] = df_hourly
+                print(f"Error fetching data, try again Burcu.")
+        
+            #adding sleep to avoid rate limiting.
+            if idx < total_pairs:
                 time.sleep(sleep_sec)
-                continue
-
-            results[(site_code, species_code)] = df_hourly
-
-            if out_dir is not None:
-                fname = f"{site_code}_{species_code}_{start_date}_{end_date}.csv"
-                df_hourly.to_csv(os.path.join(out_dir, fname), index=False)
-
-            time.sleep(sleep_sec) # to avoid hitting rate limits
+        print(f"\nComleted: {len(results)}/{total_pairs} fetched.")
         return results
 
-
+            
 
 """I created new file actv_sitescsv from sites_species_london.csv to include only active monitoring sites in London.
 And now I will swap the names in helper_fetch_hourly_data function to read from actv_sitescsv.csv instead of 
