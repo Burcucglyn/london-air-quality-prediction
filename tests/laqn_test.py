@@ -46,6 +46,22 @@ class TestLaqnGet(unittest.TestCase):
         for col in expected_columns:
             self.assertFalse(df_saved[col].isnull().any(), f"Missing values found in column: {col}")
 
+
+    def test_helper_fetch_hourly_data(self):
+        """Test the helper_fetch_hourly_data function."""
+        laqn_getter = laqnGet()
+        results = laqn_getter.helper_fetch_hourly_data(
+            #I will try to fetch data for one week in January 2023.
+            start_date="2023-01-01",
+            end_date="2023-01-08",
+            save_dir=None,
+            sleep_sec=0.1
+        )
+        self.assertIsInstance(results, dict)
+        # Check at least one result is a DataFrame
+        found_df = any(isinstance(df, pd.DataFrame) and not df.empty for df in results.values())
+        self.assertTrue(found_df, "No non-empty DataFrames returned.")
+
 if __name__ == '__main__':
     unittest.main()
     print("Testing for get_sites_species function is completed.")
