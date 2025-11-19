@@ -37,12 +37,14 @@ class TestLaqnGet(unittest.TestCase):
         # Check if the DataFrame is not empty.
         self.assertFalse(df.empty)
         # Check if specific columns exist in the DataFrame.
-        expected_columns = {'@SiteCode', '@SiteName', '@SpeciesCode', '@SpeciesDescription', '@DateMeasurementStarted', '@DateMeasurementFinished', '@Units'}
+        expected_columns = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName', 'Latitude', 'Longitude'}
         self.assertTrue(expected_columns.issubset(set(df.columns)))
 
         # Check if sites_species_london.csv was saved.
-        self.assertTrue(os.path.exists(self.sites_species_csv_path), "sites_species_london.csv does not exist.")
-        df_saved = pd.read_csv(self.sites_species_csv_path)
+        actve_sites_csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
+        self.assertTrue(os.path.exists(actve_sites_csv_path), "actv_sites_species.csv does not exist.")
+        df_saved = pd.read_csv(actve_sites_csv_path)
+        
         # Check for missing values in key columns.
         for col in expected_columns:
             self.assertFalse(df_saved[col].isnull().any(), f"Missing values found in column: {col}")
