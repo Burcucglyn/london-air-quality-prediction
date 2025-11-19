@@ -4,6 +4,7 @@ To run the tests, laqn_get.py and config.py files should be in the src/ folder. 
 #importing necessary libraries for testing.
 import unittest
 import pandas as pd
+# import response
 import os, sys #os to check file existence. sys to modify the system path for imports.
 #importing laqn_test.py file below.
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -36,7 +37,7 @@ class TestLaqnGet(unittest.TestCase):
         # Check if the DataFrame is not empty.
         self.assertFalse(df.empty)
         # Check if specific columns exist in the DataFrame.
-        expected_columns = {'@SiteCode', '@SiteName', '@SpeciesCode', '@SpeciesDescription'}
+        expected_columns = {'@SiteCode', '@SiteName', '@SpeciesCode', '@SpeciesDescription', '@DateMeasurementStarted', '@DateMeasurementFinished', '@Units'}
         self.assertTrue(expected_columns.issubset(set(df.columns)))
 
         # Check if sites_species_london.csv was saved.
