@@ -140,33 +140,23 @@ class laqnGet:
         Returns dict keyed by (site_code, species_code) with DataFrame values. Optionally saves CSVs.
         """
         # read site/species pairs describe the paths.
-        csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'sites_species_london.csv')
+        csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
         df_sites_species = pd.read_csv(csv_path, encoding='utf-8')
 
-        # normalise measurement date columns and filter pairs that cover the requested window
-        df_sites_species['@DateMeasurementStarted'] = pd.to_datetime(df_sites_species.get('@DateMeasurementStarted'), errors='coerce')
-        df_sites_species['@DateMeasurementFinished'] = pd.to_datetime(df_sites_species.get('@DateMeasurementFinished'), errors='coerce')
-
-        start_ts = pd.to_datetime(start_date)
-        end_ts = pd.to_datetime(end_date)
-
-        mask = (
-            (df_sites_species['@DateMeasurementStarted'].fillna(pd.Timestamp.min) <= end_ts) &
-            (
-                df_sites_species['@DateMeasurementFinished'].isna() |
-                (df_sites_species['@DateMeasurementFinished'] >= start_ts)
-            )
-        )
-        df_filtered = df_sites_species.loc[mask].copy()
-        pairs = df_filtered[['@SiteCode', '@SpeciesCode']].drop_duplicates()
-        print(f"[helper_fetch_hourly_data] Filtering: {len(df_sites_species)} rows -> {len(pairs)} valid site/species pairs for {start_date} to {end_date}")
-
-        required = {'@SiteCode', '@SpeciesCode'}
+        # validate CSV read
+        if csv_path is None or df_sites_species.empty:
+            raise ValueError("Site/species CSV path is invalid or the file is empty.")
+        
+        # took of the block of code to normalise @ prefix columns as the csv is already cleaned.
+        required = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName'}
         if not required.issubset(df_sites_species.columns):
             raise ValueError(f"CSV missing required columns: {required - set(df_sites_species.columns)}")
         
-        #pairs set to avoid duplicates.
-        results = {} # dict to hold DataFrames keyed by (site_code, species_code), add to empty dict.
+        # filter site/species pairs based on measurement dates overlapping with requested date range
+        pairs = df_sites_species[['SiteCode', 'SpeciesCode']].drop_duplicates()
+        print(f"[helper_fetch_hourly_data] Filtering: {len(df_sites_species)} rows -> {len(pairs)} valid site/species pairs for {start_date} to {end_date}")
+
+        results = {}# dict to hold DataFrames keyed by (site_code, species_code), add to empty dict.
 
         # iterate through each unique site/species pair. if loop
         if save_dir:
@@ -176,8 +166,8 @@ class laqnGet:
             out_dir = None
         
         for _, row in pairs.iterrows():
-            site_code = row['@SiteCode']
-            species_code = row['@SpeciesCode']
+            site_code = row['SiteCode']
+            species_code = row['SpeciesCode']
             try:
                 df_hourly = self.get_hourly_data(
                     site_code=site_code,
@@ -189,7 +179,7 @@ class laqnGet:
                     step=step
                 )
             except Exception as e:
-                print(f"[ERROR] {site_code} {species_code}: {e}")
+                print(f"[Error] {site_code} {species_code}: {e}")
                 continue
 
             if df_hourly.empty:
@@ -209,7 +199,7 @@ class laqnGet:
 
 
 
-
 """I created new file actv_sitescsv from sites_species_london.csv to include only active monitoring sites in London.
 And now I will swap the names in helper_fetch_hourly_data function to read from actv_sitescsv.csv instead of 
 sites_species_london.csv. Test the function after modification on laqn_test.py, if this time data will be fetched properly."""
+
