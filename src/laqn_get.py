@@ -210,3 +210,6 @@ class laqnGet:
 
 
 
+"""DateMeasurementFinished column has missing values, as next approach i can find the empty values so that means that the measurement still ongoing.
+And can filter the site/species pairs that have measurement date range covering the requested start_date to end_date.
+so that will be give me better chance to pair the site codes/specieas and measurument results accordingto date range."""
