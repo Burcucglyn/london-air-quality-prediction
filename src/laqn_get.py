@@ -13,6 +13,9 @@ from config import Config
 import pandas as pd
 # import response
 import time # to handle rate limiting by adding delays between requests if necessary.
+# iso date parsing import below.
+from dateutil.parser import isoparse
+import time
 
 
 class laqnGet:
@@ -131,14 +134,26 @@ class laqnGet:
         return df_hourly
        
 
-    """I will use the site codes from  sites_species_london.csv to fetch the hourly data for each site and species.
+    """I will use the site codes from  actv_sites_species.csv.csv to fetch the hourly data for each site and species.
     I will create a loop to iterate through each site code and species code to fetch the data"""
-    def helper_fetch_hourly_data(self, start_date, end_date, period="Hourly", units="Metric", step="1",
-                               save_dir=None, sleep_sec=1):
+    def helper_fetch_hourly_data(self, start_date, end_date, save_dir=None, sleep_sec=1):
         """
-        Read site/species pairs from data/laqn/sites_species_london.csv and fetch hourly data for each pair.
-        Returns dict keyed by (site_code, species_code) with DataFrame values. Optionally saves CSVs.
+        Read site/species pairs from data/laqn/actv_sites_species.csv and fetch hourly data for each pair.
+    
+        Args:
+            start_date (str): Start date in ISO format (e.g., "2023-01-01T00:00:00").
+            end_date (str): End date in ISO format (e.g., "2023-01-08T23:59:59").
+            save_dir (str, optional): Directory to save individual CSV files.
+            sleep_sec (float): Sleep time between requests to avoid rate limiting.
+            
+        Returns:
+            dict: Dictionary keyed by (site_code, species_code) with DataFrame values.
         """
+
+        #yConvert dates to API format ISO, copy-pasted from check.py
+        start_date = isoparse(start_date).strftime("%Y-%m-%d")
+        end_date = isoparse(end_date).strftime("%Y-%m-%d")
+
         # read site/species pairs describe the paths.
         csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
         df_sites_species = pd.read_csv(csv_path, encoding='utf-8')
