@@ -210,6 +210,6 @@ class laqnGet:
 
 
 
-"""DateMeasurementFinished column has missing values, as next approach i can find the empty values so that means that the measurement still ongoing.
-And can filter the site/species pairs that have measurement date range covering the requested start_date to end_date.
-so that will be give me better chance to pair the site codes/specieas and measurument results accordingto date range."""
+"""I created new file actv_sitescsv from sites_species_london.csv to include only active monitoring sites in London.
+And now I will swap the names in helper_fetch_hourly_data function to read from actv_sitescsv.csv instead of 
+sites_species_london.csv. Test the function after modification on laqn_test.py, if this time data will be fetched properly."""
