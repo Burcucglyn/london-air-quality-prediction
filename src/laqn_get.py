@@ -11,7 +11,7 @@ import json, csv, os
 #config.py file importing Config class to access the API endpoint URLs.
 from config import Config
 import pandas as pd
-import response
+# import response
 import time # to handle rate limiting by adding delays between requests if necessary.
 
 
@@ -61,11 +61,12 @@ class laqnGet:
         # Create a DataFrame from the flattened data.
         df_sites_species = pd.DataFrame(flattened_data)
 
+        # commented out saving to csv for testing purposes.
         # Save to CSV
-        output_dir = os.path.join('data', 'laqn')
-        os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, 'sites_species_london.csv')
-        df_sites_species.to_csv(output_path, index=False)
+        # output_dir = os.path.join('data', 'laqn')
+        # os.makedirs(output_dir, exist_ok=True)
+        # output_path = os.path.join(output_dir, 'sites_species_london.csv')
+        # df_sites_species.to_csv(output_path, index=False)
         return df_sites_species
     
     def get_hourly_data(self, site_code, species_code, start_date, end_date, period="Hourly", units="Metric", step="1"):
