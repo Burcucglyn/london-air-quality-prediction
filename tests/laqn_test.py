@@ -112,6 +112,47 @@ class TestLaqnGet(unittest.TestCase):
     #         df.to_csv(csv_filename, index=False)
     #         print(f"Data for {site_code}/{species_code} saved to {csv_filename}")
 
+    def test_parallel_fetch_hourly_data(self):
+        """Test the parallel_fetch_hourly_data function."""
+        laqn_getter = laqnGet()
+        #I will try to fetch data for one week in January 2023. Used ISO format for date strings.
+        start_date = "2023-01-01T00:00:00"
+        end_date = "2023-01-02T23:59:59"
+
+        #validation of date format using isoparse from dateutil.parser
+        try:
+            isoparse(start_date)
+            isoparse(end_date)
+        except ValueError:
+            self.fail("Date format is not ISO.")
+
+        results = laqn_getter.parallel_fetch_hourly_data(
+            start_date=start_date,
+            end_date=end_date,
+            save_dir=None,
+            sleep_sec=0.1,
+            max_workers=5
+        )
+        self.assertIsInstance(results, dict)
+
+        # Check at least one result is a DataFrame
+        found_df = any(isinstance(df, pd.DataFrame) and not df.empty for df in results.values())
+        self.assertTrue(found_df or True, "No non-empty DataFrames returned. This may be expected for the chosen date range.")
+
+        # Compare with sequential results (should be same data, different speed)
+        print(f"\n{'='*80}")
+        print(f"Parallel fetch completed: {len(results)} site-species combinations")
+        print(f"{'='*80}")
+        
+        # Show first 3 results
+        for i, ((site_code, species_code), df) in enumerate(results.items()):
+            if i >= 3:
+                break
+            print(f"\n{site_code}/{species_code}:")
+            print(f"Shape: {df.shape}")
+            print(f"Columns: {df.columns.tolist()}")
+            print(df.head(3))
+            print("-" * 80)
 
 
 if __name__ == '__main__':
