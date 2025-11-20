@@ -2,6 +2,7 @@
 To run the tests, laqn_get.py and config.py files should be in the src/ folder. and import here.
 """
 #importing necessary libraries for testing.
+import time
 import unittest
 import pandas as pd
 # import response
@@ -115,9 +116,9 @@ class TestLaqnGet(unittest.TestCase):
     def test_parallel_fetch_hourly_data(self):
         """Test the parallel_fetch_hourly_data function."""
         laqn_getter = laqnGet()
-        #I will try to fetch data for a Month January 2023. Used ISO format for date strings.
+        #I will try to fetch data for the year 2023. Used ISO format for date strings.
         start_date = "2023-01-01T00:00:00"
-        end_date = "2023-01-31T23:59:59"
+        end_date = "2023-12-31T23:59:59"
 
         #validation of date format using isoparse from dateutil.parser
         try:
@@ -126,13 +127,26 @@ class TestLaqnGet(unittest.TestCase):
         except ValueError:
             self.fail("Date format is not ISO.")
 
+        print("\n" + "="*80)
+        print("FETCHING 1 YEAR OF DATA (2023)")
+        print("This will take some time altough it's parallelized and increased workers are used from 5 to 7...")
+        print("="*80 + "\n")    
+
+        start_time = time.time()
+        
+
         results = laqn_getter.parallel_fetch_hourly_data(
             start_date=start_date,
             end_date=end_date,
-            save_dir=None,
+            save_dir="../data/laqn/year_2023",
             sleep_sec=0.1,
-            max_workers=5
+            max_workers=7
         )
+
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"\nElapsed time for parallel fetch: {elapsed_time:.2f} seconds\n")
+
         self.assertIsInstance(results, dict)
 
         # Check at least one result is a DataFrame
