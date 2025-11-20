@@ -18,6 +18,7 @@ from dateutil.parser import isoparse
 from src.laqn_get import laqnGet
 from config import Config
 
+
 # creating a class to test laqnGet class function below.
 class TestLaqnGet(unittest.TestCase):
     """Class to test laqnGet class functions."""
@@ -34,8 +35,8 @@ class TestLaqnGet(unittest.TestCase):
     def test_get_sites_species(self):
         """Test the get_sites_species function."""
         df = self.laqn_getter.get_sites_species()
-        print(df.head())  # Preview first 5 rows
-        print(df.columns) # Preview column names
+        # print(df.head())  # Preview first 5 rows
+        # print(df.columns) # Preview column names
 
         # Check if the returned object is a DataFrame.
         self.assertIsInstance(df, pd.DataFrame)
@@ -46,16 +47,16 @@ class TestLaqnGet(unittest.TestCase):
         self.assertTrue(expected_columns_raw.issubset(set(df.columns)))
 
         # Check if sites_species_london.csv was saved.
-        actve_sites_csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
-        self.assertTrue(os.path.exists(actve_sites_csv_path), "actv_sites_species.csv does not exist.")
-        df_saved = pd.read_csv(actve_sites_csv_path)
+        sites_species_csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'sites_species_london.csv')
+        self.assertTrue(os.path.exists(sites_species_csv_path), "sites_species_london.csv does not exist.")
+        df_saved = pd.read_csv(sites_species_csv_path)
 
         # Check columns in CLEANED CSV (WITHOUT @ prefix)
-        expected_columns_cleaned = {'SiteCode', 'SpeciesCode'}
-        self.assertTrue(expected_columns_cleaned.issubset(set(df_saved.columns)))
+        expected_columns = {'@SiteCode', '@SpeciesCode'}
+        self.assertTrue(expected_columns.issubset(set(df_saved.columns)))
         
         # Check for missing values in key columns.
-        for col in expected_columns_cleaned:
+        for col in expected_columns:
             self.assertFalse(df_saved[col].isnull().any(), f"Missing values found in column: {col}")
 
 
@@ -72,6 +73,7 @@ class TestLaqnGet(unittest.TestCase):
             isoparse(end_date)
         except ValueError:
             self.fail("Date format is not ISO.")
+ 
         
 
         results = laqn_getter.helper_fetch_hourly_data(
@@ -81,9 +83,27 @@ class TestLaqnGet(unittest.TestCase):
             sleep_sec=0.1
         )
         self.assertIsInstance(results, dict)
+
+
         # Check at least one result is a DataFrame
         found_df = any(isinstance(df, pd.DataFrame) and not df.empty for df in results.values())
         self.assertTrue(found_df, "No non-empty DataFrames returned.")
+
+        #check what the df look like
+        print(f"\n{'='*80}")
+        print(f"Total results: {len(results)} site-species combinations")
+        print(f"{'='*80}")
+        
+        # Show first 3 DataFrames
+        for i, ((site_code, species_code), df) in enumerate(results.items()):
+            if i >= 3:  # Only show first 3
+                break
+            print(f"\n{site_code}/{species_code}:")
+            print(f"Shape: {df.shape}")
+            print(f"Columns: {df.columns.tolist()}")
+            print(df.head())
+            print("-" * 80)
+
 
         # Uncomment below to save test results as CSV files
     # for (site_code, species_code), df in results.items():
