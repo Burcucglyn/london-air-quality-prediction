@@ -253,7 +253,7 @@ class laqnGet:
 
         return api_start_date, api_end_date, pairs, total_pairs
 
-    def parallel_fetch_hourly_data(self, start_date, end_date, max_workers=7, save_dir=None, sleep_sec=0.2):
+    def parallel_fetch_hourly_data(self, start_date, end_date, max_workers=8, save_dir=None, sleep_sec=0.2):
         """
     Fetch hourly data for all site-species pairs using parallel processing.
     
