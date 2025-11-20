@@ -253,7 +253,7 @@ class laqnGet:
 
         return api_start_date, api_end_date, pairs, total_pairs
 
-    def parallel_fetch_hourly_data(self, start_date, end_date, max_workers=5, save_dir=None, sleep_sec=0.2):
+    def parallel_fetch_hourly_data(self, start_date, end_date, max_workers=7, save_dir=None, sleep_sec=0.2):
         """
     Fetch hourly data for all site-species pairs using parallel processing.
     
@@ -261,7 +261,7 @@ class laqnGet:
         start_date (str): Start date in ISO format (e.g., "2023-01-01T00:00:00")
         end_date (str): End date in ISO format (e.g., "2023-01-31T23:59:59")
         save_dir (str, optional): Directory to save individual CSV files
-        max_workers (int): Number of parallel workers (default: 5) for now.
+        max_workers (int): Number of parallel workers (default: 7) for now.
         sleep_sec (float): Sleep between requests per worker to avoid rate limiting
         
     Returns:
