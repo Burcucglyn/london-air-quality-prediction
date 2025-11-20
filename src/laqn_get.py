@@ -17,6 +17,11 @@ import time # to handle rate limiting by adding delays between requests if neces
 from dateutil.parser import isoparse
 import time
 
+# concurrent futures imports below for parallel processing.
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+from threading import Lock
+
 
 class laqnGet:
     """Class to keep get_groups, get_monitor_sites functions to under one roof."""
@@ -136,49 +141,20 @@ class laqnGet:
         Returns:
             dict: Dictionary keyed by (site_code, species_code) with DataFrame values.
         """
+
+        api_start_date, api_end_date, pairs, total_pairs = self.parallel_fetch_params(start_date, end_date)
+        print(f"Found {total_pairs} unique site/species pairs to fetch data for {api_start_date} to {api_end_date}")
+
+        results = {}
         url = self.config.get_hourly_data
-        #Convert dates to API format ISO, copy-pasted from check.py
-        try:
-            api_start_date = isoparse(start_date).strftime("%Y-%m-%d")
-            api_end_date = isoparse(end_date).strftime("%Y-%m-%d")
-        except Exception as e:
-            raise ValueError(f"Data format ISO not working, check here: {e}")
 
-        # read site/species pairs describe the paths.
-        csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
-        
-        try:
-            df_sites_species = pd.read_csv(csv_path, encoding='utf-8')
-            print(f"loaded {len(df_sites_species)} rows from {csv_path}")
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Can't find the file Burcu, try again +102390239480 time more maybe than: {csv_path}")
-        except Exception as e:
-                raise ValueError(f"I'm getting an error reading the CSV file Burcu, check here: {e}")
-
-        # validate CSV read
-        if df_sites_species.empty:
-            raise ValueError("Stop being sloppy and fix the path, the file is not empty, impossible!")
-        
-        # took of the block of code to normalise @ prefix columns as the csv is already cleaned.
-        required = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName'}
-        if not required.issubset(df_sites_species.columns):
-            raise ValueError(f"CSV missing required columns: {required - set(df_sites_species.columns)}")
-        
-        # filter site/species pairs based on measurement dates overlapping with requested date range
-        pairs = df_sites_species[['SiteCode', 'SpeciesCode']].drop_duplicates()
-        total_pairs = len(pairs) # total site/species pairs number to use in progress tracking.
-        print(f"Found {len(pairs)} unique site/species pairs to fetch data for {api_start_date} to {api_end_date}")
-
-        results = {}# dict to hold DataFrames keyed by (site_code, species_code), add to empty dict.
-
-        # iterate through each unique site/species pair. if loop
         if save_dir:
             out_dir = os.path.join(os.path.dirname(__file__), '..', save_dir)
             os.makedirs(out_dir, exist_ok=True)
             print(f"Will save CSVs to: {out_dir}")
         else:
             out_dir = None
-        
+
         #changing tuple to progress count.
         for idx, (_, row) in enumerate(pairs.iterrows(), 1):
             site_code = row['SiteCode']
@@ -236,9 +212,45 @@ class laqnGet:
         print(f"\nComleted: {len(results)}/{total_pairs} fetched.")
         return results
 
-            
+    
+    def parallel_fetch_params(self, start_date, end_date):
+        """
+        Shared preparation logic for date conversion and loading site-species pairs.
+        Internal helper function used by both helper_fetch_hourly_data and parallel_fetch_hourly_data.
+        Returns:
+            tuple: (api_start_date, api_end_date, pairs_dataframe, total_pairs)."""
+        #Convert dates to API format ISO, copy-pasted from check.py
 
-"""I created new file actv_sitescsv from sites_species_london.csv to include only active monitoring sites in London.
-And now I will swap the names in helper_fetch_hourly_data function to read from actv_sitescsv.csv instead of 
-sites_species_london.csv. Test the function after modification on laqn_test.py, if this time data will be fetched properly."""
+        try:
+            api_start_date = isoparse(start_date).strftime("%Y-%m-%d")
+            api_end_date = isoparse(end_date).strftime("%Y-%m-%d")
+        except Exception as e:
+            raise ValueError(f"Data format ISO not working, check here: {e}")
+
+        # read site/species pairs describe the paths.
+        csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'laqn', 'actv_sites_species.csv')
+        
+        try:
+            df_sites_species = pd.read_csv(csv_path, encoding='utf-8')
+            print(f"loaded {len(df_sites_species)} rows from {csv_path}")
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Can't find the file Burcu, try again +102390239480 time more maybe than: {csv_path}")
+        except Exception as e:
+                raise ValueError(f"I'm getting an error reading the CSV file Burcu, check here: {e}")
+        
+        # Validate CSV
+        if df_sites_species.empty:
+            raise ValueError("The CSV file is empty!")
+        
+        # Check required columns
+        required = {'SiteCode', 'SiteName', 'SpeciesCode', 'SpeciesName'}
+        if not required.issubset(df_sites_species.columns):
+            raise ValueError(f"CSV missing required columns: {required - set(df_sites_species.columns)}")
+
+        # introduce the pairs again
+        pairs = df_sites_species[['SiteCode', 'SpeciesCode']].drop_duplicates()
+        total_pairs = len(pairs) 
+
+        return api_start_date, api_end_date, pairs, total_pairs
+
 
