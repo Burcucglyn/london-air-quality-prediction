@@ -305,7 +305,7 @@ class laqnGet:
                 time.sleep(sleep_sec)
 
                 #requesting the url.
-                response = requests.get(formatted_url, timeout=30)
+                response = requests.get(formatted_url, timeout=150)
 
                 #the same logic as in helper_fetch_hourly_data
                 if response.status_code == 200:
