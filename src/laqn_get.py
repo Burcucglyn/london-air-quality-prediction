@@ -253,4 +253,121 @@ class laqnGet:
 
         return api_start_date, api_end_date, pairs, total_pairs
 
+    def parallel_fetch_hourly_data(self, start_date, end_date, max_workers=5, save_dir=None, sleep_sec=0.2):
+        """
+    Fetch hourly data for all site-species pairs using parallel processing.
+    
+    Args:
+        start_date (str): Start date in ISO format (e.g., "2023-01-01T00:00:00")
+        end_date (str): End date in ISO format (e.g., "2023-01-31T23:59:59")
+        save_dir (str, optional): Directory to save individual CSV files
+        max_workers (int): Number of parallel workers (default: 5) for now.
+        sleep_sec (float): Sleep between requests per worker to avoid rate limiting
+        
+    Returns:
+        dict: Dictionary keyed by (site_code, species_code) with DataFrame values
+    """
+    
+    # Shared preparation logic
+        api_start_date, api_end_date, pairs, total_pairs = self.parallel_fetch_params(start_date, end_date)
+        print(f"Found {total_pairs} unique site/species pairs to fetch data for {api_start_date} to {api_end_date}")
+        print(f"Date range: {start_date} to {end_date}.")
+        print(f"Using up to {max_workers} parallel workers.")
 
+        if save_dir:
+            out_dir = os.path.join(os.path.dirname(__file__), '..', save_dir)
+            os.makedirs(out_dir, exist_ok=True)
+            print(f"Will save CSVs to: {out_dir}")
+        else:
+            out_dir = None
+        
+        #Create shated results dict and lock for thread safety.
+        results = {}
+        results_lock = Lock()
+        completed = 0
+        completed_lock = Lock()
+        url = self.config.get_hourly_data
+
+        def fetch_single_pair(row):
+            """Fetch data for a single site/species pair."""
+            site_code = row['SiteCode']
+            species_code = row['SpeciesCode']
+
+            try:
+                formatted_url = url.format(
+                    SITECODE=site_code,
+                    SPECIESCODE=species_code,
+                    STARTDATE=api_start_date,
+                    ENDDATE=api_end_date,
+                )
+
+                #addding api delay here.
+                time.sleep(sleep_sec)
+
+                #requesting the url.
+                response = requests.get(formatted_url, timeout=30)
+
+                #the same logic as in helper_fetch_hourly_data
+                if response.status_code == 200:
+                    data = response.json()
+
+                    #extracting data RawAQDAta -> Data
+                    if 'RawAQData' in data and 'Data' in data['RawAQData']:
+                        raw_data = data['RawAQData']['Data']
+
+                        #handle single record case (dict instead of list)
+                        if isinstance(raw_data, dict):
+                            raw_data = [raw_data]
+
+                        df_hourly = pd.DataFrame(raw_data)
+
+                        if not df_hourly.empty:
+                            #thread safe write to- locking results dict.
+                            with results_lock:
+                                results[(site_code, species_code)] = df_hourly
+
+                            #save functionality if needed
+                            if out_dir is not None:
+                                fname = f"{site_code}_{species_code}_{api_start_date}_{api_end_date}.csv"
+                                df_hourly.to_csv(os.path.join(out_dir, fname), index=False)
+
+                            #update completed count
+                            with completed_lock:
+                                nonlocal completed
+                                completed +=1
+                                if completed %10==O or completed == total_pairs:
+                                    print(f"Completed {completed}/{total_pairs} pairs.")            
+                            
+                            return (site_code, species_code, len(df_hourly), 'success')
+                        else:
+                            return (site_code, species_code, 0, 'empty...')
+                    else:
+                        return (site_code, species_code, 0, 'invalid structure mate...')
+                else:
+                    return (site_code, species_code, 0, f'HTTP {response.status_code}')
+                
+            except requests.exceptions.Timeout:
+                return (site_code, species_code, 0, 'timeout error')
+            except Exception as e:
+                return (site_code, species_code, 0, f'error: {str(e)[:50]}')
+            
+        #end of fetch_single_pair, execute parallel requests.
+        start_time = time.time()
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            #submit all tasks.
+            futures = {executor.submit(fetch_single_pair, row): idx
+                       for idx, (_, row) in enumerate(pairs.iterrows())}
+            
+            #results collection as they complete.
+            for future in as_completed(futures):
+                site_code, species_code, record_count, status = future.result()
+                if status != 'success' and status != 'empty...':
+                    print(f"[{site_code}/{species_code}] Fetch failed: {status}")
+                    
+        elapsed_time = time.time() - start_time
+        print(f"\nCompleted: {len(results)}/{total_pairs} fetched in {elapsed_time:.2f} seconds.")
+        print(f"Average time per successful fetch: {elapsed_time/len(results):.2f} seconds." if results else "No successful fetches.")
+
+        return results
+                
