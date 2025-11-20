@@ -335,7 +335,7 @@ class laqnGet:
                             with completed_lock:
                                 nonlocal completed
                                 completed +=1
-                                if completed %10==O or completed == total_pairs:
+                                if completed %10== 0 or completed == total_pairs:
                                     print(f"Completed {completed}/{total_pairs} pairs.")            
                             
                             return (site_code, species_code, len(df_hourly), 'success')
