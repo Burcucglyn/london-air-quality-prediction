@@ -164,9 +164,9 @@ class TestLaqnGet(unittest.TestCase):
                 results = laqn_getter.parallel_fetch_hourly_data(
                     start_date=start_date,
                     end_date=end_date,
-                    save_dir=f"data/laqn/monthly_data/{month_name}",  # ← FIXED: no ../ prefix
-                    sleep_sec=0.1,
-                    max_workers=7
+                    save_dir=f"data/laqn/monthly_data/{month_name}",  # ← fixed: no ../ prefix
+                    sleep_sec=0.2,
+                    max_workers=8
                 )
                 
                 month_elapsed = time.time() - month_start
