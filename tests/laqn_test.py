@@ -116,58 +116,84 @@ class TestLaqnGet(unittest.TestCase):
     def test_parallel_fetch_hourly_data(self):
         """Test the parallel_fetch_hourly_data function."""
         laqn_getter = laqnGet()
-        #I will try to fetch data for the year 2023. Used ISO format for date strings.
-        start_date = "2023-01-01T00:00:00"
-        end_date = "2023-12-31T23:59:59"
-
-        #validation of date format using isoparse from dateutil.parser
-        try:
-            isoparse(start_date)
-            isoparse(end_date)
-        except ValueError:
-            self.fail("Date format is not ISO.")
-
-        print("\n" + "="*80)
-        print("FETCHING 1 YEAR OF DATA (2023)")
-        print("This will take some time altough it's parallelized and increased workers are used from 5 to 7...")
-        print("="*80 + "\n")    
-
-        start_time = time.time()
+    
+        # 2024 and 2025 months
+        months = [
+            # 2024
+            ("2024-01-01T00:00:00", "2024-01-31T23:59:59", "2024_jan"),
+            ("2024-02-01T00:00:00", "2024-02-29T23:59:59", "2024_feb"),  # Leap year
+            ("2024-03-01T00:00:00", "2024-03-31T23:59:59", "2024_mar"),
+            ("2024-04-01T00:00:00", "2024-04-30T23:59:59", "2024_apr"),
+            ("2024-05-01T00:00:00", "2024-05-31T23:59:59", "2024_may"),
+            ("2024-06-01T00:00:00", "2024-06-30T23:59:59", "2024_jun"),
+            ("2024-07-01T00:00:00", "2024-07-31T23:59:59", "2024_jul"),
+            ("2024-08-01T00:00:00", "2024-08-31T23:59:59", "2024_aug"),
+            ("2024-09-01T00:00:00", "2024-09-30T23:59:59", "2024_sep"),
+            ("2024-10-01T00:00:00", "2024-10-31T23:59:59", "2024_oct"),
+            ("2024-11-01T00:00:00", "2024-11-30T23:59:59", "2024_nov"),
+            ("2024-12-01T00:00:00", "2024-12-31T23:59:59", "2024_dec"),
+            # 2025
+            ("2025-01-01T00:00:00", "2025-01-31T23:59:59", "2025_jan"),
+            ("2025-02-01T00:00:00", "2025-02-28T23:59:59", "2025_feb"),
+            ("2025-03-01T00:00:00", "2025-03-31T23:59:59", "2025_mar"),
+            ("2025-04-01T00:00:00", "2025-04-30T23:59:59", "2025_apr"),
+            ("2025-05-01T00:00:00", "2025-05-31T23:59:59", "2025_may"),
+            ("2025-06-01T00:00:00", "2025-06-30T23:59:59", "2025_jun"),
+            ("2025-07-01T00:00:00", "2025-07-31T23:59:59", "2025_jul"),
+            ("2025-08-01T00:00:00", "2025-08-31T23:59:59", "2025_aug"),
+            ("2025-09-01T00:00:00", "2025-09-30T23:59:59", "2025_sep"),
+            ("2025-10-01T00:00:00", "2025-10-31T23:59:59", "2025_oct"),
+            ("2025-11-01T00:00:00", "2025-11-19T23:59:59", "2025_nov")  # Up to yesterday
+        ]
         
-
-        results = laqn_getter.parallel_fetch_hourly_data(
-            start_date=start_date,
-            end_date=end_date,
-            save_dir="../data/laqn/year_2023",
-            sleep_sec=0.1,
-            max_workers=7
-        )
-
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        print(f"\nElapsed time for parallel fetch: {elapsed_time:.2f} seconds\n")
-
-        self.assertIsInstance(results, dict)
-
-        # Check at least one result is a DataFrame
-        found_df = any(isinstance(df, pd.DataFrame) and not df.empty for df in results.values())
-        self.assertTrue(found_df or True, "No non-empty DataFrames returned. This may be expected for the chosen date range.")
-
-        # Compare with sequential results (should be same data, different speed)
+        print("\n" + "="*80)
+        print("FETCHING 2024-2025 DATA MONTH BY MONTH")
+        print(f"Total months: {len(months)} (12 months 2024 + 11 months 2025)")
+        print("This will run while you sleep - estimated 1-2 hours total")
+        print("="*80 + "\n")
+        
+        total_start = time.time()
+        all_results = {}
+        failed_months = []
+        
+        for idx, (start_date, end_date, month_name) in enumerate(months, 1):
+            print(f"\n[{idx}/{len(months)}] Fetching {month_name.upper()}...")
+            month_start = time.time()
+            
+            try:
+                results = laqn_getter.parallel_fetch_hourly_data(
+                    start_date=start_date,
+                    end_date=end_date,
+                    save_dir=f"data/laqn/monthly_data/{month_name}",  # ← FIXED: no ../ prefix
+                    sleep_sec=0.1,
+                    max_workers=7
+                )
+                
+                month_elapsed = time.time() - month_start
+                all_results[month_name] = results
+                
+                print(f"  ✓ {month_name} complete: {len(results)} site-species in {month_elapsed/60:.2f} min")
+                
+            except Exception as e:
+                print(f"  ✗ {month_name} FAILED: {e}")
+                failed_months.append(month_name)
+        
+        total_elapsed = time.time() - total_start
+        
         print(f"\n{'='*80}")
-        print(f"Parallel fetch completed: {len(results)} site-species combinations")
+        print(f"✓ 2024-2025 DATA FETCH COMPLETE!")
+        print(f"{'='*80}")
+        print(f"Total months fetched: {len(all_results)}/{len(months)}")
+        print(f"Failed months: {len(failed_months)}")
+        if failed_months:
+            print(f"  Failed: {', '.join(failed_months)}")
+        print(f"Total time: {total_elapsed/60:.2f} minutes ({total_elapsed/3600:.2f} hours)")
+        print(f"Average per month: {total_elapsed/len(months)/60:.2f} minutes")
+        print(f"Data will be at: /Users/burdzhuchaglayan/Desktop/data science projects/air-pollution-levels/data/laqn/monthly_data/")
         print(f"{'='*80}")
         
-        # Show first 3 results
-        for i, ((site_code, species_code), df) in enumerate(results.items()):
-            if i >= 3:
-                break
-            print(f"\n{site_code}/{species_code}:")
-            print(f"Shape: {df.shape}")
-            print(f"Columns: {df.columns.tolist()}")
-            print(df.head(3))
-            print("-" * 80)
-
+        self.assertIsInstance(all_results, dict)
+        self.assertGreater(len(all_results), 0, "No months fetched successfully")
 
 if __name__ == '__main__':
     unittest.main()
