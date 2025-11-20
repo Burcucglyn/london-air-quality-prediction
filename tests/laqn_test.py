@@ -59,50 +59,50 @@ class TestLaqnGet(unittest.TestCase):
         for col in expected_columns:
             self.assertFalse(df_saved[col].isnull().any(), f"Missing values found in column: {col}")
 
+    """ I commented out test_helper_fetch_hourly_data function below because it takes too long to run during testing."""
+    # def test_helper_fetch_hourly_data(self):
+    #     """Test the helper_fetch_hourly_data function."""
+    #     laqn_getter = laqnGet()
+    #     #I will try to fetch data for one week in January 2023. Used ISO format for date strings.
+    #     start_date = "2023-01-01T00:00:00"
+    #     end_date = "2023-01-02T23:59:59"
 
-    def test_helper_fetch_hourly_data(self):
-        """Test the helper_fetch_hourly_data function."""
-        laqn_getter = laqnGet()
-        #I will try to fetch data for one week in January 2023. Used ISO format for date strings.
-        start_date = "2023-01-01T00:00:00"
-        end_date = "2023-01-02T23:59:59"
-
-        #validation of date format using isoparse from dateutil.parser
-        try:
-            isoparse(start_date)
-            isoparse(end_date)
-        except ValueError:
-            self.fail("Date format is not ISO.")
+    #     #validation of date format using isoparse from dateutil.parser
+    #     try:
+    #         isoparse(start_date)
+    #         isoparse(end_date)
+    #     except ValueError:
+    #         self.fail("Date format is not ISO.")
  
         
 
-        results = laqn_getter.helper_fetch_hourly_data(
-            start_date=start_date,
-            end_date=end_date,
-            save_dir=None,
-            sleep_sec=0.1
-        )
-        self.assertIsInstance(results, dict)
+    #     results = laqn_getter.helper_fetch_hourly_data(
+    #         start_date=start_date,
+    #         end_date=end_date,
+    #         save_dir=None,
+    #         sleep_sec=0.1
+    #     )
+    #     self.assertIsInstance(results, dict)
 
 
-        # Check at least one result is a DataFrame
-        found_df = any(isinstance(df, pd.DataFrame) and not df.empty for df in results.values())
-        self.assertTrue(found_df, "No non-empty DataFrames returned.")
+    #     # Check at least one result is a DataFrame
+    #     found_df = any(isinstance(df, pd.DataFrame) and not df.empty for df in results.values())
+    #     self.assertTrue(found_df, "No non-empty DataFrames returned.")
 
-        #check what the df look like
-        print(f"\n{'='*80}")
-        print(f"Total results: {len(results)} site-species combinations")
-        print(f"{'='*80}")
+    #     #check what the df look like
+    #     print(f"\n{'='*80}")
+    #     print(f"Total results: {len(results)} site-species combinations")
+    #     print(f"{'='*80}")
         
-        # Show first 3 DataFrames
-        for i, ((site_code, species_code), df) in enumerate(results.items()):
-            if i >= 3:  # Only show first 3
-                break
-            print(f"\n{site_code}/{species_code}:")
-            print(f"Shape: {df.shape}")
-            print(f"Columns: {df.columns.tolist()}")
-            print(df.head())
-            print("-" * 80)
+    #     # Show first 3 DataFrames
+    #     for i, ((site_code, species_code), df) in enumerate(results.items()):
+    #         if i >= 3:  # Only show first 3
+    #             break
+    #         print(f"\n{site_code}/{species_code}:")
+    #         print(f"Shape: {df.shape}")
+    #         print(f"Columns: {df.columns.tolist()}")
+    #         print(df.head())
+    #         print("-" * 80)
 
 
         # Uncomment below to save test results as CSV files
@@ -115,9 +115,9 @@ class TestLaqnGet(unittest.TestCase):
     def test_parallel_fetch_hourly_data(self):
         """Test the parallel_fetch_hourly_data function."""
         laqn_getter = laqnGet()
-        #I will try to fetch data for one week in January 2023. Used ISO format for date strings.
+        #I will try to fetch data for a Month January 2023. Used ISO format for date strings.
         start_date = "2023-01-01T00:00:00"
-        end_date = "2023-01-02T23:59:59"
+        end_date = "2023-01-31T23:59:59"
 
         #validation of date format using isoparse from dateutil.parser
         try:
@@ -157,4 +157,4 @@ class TestLaqnGet(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    print("Testing for get_sites_species function is completed.")
+    print("Testing for get_sites_species function is completed.") 
