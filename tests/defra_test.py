@@ -22,55 +22,34 @@ class TestDefraGet(unittest.TestCase):
         """Set up the DefraGet instance for testing."""
         self.defra_getter = DefraGet()
 
-    def test_get_sites_species(self):
-        """Test the get_sites_species function."""
+    def test_get_capabilities(self):
+        """Test the get_capabilities function."""
         print("\n" + "="*80)
-        print("TEST: get_sites_species()")
+        print("TEST: get_capabilities()")
         print("="*80)
         
-        stations = self.defra_getter.get_sites_species()
+        capabilities = self.defra_getter.get_capabilities(save_json=True)
         
-        # Check if the returned object is a list.
-        self.assertIsInstance(stations, list, "Expected list, got something else.")
+        # Check if response is valid.
+        self.assertIsInstance(capabilities, dict, "Expected dict response.")
+        self.assertGreater(len(capabilities), 0, "Capabilities should not be empty.")
         
-        # Check if the list is not empty.
-        self.assertGreater(len(stations), 0, "Expected stations, got empty list.")
+        print("\nCapabilities keys:", list(capabilities.keys()))
         
-        print(f"\nRetrieved {len(stations)} stations from DEFRA API.")
-        
-        # Display first 5 stations to understand structure.
-        print("\nFirst 5 stations:")
-        print("-"*80)
-        for i, station in enumerate(stations[:5], 1):
-            print(f"\nStation {i}:")
-            print(json.dumps(station, indent=2))
-        
-        # Check structure of first station.
-        if stations:
-            first_station = stations[0]
-            print("\nKeys in first station:")
-            print(list(first_station.keys()))
-            
-            # Check for expected fields.
-            expected_fields = ['id', 'name', 'lat', 'lon']
-            for field in expected_fields:
-                if field in first_station:
-                    print(f"  {field}: {first_station[field]}")
-                else:
-                    print(f"  {field}: missing")
-        
-        # Save to JSON for inspection.
-        output_dir = os.path.join('data', 'defra', 'test')
-        os.makedirs(output_dir, exist_ok=True)
-        output_file = os.path.join(output_dir, 'stations_sample.json')
-        
-        with open(output_file, 'w') as f:
-            json.dump(stations[:10], f, indent=2)  # Save first 10 stations
-        
-        print(f"\nSaved first 10 stations to: {output_file}")
+        # Check for standard SOS structure.
+        if 'contents' in capabilities:
+            print("Found 'contents' key.")
+            contents = capabilities['contents']
+            if 'offerings' in contents:
+                offerings = contents['offerings']
+                print(f"Found {len(offerings)} offerings.")
+                
+                if offerings:
+                    print("\nFirst offering structure:")
+                    print(json.dumps(offerings[0], indent=2))
         
         print("\n" + "="*80)
-        print("TEST COMPLETED: get_sites_species()")
+        print("TEST COMPLETED: get_capabilities()")
         print("="*80)
 
 
