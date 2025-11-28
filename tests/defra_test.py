@@ -7,12 +7,13 @@ import pandas as pd
 import os
 import sys
 import json
-
+import requests
 # Add project root to path for imports.
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.defra_get import DefraGet
 from config import Config
+from pathlib import Path
 
 
 class TestDefraGet(unittest.TestCase):
@@ -25,10 +26,10 @@ class TestDefraGet(unittest.TestCase):
     def test_post_capabilities(self):
         """Test the post_capabilities function."""
         print("\n" + "="*80)
-        print("Test: post_capabilities()")
+        print("TEST: post_capabilities()")
         print("="*80)
         
-        capabilities = self.defra_getter.post_capabilities(save_json=True)
+        capabilities = self.defra_getter.post_capabilities(save_json=True, save_csv=True)
         
         # Check if response is valid.
         self.assertIsInstance(capabilities, dict, "Expected dict response.")
@@ -48,6 +49,23 @@ class TestDefraGet(unittest.TestCase):
                     print("\nFirst offering structure:")
                     print(json.dumps(offerings[0], indent=2))
         
+        # Check if CSV was created and is readable.
+        csv_file = Path('data/defra/capabilities/capabilities.csv')
+        self.assertTrue(csv_file.exists(), "CSV file should exist.")
+        
+        if csv_file.exists():
+            df = pd.read_csv(csv_file)
+            print(f"\nCSV created successfully.")
+            print(f"CSV shape: {df.shape}")
+            print(f"CSV columns: {df.columns.tolist()}")
+            print("\nFirst 10 rows of CSV:")
+            print(df.head(10).to_string())
+        
+        # Check if JSON was created.
+        json_file = Path('data/defra/capabilities/capabilities.json')
+        self.assertTrue(json_file.exists(), "JSON file should exist.")
+        print(f"\nJSON file created at: {json_file}")
+        
         print("\n" + "="*80)
         print("TEST COMPLETED: post_capabilities()")
         print("="*80)
@@ -55,7 +73,7 @@ class TestDefraGet(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    print("Testing for test_post_capabilities function is completed.")
+    print("Testing for DEFRA post_capabilities function completed.")
 
 
 
