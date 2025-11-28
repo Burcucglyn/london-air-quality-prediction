@@ -27,27 +27,37 @@ class DefraGet:
     def __init__(self):
         """Initialize DefraGet with base URL with config instance."""
         self.config = Config()
-        self.base_url = self.config.defra_url
+        self.capabilities_url = self.config.defra_capabilities_url 
         self.timeout = 30
 
-    def get_capabilities(self, save_json=True):
-        """ DEFRA  uses SOS standart, which is diffirent from LAQN order to fetch the data first I need to call capabilities first.
+    def post_capabilities(self, save_json=True):
+        """ DEFRA uses SOS standard, which is different from LAQN. Order to fetch the data first I need to call capabilities first.
         get_capabilities pdf document:https://uk-air.defra.gov.uk/assets/documents/Example_SOS_queries_v1.3.pdf  
-        So this function will shows all avaible stations, phenomena (pollutants), and producers.
+        post Capabilities JSON POST request using cURL curl -X POST -d "{\"request\": \"GetCapabilities\",\"service\":\"SOS\",\"version\":\"2.0.0\"}" https://uk-air.defra.gov.uk/sos-ukair/service/json"  
+        So this function will show all available stations, phenomena (pollutants), and producers.
         Args:
-            save_jason : boolean response to JSON file.
+            save_json : boolean response to JSON file.
         Returns: 
             dict: Capabilities response containing stations and phenomena.    
         """       
-        #starting with url and setting the parameters.
-        url = self.defra_url
-        params = {
-            'service': 'SOS',
-            'version': '2.0.0',
-            'request': 'GetCapabilities'
+        # Use JSON endpoint with POST request
+        url = self.capabilities_url
+        
+        # POST body with request parameters
+        payload = {
+            "request": "GetCapabilities",
+            "service": "SOS",
+            "version": "2.0.0"
         }
 
-        response = requests.get(url, params=params, timeout=self.timeout)
+        print(f"Requesting: {url}")
+        print(f"Payload: {payload}")
+
+        # POST request with JSON payload
+        response = requests.post(url, json=payload, timeout=self.timeout)
+
+        print(f"Status code: {response.status_code}")
+        print(f"Content-Type: {response.headers.get('Content-Type')}")
 
         if response.status_code != 200 or not response.text.strip():
             raise Exception(f"API request failed or returned empty response: {response.status_code}")
@@ -55,6 +65,7 @@ class DefraGet:
         try:
             data = response.json()
         except Exception as e:
+            print("Response text (first 500 chars):", response.text[:500])
             print("JSON decode error:", e)
             raise
 
@@ -67,4 +78,3 @@ class DefraGet:
                 json.dump(data, f, indent=2)
             print(f"Capabilities saved to: {output_file}")
         return data
-    
