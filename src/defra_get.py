@@ -69,12 +69,76 @@ class DefraGet:
             print("JSON decode error:", e)
             raise
 
-        if save_json:
-            output_dir = Path('data/defra/capabilities')
-            output_dir.mkdir(parents=True, exist_ok=True)
-            output_file = output_dir / 'capabilities.json'
+        # Before parse  json to csv ensure output dir. 
+        output_dir = Path('data/defra/capabilities')
+        output_dir.mkdir(parents=True, exist_ok=True, encoding='utf-8')
 
+        if save_csv:
+            rows = self._capabilities_to_rows(data)
+            csv_file = output_dir / 'capabilities.csv'
+            df = pd.DataFrame(rows)
+            pd.DataFrame(rows).to_csv(csv_file, index=False, encoding='utf-8')
+            print(f"Capabilities CSV saved to: {csv_file}")
+
+
+        #save json response.
+        if save_json:
+            output_file = output_dir / 'capabilities.json'
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2)
             print(f"Capabilities saved to: {output_file}")
         return data
+    
+    def _capabilities_to_rows(self, data):
+        """Helper function to parse capabilities JSON into rows for CSV.
+        Args:
+            data (dict): Capabilities JSON data.
+        Returns:
+            list: List of dict rows for CSV."""
+        
+        def norm_list(v):
+            if v is None:
+                return []
+            return v if isinstance(v, list) else [v]
+
+        def stringify(items):
+            out = []
+            for it in norm_list(items):
+                if isinstance(it, dict):
+                    out.append(
+                        it.get('id')
+                        or it.get('identifier')
+                        or it.get('name')
+                        or it.get('label')
+                        or it.get('title')
+                        or str(it)
+                    )
+                else:
+                    out.append(str(it))
+            return ';'.join([s for s in out if s])
+
+        contents = data.get('contents') or {}
+        offerings = (
+            contents.get('offerings')
+            or data.get('offerings')
+            or []
+        )
+
+        rows = []
+        for o in offerings:
+            if not isinstance(o, dict):
+                continue
+            oid = o.get('id') or o.get('identifier') or o.get('name') or o.get('gml:id') or ''
+            oname = o.get('name') or o.get('title') or o.get('label') or ''
+            procedures = stringify(o.get('procedures') or o.get('procedure'))
+            obs_props = stringify(o.get('observedProperties') or o.get('observedProperty') or o.get('phenomena'))
+            fois = stringify(o.get('featureOfInterestIds') or o.get('featuresOfInterest') or o.get('featureOfInterest'))
+
+            rows.append({
+                'offering_id': oid,
+                'offering_name': oname,
+                'procedures': procedures,
+                'observed_properties': obs_props,
+                'features_of_interest': fois,
+            })
+        return rows
