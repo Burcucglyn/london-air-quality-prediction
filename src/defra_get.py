@@ -54,17 +54,17 @@ class DefraGet:
         output_dir.mkdir(parents=True, exist_ok=True)
 
         # commented out CSV and JSON save below for now to speed up testing.
-        # if save_csv:
-        #     rows = self._capabilities_to_rows(data)
-        #     csv_file = output_dir / 'capabilities.csv'
-        #     pd.DataFrame(rows).to_csv(csv_file, index=False, encoding='utf-8')
-        #     print(f"Capabilities CSV saved to: {csv_file}")
+        if save_csv:
+            rows = self._capabilities_to_rows(data)
+            csv_file = output_dir / 'capabilities.csv'
+            pd.DataFrame(rows).to_csv(csv_file, index=False, encoding='utf-8')
+            print(f"Capabilities CSV saved to: {csv_file}")
 
-        # if save_json:
-        #     json_file = output_dir / 'capabilities.json'
-        #     with open(json_file, 'w', encoding='utf-8') as f:
-        #         json.dump(data, f, indent=2)
-        #     print(f"Capabilities JSON saved to: {json_file}")
+        if save_json:
+            json_file = output_dir / 'capabilities.json'
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2)
+            print(f"Capabilities JSON saved to: {json_file}")
 
         return data
     
@@ -75,49 +75,51 @@ class DefraGet:
         Returns:
             list: List of dict rows for CSV."""
         
-        def norm_list(v):
-            if v is None:
-                return []
-            return v if isinstance(v, list) else [v]
+        contents = data.get('contents', {})
 
-        def stringify(items):
-            out = []
-            for it in norm_list(items):
-                if isinstance(it, dict):
-                    out.append(
-                        it.get('id')
-                        or it.get('identifier')
-                        or it.get('name')
-                        or it.get('label')
-                        or it.get('title')
-                        or str(it)
-                    )
-                else:
-                    out.append(str(it))
-            return ';'.join([s for s in out if s])
-
-        contents = data.get('contents') or {}
-        offerings = (
-            contents.get('offerings')
-            or data.get('offerings')
-            or []
-        )
+        if isinstance(contents, dict):
+            offerings = contents.get('observationOfferings', [])
+        elif isinstance(contents, list):
+            offerings = contents
+        else:
+            offerings = data.get('observationOfferings', [])
 
         rows = []
+
         for o in offerings:
             if not isinstance(o, dict):
                 continue
-            oid = o.get('id') or o.get('identifier') or o.get('name') or o.get('gml:id') or ''
-            oname = o.get('name') or o.get('title') or o.get('label') or ''
-            procedures = stringify(o.get('procedures') or o.get('procedure'))
-            obs_props = stringify(o.get('observedProperties') or o.get('observedProperty') or o.get('phenomena'))
-            fois = stringify(o.get('featureOfInterestIds') or o.get('featuresOfInterest') or o.get('featureOfInterest'))
+            # Extract relevant fields
+            identifier =o.get('identifier', '')
+            name = o.get('name', '')
+
+            #extract procedures, observed properties, features of interest.
+            procedure_list = o.get('procedure', [])
+            procedure = procedure_list[0] if procedure_list else ''
+
+            obs_prop_list = o.get('observableProperty', [])
+            observable_property = ';'.join(obs_prop_list) if obs_prop_list else ''
+
+            # Extract time range (phenomenonTime is a list with [start, end])
+            phenom_time = o.get('phenomenonTime', [])
+            start_time = phenom_time[0] if len(phenom_time) > 0 else ''
+            end_time = phenom_time[1] if len(phenom_time) > 1 else ''
+            
+            # Extract result time (when data was last updated)
+            result_time = o.get('resultTime', [])
+            result_start = result_time[0] if len(result_time) > 0 else ''
+            result_end = result_time[1] if len(result_time) > 1 else ''
+
+
 
             rows.append({
-                'offering_id': oid,
-                'offering_name': oname,
-                'procedures': procedures,
-                'observed_properties': obs_props,
-                'features_of_interest': fois,
+                'offering_id': identifier,
+                'offering_name': name,
+                'procedure': procedure,
+                'observable_property': observable_property,
+                'phenomenon_time_start': start_time,
+                'phenomenon_time_end': end_time,
+                'result_time_start': result_start,
+                'result_time_end': result_end,
             })
         return rows
