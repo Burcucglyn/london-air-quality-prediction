@@ -22,13 +22,13 @@ class TestDefraGet(unittest.TestCase):
         """Set up the DefraGet instance for testing."""
         self.defra_getter = DefraGet()
 
-    def test_get_capabilities(self):
-        """Test the get_capabilities function."""
+    def test_post_capabilities(self):
+        """Test the post_capabilities function."""
         print("\n" + "="*80)
-        print("TEST: get_capabilities()")
+        print("Test: post_capabilities()")
         print("="*80)
         
-        capabilities = self.defra_getter.get_capabilities(save_json=True)
+        capabilities = self.defra_getter.post_capabilities(save_json=True)
         
         # Check if response is valid.
         self.assertIsInstance(capabilities, dict, "Expected dict response.")
@@ -49,15 +49,13 @@ class TestDefraGet(unittest.TestCase):
                     print(json.dumps(offerings[0], indent=2))
         
         print("\n" + "="*80)
-        print("TEST COMPLETED: get_capabilities()")
+        print("TEST COMPLETED: post_capabilities()")
         print("="*80)
 
 
 if __name__ == '__main__':
     unittest.main()
-    print("Testing for get_sites_species function is completed.")
- 
-
+    print("Testing for test_post_capabilities function is completed.")
 
 
 
