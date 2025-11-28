@@ -8,8 +8,10 @@ import os
 import sys
 import json
 import requests
+from pathlib import Path
 # Add project root to path for imports.
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+proj_root = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(proj_root))
 
 from src.defra_get import DefraGet
 from config import Config
@@ -34,31 +36,67 @@ class TestDefraGet(unittest.TestCase):
         # Check if response is valid.
         self.assertIsInstance(capabilities, dict, "Expected dict response.")
         self.assertGreater(len(capabilities), 0, "Capabilities should not be empty.")
-        
-        print("\nCapabilities keys:", list(capabilities.keys()))
-        
-        # Check for standard SOS structure.
-        if 'contents' in capabilities:
-            print("Found 'contents' key.")
-            contents = capabilities['contents']
-            if 'offerings' in contents:
-                offerings = contents['offerings']
-                print(f"Found {len(offerings)} offerings.")
-                
-                if offerings:
-                    print("\nFirst offering structure:")
-                    print(json.dumps(offerings[0], indent=2))
 
+        # Check structure - contents might be dict or the offerings might be at top level
+        contents = capabilities.get('contents', {})
+    
+        # Handle if contents is a dict
+        if isinstance(contents, dict):
+            offerings = contents.get('observationOfferings', [])
+        # Handle if contents is already a list (the offerings)
+        elif isinstance(contents, list):
+            offerings = contents
+        # Fallback - try to get offerings directly from capabilities
         else:
-            print("No 'contents' key found in capabilities.")
-            print("Trying alternatives:")
+            offerings = capabilities.get('observationOfferings', [])
 
-            for key in ['observationOfferings', 'Offerings', 'offering']:
-                if key in contents:
-                    print(f"Found '{key}' instead!")
-                    print(json.dumps(contents[key], indent=2)[:500])
+        print(f"\nNumber of offerings found: {len(offerings)}")
 
-                    
+        #view structure of capabilities response. firt 10 offerings.
+        print("\n" + "-"*80)
+        print("First 10 offerings structure:")
+        for i, offering in enumerate(offerings[:10]):
+            print(f"\nOffering {i+1}:")
+            print(json.dumps(offering, indent=2))
+            print(f"   ID: {offering.get('identifier', 'N/A')}")
+            print(f"   Procedure: {offering.get('procedure', ['N/A'])[0] if offering.get('procedure') else 'N/A'}")
+            print(f"   Pollutant: {offering.get('observableProperty', ['N/A'])[0] if offering.get('observableProperty') else 'N/A'}")
+            print(f"   Time range: {offering.get('phenomenonTime', ['N/A', 'N/A'])[0]} to {offering.get('phenomenonTime', ['N/A', 'N/A'])[1]}")
+
+        """commented out detailed structure checks for now to speed up testing.
+         Uncomment if needed to debug structure of capabilities response."""
+        
+        # print("\nCapabilities keys:", list(capabilities.keys()))
+        
+        # # Check for standard SOS structure.
+        # if 'contents' in capabilities:
+        #     print("Found 'contents' key.")
+        #     contents = capabilities['contents']
+        #     print("\nContents type:", type(contents))
+        #     print("Contents keys:", list(contents.keys()) if isinstance(contents, dict) else "Not a dict")
+        #     print("\nFull contents structure:")
+
+        #     #json print statement to see everything inside contents.
+        #     #print(json.dumps(contents, indent=2)) 
+
+        #     if 'offerings' in contents:
+        #         offerings = contents['offerings']
+        #         print(f"Found {len(offerings)} offerings.")
+                
+        #         if offerings:
+        #             print("\nFirst offering structure:")
+        #             print(json.dumps(offerings[0], indent=2))
+
+        # else:
+        #     print("No 'contents' key found in capabilities.")
+        #     print("Trying alternatives:")
+
+        #     for key in ['observationOfferings', 'Offerings', 'offering']:
+        #         if key in contents:
+        #             print(f"Found '{key}' instead!")
+        #             print(json.dumps(contents[key], indent=2)[:500])
+
+
         # Comment out file checks for initial testing.
         # # Check if CSV was created and is readable.
         # csv_file = Path('data/defra/capabilities/capabilities.csv')
