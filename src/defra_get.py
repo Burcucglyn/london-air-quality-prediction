@@ -13,6 +13,7 @@ import pandas as pd
 import requests
 import json
 import os
+from pathlib import Path
 
 class DefraGet:
     """Class to DEFRA UK-AIR data using (SOS)sensor observation services API fetching data.
@@ -29,7 +30,7 @@ class DefraGet:
         self.base_url = self.config.defra_url
         self.timeout = 30
 
-    def get_capabilities(self save_json=True):
+    def get_capabilities(self, save_json=True):
         """ DEFRA  uses SOS standart, which is diffirent from LAQN order to fetch the data first I need to call capabilities first.
         get_capabilities pdf document:https://uk-air.defra.gov.uk/assets/documents/Example_SOS_queries_v1.3.pdf  
         So this function will shows all avaible stations, phenomena (pollutants), and producers.
@@ -39,7 +40,7 @@ class DefraGet:
             dict: Capabilities response containing stations and phenomena.    
         """       
         #starting with url and setting the parameters.
-        url = self.base_url
+        url = self.defra_url
         params = {
             'service': 'SOS',
             'version': '2.0.0',
@@ -62,51 +63,8 @@ class DefraGet:
             output_dir.mkdir(parents=True, exist_ok=True)
             output_file = output_dir / 'capabilities.json'
 
-            with open(output_file, 'w', 'utfd-8') as f:
+            with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2)
             print(f"Capabilities saved to: {output_file}")
         return data
-
-
-
     
-    def get_sites_species(self):
-        """Fetch stations from DEFRA and return a flattened list."""
-        url = f"{self.base_url}/stations"
-        response = requests.get(url, timeout=self.timeout)
-        response.raise_for_status()
-        data = response.json()
-
-        # Normalize to list
-        if isinstance(data, list):
-            stations = data
-        elif isinstance(data, dict):
-            stations = data.get("stations") or data.get("items") or data.get("data") or []
-        else:
-            stations = []
-
-        flattened = []
-        for s in stations:
-            # Name fallbacks
-            name = s.get("name") or s.get("label") or s.get("shortName") or s.get("stationName")
-
-            # Coordinates from 'location'
-            lat, lon = None, None
-            loc = s.get("location") or {}
-            if isinstance(loc, dict):
-                lat = loc.get("lat") or loc.get("latitude")
-                lon = loc.get("lon") or loc.get("lng") or loc.get("longitude")
-
-            # Fallback: GeoJSON geometry
-            if (lat is None or lon is None) and isinstance(s.get("geometry"), dict):
-                coords = s["geometry"].get("coordinates")
-                if isinstance(coords, (list, tuple)) and len(coords) >= 2:
-                    lon, lat = coords[0], coords[1]
-
-            flattened.append({
-                "id": s.get("id") or s.get("identifier") or s.get("code"),
-                "name": name,
-                "lat": lat,
-                "lon": lon,
-            })
-        return flattened
