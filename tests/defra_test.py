@@ -48,6 +48,17 @@ class TestDefraGet(unittest.TestCase):
                 if offerings:
                     print("\nFirst offering structure:")
                     print(json.dumps(offerings[0], indent=2))
+
+        else:
+            print("No 'contents' key found in capabilities.")
+            print("Trying alternatives:")
+
+            for key in ['observationOfferings', 'Offerings', 'offering']:
+                if key in contents:
+                    print(f"Found '{key}' instead!")
+                    print(json.dumps(contents[key], indent=2)[:500])
+
+                    
         # Comment out file checks for initial testing.
         # # Check if CSV was created and is readable.
         # csv_file = Path('data/defra/capabilities/capabilities.csv')
