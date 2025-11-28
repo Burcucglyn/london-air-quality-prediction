@@ -53,17 +53,18 @@ class DefraGet:
         output_dir = Path('data/defra/capabilities')
         output_dir.mkdir(parents=True, exist_ok=True)
 
-        if save_csv:
-            rows = self._capabilities_to_rows(data)
-            csv_file = output_dir / 'capabilities.csv'
-            pd.DataFrame(rows).to_csv(csv_file, index=False, encoding='utf-8')
-            print(f"Capabilities CSV saved to: {csv_file}")
+        # commented out CSV and JSON save below for now to speed up testing.
+        # if save_csv:
+        #     rows = self._capabilities_to_rows(data)
+        #     csv_file = output_dir / 'capabilities.csv'
+        #     pd.DataFrame(rows).to_csv(csv_file, index=False, encoding='utf-8')
+        #     print(f"Capabilities CSV saved to: {csv_file}")
 
-        if save_json:
-            json_file = output_dir / 'capabilities.json'
-            with open(json_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2)
-            print(f"Capabilities JSON saved to: {json_file}")
+        # if save_json:
+        #     json_file = output_dir / 'capabilities.json'
+        #     with open(json_file, 'w', encoding='utf-8') as f:
+        #         json.dump(data, f, indent=2)
+        #     print(f"Capabilities JSON saved to: {json_file}")
 
         return data
     
