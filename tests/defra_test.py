@@ -206,7 +206,31 @@ class TestDefraGet(unittest.TestCase):
             print(f"\nTotal stations: {len(data)}")
             print(f"\nFirst station:")
             print(json.dumps(data[0], indent=2)[:500])
-
+    def test_get_london_stations(self):
+        """Test REST API Get London stations with bounding box filter."""
+        print("\n" + "="*80)
+        print("Test Get London Stations (REST API with bbox)")
+        print("="*80)
+        
+        data = self.defra_getter.get_london_stations()
+        
+        self.assertIsInstance(data, dict)
+        
+        # Save response
+        output_path = Path("data/defra/test/london_stations.json")
+        
+        with open(output_path, "w") as f:
+            json.dump(data, f, indent=2)
+        
+        print(f"\nSaved to: {output_path}")
+        
+        if isinstance(data, list):
+            print(f"Found {len(data)} stations in Greater London")
+        
+        # Show first London station
+        if len(data) > 0:
+            print(f"\nFirst London station:")
+            print(json.dumps(data[0], indent=2))
 
 
 
