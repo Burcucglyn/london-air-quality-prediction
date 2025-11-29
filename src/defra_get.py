@@ -181,73 +181,108 @@ class DefraGet:
             Returns hourly pollution measurements.
     """
 
-    def get_stations(self, expanded: bool = True) -> Dict[str, Any]:
-        """Get all available stations using REST API.
-        Args:
-            expanded: If True, returns detailed station info including coordinates.
-            
-        Returns:
-            dict: JSON response with station list.
-        """
-        url = f"{self.rest_base_url}/stations"
-        params = {"expanded": "true"} if expanded else {}
+    def get_london_stations(self, save_csv: bool = True) -> pd.DataFrame:
+        """Get only London stations with their pollutants (timeseries) in one call.
         
-        try:
-            response = requests.get(url, params=params, timeout=self.timeout)
-            response.raise_for_status()
-            return response.json()
-        except Exception as e:
-            print(f"Error fetching stations: {e}")
-            return {}
+        Uses bounding box filter to fetch ONLY London data from API.
+        Returns DataFrame ready for analysis.
+        
+        Returns:
+            pd.DataFrame: London stations with coordinates and available pollutants.
+        """
+ 
+        
+        # London bounding box
+        min_lon, min_lat, max_lon, max_lat = self.config.london_bbox
 
-    def get_london_stations(self) -> Dict[str, Any]:
-        """Get stations within Greater London bounding box.
-        
-        London bounding box (WGS84):
-        - Lower left: [-0.5, 51.3]
-        - Upper right: [0.3, 51.7]
-        
-        Returns:
-            dict: JSON response with London stations only.
-        """
-        bbox = {
-            "ll": {"type": "Point", "coordinates": [-0.5, 51.3]},
-            "ur": {"type": "Point", "coordinates": [0.3, 51.7]}
-        }
+        # adding bbox parameter for API (uses GeoJSON Point format)
         
         url = f"{self.rest_base_url}/stations"
-        params = {
-            "bbox": json.dumps(bbox),
-            "expanded": "true"
-        }
+        params = { "expanded": "true" }
         
         try:
             response = requests.get(url, params=params, timeout=self.timeout)
             response.raise_for_status()
-            return response.json()
+            stations = response.json()
+            
+            if not stations or not isinstance(stations, list):
+                print("No stations returned")
+                return pd.DataFrame()
+            
+            # Flatten nested JSON into DataFrame rows
+            rows = []
+            for station in stations:
+                if not isinstance(station, dict):
+                    continue
+                
+                # Extract station metadata
+                properties = station.get('properties', {})
+                station_id = properties.get('id', '')
+                station_name = properties.get('label', '')
+                
+                # Extract coordinates
+                geom = station.get('geometry', {})
+                coords = geom.get('coordinates', [])
+
+                if len(coords) < 2:
+                    continue
+
+                lat = coords[0]  # First coordinate is latitude
+                lon = coords[1]  # Second coordinate is longitude
+
+                # Filter to London bounding box
+                if not (min_lon <= lon <= max_lon and min_lat <= lat <= max_lat):
+                    continue
+                
+                # Extract timeseries (pollutants) disc.
+                timeseries = properties.get('timeseries', {})
+                
+                # Extract timeseries (pollutants)
+                timeseries = station.get('properties', {}).get('timeseries', [])
+                
+                if not timeseries or not isinstance(timeseries, dict):
+                    # Station with no pollutants - still include it
+                    rows.append({
+                        'station_id': station_id,
+                        'station_name': station_name,
+                        'latitude': lat,
+                        'longitude': lon,
+                        'timeseries_id': None,
+                        'pollutant': None
+                    })
+                else:
+                    # Iterate over dict items (key is timeseries_id)
+                    for ts_id, ts_data in timeseries.items():
+                        if isinstance(ts_data, dict):
+                            # Extract pollutant name from offering label
+                            offering_label = ts_data.get('offering', {}).get('label', '')
+                            
+                            rows.append({
+                                'station_id': station_id,
+                                'station_name': station_name,
+                                'latitude': lat,
+                                'longitude': lon,
+                                'timeseries_id': ts_id,
+                                'pollutant': offering_label
+                            })
+            
+            df = pd.DataFrame(rows)
+            
+            print(f"Found {df['station_id'].nunique()} London stations with {len(df)} pollutant measurements.")
+            
+            if save_csv:
+                output_dir = Path('data/defra')
+                output_dir.mkdir(parents=True, exist_ok=True)
+                output_file = output_dir / 'london_stations_pollutants.csv'
+                df.to_csv(output_file, index=False, encoding='utf-8')
+                print(f"Saved to: {output_file}.")
+            
+            return df
+            
         except Exception as e:
             print(f"Error fetching London stations: {e}")
-            return {}
-
-    def get_station_timeseries(self, station_id: str) -> Dict[str, Any]:
-        """Get available timeseries (pollutant measurements) for a station.
-        
-        Args:
-            station_id: The station identifier.
-            
-        Returns:
-            dict: JSON response with timeseries metadata.
-        """
-        url = f"{self.rest_base_url}/stations/{station_id}"
-        params = {"expanded": "true"}
-        
-        try:
-            response = requests.get(url, params=params, timeout=self.timeout)
-            response.raise_for_status()
-            return response.json()
-        except Exception as e:
-            print(f"Error fetching timeseries for station {station_id}: {e}")
-            return {}
+            return pd.DataFrame()
+    
         
     def get_timeseries_data (self, timeseries_id: str, timespan: str=None) -> Dict[str,Any]:
         """ Function for get pollution measurements for a timeseries.
@@ -265,12 +300,21 @@ class DefraGet:
         try:
             response = requests.get(url, params=params, timeout=self.timeout)
             response.raise_for_status()
-            return response.json()
+            data = response.json()
+           
+            #parse the values from response
+            values = data.get('values', [])
+            if not values:
+                return pd.DataFrame()
+            
+            df = pd.DataFrame(values)
+            df['timeseries_id'] = timeseries_id
+            return df
+
         except Exception as e:
             print(f"Error fetching data for timeseries {timeseries_id}: {e}")
-            return {}
-       
-
+            return pd.DataFrame()
+    
 
 
 """2. STEP: Fetch and parse EU Air Quality pollutant vocabulary.
