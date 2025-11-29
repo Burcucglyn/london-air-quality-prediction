@@ -13,7 +13,7 @@ from pathlib import Path
 proj_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(proj_root))
 
-from src.defra_get import DefraGet
+from src.defra_get import DefraGet, euAirPollutantVocab
 from config import Config
 from pathlib import Path
 from io import StringIO # for CSV reading from response text.
@@ -142,10 +142,59 @@ class TestEUAirPollutantVocab(unittest.TestCase):
         print("TEST COMPLETED: Fetch EU Pollutant Vocabulary CSV")
         print("="*80)
 
+    def test_fetch_and_process_pollutant_vocab(self):
+        """Test full pollutant vocabulary fetch, process, and save pipeline."""
+        print("\n" + "="*80)
+        print("TEST: Fetch, Process, and Save EU Pollutant Vocabulary")
+        print("="*80)
+        
+        vocab_fetcher = euAirPollutantVocab()
+        df_raw = vocab_fetcher.fetch_vocab()
+        print(f"\nRaw data fetched: {len(df_raw)} rows, {len(df_raw.columns)} columns.")
 
+        # Process the vocabulary
+        df_clean = vocab_fetcher.process_vocab(df_raw)
+        print(f"\nProcessed data: {len(df_clean)} rows, {len(df_clean.columns)} columns.")
+        print(f"\nFirst 5 rows of processed data:")
+        print(df_clean.head().to_string(index=False))
+
+        #validation of processed data
+        self.assertIsNotNone(df_clean, "Processed DataFrame should not be None")
+        required_cols = ['uri_code', 'pollutant_code', 'pollutant_name', 'status']
+        for col in required_cols:
+            self.assertIn(col, df_clean.columns, f"Should have {col} column")
+        #show first 10 rows/pollutants
+        print(f"\nFirst 10 pollutants:")
+        print(df_clean[['uri_code', 'pollutant_code', 'pollutant_name']].head(10).to_string(index=False))
+        print(f"\nTotal pollutants processed: {len(df_clean)}")
+
+
+        
+        # Check for major pollutants
+        major_codes = ['SO2', 'NO2', 'O3', 'CO', 'PM10', 'PM25']
+        display_cols = ['uri_code', 'pollutant_code', 'pollutant_name', 'definition', 'status']
+        major = df_clean[df_clean['pollutant_code'].isin(major_codes)][display_cols]
+
+        if not major.empty:
+            print(major.to_string(index=False))
+            print(f"\nFound {len(major)} major pollutants")
+        else:
+            print("No exact matches - showing first 20 pollutants instead:")
+            print(df_clean[display_cols].head(20).to_string(index=False))
+
+
+        print(f"\n{'='*80}")
+        print("SUMMARY:")
+        print(f"{'='*80}")
+        print(f"Total pollutants: {len(df_clean)}")
+        print(f"Unique codes: {df_clean['pollutant_code'].nunique()}")
+        print(f"Status counts:")
+        print(df_clean['status'].value_counts())
+      
 
 if __name__ == '__main__':
     unittest.main()
     print("Testing for DEFRA post_capabilities function completed.")
     unittest.TestCase()
     print("Testing for EU Air Pollutant Vocabulary CSV fetch completed.")
+
