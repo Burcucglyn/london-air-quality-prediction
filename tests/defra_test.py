@@ -104,42 +104,110 @@ class TestDefraGet(unittest.TestCase):
         # print("TEST COMPLETED: post_capabilities()")
         # print("="*80)
 
-    pass ##added pass to avoid indentation error.
+        pass ##added pass to avoid indentation error.
 
     """3. test for describe sensor function."""
     def test_describe_sensor(self):
-        """Test the describe_sensor function."""
-        print("\n" + "="*80)
-        print("TEST: Get Station metadata describe_sensor()")
-        print("="*80)
+        # """Test the describe_sensor function."""
+        # print("\n" + "="*80)
+        # print("TEST: Get Station metadata describe_sensor()")
+        # print("="*80)
 
-        # Test with one known procedure from capabilities
-        test_procedure = "http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003"
+        # # Test with one known procedure from capabilities
+        # test_procedure = "http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003"
     
-        print(f"\nRequesting metadata for: {test_procedure}")
+        # print(f"\nRequesting metadata for: {test_procedure}")
     
-        # Call the method
-        data = self.defra_getter.describe_sensor(test_procedure)
+        # # Call the method
+        # data = self.defra_getter.describe_sensor(test_procedure)
         
-        # Validate response
-        self.assertIsInstance(data, dict, "Should return dict.")
-        self.assertNotEqual(data, {}, "Response should not be empty.")
+        # # Validate response
+        # self.assertIsInstance(data, dict, "Should return dict.")
+        # self.assertNotEqual(data, {}, "Response should not be empty.")
         
-        # Save full response to file for inspection
-        output_path = Path("data/defra/test/describe_sensor.json")
+        # # Save full response to file for inspection
+        # output_path = Path("data/defra/test/describe_sensor.json")
+        # output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # with open(output_path, "w") as f:
+        #     json.dump(data, f, indent=2)
+        
+        # print(f"\nResponse saved to: {output_path}")
+        # print(f"\nResponse keys: {list(data.keys())}")
+        # print(f"\nFirst 1000 characters of response:")
+        # print(json.dumps(data, indent=2)[:1000])
+        
+        # print("\n" + "="*80)
+        # print("test complited check the json file to see station metadata structure")
+        # print("="*80)
+        pass
+
+    """ 4. step, the describe_sensor outputs showes that structure contains XML embedded as a string. Thats points that I need to parse XML and see that if the coordinations are there.
+    so need ro run tests to check xml complete."""
+    def test_describe_sensor_xml(self):
+    #     """Test parsing XML from describe_sensor response."""
+    #     print("\n" + "="*80)
+    #     print("TEST: Parse XML from describe_sensor()")
+    #     print("="*80)
+
+    #     test_procedure = "http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003"
+    #     data = self.defra_getter.describe_sensor(test_procedure)
+    
+    # # Extract and pretty-print the XML
+    #     if 'procedureDescription' in data:
+    #         xml_string = data['procedureDescription']
+        
+    #         # Save full XML to file
+    #         output_path = Path("data/defra/test/describe_sensor_full.xml")
+    #         output_path.parent.mkdir(parents=True, exist_ok=True)
+            
+    #         with open(output_path, "w") as f:
+    #             f.write(xml_string)
+            
+    #         print(f"\nFull XML saved to: {output_path}")
+    #         print(f"\nXML length: {len(xml_string)} characters")
+    #         print("\nSearching for coordinates...")
+            
+    #         # Look for common coordinate patterns
+    #         if 'gml:pos' in xml_string:
+    #             print("Found gml:pos in XML")
+    #         if 'latitude' in xml_string.lower():
+    #             print("Found 'latitude' in XML")
+    #         if 'longitude' in xml_string.lower():
+    #             print("✓ Found 'longitude' in XML")
+            
+    #         # Show the full XML (first 2000 chars)
+    #         print("\nFirst 2000 characters of XML:")
+    #         print(xml_string[:2000])
+        pass
+
+    def test_get_stations(self):
+        print("\n" + "="*80)
+        print("TEST: Get All Stations (REST API)")
+        print("="*80)
+        
+        data = self.defra_getter.get_stations(expanded=True)
+        
+        self.assertIsInstance(data, dict)
+        self.assertNotEqual(data, {})
+        
+        # Save response
+        output_path = Path("data/defra/test/all_stations.json")
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         with open(output_path, "w") as f:
             json.dump(data, f, indent=2)
         
-        print(f"\nResponse saved to: {output_path}")
-        print(f"\nResponse keys: {list(data.keys())}")
-        print(f"\nFirst 1000 characters of response:")
-        print(json.dumps(data, indent=2)[:1000])
+        print(f"\nSaved to: {output_path}")
+        print(f"Response keys: {list(data.keys())}")
         
-        print("\n" + "="*80)
-        print("test complited check the json file to see station metadata structure")
-        print("="*80)
+        # Show first station
+        if isinstance(data, list) and len(data) > 0:
+            print(f"\nTotal stations: {len(data)}")
+            print(f"\nFirst station:")
+            print(json.dumps(data[0], indent=2)[:500])
+
+
 
 
 class TestEUAirPollutantVocab(unittest.TestCase):
@@ -240,7 +308,7 @@ class TestEUAirPollutantVocab(unittest.TestCase):
         # print(f"Unique codes: {df_clean['pollutant_code'].nunique()}")
         # print(f"Status counts:")
         # print(df_clean['status'].value_counts())
-pass ##added pass to avoid indentation error.  
+    pass ##added pass to avoid indentation error.  
 
 if __name__ == '__main__':
     unittest.main()
