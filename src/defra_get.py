@@ -16,6 +16,9 @@ from pathlib import Path
 from typing import Dict, List, Any
 from io import StringIO #csv reading from response text.(string)
 
+#adding date time to fix the timestemp
+from datetime import datetime, timezone
+
 class DefraGet:
     """Class to DEFRA UK-AIR data using (SOS)sensor observation services API fetching data.
     base defra_url: https://uk-air.defra.gov.uk/sos-ukair/api/v1
@@ -284,13 +287,19 @@ class DefraGet:
             return pd.DataFrame()
     
         
-    def get_timeseries_data (self, timeseries_id: str, timespan: str=None) -> Dict[str,Any]:
-        """ Function for get pollution measurements for a timeseries.
-        args:
-            timeseries_id: the timeseries identifier.
-            timespan: ISO formatted period 
-        returns:
-                dict: json response with measurement values and timestamp.    """
+    def get_timeseries_data(self, timeseries_id: str, timespan: str = None, 
+                           station_name: str = None, pollutant_name: str = None) -> pd.DataFrame:
+        """Function for get pollution measurements for a timeseries.
+        
+        Args:
+            timeseries_id: the timeseries identifier from london_stations_clean.csv.
+            timespan: ISO formatted period "YYYY-MM-DDTHH:MM:SSZ/YYYY-MM-DDTHH:MM:SSZ".
+            station_name: station name from london_stations_clean.csv 'station_name' column.
+            pollutant_name: pollutant name from london_stations_clean.csv 'pollutant_available' column.
+            
+        Returns:
+            DataFrame: measurements with timestamp (UTC), value, timeseries_id, station_name, pollutant_name.
+        """
         
         url = f"{self.rest_base_url}/timeseries/{timeseries_id}/getData"
         params = {}
@@ -302,18 +311,124 @@ class DefraGet:
             response.raise_for_status()
             data = response.json()
            
-            #parse the values from response
+            # Parse the values from response.
             values = data.get('values', [])
             if not values:
-                return pd.DataFrame()
+                return pd.DataFrame(columns=["timestamp", "value", "timeseries_id", "station_name", "pollutant_name"])
             
             df = pd.DataFrame(values)
-            df['timeseries_id'] = timeseries_id
+
+            # Convert epoch ms to "YYYY-MM-DD HH:MM:SS" (UTC).
+            def ms_to_iso(ts):
+                try:
+                    ms = int(ts)
+                    dt = datetime.fromtimestamp(ms / 1000.0, tz=timezone.utc)
+                    return dt.strftime("%Y-%m-%d %H:%M:%S")
+                except Exception:
+                    return None
+
+            df["timestamp"] = df["timestamp"].apply(ms_to_iso)
+            df = df.dropna(subset=["timestamp"])
+            
+            # Add metadata columns from cleaned CSV
+            df['timeseries_id'] = str(timeseries_id)
+            df['station_name'] = station_name if station_name else ''
+            # Assign pollutant_name from CSV (pollutant_available)
+            df['pollutant_name'] = pollutant_name if pollutant_name else ''
+            
             return df
 
         except Exception as e:
             print(f"Error fetching data for timeseries {timeseries_id}: {e}")
-            return pd.DataFrame()
+            return pd.DataFrame(columns=["timestamp", "value", "timeseries_id", "station_name", "pollutant_name"])
+
+
+    """ step 5: intruduce new func for folder strategy and fetching all defra data by years..."""
+
+    def fetch_all_monthly_measurements(self,
+                                       input_csv: Path = Path("data/defra/test/london_stations_clean.csv"),
+                                       years=(2023, 2024, 2025)) -> None:
+        """
+        Fetch and save monthly measurements for ALL station-pollutant timeseries listed
+        in london_stations_clean.csv, using the DEFRA REST API.
+
+        Approach:
+        - Read the cleaned CSV (station_name, pollutant_available, timeseries_id).
+        - Normalize timeseries_id (cast floats like 4565.0 to '4565').
+        - For each station/pollutant id:
+            - Build monthly timespans for 2023, 2024, and 2025 up to 2025-11-09.
+            - Call get_timeseries_data(..., station_name, pollutant_name).
+            - Save CSV into year folders, one folder per station, one file per pollutant-month:
+              data/defra/2023measurements/<station>/<pollutant>__YYYY_MM.csv
+              data/defra/2024measurements/<station>/<pollutant>__YYYY_MM.csv
+              data/defra/2025measurements/<station>/<pollutant>__YYYY_MM.csv
+        """
+        # 1) Load cleaned list
+        df = pd.read_csv(input_csv)
+        df = df[df["timeseries_id"].notna()].copy()
+
+        # 2) Normalize types (e.g., "4565.0" -> "4565")
+        df["timeseries_id"] = df["timeseries_id"].apply(lambda x: str(int(x)) if pd.notna(x) else "")
+
+        # 3) Build monthly periods for each year
+        def build_periods_for_year(year: int):
+            months = []
+            if year in (2023, 2024):
+                # Full months
+                for m in range(1, 13):
+                    start = f"{year}-{m:02d}-01T00:00:00Z"
+                    # Month length
+                    if m in (1, 3, 5, 7, 8, 10, 12):
+                        end_day = 31
+                    elif m == 2:
+                        end_day = 29 if year % 4 == 0 else 28
+                    else:
+                        end_day = 30
+                    end = f"{year}-{m:02d}-{end_day:02d}T23:59:59Z"
+                    label = f"{year}_{m:02d}"
+                    months.append((start, end, label))
+            elif year == 2025:
+                # Up to 2025-11-09
+                for m in range(1, 12):
+                    start = f"2025-{m:02d}-01T00:00:00Z"
+                    end_day = 31 if m in (1, 3, 5, 7, 8, 10) else (29 if m == 2 else 30)
+                    end = f"2025-{m:02d}-{end_day:02d}T23:59:59Z"
+                    label = f"2025_{m:02d}"
+                    months.append((start, end, label))
+                # Override November end to 09
+                months[-1] = ("2025-11-01T00:00:00Z", "2025-11-09T23:59:59Z", "2025_11")
+            return months
+
+        # 4) Iterate station/pollutant combos
+        for _, row in df.iterrows():
+            ts_id = row["timeseries_id"]
+            station = row.get("station_name", "")
+            pollutant = row.get("pollutant_available", "")
+
+            # File-system safe names
+            safe_station = station.replace("/", "_").replace(" ", "_")
+            safe_poll = pollutant.replace("/", "_").replace(" ", "_")
+
+            # 5) Per-year base dir and monthly saves
+            for year in years:
+                year_dir = Path(f"data/defra/{year}measurements") / safe_station
+                year_dir.mkdir(parents=True, exist_ok=True)
+
+                for start, end, label in build_periods_for_year(year):
+                    timespan = f"{start}/{end}"
+                    out = self.get_timeseries_data(
+                        ts_id,
+                        timespan=timespan,
+                        station_name=station,
+                        pollutant_name=pollutant
+                    )
+                    if out.empty:
+                        continue
+
+                    out_file = year_dir / f"{safe_poll}__{label}.csv"
+                    out.to_csv(out_file, index=False)
+                    print(f"Saved: {out_file} ({len(out)} rows)")
+
     
 
 
