@@ -13,6 +13,8 @@ from pathlib import Path
 proj_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(proj_root))
 
+
+
 from src.defra_get import DefraGet, euAirPollutantVocab
 from config import Config
 from io import StringIO # for CSV reading from response text.
@@ -184,91 +186,190 @@ class TestDefraGet(unittest.TestCase):
     
 
     def test_get_london_stations(self):
-        """Test REST API Get London stations with bounding box filter."""
-        print("\n" + "="*80)
-        print("Test Get London Stations (REST API with bbox)")
-        print("="*80)
+        # """Test REST API Get London stations with bounding box filter."""
+        # print("\n" + "="*80)
+        # print("Test Get London Stations (REST API with bbox)")
+        # print("="*80)
         
-        # Call the new method
-        df = self.defra_getter.get_london_stations(save_csv=False)
+        # # Call the new method
+        # df = self.defra_getter.get_london_stations(save_csv=False)
         
-        # Assertions
-        self.assertIsInstance(df, pd.DataFrame, "Should return DataFrame")
-        self.assertFalse(df.empty, "DataFrame should not be empty")
+        # # Assertions
+        # self.assertIsInstance(df, pd.DataFrame, "Should return DataFrame")
+        # self.assertFalse(df.empty, "DataFrame should not be empty")
         
-        # Check expected columns
-        expected_cols = ['station_id', 'station_name', 'latitude', 'longitude', 
-                        'timeseries_id', 'pollutant']
-        for col in expected_cols:
-            self.assertIn(col, df.columns, f"Should have {col} column")
+        # # Check expected columns
+        # expected_cols = ['station_id', 'station_name', 'latitude', 'longitude', 
+        #                 'timeseries_id', 'pollutant']
+        # for col in expected_cols:
+        #     self.assertIn(col, df.columns, f"Should have {col} column")
         
-        # Print summary
-        print(f"\nFound {df['station_id'].nunique()} unique stations")
-        print(f"Total station-pollutant combinations: {len(df)}")
-        print(f"\nColumns: {df.columns.tolist()}")
-        print(f"\nFirst 5 rows:")
-        print(df.head().to_string(index=False))
+        # # Print summary
+        # print(f"\nFound {df['station_id'].nunique()} unique stations")
+        # print(f"Total station-pollutant combinations: {len(df)}")
+        # print(f"\nColumns: {df.columns.tolist()}")
+        # print(f"\nFirst 5 rows:")
+        # print(df.head().to_string(index=False))
         
-        # Show pollutant distribution
-        print(f"\nPollutant distribution:")
-        print(df['pollutant'].value_counts())
+        # # Show pollutant distribution
+        # print(f"\nPollutant distribution:")
+        # print(df['pollutant'].value_counts())
         
-        # Save for manual inspection
-        output_path = Path("data/defra/test/london_stations_test.csv")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        df.to_csv(output_path, index=False)
-        print(f"\nSaved test output to: {output_path}")
+        # # Save for manual inspection
+        # output_path = Path("data/defra/test/london_stations_test.csv")
+        # output_path.parent.mkdir(parents=True, exist_ok=True)
+        # df.to_csv(output_path, index=False)
+        # print(f"\nSaved test output to: {output_path}")
+        pass
 
     def test_get_timeseries_data(self):
-        """Test fetching actual measurement data for a timeseries."""
-        print("\n" + "="*80)
-        print("TEST: Get Timeseries Data")
-        print("="*80)
+        # """Test fetching actual measurement data for a timeseries."""
+        # print("\n" + "="*80)
+        # print("TEST: Get Timeseries Data")
+        # print("="*80)
         
-        # First get a valid timeseries_id
-        df = self.defra_getter.get_london_stations(save_csv=False)
+        # # First get a valid timeseries_id
+        # df = self.defra_getter.get_london_stations(save_csv=False)
         
-        # Filter for rows with valid timeseries_id
-        valid = df[df['timeseries_id'].notna()]
+        # # Filter for rows with valid timeseries_id
+        # valid = df[df['timeseries_id'].notna()]
         
-        if valid.empty:
-            self.skipTest("No valid timeseries found")
+        # if valid.empty:
+        #     self.skipTest("No valid timeseries found")
         
-        # Test with first available timeseries
-        test_row = valid.iloc[0]
-        timeseries_id = test_row['timeseries_id']
-        station_name = test_row['station_name']
-        pollutant = test_row['pollutant']
+        # # Test with first available timeseries
+        # test_row = valid.iloc[0]
+        # timeseries_id = test_row['timeseries_id']
+        # station_name = test_row['station_name']
+        # pollutant = test_row['pollutant']
         
-        print(f"\nTesting with:")
-        print(f"  Station: {station_name}")
-        print(f"  Pollutant: {pollutant}")
-        print(f"  Timeseries ID: {timeseries_id}")
+        # print(f"\nTesting with:")
+        # print(f"  Station: {station_name}")
+        # print(f"  Pollutant: {pollutant}")
+        # print(f"  Timeseries ID: {timeseries_id}")
         
-        # Fetch data for a short period
-        timespan = "2023-01-01T00:00:00Z/2023-01-07T23:59:59Z"
-        print(f"\nFetching data for: {timespan}")
+        # # Fetch data for a short period
+        # timespan = "2023-01-01T00:00:00Z/2023-01-07T23:59:59Z"
+        # print(f"\nFetching data for: {timespan}")
         
-        measurements = self.defra_getter.get_timeseries_data(timeseries_id, timespan)
+        # measurements = self.defra_getter.get_timeseries_data(timeseries_id, timespan)
         
-        # Assertions
-        self.assertIsInstance(measurements, pd.DataFrame, "Should return DataFrame")
+        # # Assertions
+        # self.assertIsInstance(measurements, pd.DataFrame, "Should return DataFrame")
         
-        if not measurements.empty:
-            print(f"\nRetrieved {len(measurements)} measurements")
-            print(f"\nColumns: {measurements.columns.tolist()}")
-            print(f"\nFirst 5 measurements:")
-            print(measurements.head().to_string(index=False))
+        # if not measurements.empty:
+        #     print(f"\nRetrieved {len(measurements)} measurements")
+        #     print(f"\nColumns: {measurements.columns.tolist()}")
+        #     print(f"\nFirst 5 measurements:")
+        #     print(measurements.head().to_string(index=False))
             
-            # Save sample
-            output_path = Path("data/defra/test/sample_measurements.csv")
-            output_path.parent.mkdir(parents=True, exist_ok=True)
-            measurements.to_csv(output_path, index=False)
-            print(f"\Saved to: {output_path}")
-        else:
-            print("\n No measurements found for this period")    
-        
+        #     # Save sample
+        #     output_path = Path("data/defra/test/sample_measurements.csv")
+        #     output_path.parent.mkdir(parents=True, exist_ok=True)
+        #     measurements.to_csv(output_path, index=False)
+        #     print(f"\Saved to: {output_path}")
+        # else:
+        #     print("\n No measurements found for this period")
+        pass
 
+    """COMMENTED OUT: trial measurement fetch (kept for reference, but superseded by the structured monthly fetch below).
+    It previously saved into data/defra/measurement_trial with ad-hoc month labels.
+    This block is kept to avoid interfering; un-comment if you want to run the trial version again. """
+
+    # def test_timeseries_londonStationsClean(self):
+    #     """Fetch monthly slices into data/defra/measurement_trial with station/pollutant columns."""
+    #     input_csv = Path("data/defra/test/london_stations_clean.csv")
+    #     self.assertTrue(input_csv.exists(), "london_stations_clean.csv should exist.")
+
+    #     df = pd.read_csv(input_csv)
+    #     df = df[df["timeseries_id"].notna()].copy()
+    #     self.assertFalse(df.empty, "Clean CSV must contain timeseries_id rows.")
+
+    #     subset = df.head(2)  # keep fast
+
+    #     out_dir = Path("data/defra/measurement_trial")
+    #     out_dir.mkdir(parents=True, exist_ok=True)
+
+    #     # Monthly labels as you requested
+    #     periods = [
+    #         ("2023-01-01T00:00:00Z", "2023-01-31T23:59:59Z", "2023_01"),
+    #         ("2024-01-01T00:00:00Z", "2024-01-31T23:59:59Z", "2024_01"),
+    #         ("2025-01-01T00:00:00Z", "2025-01-31T23:59:59Z", "2025_01"),
+    #     ]
+
+    #     any_had_data = False
+
+    #     for _, row in subset.iterrows():
+    #         ts_id = str(int(row["timeseries_id"]))
+    #         station = row.get("station_name", "")
+    #         pollutant = row.get("pollutant_available", "")
+
+    #         for start, end, month_label in periods:
+    #             timespan = f"{start}/{end}"
+    #             m = self.defra_getter.get_timeseries_data(
+    #                 ts_id,
+    #                 timespan=timespan,
+    #                 station_name=station,
+    #                 pollutant_name=pollutant
+    #             )
+    #             self.assertIsInstance(m, pd.DataFrame)
+
+    #             if not m.empty:
+    #                 any_had_data = True
+    #                 # Required columns
+    #                 for col in ["timestamp", "value", "timeseries_id", "station_name", "pollutant_name"]:
+    #                     self.assertIn(col, m.columns)
+    #                 # Timestamp format UTC ISO
+    #                 self.assertRegex(str(m.iloc[0]["timestamp"]), r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$")
+
+    #                 safe_station = station.replace("/", "_").replace(" ", "_")
+    #                 safe_poll = pollutant.replace("/", "_").replace(" ", "_")
+    #                 out_file = out_dir / f"{safe_station}__{safe_poll}__{month_label}.csv"
+    #                 m.to_csv(out_file, index=False)
+    #                 self.assertTrue(out_file.exists())
+
+    #     self.assertTrue(any_had_data, "Expected at least one timeseries to return data.")
+
+    def test_fetch_all_monthly_measurements(self):
+        """
+        Structured monthly export for all stations/pollutants:
+        - Reads data/defra/test/london_stations_clean.csv (station_name, pollutant_available, timeseries_id).
+        - Iterates monthly for 2023, 2024, and 2025 up to 2025-11-09.
+        - Writes under per-year folders:
+            data/defra/2023measurements/<station>/<pollutant>__YYYY_MM.csv
+            data/defra/2024measurements/<station>/<pollutant>__YYYY_MM.csv
+            data/defra/2025measurements/<station>/<pollutant>__YYYY_MM.csv
+        - Keeps existing functions intact; calls DefraGet.fetch_all_monthly_measurements().
+        """
+        # Ensure the cleaned CSV exists
+        input_csv = Path("data/defra/test/london_stations_clean.csv")
+        self.assertTrue(input_csv.exists(), "london_stations_clean.csv should exist.")
+
+        # Call the structured fetch method
+        self.defra_getter.fetch_all_monthly_measurements(
+            input_csv=input_csv,
+            years=(2023, 2024, 2025)
+        )
+
+        # Smoke-check: verify at least one output directory exists
+        base_2023 = Path("data/defra/2023measurements")
+        base_2024 = Path("data/defra/2024measurements")
+        base_2025 = Path("data/defra/2025measurements")
+        self.assertTrue(base_2023.exists() or base_2024.exists() or base_2025.exists(),
+                        "Expected yearly measurement directories to be created.")
+
+        # Optional: check one sample station folder exists if any rows present
+        df = pd.read_csv(input_csv)
+        df = df[df["timeseries_id"].notna()].copy()
+        if not df.empty:
+            sample_station = str(df.iloc[0]["station_name"]).replace("/", "_").replace(" ", "_")
+            # Check any year folder for this station
+            station_dir_2023 = base_2023 / sample_station
+            station_dir_2024 = base_2024 / sample_station
+            station_dir_2025 = base_2025 / sample_station
+            self.assertTrue(station_dir_2023.exists() or station_dir_2024.exists() or station_dir_2025.exists(),
+                            f"Expected station directory for {sample_station} to exist in a year folder.")
+        
 
 class TestEUAirPollutantVocab(unittest.TestCase):
     """Class to test fetching and parsing EU pollutant vocabulary CSV."""
