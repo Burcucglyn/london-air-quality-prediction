@@ -14,6 +14,7 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, List, Any
+from io import StringIO #csv reading from response text.(string)
 
 class DefraGet:
     """Class to DEFRA UK-AIR data using (SOS)sensor observation services API fetching data.
@@ -123,3 +124,51 @@ class DefraGet:
                 'result_time_end': result_end,
             })
         return rows
+    
+
+"""2. STEP: Fetch and parse EU Air Quality pollutant vocabulary.
+
+Downloads pollutant definitions from EU EEA (European Environment Agency)
+and creates a mapping CSV for decoding pollutant URIs.
+"""
+
+class euAirPollutantVocab:
+    """Class to fetch and parse EU Air Quality pollutant vocabulary."""
+    def __init__(self):
+        base_url = Config.eu_pollutant_vocab_url
+        self.timeout = 30
+
+    #check the url on postman and url returns csv, so I will fetch it as csv directly.
+    def fetch_vocab(self) -> pd.DataFrame:
+        """Fetches the pollutant vocabulary CSV and returns as DataFrame.
+        Returns:
+            DataFrame with all pollutants.
+        """
+
+        try:
+            response = requests.get(self.base_url, timeout=self.timeout)
+            response.raise_for_status()
+
+            # Read CSV directly from response text.
+            df = pd.read_csv(StringIO(response.text))
+
+            return df
+        
+        except Exception as e:
+            print(f"Error fetching pollutant vocabulary: {e}")
+            return pd.DataFrame()
+        
+    def extract_uri_code(self, uri: str) -> str:
+        """The function for extracting pollutant code from  Uniform Resource Identifier (URI).
+        DEFRA uses URIs for pollutants in their data. so this function will be extracting pollutant code from URI and return their uri code and name.
+        Extracts pollutant code from URI.
+        Args:
+            uri (str): Pollutant URI.
+        Returns:
+            str: Extracted pollutant code.
+        """
+        if pd.isna(uri) or not isinstance(uri, str):
+            return ''
+        return uri.split('/')[-1]  # Get last part after '/'
+        
+
