@@ -135,7 +135,8 @@ and creates a mapping CSV for decoding pollutant URIs.
 class euAirPollutantVocab:
     """Class to fetch and parse EU Air Quality pollutant vocabulary."""
     def __init__(self):
-        base_url = Config.eu_pollutant_vocab_url
+        cfg = Config() #I hit unboundLocalError without this line.
+        self.base_url = Config.eu_pollutant_vocab_url
         self.timeout = 30
 
     #check the url on postman and url returns csv, so I will fetch it as csv directly.
@@ -170,5 +171,51 @@ class euAirPollutantVocab:
         if pd.isna(uri) or not isinstance(uri, str):
             return ''
         return uri.split('/')[-1]  # Get last part after '/'
+    
+    def process_vocab(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Process and clean the vocabulary data.
+        
+        Args:
+            df: Raw DataFrame from CSV
+            
+        Returns:
+            Cleaned DataFrame with standard columns
+        """
+        if df.empty:
+            return df
+        
+        # Normalise column names (strip spaces)
+        df_norm = df.rename(columns=lambda c: str(c).strip())
+
+        # Build cleaned DataFrame with safe defaults.
+        df_clean = pd.DataFrame()
+        df_clean['uri'] = df['URI']
+        df_clean['uri_code'] = df['URI'].apply(self.extract_uri_code)
+        df_clean['pollutant_name'] = df['Label']
+        df_clean['pollutant_code'] = df['Notation']
+        df_clean['definition'] = df['Definition']
+        df_clean['status'] = df['Status']
+        
+        # Remove rows with missing essential data
+        initial_count = len(df_clean)
+        df_clean = df_clean.dropna(subset=['uri_code', 'pollutant_code'])
+        df_clean = df_clean[df_clean['uri_code'] != '']
+        
+        removed = initial_count - len(df_clean)
+        if removed > 0:
+            print(f"  Removed {removed} rows with missing data")
+
+        return df_clean
+    
+    def save_vocab(self, df: pd.DataFrame, output_path: Path) -> None:
+        """Saves the processed vocabulary DataFrame to CSV.
+        
+        Args:
+            df: Processed DataFrame.
+            output_path: Path to save CSV.
+        """
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output_path, index=False, encoding='utf-8')
+        print(f"Pollutant vocabulary saved to: {output_path}")
         
 
