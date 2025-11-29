@@ -7,3 +7,8 @@ class Config:
     defra_url = "https://uk-air.defra.gov.uk/sos-ukair/api/v1"
     defra_capabilities_url = "https://uk-air.defra.gov.uk/sos-ukair/service/json"
     eu_pollutant_vocab_url = "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/csv"
+    # London bounding box (WGS84 coordinates)
+    london_bbox = {
+        "ll": {"type": "Point", "coordinates": [-0.5, 51.3]},
+        "ur": {"type": "Point", "coordinates": [0.3, 51.7]}
+    }
