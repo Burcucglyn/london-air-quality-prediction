@@ -12,3 +12,4 @@ class Config:
         "ll": {"type": "Point", "coordinates": [-0.5, 51.3]},
         "ur": {"type": "Point", "coordinates": [0.3, 51.7]}
     }
+    
