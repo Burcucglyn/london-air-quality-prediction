@@ -1,0 +1,60 @@
+<sml:SimpleProcess xmlns:sml="http://www.opengis.net/sensorml/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:swe="http://www.opengis.net/swe/2.0" gml:id="sp_7FDA6EA7E73D019AC6AE3D33C5604C582614DB86">
+  <gml:description>Instrument configuration - Nitrogen oxides as nitrogen dioxide</gml:description>
+  <gml:identifier codeSpace="uniqueID">http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003</gml:identifier>
+  <gml:name codeSpace="">1003 - Liverpool Speke-Nitrogen oxides (air)</gml:name>
+  <sml:keywords>
+    <sml:KeywordList>
+      <sml:keyword>http://environment.data.gov.uk/air-quality/so/GB_Offering_1003</sml:keyword>
+      <sml:keyword>http://dd.eionet.europa.eu/vocabulary/aq/pollutant/9</sml:keyword>
+      <sml:keyword>http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003</sml:keyword>
+    </sml:KeywordList>
+  </sml:keywords>
+  <sml:identification>
+    <sml:IdentifierList>
+      <sml:identifier>
+        <sml:Term definition="urn:ogc:def:identifier:OGC:uniqueID">
+          <sml:label>uniqueID</sml:label>
+          <sml:value>http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003</sml:value>
+        </sml:Term>
+      </sml:identifier>
+      <sml:identifier>
+        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:shortname">
+          <sml:label>shortName</sml:label>
+          <sml:value>http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003</sml:value>
+        </sml:Term>
+      </sml:identifier>
+      <sml:identifier>
+        <sml:Term definition="urn:ogc:def:identifier:OGC:1.0:longname">
+          <sml:label>longName</sml:label>
+          <sml:value>http://environment.data.gov.uk/air-quality/so/GB_StationProcess_1003</sml:value>
+        </sml:Term>
+      </sml:identifier>
+    </sml:IdentifierList>
+  </sml:identification>
+  <sml:capabilities name="offerings">
+    <sml:CapabilityList>
+      <sml:capability name="Offering_for_sensor_1003">
+        <swe:Text definition="http://www.opengis.net/def/offering/identifier">
+          <swe:label>Offering for sensor 1003</swe:label>
+          <swe:value>http://environment.data.gov.uk/air-quality/so/GB_Offering_1003</swe:value>
+        </swe:Text>
+      </sml:capability>
+    </sml:CapabilityList>
+  </sml:capabilities>
+  <sml:inputs>
+    <sml:InputList>
+      <sml:input name="input_1">
+        <swe:Text definition="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/9"/>
+      </sml:input>
+    </sml:InputList>
+  </sml:inputs>
+  <sml:outputs>
+    <sml:OutputList>
+      <sml:output name="output_1">
+        <swe:Quantity definition="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/9">
+          <swe:uom code="ug.m-3"/>
+        </swe:Quantity>
+      </sml:output>
+    </sml:OutputList>
+  </sml:outputs>
+</sml:SimpleProcess>
