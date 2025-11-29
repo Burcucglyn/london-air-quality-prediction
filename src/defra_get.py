@@ -207,15 +207,15 @@ class euAirPollutantVocab:
 
         return df_clean
     
-    def save_vocab(self, df: pd.DataFrame, output_path: Path) -> None:
+    def save_vocab(self, df: pd.DataFrame, output_path: str = 'data/defra/pollutant_mapping.csv') -> None:
         """Saves the processed vocabulary DataFrame to CSV.
         
         Args:
             df: Processed DataFrame.
             output_path: Path to save CSV.
         """
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        df.to_csv(output_path, index=False, encoding='utf-8')
-        print(f"Pollutant vocabulary saved to: {output_path}")
-        
+        output_file = Path(output_path)
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output_file, index=False, encoding='utf-8')
+        print(f"Vocabulary saved to: {output_file}")
 
