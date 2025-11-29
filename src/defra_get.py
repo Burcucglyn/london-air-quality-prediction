@@ -248,7 +248,30 @@ class DefraGet:
         except Exception as e:
             print(f"Error fetching timeseries for station {station_id}: {e}")
             return {}
+        
+    def get_timeseries_data (self, timeseries_id: str, timespan: str=None) -> Dict[str,Any]:
+        """ Function for get pollution measurements for a timeseries.
+        args:
+            timeseries_id: the timeseries identifier.
+            timespan: ISO formatted period 
+        returns:
+                dict: json response with measurement values and timestamp.    """
+        
+        url = f"{self.rest_base_url}/timeseries/{timeseries_id}/getData"
+        params = {}
+        if timespan:
+            params["timespan"] = timespan
+        
+        try:
+            response = requests.get(url, params=params, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"Error fetching data for timeseries {timeseries_id}: {e}")
+            return {}
        
+
+
 
 """2. STEP: Fetch and parse EU Air Quality pollutant vocabulary.
 Downloads pollutant definitions from EU EEA (European Environment Agency)
