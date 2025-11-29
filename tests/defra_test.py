@@ -16,7 +16,7 @@ sys.path.insert(0, str(proj_root))
 from src.defra_get import DefraGet
 from config import Config
 from pathlib import Path
-
+from io import StringIO # for CSV reading from response text.
 
 class TestDefraGet(unittest.TestCase):
     """Class to test DefraGet class functions."""
@@ -31,7 +31,8 @@ class TestDefraGet(unittest.TestCase):
         print("TEST: post_capabilities()")
         print("="*80)
         
-        capabilities = self.defra_getter.post_capabilities(save_json=True, save_csv=True)
+        # I don't want to save files over and over during testing, so disable saving for test.
+        capabilities = self.defra_getter.post_capabilities(save_json=False, save_csv=False)
         
         # Check if response is valid.
         self.assertIsInstance(capabilities, dict, "Expected dict response.")
@@ -46,7 +47,7 @@ class TestDefraGet(unittest.TestCase):
         # Handle if contents is already a list (the offerings)
         elif isinstance(contents, list):
             offerings = contents
-        # Fallback - try to get offerings directly from capabilities
+        # Fallback try to get offerings directly from capabilities
         else:
             offerings = capabilities.get('observationOfferings', [])
 
@@ -74,22 +75,77 @@ class TestDefraGet(unittest.TestCase):
         
         # if csv_file.exists():
         #     df = pd.read_csv(csv_file)
-        #     print(f"\nCSV created successfully.")
+        
+        # #     print(f"\nCSV created successfully.")
         #     print(f"CSV shape: {df.shape}")
         #     print(f"CSV columns: {df.columns.tolist()}")
-        #     print("\nFirst 10 rows of CSV:")
-        #     print(df.head(10).to_string())
+        #     print("\nFirst 5 rows of CSV:")
+        #     print(df.head(5).to_string())
         
         # # # Check if JSON was created.
         # json_file = Path('data/defra/capabilities/capabilities.json')
         # self.assertTrue(json_file.exists(), "JSON file should exist.")
         # print(f"\nJSON file created at: {json_file}")
+
+        #parser without saving files.
+        print("\n" + "-"*80)
+        print("TESTING CSV PARSER:")
+        print("-"*80)
+        rows = self.defra_getter._capabilities_to_rows(capabilities)
+        df = pd.DataFrame(rows)
+        print(f"Parser created DataFrame: {df.shape}")
+        print(f" Columns: {df.columns.tolist()}")
+        print(f"\n  First 5 rows:")
+        print(df.head(5).to_string(index=False))
         
         print("\n" + "="*80)
         print("TEST COMPLETED: post_capabilities()")
         print("="*80)
 
+class TestEUAirPollutantVocab(unittest.TestCase):
+    """Class to test fetching and parsing EU pollutant vocabulary CSV."""
+
+    def test_fetch_eu_pollutant_vocab(self):
+        """Test fetching and parsing the EU pollutant vocabulary CSV."""
+        print("\n" + "="*80)
+        print("TEST: Fetch EU Pollutant Vocabulary CSV")
+        print("="*80)
+
+        csv_url = Config.eu_pollutant_vocab_url
+        print(f"Fetching CSV from URL: {csv_url}")
+
+        try:
+            
+            response = requests.get(csv_url, timeout=30)
+            print(f"\nResponse Status: {response.status_code}")
+            
+            if response.status_code == 200:
+                print(f"Request code 200 that's good.")
+                print(f"\nResponse length: {len(response.text)} characters")
+                print(f"\nFirst 500 characters:")
+                print(response.text[:500])
+                
+                df = pd.read_csv(StringIO(response.text))
+                print(f"\nDataFrame created.")
+                print(f"Shape: {df.shape}")
+                print(f"Columns: {df.columns.tolist()}")
+                print(f"\nFirst 5 rows:")
+                print(df.head())
+            else:
+                print(f"Request failed: {response.status_code}")
+                print(f"Response: {response.text[:500]}")
+                
+        except Exception as e:
+            self.fail(f"Error occurred while fetching/parsing CSV: {e}")
+
+        print("\n" + "="*80)
+        print("TEST COMPLETED: Fetch EU Pollutant Vocabulary CSV")
+        print("="*80)
+
+
 
 if __name__ == '__main__':
     unittest.main()
     print("Testing for DEFRA post_capabilities function completed.")
+    unittest.TestCase()
+    print("Testing for EU Air Pollutant Vocabulary CSV fetch completed.")
