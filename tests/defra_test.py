@@ -15,7 +15,6 @@ sys.path.insert(0, str(proj_root))
 
 from src.defra_get import DefraGet, euAirPollutantVocab
 from config import Config
-from pathlib import Path
 from io import StringIO # for CSV reading from response text.
 
 class TestDefraGet(unittest.TestCase):
@@ -182,6 +181,10 @@ class TestEUAirPollutantVocab(unittest.TestCase):
             print("No exact matches - showing first 20 pollutants instead:")
             print(df_clean[display_cols].head(20).to_string(index=False))
 
+        #save to file (disabled for testing speed)
+        vocab_fetcher.save_vocab(df_clean)
+        print(f"\nSaved to data/defra/pollutant_mapping.csv")    
+
 
         print(f"\n{'='*80}")
         print("SUMMARY:")
@@ -197,4 +200,3 @@ if __name__ == '__main__':
     print("Testing for DEFRA post_capabilities function completed.")
     unittest.TestCase()
     print("Testing for EU Air Pollutant Vocabulary CSV fetch completed.")
-
