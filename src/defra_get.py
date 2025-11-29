@@ -30,6 +30,7 @@ class DefraGet:
         self.config = Config()
         self.capabilities_url = self.config.defra_capabilities_url 
         self.timeout = 30
+        self.rest_base_url = self.config.defra_url
 
     def post_capabilities(self, save_json: bool = True, save_csv: bool = True) -> Dict[str, Any]:
         """ DEFRA uses SOS standard, which is different from LAQN. Order to fetch the data first I need to call capabilities first.
@@ -158,10 +159,98 @@ class DefraGet:
             print(f"error fetching DescribeSensor for {procedure_uri}: {e}")
             return {} 
 
-    
+    """4. Step: adding REST API method to fetch defra's data, it has clean and simple REST API endpoint.
+    has buuilt in station coordinates.
+    Documentation: https://uk-air.defra.gov.uk/sos-ukair/static/doc/api-doc/#stations  
+    here is the url: https://uk-air.defra.gov.uk/sos-ukair/api/v1.
+    what it gives:
+        Get All Stations:
+            GET /api/v1/stations
+
+            Returns stations with:
+                            Station ID
+                            Station name
+                            Coordinates (latitude/longitude)
+                            Bounding box for filtering
+        Filter Stations by Location
+            GET /api/v1/stations?bbox={"ll":{"type":"Point","coordinates":[-0.5,51.3]},"ur":{"type":"Point","coordinates":[0.3,51.7]}}
+        This gets only London stations using bounding box.
+
+        Get Timeseries Data
+            GET /api/v1/timeseries/{id}/getData
+            Returns hourly pollution measurements.
+    """
+
+    def get_stations(self, expanded: bool = True) -> Dict[str, Any]:
+        """Get all available stations using REST API.
+        Args:
+            expanded: If True, returns detailed station info including coordinates.
+            
+        Returns:
+            dict: JSON response with station list.
+        """
+        url = f"{self.rest_base_url}/stations"
+        params = {"expanded": "true"} if expanded else {}
+        
+        try:
+            response = requests.get(url, params=params, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"Error fetching stations: {e}")
+            return {}
+
+    def get_london_stations(self) -> Dict[str, Any]:
+        """Get stations within Greater London bounding box.
+        
+        London bounding box (WGS84):
+        - Lower left: [-0.5, 51.3]
+        - Upper right: [0.3, 51.7]
+        
+        Returns:
+            dict: JSON response with London stations only.
+        """
+        bbox = {
+            "ll": {"type": "Point", "coordinates": [-0.5, 51.3]},
+            "ur": {"type": "Point", "coordinates": [0.3, 51.7]}
+        }
+        
+        url = f"{self.rest_base_url}/stations"
+        params = {
+            "bbox": json.dumps(bbox),
+            "expanded": "true"
+        }
+        
+        try:
+            response = requests.get(url, params=params, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"Error fetching London stations: {e}")
+            return {}
+
+    def get_station_timeseries(self, station_id: str) -> Dict[str, Any]:
+        """Get available timeseries (pollutant measurements) for a station.
+        
+        Args:
+            station_id: The station identifier.
+            
+        Returns:
+            dict: JSON response with timeseries metadata.
+        """
+        url = f"{self.rest_base_url}/stations/{station_id}"
+        params = {"expanded": "true"}
+        
+        try:
+            response = requests.get(url, params=params, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"Error fetching timeseries for station {station_id}: {e}")
+            return {}
+       
 
 """2. STEP: Fetch and parse EU Air Quality pollutant vocabulary.
-
 Downloads pollutant definitions from EU EEA (European Environment Agency)
 and creates a mapping CSV for decoding pollutant URIs.
 """
