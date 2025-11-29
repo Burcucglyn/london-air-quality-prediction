@@ -125,6 +125,40 @@ class DefraGet:
             })
         return rows
     
+    """3. Step:
+    I have fetch post capabilities to see available stations and pollutants on DEFRa UK-AIR API.
+    Also fetched EU Air Quality pollutant vocabulary to map pollutant URIs to codes and names.
+    Capabilities csv and json file's not necessarly showing station codes either coordinates.
+    DEFRA SOS method gives 'DescribeSensor' method to get station details according to json file. 
+    As next step I will be implementing DEFRA DescribeSensor method to get station details including
+    coordinates."""
+
+    def describe_sensor(self, procedure_uri: str) -> Dict[str, Any]:
+        """Get station metadata usin DescribeSensor request.
+        Fetches sensor description for a given procedure URI using DescribeSensor SOS method.
+        Args:
+            procedure_uri (str): The procedure URI of the sensor/station."""
+        
+        # using json endpoint for describe sensor
+        url= self.capabilities_url
+
+        payload = {
+            "request": "DescribeSensor",
+            "service": "SOS",
+            "version": "2.0.0",
+            "procedure": procedure_uri,
+            "procedureDescriptionFormat": "http://www.opengis.net/sensorml/2.0"
+        }
+
+        try:
+            response = requests.post(url, json=payload, timeout=self.timeout)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            print(f"error fetching DescribeSensor for {procedure_uri}: {e}")
+            return {} 
+
+    
 
 """2. STEP: Fetch and parse EU Air Quality pollutant vocabulary.
 
