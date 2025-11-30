@@ -12,3 +12,4 @@ data/defra/test/measurements/
 data/defra/measurement_trial/
 data/defra/test/measurements/
 .cache.sqlite
+data/meteo/test/
