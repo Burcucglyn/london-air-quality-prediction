@@ -13,3 +13,4 @@ data/defra/measurement_trial/
 data/defra/test/measurements/
 .cache.sqlite
 data/meteo/test/
+messy_old_trials/
