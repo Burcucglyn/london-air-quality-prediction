@@ -128,3 +128,6 @@ websocket-client==1.9.0
 widgetsnbextension==4.0.15
 xyzservices==2025.10.0
 beautifulsoup4>=4.12.0
+openmeteo-requests>=1.0.0
+requests-cache>=1.0.0
+retry-requests>=2.0.0
