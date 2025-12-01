@@ -1,3 +1,665 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70a195fe27b9f720183cf9e7dc0f375c9d45064b395b727d11f0536d37807ca0
-size 96801
+uri,uri_code,pollutant_name,pollutant_code,definition,status
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1,1,Sulphur dioxide (air),SO2,SO2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/10,10,Carbon monoxide (air),CO,CO - recommended unit: mg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1012,1012,Lead in PM2.5 (aerosol),Pb in PM2.5,Pb in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1013,1013,Mercury in PM2.5 (aerosol),Hg in PM2.5,Hg in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1014,1014,Cadmium in PM2.5 (aerosol),Cd in PM2.5,Cd in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1015,1015,Nickel in PM2.5 (aerosol),Ni in PM2.5,Ni in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1016,1016,Chromium in PM2.5 (aerosol),Cr in PM2.5,Cr in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1017,1017,Manganese in PM2.5 (aerosol),Mn in PM2.5,Mn in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1018,1018,Arsenic in PM2.5 (aerosol),As in PM2.5,As in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1029,1029,Benzo(a)pyrene in PM2.5 (aerosol),BaP in PM2.5,BaP in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1045,1045,Ammonium in PM2.5 (aerosol),NH4+ in PM2.5,NH4+ in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1046,1046,Nitrate in PM2.5 (aerosol),NO3- in PM2.5,NO3- in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1047,1047,sulphate in PM2.5 (aerosol),SO42- in PM2.5,SO42- in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1048,1048,Selenium in PM2.5 (aerosol),Se in PM2.5,Se in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1049,1049,Vanedium in PM2.5 (aerosol),V in PM2.5,V in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1063,1063,Zinc in PM2.5 (aerosol),Zn in PM2.5,Zn in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1064,1064,Cobalt in PM2.5 (aerosol),Co in PM2.5,Co in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1065,1065,Iron in PM2.5 (aerosol),Fe in PM2.5,Fe in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1073,1073,Copper in PM2.5 (aerosol),Cu in PM2.5,Cu in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/11,11,Hydrogen sulphide (air),H2S,H2S - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1129,1129,Benzo(a)pyrene in PM2.5 (air+aerosol),BaP in PM2.5,BaP in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/12,12,Lead (aerosol),Pb,Pb - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/13,13,Mercury (aerosol),Hg,Hg - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/14,14,Cadmium (aerosol),Cd,Cd - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1406,1406,Chrysene in PM2.5 (aerosol),Chrysene in PM2.5 (aerosol),Chrysene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1419,1419,Dibenzo(ah)anthracene in PM2.5 (aerosol),Dibenzo(ah)anthracene in PM2.5,Dibenzo(ah)anthracene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/15,15,Nickel (aerosol),Ni,Ni - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/16,16,Chromium (aerosol),Cr,Cr - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1606,1606,Anthracene in PM2.5 (aerosol),Anthracene in PM2.5 (aerosol),Anthracene in PM2.5 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1610,1610,Benzo(a)anthracene in PM2.5 (aerosol),Benzo(a)anthracene in PM2.5,Benzo(a)anthracene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1616,1616,Benzo(b)fluoranthene in PM2.5 (aerosol),Benzo(b)fluoranthene in PM2.5 (aerosol),Benzo(b)fluoranthene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1617,1617,Benzo(b)fluoranthene in PM2.5 (air+aerosol),Benzo(b)fluoranthene in PM2.5,Benzo(b)fluoranthene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1623,1623,Benzo(ghi)perylene in PM2.5 (aerosol),Benzo(ghi)perylene in PM2.5 (aerosol),Benzo(ghi)perylene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1626,1626,Benzo(k)fluoranthene in PM2.5 (aerosol),Benzo(k)fluoranthene in PM2.5,Benzo(k)fluoranthene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1629,1629,calcium in PM2.5 (aerosol),Ca2+ in PM2.5,Ca2+ in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1631,1631,chloride in PM2.5 (aerosol),Cl- in PM2.5,Cl- in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1643,1643,Fluoranthene in PM2.5 (aerosol),Fluoranthene in PM2.5 (aerosol),Fluoranthene in PM2.5 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1655,1655,indeno_123cd_pyrene in PM2.5 (aerosol),"Indeno-(1,2,3-cd)pyrene in PM2.5","Indeno-(1,2,3-cd)pyrene in PM2.5 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1657,1657,potassium in PM2.5 (aerosol),K+ in PM2.5,K+ in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1659,1659,magnesium in PM2.5 (aerosol),Mg2+ in PM2.5,Mg2+ in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1668,1668,sodium in PM2.5 (aerosol),Na+  in PM2.5,Na+ in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/17,17,Manganese (aerosol),Mn,Mn - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1712,1712,Phenanthrene in PM2.5 (aerosol),Phenanthrene in PM2.5 (aerosol),Phenanthrene in PM2.5 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1715,1715,Pyrene in PM2.5 (aerosol),Pyrene in PM2.5 (aerosol),Pyrene in PM2.5 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1759,1759,Benzo(j)fluoranthene in PM2.5 (aerosol),Benzo(j)fluoranthene in PM2.5,Benzo(j)fluoranthene in PM2.5 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1771,1771,Elemental carbon in PM2.5 (aerosol),EC in PM2.5,EC in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1772,1772,Organic carbon in PM2.5 (aerosol),OC in PM2.5,OC in PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/18,18,Arsenic (aerosol),As,As - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/19,19,Carbon disulphide (air),CS2,CS2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/20,20,Benzene (air),C6H6,C6H6 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2012,2012,Lead (precip),Pb,Pb - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2013,2013,Mercury (precip),Hg,Hg - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2014,2014,Cadmium (precip),Cd,Cd - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2015,2015,Nickel (precip),Ni,Ni - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2016,2016,Chromium (precip),Cr,Cr - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2017,2017,Manganese (precip),Mn,Mn - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2018,2018,Arsenic (precip),As,As - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2044,2044,Total nitrogen (precip),NT,Total nitrogen in precipitation - recommended unit: mg N/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2063,2063,Zinc (precip),Zn,Zn - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2064,2064,Cobalt (precip),Co,Co - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2065,2065,Iron (precip),Fe,Fe - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2073,2073,Copper (precip),Cu,Cu - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2076,2076,acidity(pH) (precip),pH,pH - recommended unit: pH units,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/21,21,Toluene (air),C6H5-CH3,C6H5-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/22,22,Styrene (air),C6H5-CH=CH2,C6H5-CH=CH2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/23,23,Acrylonitrile (air),CH2=CH-CN,CH2=CH-CN - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2380,2380,"Benzo(b,j,k)fluoranthene (precip)","Benzo(b,j,k)fluoranthene","Benzo(b,j,k)fluoranthene - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/24,24,1.3 Butadiene (air),CH2=CH-CH=CH2,CH2=CH-CH=CH2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/25,25,Formaldehyde (air),HCHO,HCHO - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/26,26,Trichloroethylene (air),CHCl=CCl2,CHCl=CCl2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/27,27,Tetrachloroethylene (air),C2Cl4,C2Cl4 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2770,2770,phosphate (precip),PO43-,PO43- - recommended unit: mg S/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2771,2771,Total phosphorus (precip),TP,Total phosphorus (precip),valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/28,28,Dichloromethane (air),CH2Cl2,CH2Cl2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2861,2861,PFBA (precip),PFBA,PFBA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2862,2862,PFPeA (precip),PFPeA,PFPeA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2863,2863,PFHxA (precip),PFHxA,PFHxA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2864,2864,PFHpA (precip),PFHpA,PFHpA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2865,2865,PFOA (precip),PFOA,PFOA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2866,2866,PFNA (precip),PFNA,PFNA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2867,2867,PFDA (precip),PFDA,PFDA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2868,2868,PFUnDA (precip),PFUnDA,PFUnDA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2871,2871,PFBS (precip),PFBS,PFBS - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2872,2872,PFHxS (precip),PFHxS,PFHxS - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2873,2873,PFOSA (precip),PFOSA,PFOSA - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2874,2874,6:2-FTS (precip),6:2-FTS,6:2-FTS - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2875,2875,PFOS (precip),PFOS,PFOS - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/2876,2876,PFDS (precip),PFDS,PFDS - recommended unit: ng.l-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/29,29,Benzo(a)pyrene (precip),BaP,BaP - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3,3,Strong acidity (air),SA,SA - recommended unit: µg SO2/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/30,30,Polyaromatic hydrocarbons (air+aerosol),PAH,PAH - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3012,3012,Lead in TSP (aerosol),Pb in TSP,Pb in TSP - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3013,3013,Mercury in TSP (aerosol),Hg in TSP,Hg in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3014,3014,Cadmium in TSP (aerosol),Cd in TSP,Cd in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3015,3015,Nickel in TSP (aerosol),Ni in TSP,Ni in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3016,3016,Chromium in TSP (aerosol),Cr in TSP,Cr in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3017,3017,Manganese in TSP (aerosol),Mn in TSP,Mn in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3018,3018,Arsenic in TSP (aerosol),As in TSP,As in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/302,302,CFC_11 (air),CFC-11,CFC-11 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/303,303,CFC_113 (air),CFC-113,CFC-113 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/304,304,CFC_12 (air),CFC-12,CFC-12 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3063,3063,Zinc in TSP (aerosol),Zn in TSP,Zn in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/307,307,HCFC_123 (air),HCFC-123,HCFC-123 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3073,3073,Copper in TSP (aerosol),Cu in TSP,Cu in TSP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/308,308,HCFC_22 (air),HCFC-22,HCFC-22 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/309,309,N1methylnaphtalene (air+aerosol),1-methylnaphtalene,1-methylnaphtalene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/31,31,Vinyl chloride (air),VC,VC - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/310,310,N1methylphenanthrene (air+aerosol),1-methylphenanthrene,1-methylphenanthrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/311,311,N2butanone (air),Methyletylketone (MEK),Methyletylketone (MEK) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/312,312,N2butenal (air),Crotonaldehyde,Crotonaldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/313,313,N2methylanthracene (air+aerosol),2-methylanthracene,2-methylanthracene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/314,314,N2methylbenzencarbaldehyde (air),2-methylbenzaldehyde,2-methylbenzaldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/315,315,N2methylnaphtalene (air+aerosol),2-methylnaphtalene,2-methylnaphtalene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/316,316,i-Hexane (2-methylpentane) (air),(CH3)2-CH-CH2-CH2-CH3,(CH3)2-CH-CH2-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/317,317,N2methylphenanthrene (air+aerosol),2-methylphenanthrene,2-methylphenanthrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/318,318,N2methylpropenal (air),Methacroleine,Methacroleine - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/319,319,N2oxopropanal (air),Methylglyoxal,Methylglyoxal - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/32,32,Total non-methane hydrocarbons (air),THC (NM),THC (NM) - recommended unit: µg C/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/320,320,N2propenal (air),Acroleine,Acroleine - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/321,321,N3buten2one (air),Methylvinylketone (MVK),Methylvinylketone (MVK) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/322,322,N3methylbenzencarbaldehyde (air),3-methylbenzaldehyde,3-methylbenzaldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/323,323,N3methylpentane (air),3-methylpentane,3-methylpentane - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/324,324,N4methylbenzencarbaldehyde (air),4-methylbenzaldehyde,4-methylbenzaldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/326,326,NOy (air),NOy,NOy - recommended unit: µg N/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/33,33,Total volatile organic compounds (air),T-VOC,T-VOC - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/330,330,PCB_105 (precip),PCB-105,PCB-105 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/333,333,PCB_128 (precip),PCB-128,PCB-128 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/336,336,PCB_149 (precip),PCB-149,PCB-149 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/339,339,PCB_156 (precip),PCB-156,PCB-156 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/34,34,Peroxyacetyl nitrate (air),PAN,PAN - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/340,340,PCB_177 (precip),PCB-177,PCB-177 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/341,341,PCB_18 (precip),PCB-18,PCB-18 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/344,344,PCB_26 (precip),PCB-26,PCB-26 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/347,347,PCB_31 (precip),PCB-31,PCB-31 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/348,348,PCB_44 (precip),PCB-44,PCB-44 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/35,35,Ammonia (air),NH3,NH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/351,351,acenaphthene (air+aerosol),Acenaphthene,Acenaphthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/352,352,acenaphtylene (air+aerosol),Acenaphtylene,Acenaphtylene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/356,356,aldrin (precip),Aldrin,Aldrin - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/36,36,Wet nitrogen deposition (flux),N-DEP,N-DEP - recommended unit: mg N/m2.m,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3631,3631,chloride in TSP (aerosol),Cl- in TSP,Cl- in TSP - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/364,364,anthanthrene (air+aerosol),Anthanthrene,Anthanthrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/3668,3668,sodium in TSP (aerosol),Na+  in TSP,Na+ in TSP - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/37,37,Wet sulphur deposition (flux),S-DEP,S-DEP - recommended unit: mg S/m2.m,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/372,372,Benzenecarbaldehyde (air),Benzaldehyde,Benzaldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/373,373,Benzo(a)fluoranthene (air+aerosol),Benzo(a)fluoranthene,Benzo(a)fluoranthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/374,374,Tolualdehyde (air),C8H8O,C8H8O - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/38,38,Nitrogen monoxide (air),NO,NO - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/380,380,Benzo(b+j+k)fluoranthenes (air+aerosol),Benzo(b+j+k)fluoranthenes,Benzo(b+j+k)fluoranthenes - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/381,381,Benzo(e)pyrene (air+aerosol),Benzo(e)pyrene,Benzo(e)pyrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/382,382,Benzo(k+j)fluoranthene (air+aerosol),Benzo(k+j)fluoranthene,Benzo(k+j)fluoranthene (air+aerosol) - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/39,39,Hydrogen chloride (air),HCl,HCl - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/390,390,biphenyl (air+aerosol),Biphenyl,Biphenyl - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/391,391,black_carbon (aerosol),Black Carbon,Black Carbon - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/393,393,butanales (air),Butanales,Butanales - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/394,394,n-Butane (air),H3C-CH2-CH2-CH3,H3C-CH2-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/395,395,butenes (air),Butenes,Butenes - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/396,396,N2methylpropenal + Butanal (air),Methacroleine + Butanal,Methacroleine + Butanal - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4,4,Total suspended particulates (aerosol),SPM,SPM - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/40,40,Hydrogen fluoride (air),HF,HF - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/401,401,carbontetrachloride (air),Carbon-tetrachloride,Carbon-tetrachloride - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4013,4013,Elemental Gaseous Mercury (air+aerosol),Hg0,Hg0 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/406,406,chrysene (precip),Chrysene,Chrysene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/41,41,Methane (air),CH4,CH4 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/412,412,conductivity (precip),k,k - recommended unit: uS/cm,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/415,415,coronene (air+aerosol),Coronene,Coronene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/416,416,cyclohexane (air),Cyclo-hexane,Cyclo-hexane - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/417,417,Cyklopenta(cd)pyrene (air+aerosol),Cyklopenta(cd)pyrene,Cyklopenta(cd)pyrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/418,418,Dibenzo(ac+ah)anthracenes (precip),Dibenzo(ac+ah)anthracenes,Dibenzo(ac+ah)anthracenes - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/419,419,Dibenzo(ah)anthracene (precip),Dibenzo(ah)anthracene,Dibenzo(ah)anthracene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/42,42,Phenol,C6H5OH,C6H6O or C6H5OH,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/420,420,dibenzofuran (air+aerosol),Dibenzofuran,Dibenzofuran - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/421,421,dibenzothiophene (air+aerosol),Dibenzothiophene,Dibenzothiophene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/425,425,dinitrogenoxide (air),N2O,N2O - recommended unit: ppbv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/426,426,endrin (precip),Endrin,Endrin - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/427,427,ethanal (air),Acetaldehyde,Acetaldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/428,428,Ethane (air),C2H6,C2H6 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/429,429,ethanedial (air),Glyoxal,Glyoxal - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/430,430,Ethene (Ethylene) (air),H2C=CH2,H2C=CH2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/431,431,Ethyl benzene (air),C6H5-C2H5,C6H5-C2H5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/432,432,Ethyne (Acetylene) (air),HC=CH,HC=CH - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/433,433,Ethyltoluene,C9H12,C9H12 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4330,4330,PCB_105 (air+aerosol),PCB-105,PCB-105 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4336,4336,PCB_149 (air+aerosol),PCB-149,PCB-149 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4339,4339,PCB_156 (air+aerosol),PCB-156,PCB-156 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/434,434,Propylbenzene (air),C9H12,C9H12 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4341,4341,PCB_18 (air+aerosol),PCB-18,PCB-18 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4347,4347,PCB_31 (air+aerosol),PCB-31,PCB-31 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/435,435,fluorene (air+aerosol),Fluorene,Fluorene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/438,438,halon_1211 (air),Halon 1211,Halon 1211 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/439,439,halon_1301 (air),Halon 1301,Halon 1301 - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/44,44,Total nitrogen,NT,Total nitrogen,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/440,440,heptachlor (precip),Heptachlor,Heptachlor - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4406,4406,chrysene (air+aerosol),Chrysene,Chrysene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4407,4407,chrysene_triphenylene (air+aerosol),Chrysene + Triphenylene,Chrysene + Triphenylene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/441,441,n-Heptane (air),C7H16,C7H16 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/442,442,hexanal (air),n-Hexanal,n-Hexanal - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/443,443,n-Hexane (air),C6H14,C6H14 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/447,447,i-Butane (2-methylpropane) (air),H3C-CH(CH3)2,H3C-CH(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/448,448,isoheptane (air),i-Heptane,i-Heptane - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/449,449,"i-Octane (2,2,4-trimethylpentane) (air)",(CH3)3-C-CH2-CH-(CH3)2,(CH3)3-C-CH2-CH-(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/45,45,Particulate ammonium (aerosol),NH4,NH4 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/450,450,i-Pentane (2-methylbutane) (air),H3C-CH2-CH(CH3)2,H3C-CH2-CH(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/451,451,"Isoprene (2-methyl-1,3-butadiene) (air)",CH2=CH-C(CH3)=CH2,CH2=CH-C(CH3)=CH2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/453,453,"1,4-Dichlorobenzene (air)",C6H4Cl2,C6H4Cl2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/454,454,n-Nonane (air),C9H20,C9H20 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/455,455,Tetrachloroethylene (air),C2Cl4,C2Cl4 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/456,456,Tetrachloromethane (air),Tetrachloromethane (air),Tetrachloromethane (air) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/457,457,Chlorobenzene (air),Chlorobenzene (air),Chlorobenzene (air) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/458,458,"1,1,2-trichloroethane (air)","1,1,2-trichloroethane (air)","1,1,2-trichloroethane (air) - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/459,459,"1,1-dichloroethane (air)","1,1-dichloroethane (air)","1,1-dichloroethane (air) - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/46,46,Particulate nitrate (aerosol),NO3,NO3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/460,460,"1,2-dichloroethylene (air)","1,2-dichloroethylene (air)","1,2-dichloroethylene (air) - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/461,461,"1,2-dichloroethane (air)","1,2-dichloroethane (air)","1,2-dichloroethane (air) - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/462,462,"1,1,1-trichloroethane (air)","1,1,1-trichloroethane (air)","1,1,1-trichloroethane (air) - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/463,463,methylchloroform (air),Methyl-chloroform,Methyl-chloroform - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/464,464,"m,p-Xylene (air)","m,p-C6H4(CH3)2","m,p-C6H4(CH3)2 - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/465,465,naphtalene (air+aerosol),Naphtalene,Naphtalene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/466,466,neohexane (air),Neo-hexane,Neo-hexane - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/467,467,neopentane (air),Neo-pentane,Neo-pentane - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/47,47,Particulate sulphate (aerosol),SO4 (H2SO4 aerosols) (SO4--),SO4 (H2SO4 aerosols) (SO4--) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/475,475,n-Octane (air),C8H18,C8H18 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/48,48,Selenium (aerosol),Se,Se - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4813,4813,Total gaseous mercury (air+aerosol),Hg0 + Hg-reactive,Hg0 + Hg-reactive - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/482,482,o-Xylene (air),o-C6H4-(CH3)2,o-C6H4-(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4821,4821,TCDD (air+aerosol),TCDD,TCDD - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4822,4822,CDD1N (air+aerosol),CDD1N,CDD1N - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4823,4823,CDD4X (air+aerosol),CDD4X,CDD4X - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4824,4824,CDD6X (air+aerosol),CDD6X,CDD6X - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4825,4825,CDD9X (air+aerosol),CDD9X,CDD9X - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4826,4826,CDD6P (air+aerosol),CDD6P,CDD6P - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4827,4827,CDDO (air+aerosol),CDDO,CDDO - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4841,4841,CDF2T (air+aerosol),CDF2T,CDF2T - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4842,4842,CDFDN (air+aerosol),CDFDN,CDFDN - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4843,4843,CDF2N (air+aerosol),CDF2N,CDF2N - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4844,4844,CDFDX (air+aerosol),CDFDX,CDFDX - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4845,4845,CDF6X (air+aerosol),CDF6X,CDF6X - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4846,4846,CDF9X (air+aerosol),CDF9X,CDF9X - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4847,4847,CDF4X (air+aerosol),CDF4X,CDF4X - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4848,4848,CDF6P (air+aerosol),CDF6P,CDF6P - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4849,4849,CDF9P (air+aerosol),CDF9P,CDF9P - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/485,485,pentanal (air),Valeraldehyde,Valeraldehyde - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4850,4850,CDFO (air+aerosol),CDFO,CDFO - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4851,4851,CDFX1 (air+aerosol),CDFX1,CDFX1 - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4852,4852,CDFP2 (air+aerosol),CDFP2,CDFP2 - recommended unit: fg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/486,486,n-Pentane (air),H3C-(CH2)3-CH3,H3C-(CH2)3-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4861,4861,PFBA (air+aerosol),PFBA,PFBA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4862,4862,PFPeA (air+aerosol),PFPeA,PFPeA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4863,4863,PFHxA (air+aerosol),PFHxA,PFHxA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4864,4864,PFHpA (air+aerosol),PFHpA,PFHpA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4865,4865,PFOA (air+aerosol),PFOA,PFOA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4866,4866,c9 (air+aerosol),PFNA,PFNA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4867,4867,PFDA (air+aerosol),PFDA,PFDA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4868,4868,PFUnDA (air+aerosol),PFUnDA,PFUnDA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/487,487,pentenes (air),Pentenes,Pentenes - recommended unit: pptv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4871,4871,PFBS (air+aerosol),PFBS,PFBS - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4872,4872,PFHxS (air+aerosol),PFHxS,PFHxS - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4873,4873,PFOSA (air+aerosol),PFOSA,PFOSA - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4874,4874,6:2-FTS (air+aerosol),6:2-FTS,6:2-FTS - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4875,4875,PFOS (air+aerosol),PFOS,PFOS - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4876,4876,PFDS (air+aerosol),PFDS,PFDS - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/488,488,perylene (air+aerosol),Perylene,Perylene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/49,49,Vanadium (aerosol),V,V - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4901,4901,BDE47 (air+aerosol),BDE47,BDE47 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4902,4902,BDE85 (air+aerosol),BDE85,BDE85 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4903,4903,BDE99 (air+aerosol),BDE99,BDE99 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4904,4904,BDE100 (air+aerosol),BDE100,BDE100 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4905,4905,BDE153 (air+aerosol),BDE153,BDE153 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4906,4906,BDE154 (air+aerosol),BDE154,BDE154 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4907,4907,BDE209 (air+aerosol),BDE209,BDE209 - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4908,4908,SCCP (air+aerosol),SCCP,SCCP - recommended unit: ng.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4909,4909,MCCP (air+aerosol),MCCP,MCCP - recommended unit: ng.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/491,491,phenyletanone (air),Acetophenone,Acetophenone - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4910,4910,HBCD (air+aerosol),HBCD,HBCD - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4911,4911,HBB (air+aerosol),HBB,HBB - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4912,4912,PBT (air+aerosol),PBT,PBT - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4913,4913,PBEB (air+aerosol),PBEB,PBEB - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4914,4914,α-DBE-DBCH (air+aerosol),α-DBE-DBCH,α-DBE-DBCH - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4915,4915,β-DBE-DBCH (air+aerosol),β-DBE-DBCH,β-DBE-DBCH - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4916,4916,BEH-TEBP (air+aerosol),BEH-TEBP,BEH-TEBP - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4917,4917,BTBPT (air+aerosol),BTBPT,BTBPT - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4918,4918,EH-TBB (air+aerosol),EH-TBB,EH-TBB - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4919,4919,Syn-DP (air+aerosol),Syn-DP,Syn-DP - recommended unit:,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4920,4920,Anti-DP (air+aerosol),Anti-DP,Anti-DP - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4921,4921,DBDPE (air+aerosol),DBDPE,DBDPE - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/4922,4922,TBP (air+aerosol),TBP,TBP - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5,5,Particulate matter < 10 µm (aerosol),PM10,PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/50,50,Gaseous nitric acid (air),HNO3,HNO3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/501,501,2-Methylpropanal (air),C4H8O,"2-methylpropanal
+isobutanal
+isobutylaldehyde",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5012,5012,Lead in PM10 (aerosol),Pb in PM10,Pb in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5013,5013,Mercury in PM10 (aerosol),Hg in PM10,Hg in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5014,5014,Cadmium in PM10 (aerosol),Cd in PM10,Cd in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5015,5015,Nickel in PM10 (aerosol),Ni in PM10,Ni in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5016,5016,Chromium in PM10 (aerosol),Cr in PM10,Cr in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5017,5017,Manganese in PM10 (aerosol),Mn in PM10,Mn in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5018,5018,Arsenic in PM10 (aerosol),As in PM10,As in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/502,502,propanal (air),Propanal,Propanal - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5029,5029,Benzo(a)pyrene in PM10 (aerosol),BaP in PM10,BaP in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/503,503,Propane (air),H3C-CH2-CH3,H3C-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/504,504,propanone (air),Acetone,Acetone - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5045,5045,Ammonium in PM10 (aerosol),NH4+ in PM10,NH4+ in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5046,5046,Nitrate in PM10 (aerosol),NO3- in PM10,NO3- in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5047,5047,sulphate in PM10 (aerosol),SO42-  in PM10,SO42- in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5048,5048,Selenium in PM10 (aerosol),Se in PM10,Se in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5049,5049,Vanedium in PM10 (aerosol),V in PM10,V in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/505,505,Propene (air),CH2=CH-CH3,CH2=CH-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/506,506,Propone + Isobutane (air),CH2=CH-CH3 + H3C-CH2-CH2-CH3,CH2=CH-CH3 + H3C-CH2-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5060,5060,Tin in PM10 (aerosol),Sn in PM10,Sn in PM10 - recommended unit: ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5063,5063,Zinc in PM10 (aerosol),Zn in PM10,Zn in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5064,5064,Cobalt in PM10 (aerosol),Co in PM10,Co in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5065,5065,Iron in PM10 (aerosol),Fe in PM10,Fe in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/507,507,n-Pentane + i-Pentane (2-methylbutane),H3C-(CH2)3-CH3 + H3C-CH2-CH(CH3)2,H3C-(CH2)3-CH3 + H3C-CH2-CH(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5073,5073,Copper in PM10 (aerosol),Cu in PM10,Cu in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/508,508,retene (air+aerosol),Retene,Retene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/509,509,Propanone + N2propenal (air),Acetone + Acrolein,Acetone + Acrolein- recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/51,51,HC C2-C6(excl. AROM. & CHLH) (air+aerosol),HC C2-C6(excl. AROM. & CHLH),HC C2-C6(excl. AROM. & CHLH) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5129,5129,Benzo(a)pyrene in PM10 (air+aerosol),BaP in PM10,BaP in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/517,517,sum_PCB (precip),sum-PCB,sum-PCB - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/52,52,HC > C6 (excl. AROM. & CHLH) (air+aerosol),HC > C6 (excl. AROM. & CHLH),HC > C6 (excl. AROM. & CHLH) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/520,520,sum_sulph_diox_sulphate (air+aerosol),SO2 + SO4--,SO2 + SO4-- - recommended unit: µg S/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/53,53,Aromatics (except C6H6) (air),Aromatics (except C6H6),Aromatics (except C6H6) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5301,5301,1-Methyl anthracene in PM10 (air+aerosol),1-Methyl anthracene in PM10,1-Methyl anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5364,5364,Anthanthrene in PM10 (aerosol),Anthanthrene in PM10,Anthanthrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5380,5380,"Benzo(b,j,k)fluoranthene in PM10 (aerosol)","Benzo(b,j,k)fluorantheneInPM1","Benzo(b,j,k)fluorantheneInPM1 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5381,5381,Benzo(e)pyrene in PM10 (aerosol),Benzo(e)pyrene in PM10,Benzo(e)pyrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5382,5382,Benzo(k+j)fluoranthene in PM10 (aerosol),Benzo(k+j)fluoranthene in PM10,Benzo(k+j)fluoranthene in PM10 (aerosol) - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/54,54,Chlorinated hydrocarbons (air),Chlorinated hydrocarbons,Chlorinated hydrocarbons - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5406,5406,Chrysene in PM10 (aerosol),Chrysene in PM10,Chrysene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5415,5415,Coronene in PM10 (aerosol),Coronene in PM10,Coronene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5417,5417,"Cyclopenta(c,d)pyrene in PM10 (aerosol)","Cyclopenta(c,d)pyrene in PM10","Cyclopenta(c,d)pyrene in PM10 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5418,5418,Dibenzo(ac+ah)anthracene in PM10 (aerosol),Dibenzo(ac+ah)anthracene in PM10,Dibenzo(ac+ah)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5419,5419,Dibenzo(ah)anthracene in PM10 (aerosol),Dibenzo(ah)anthracene in PM10,Dibenzo(ah)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5480,5480,"Benzo(b,j)fluoranthene in PM10 (aerosol)","Benzo(b,j)fluorantheneinPM10","Benzo(b,j)fluorantheneInPM10 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5488,5488,Perylene in PM10 (aerosol),Perylene in PM10,Perylene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5521,5521,4.5-Methylene phenanthrene in PM10 (air+aerosol),4.5-Methylene phenanthrene in PM10,4.5-Methylene phenanthrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5522,5522,5-Methyl Chrysene in PM10 (aerosol),5-Methyl Chrysene in PM10,5-Methyl Chrysene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5523,5523,9-Methyl anthracene in PM10 (air+aerosol),9-Methyl anthracene in PM10,9-Methyl anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5524,5524,"Benzo(b)naphtho(2,1-d)thiophene in PM10 (aerosol)","Benzo(b)naphtho(2,1-d)thiophene in PM10","Benzo(b)naphtho(2,1-d)thiophene in PM10 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5525,5525,Benzo(c)phenanthrene in PM10 (aerosol),Benzo(c)phenanthrene in PM10,Benzo(c)phenanthrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5526,5526,Cholanthrene in PM10 (aerosol),Cholanthrene in PM10,Cholanthrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5527,5527,Dibenzo(ac)anthracene in PM10 (aerosol),Dibenzo(ac)anthracene in PM10,Dibenzo(ac)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5528,5528,Dibenzo(al)pyrene in PM10 (aerosol),Dibenzo(al)pyrene in PM10,Dibenzo(al)pyrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5580,5580,Benzo(b+j)fluoranthene in PM10 (air+aerosol),Benzo(b+j)fluoranthene in PM10,Benzo(b+j)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5606,5606,Anthracene in PM10 (aerosol),Anthracene in PM10 (aerosol),Anthracene in PM10 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5609,5609,Benzo(a)anthracene in PM10 (air+aerosol),Benzo(a)anthracene in PM10,Benzo(a)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5610,5610,Benzo(a)anthracene in PM10 (aerosol),Benzo(a)anthracene in PM10,Benzo(a)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5616,5616,Benzo(b)fluoranthene in PM10 (air+aerosol),Benzo(b)fluoranthene in PM10,Benzo(b)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5617,5617,Benzo(b)fluoranthene in PM10 (aerosol),Benzo(b)fluoranthene in PM10,Benzo(b)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5622,5622,5-Methyl Chrysene in PM10 (air+aerosol),5-Methyl Chrysene in PM10,5-Methyl Chrysene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5623,5623,Benzo(ghi)perylene in PM10 (aerosol),Benzo(ghi)perylene in PM10,Benzo(ghi)perylene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5624,5624,"Benzo(b)naphtho(2,1-d)thiophene in PM10 (air+aerosol)","Benzo(b)naphtho(2,1-d)thiophene in PM10","Benzo(b)naphtho(2,1-d)thiophene in PM10 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5625,5625,Benzo(k)fluoranthene in PM10 (air+aerosol),Benzo(k)fluoranthene in PM10,Benzo(k)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5626,5626,Benzo(k)fluoranthene in PM10 (aerosol),Benzo(k)fluoranthene in PM10,Benzo(k)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5627,5627,Dibenzo(ac)anthracene in PM10 (air+aerosol),Dibenzo(ac)anthracene in PM10,Dibenzo(ac)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5628,5628,Dibenzo(al)pyrene in PM10 (air+aerosol),Dibenzo(al)pyrene in PM10,Dibenzo(al)pyrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5629,5629,calcium in PM10 (aerosol),Ca2+ in PM10,Ca2+ in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5631,5631,chloride in PM10 (aerosol),Cl- in PM10,Cl- in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5633,5633,Dibenzo(ah+ac)anthracene in PM10 (aerosol),Dibenzo(ah+ac)anthracene in PM10,Dibenzo(ah+ac)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5636,5636,Dibenzo(ae)pyrene in PM10 (aerosol),Dibenzo(ae)pyrene in PM10,Dibenzo(ae)pyrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5637,5637,Dibenzo(ah)pyrene in PM10 (aerosol),Dibenzo(ah)pyrene in PM10,Dibenzo(ah)pyrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5639,5639,Dibenzo(ai)pyrene in PM10 (aerosol),Dibenzo(ai)pyrene in PM10,Dibenzo(ai)pyrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5643,5643,Fluoranthene in PM10 (aerosol),Fluoranthene in PM10 (aerosol),Fluoranthene in PM10 (aerosol),valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5654,5654,indeno_123cd_pyrene in PM10 (air+aerosol),"Indeno-(1,2,3-cd)pyrene in PM","Indeno-(1,2,3-cd)pyrene in PM - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5655,5655,indeno_123cd_pyrene in PM10 (aerosol),"Indeno-(1,2,3-cd)pyrene in PM","Indeno-(1,2,3-cd)pyrene in PM - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5657,5657,potassium in PM10 (aerosol),K+ in PM10,K+ in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5659,5659,magnesium in PM10 (aerosol),Mg2+ in PM10,Mg2+ in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5668,5668,sodium in PM10 (aerosol),Na+  in PM10,Na+ in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5712,5712,Phenanthrene in PM10 (aerosol),Phenanthrene in PM10 (aerosol),Phenanthrene in PM10 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5715,5715,Pyrene in PM10 (aerosol),Pyrene in PM10 (aerosol),Pyrene in PM10 (aerosol)  - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5725,5725,Benzo(c)phenanthrene in PM10 (air+aerosol),Benzo(c)phenanthrene in PM10,Benzo(c)phenanthrene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5733,5733,Dibenzo(ah+ac)anthracene in PM10 (air+aerosol),Dibenzo(ah+ac)anthracene in PM10,Dibenzo(ah+ac)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5759,5759,Benzo(j)fluoranthene in PM10 (aerosol),Benzo(j)fluoranthene in PM10,Benzo(j)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5762,5762,Benzo(j)fluoranthene in PM10 (air+aerosol),Benzo(j)fluoranthene in PM10,Benzo(j)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5763,5763,Dibenzo(ah)anthracene in PM10 (air+aerosol),Dibenzo(ah)anthracene in PM10,Dibenzo(ah)anthracene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5771,5771,Elemental carbon in PM10 (aerosol),EC in PM10,EC in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/5772,5772,Organic carbon in PM10 (aerosol),OC in PM10,OC in PM10 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6,6,Black smoke (air),BS,BS - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6001,6001,Particulate matter < 2.5 µm (aerosol),PM2.5,PM2.5 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6002,6002,Particulate matter < 1 µm (aerosol),PM1,PM1 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6003,6003,Ultra Fine Particles (UFPs) -  recommended unit: particles.cm-3,UFPs,"Ultra Fine Particles (UFPs) means particles with a diameter less than or equal to 100 nanometers (10^-9 m), where UFP are measured as the particle number concentrations per cubic centimetre for a size range with a lower limit of 10 nm and for a size range with no restriction on the upper limit",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6004,6004,PNSD - Particle Number Size Distribution,PNSD,"particle number size distribution (PNSD) is the frequency distribution of the particle number concentration represented as a function of the logarithm of particle size, such that the area under the distribution between two sizes is the number concentration of that size range.",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6005,6005,1-Butene (air),H2C=CH-CH2-CH3,H2C=CH-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6006,6006,trans-2-Butene (air),trans-H3C-CH=CH-CH3,trans-H3C-CH=CH-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6007,6007,cis-2-Butene (air),cis-H3C-CH=CH-CH3,cis-H3C-CH=CH-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6008,6008,1-Pentene (air),H2C=CH-CH2-CH2-CH3,H2C=CH-CH2-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6009,6009,2-Pentene (air),H3C-HC=CH-CH2-CH3,H3C-HC=CH-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/601,601,N3methylphenanthrene (air+aerosol),3-methylphenantrene,3-methylphenantrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6011,6011,"1,2,4-Trimethylbenzene (air)","1,2,4-C6H3(CH3)3","1,2,4-C6H3(CH3)3 - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6012,6012,"1,2,3-Trimethylbenzene (air)","1,2,3-C6H3(CH3)3","1,2,3-C6H3(CH3)3 - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6013,6013,"1,3,5-Trimethylbenzene (air)","1,3,5-C6H3(CH3)3","1,3,5-C6H3(CH3)3 - recommended unit: µg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6015,6015,Benzo(a)pyrene (air+aerosol),BaP,BaP - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6016,6016,1-Hexene (air),C6H12,C6H12 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6017,6017,Butyl acetate (air),C6H12O2,Butyl acetate (air) - C6H12O2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/602,602,N9methylphenanthrene (air+aerosol),9-methylphenantrene,9-methylphenantrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6023,6023,Ultra Fine Particles (UFPs) with a lower limit of 3 nanometers and no restriction on the upper limit - recommended unit: particles.cm-3,UFPs >3nm,"Ultra Fine Particles (UFPs) means particles with a diameter less than or equal to 100 nanometers (10^-9 m), where UFP are measured as the particle number concentrations per cubic centimetre for a size range with a lower limit of 3 nm and for a size range with no restriction on the upper limit - PLEASE USE /6003 FOR REPORTING UFP ACCORDING TO RECAST EU 2024/2881",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6024,6024,Ultra Fine Particles (UFPs) with a lower limit of 4 nanometers and no restriction on the upper limit - recommended unit: particles.cm-3,UFPs >4nm,"Ultra Fine Particles (UFPs) means particles with a diameter less than or equal to 100 nanometers (10^-9 m), where UFP are measured as the particle number concentrations per cubic centimetre for a size range with a lower limit of 4 nm and for a size range with no restriction on the upper limit - PLEASE USE /6003 FOR REPORTING UFP ACCORDING TO RECAST EU 2024/2881",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6027,6027,Ultra Fine Particles (UFPs) with a lower limit of 7 nanometers and no restriction on the upper limit - recommended unit: particles.cm-3,UFPs >7nm,"Ultra Fine Particles (UFPs) means particles with a diameter less than or equal to 100 nanometers (10^-9 m), where UFP are measured as the particle number concentrations per cubic centimetre for a size range with a lower limit of 7 nm and for a size range with no restriction on the upper limit - PLEASE USE /6003 FOR REPORTING UFP ACCORDING TO RECAST EU 2024/2881",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/604,604,aluminium (aerosol),Al,Al - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/605,605,aluminium (precip),Al,Al - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/606,606,anthracene (air+aerosol),Anthracene,Anthracene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/607,607,anthracene (precip),Anthracene,Anthracene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/608,608,anthracene (precip+dry_dep),Anthracene,Anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/609,609,Benzo(a)anthracene (air+aerosol),Benzo(a)anthracene,Benzo(a)anthracene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/610,610,Benzo(a)anthracene (precip),Benzo(a)anthracene,Benzo(a)anthracene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/611,611,Benzo(a)anthracene (precip+dry_dep),Benzo(a)anthracene,Benzo(a)anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/613,613,Benzo(a)fluorene (air+aerosol),Benzo(a)fluorene,Benzo(a)fluorene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/616,616,Benzo(b)fluoranthene (air+aerosol),Benzo(b)fluoranthene,Benzo(b)fluoranthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/617,617,Benzo(b)fluoranthene (precip),Benzo(b)fluoranthene,Benzo(b)fluoranthene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/618,618,Benzo(b)fluoranthene (precip+dry_dep),Benzo(b)fluoranthene,Benzo(b)fluoranthene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/619,619,Benzo(b)fluorene (air+aerosol),Benzo(b)fluorene,Benzo(b)fluorene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/62,62,Fluoride (except HF) (air),Fluor (except HF),Fluor (except HF) - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/620,620,Benzo(ghi)fluoranthene (air+aerosol),Benzo(ghi)fluoranthene,Benzo(ghi)fluoranthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/621,621,Benzo(ghi)fluoranthene (precip),Benzo(ghi)fluoranthene,Benzo(ghi)fluoranthene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/622,622,Benzo(ghi)perylene (air+aerosol),Benzo(ghi)perylene,Benzo(ghi)perylene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/623,623,Benzo(ghi)perylene (precip),Benzo(ghi)perylene,Benzo(ghi)perylene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/624,624,Benzo(ghi)perylene (precip+dry_dep),Benzo(ghi)perylene,Benzo(ghi)perylene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/625,625,Benzo(k)fluoranthene (air+aerosol),Benzo(k)fluoranthene,Benzo(k)fluoranthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/626,626,Benzo(k)fluoranthene (precip),Benzo(k)fluoranthene,Benzo(k)fluoranthene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/627,627,Benzo(k)fluoranthene (precip+dry_dep),Benzo(k)fluoranthene,Benzo(k)fluoranthene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/629,629,calcium (aerosol),Ca++,Ca++ - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/63,63,Zinc (aerosol),Zn,Zn - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/630,630,calcium (precip),Ca++,Ca++ - recommended unit: mg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/631,631,chloride (aerosol),Cl-,Cl- - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/632,632,chloride (precip),Cl-,Cl- - recommended unit: mg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/633,633,Dibenz(ac+ah)anthracenes (air+aerosol),Dibenz(ac+ah)anthracenes,Dibenz(ac+ah)anthracenes - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/634,634,Dibenz(ac+ah)anthracenes (precip) - PLEASE use .../418,Dibenz(ac+ah)anthracenes,Dibenz(ac+ah)anthracenes - recommended unit: ng/l,retired
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/635,635,Dibenz(ah)anthracene (precip) - please use .../419,Dibenz(ah)anthracene,Dibenz(ah)anthracene - recommended unit: ng/l,retired
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/636,636,Dibenzo(ae)pyrene (air+aerosol),Dibenzo(ae)pyrene,Dibenzo(ae)pyrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/637,637,Dibenzo(ah)pyrene (air+aerosol),Dibenzo(ah)pyrene,Dibenzo(ah)pyrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/638,638,Dibenzo(ai)pyrene (air+aerosol),Dibenzo(ai)pyrene,Dibenzo(ai)pyrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6380,6380,"Benzo(b,j,k)fluoranthene in PM10 (air+aerosol)","Benzo(b,j,k)fluorantheneInPM1","Benzo(b,j,k)fluorantheneInPM1 - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6382,6382,Benzo(k+j)fluoranthene in PM10 (air+aerosol),Benzo(k+j)fluoranthene,Benzo(k+j)fluoranthene in PM10 - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/639,639,Dibenzo(ai)pyrene (precip),Dibenzo(ai)pyrene,Dibenzo(ai)pyrene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/64,64,Cobalt (aerosol),Co,Co - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/640,640,dieldrin (air+aerosol),Dieldrin,Dieldrin - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6400,6400,Volatile PM10,VPM10,The volatile fraction of PM10 - recommended units ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6401,6401,Non-volatile PM10,NVPM10,The non-volatile fraction of a PM10 measurement - recommended units ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/641,641,dieldrin (precip),Dieldrin,Dieldrin - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6410,6410,Volatile PM2.5,VPM2.5,The volatile fraction of a PM2.5 measurememt - recommended units ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6411,6411,Non-volatile PM2.5,NVPM2.5,The non-volatile fraction of a PM2.5 measurement - recommended units ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6420,6420,Volatile PM1,VPM1,The volitile fraction of a PM1 measurement - recommended units ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/6421,6421,Non-volatile PM1,NVPM1,The non-volatile fraction of a PM1 measurement - recommended units ug/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/643,643,fluoranthene (air+aerosol),Fluoranthene,Fluoranthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/644,644,fluoranthene (precip),Fluoranthene,Fluoranthene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/645,645,fluoranthene (precip+dry_dep),Fluoranthene,Fluoranthene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/648,648,acidity(H+) (precip),H+,H+ - recommended unit: ue H/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/649,649,HCB (air+aerosol),HCB,HCB - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/65,65,Iron (aerosol),Fe,Fe - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/650,650,HCB (precip),HCB,HCB - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/652,652,heptachlor_epoxide (precip),Heptachlor Epoxide,Heptachlor Epoxide - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/653,653,reactive_mercury (air+aerosol),Hg-reactive,Hg-reactive - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/654,654,indeno_123cd_pyrene (air+aerosol),"Indeno-(1,2,3-cd)pyrene","Indeno-(1,2,3-cd)pyrene - recommended unit: ng/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/655,655,indeno_123cd_pyrene (precip),"Indeno-(1,2,3-cd)pyrene","Indeno-(1,2,3-cd)pyrene - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/656,656,indeno_123cd_pyrene (precip+dry_dep),"Indeno-(1,2,3-cd)pyrene","Indeno-(1,2,3-cd)pyrene - recommended unit: µg/m2/day",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/657,657,potassium (aerosol),K+,K+ - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/658,658,potassium (precip),K+,K+ - recommended unit: mg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/659,659,magnesium (aerosol),Mg++,Mg++ - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/66,66,Back scattering (),Back scattering,Back scattering - recommended unit: m-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/660,660,magnesium (precip),Mg++,Mg++ - recommended unit: mg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/661,661,molybdenum (aerosol),Mo,Mo - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/664,664,ammonium (precip),NH4+,NH4+ - recommended unit: mg N/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/666,666,nitrate (precip),NO3-,NO3- - recommended unit: mg N/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/667,667,Kjeldahl nitrogen (precip),Kj-N,Kj-N in precipitation - recommended unit: mg N/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/668,668,sodium (aerosol),Na+,Na+ - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/669,669,sodium (precip),Na+,Na+ - recommended unit: mg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/67,67,Total nitrate (air+aerosol),HNO3+NO3,HNO3+NO3 - recommended unit: µg N/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/670,670,PCB_101 (air+aerosol),PCB-101,PCB-101 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/671,671,PCB_101 (precip),PCB-101,PCB-101 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/672,672,PCB_101 (precip+dry_dep),PCB-101,PCB-101 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/673,673,PCB_114 (air+aerosol),PCB-114,PCB-114 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/674,674,PCB_118 (air+aerosol),PCB-118,PCB-118 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/675,675,PCB_118 (precip),PCB-118,PCB-118 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/676,676,PCB_118 (precip+dry_dep),PCB-118,PCB-118 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/677,677,PCB_138 (air+aerosol),PCB-138,PCB-138 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/678,678,PCB_138 (precip+dry_dep),PCB-138,PCB-138 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/679,679,PCB_141 (air+aerosol),PCB-141,PCB-141 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/68,68,Total ammonium (air+aerosol),NH3+NH4,NH3+NH4 - recommended unit: µg N/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/680,680,PCB_153 (air+aerosol),PCB-153,PCB-153 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/681,681,PCB_153 (precip),PCB-153,PCB-153 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/682,682,PCB_153 (precip+dry_dep),PCB-153,PCB-153 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/683,683,PCB_157 (air+aerosol),PCB-157,PCB-157 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/684,684,PCB_167 (air+aerosol),PCB-167,PCB-167 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/685,685,PCB_170 (air+aerosol),PCB-170,PCB-170 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/686,686,PCB_180 (air+aerosol),PCB-180,PCB-180 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/687,687,PCB_180 (precip),PCB-180,PCB-180 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/688,688,PCB_180 (precip+dry_dep),PCB-180,PCB-180 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/689,689,PCB_183 (air+aerosol),PCB-183,PCB-183 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/69,69,Radioactivity (),Radioactivity,Radioactivity - recommended unit:,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/690,690,PCB_187 (air+aerosol),PCB-187,PCB-187 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/691,691,PCB_189 (air+aerosol),PCB-189,PCB-189 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/692,692,PCB_194 (air+aerosol),PCB-194,PCB-194 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/693,693,PCB_206 (air+aerosol),PCB-206,PCB-206 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/694,694,PCB_209 (air+aerosol),PCB-209,PCB-209 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/695,695,PCB_28 (air+aerosol),PCB-28,PCB-28 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/696,696,PCB_28 (precip),PCB-28,PCB-28 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/697,697,PCB_28 (precip+dry_dep),PCB-28,PCB-28 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/698,698,PCB_33 (air+aerosol),PCB-33,PCB-33 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/699,699,PCB_37 (air+aerosol),PCB-37,PCB-37 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7,7,Ozone (air),O3,O3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/700,700,PCB_47 (air+aerosol),PCB-47,PCB-47 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/701,701,PCB_52 (air+aerosol),PCB-52,PCB-52 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7012,7012,Lead (precip+dry_dep),Pb,Pb - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7013,7013,Mercury (precip+dry_dep),Hg,Hg - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7014,7014,Cadmium (precip+dry_dep),Cd,Cd - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7015,7015,Nickel (precip+dry_dep),Ni,Ni - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7016,7016,Chromium (precip+dry_dep),Cr,Cr - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7018,7018,Arsenic (precip+dry_dep),As,As - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/702,702,PCB_52 (precip),PCB-52,PCB-52 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7029,7029,Benzo(a)pyrene (precip+dry_dep),BaP,BaP - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/703,703,PCB_52 (precip+dry_dep),PCB-52,PCB-52 - recommended unit: ng/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/704,704,PCB_60 (air+aerosol),PCB-60,PCB-60 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/705,705,PCB_66 (air+aerosol),PCB-66,PCB-66 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/706,706,PCB_74 (air+aerosol),PCB-74,PCB-74 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7063,7063,Zinc (precip+dry_dep),Zn,Zn - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/707,707,PCB_99 (air+aerosol),PCB-99,PCB-99 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7073,7073,Cooper (precip+dry_dep),Cu,Cu - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/708,708,PCB_122 (air+aerosol),PCB_122,PCB_122 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/709,709,PCB_123 (air+aerosol),PCB_123,PCB_123 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/71,71,Carbon dioxide (air),CO2,CO2 - recommended unit: ppmv,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/710,710,PCB_128 (air+aerosol),PCB_128,PCB_128 - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/711,711,PCB_138 (precip),PCB_138,PCB_138 - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/712,712,phenanthrene (air+aerosol),Phenanthrene,Phenanthrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/713,713,phenanthrene (precip),Phenanthrene,Phenanthrene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/714,714,phenanthrene (precip+dry_dep),Phenanthrene,Phenanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/715,715,pyrene (air+aerosol),Pyrene,Pyrene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/716,716,pyrene (precip),Pyrene,Pyrene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/717,717,pyrene (precip+dry_dep),Pyrene,Pyrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/719,719,sulphate (precip),SO4--,SO4-- - recommended unit: mg S/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/720,720,sulphate_corrected (precip),SO4-- corr,SO4-- corr - recommended unit: mg S/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/723,723,titanium (precip),TI,TI - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/728,728,vanadium (precip),Vanadium,Vanadium - recommended unit: µg/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/729,729,alpha_HCH (air+aerosol),alpha-HCH,alpha-HCH - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/73,73,Copper (aerosol),Cu,Cu - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/730,730,alpha_HCH (precip),alpha-HCH,alpha-HCH - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7301,7301,1-Methyl anthracene (precip+dry_dep),1-Methyl anthracene,1-Methyl anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7309,7309,1-Methyl Naphthalene (precip+dry_dep),1-Methyl Naphthalene,1-Methyl Naphthalene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/731,731,alpha_HCH (precip+dry_dep),alpha-HCH,alpha-HCH - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7310,7310,1-Methyl phenanthrene (precip+dry_dep),1-Methyl phenanthrene,1-Methyl phenanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7313,7313,2-Methyl anthracene (precip+dry_dep),2-Methyl anthracene,2-Methyl anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7315,7315,2-Methyl Naphthalene (precip+dry_dep),2-Methyl Naphthalene,2-Methyl Naphthalene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7317,7317,2-Methyl phenanthrene (precip+dry_dep),2-Methyl phenanthrene,2-Methyl phenanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/732,732,beta_HCH (air+aerosol),beta-HCH,beta-HCH - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/733,733,beta_HCH (precip),beta-HCH,beta-HCH - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/734,734,cis_CD (air+aerosol),cis-CD,cis-CD - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/735,735,cis_CD (precip),cis-CD,cis-CD - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7351,7351,Acenaphthene (precip+dry_dep),Acenaphthene,Acenaphthene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7352,7352,Acenaphthylene (precip+dry_dep),Acenaphthylene,Acenaphthylene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/736,736,cis_NO (air+aerosol),cis-NO,cis-NO - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7364,7364,Anthanthrene (precip+dry_dep),Anthanthrene,Anthanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/737,737,lindane (air+aerosol),gamma-HCH,gamma-HCH - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/738,738,lindane (precip+dry_dep),gamma-HCH,gamma-HCH - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7380,7380,"Benzo(b,j,k)fluoranthene (precip+dry_dep)","Benzo(b,j,k)fluoranthene","Benzo(b,j,k)fluoranthene - recommended unit: µg/m2/day",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7381,7381,Benzo(e)pyrene (precip+dry_dep),Benzo(e)pyrene,Benzo(e)pyrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7382,7382,Benzo(k+j)fluoranthene (precip+dry_dep),Benzo(k+j)fluoranthene,Benzo(k+j)fluoranthene  - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/739,739,lindane (precip),gamma-HCH,gamma-HCH - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7390,7390,Biphenyl (precip+dry_dep),Biphenyl,Biphenyl - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7406,7406,Chrysene (precip+dry_dep),Chrysene,Chrysene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7407,7407,chrysene_triphenylene (precip+dry_dep),Chrysene + Triphenylene,Chrysene + Triphenylene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/741,741,op_DDD (precip),"o,p'-DDD","o,p'-DDD - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7415,7415,Coronene (precip+dry_dep),Coronene,Coronene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7417,7417,"Cyclopenta(c,d)pyrene","Cyclopenta(c,d)pyrene","Cyclopenta(c,d)pyrene - recommended unit: µg/m2/day",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7418,7418,Dibenzo(ac+ah)anthracenes (precip+dry_dep),Dibenzo(ah+ac)anthracene,Dibenzo(ac+ah)anthracenes - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7419,7419,Dibenzo(ah)anthracene (precip+dry_dep),Dibenzo(ah)anthracene,Dibenzo(ah)anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/742,742,op_DDE (precip),"o,p'-DDE","o,p'-DDE - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/743,743,op_DDT (precip),"o,p'-DDT","o,p'-DDT - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7435,7435,Fluorene (precip+dry_dep),Fluorene,Fluorene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/744,744,op_DDD (air+aerosol),"o,p'-DDD","o,p'-DDD - recommended unit: pg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/745,745,op_DDE (air+aerosol),"o,p'-DDE","o,p'-DDE - recommended unit: pg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/746,746,op_DDT (air+aerosol),"o,p'-DDT","o,p'-DDT - recommended unit: pg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7465,7465,Naphthalene (precip+dry_dep),Naphthalene,Naphthalene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/747,747,pp_DDD (precip),"p,p'-DDD","p,p'-DDD - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/748,748,pp_DDE (precip),"p,p'-DDE","p,p'-DDE - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7480,7480,"Benzo(b,j)fluoranthene (precip+dry_dep)",Benzo(b+j)fluoranthene,"Benzo(b,j)fluoranthene - recommended unit: µg/m2/day",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7488,7488,Perylene (precip+dry_dep),Perylene,Perylene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/749,749,pp_DDT (precip),"p,p'-DDT","p,p'-DDT - recommended unit: ng/l",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/750,750,pp_DDD (air+aerosol),"p,p'-DDD","p,p'-DDD - recommended unit: pg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/751,751,pp_DDE (air+aerosol),"p,p'-DDE","p,p'-DDE - recommended unit: pg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/752,752,pp_DDT (air+aerosol),"p,p'-DDT","p,p'-DDT - recommended unit: pg/m3",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7521,7521,4.5-Methylene phenanthrene (precip+dry_dep),4.5-Methylene phenanthrene,4.5-Methylene phenanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7522,7522,5-Methyl Chrysene (precip+dry_dep),5-Methyl Chrysene,5-Methyl Chrysene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7523,7523,9-Methyl anthracene (precip+dry_dep),9-Methyl anthracene,9-Methyl anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7524,7524,"Benzo(b)naphtho(2,1-d)thiophene (precip+dry_dep)","Benzo(b)naphtho(2,1-d)thiophene","Benzo(b)naphtho(2,1-d)thiophene - recommended unit: µg/m2/day",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7525,7525,Benzo(c)phenanthrene (precip+dry_dep),Benzo(c)phenanthrene,Benzo(c)phenanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7526,7526,Cholanthrene (precip+dry_dep),Cholanthrene,Cholanthrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7527,7527,Dibenzo(ac)anthracene (precip+dry_dep),Dibenzo(ac)anthracene,Dibenzo(ac)anthracene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7528,7528,Dibenzo(al)pyrene (precip+dry_dep),Dibenzo(al)pyrene,Dibenzo(al)pyrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/753,753,precipitation_amount (precip),precip_amount,precip_amount - recommended unit: mm,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/754,754,precipitation_amount_off (precip),precip_amount_off,precip_amount_off - recommended unit: mm,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/755,755,trans_CD (air+aerosol),trans-CD,trans-CD - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/756,756,trans_CD (precip),trans-CD,trans-CD - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/757,757,trans_NO (air+aerosol),trans-NO,trans-NO - recommended unit: pg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/758,758,trans_NO (precip),trans_NO,trans_NO - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/759,759,Benzo(j)fluoranthene (precip),Benzo(j)fluoranthene,Benzo(j)fluoranthene - recommended unit: ng/l,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/760,760,Benzo(j)fluoranthene (precip+dry_dep),Benzo(j)fluoranthene,Benzo(j)fluoranthene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/761,761,Benzo(j)fluorene (air+aerosol),Benzo(j)fluorene,Benzo(j)fluorene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/762,762,Benzo(j)fluoranthene (air+aerosol),Benzo(j)fluoranthene,Benzo(j)fluoranthene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/763,763,Dibenzo(ah)anthracene (air+aerosol),Dibenzo(ah)anthracene,Dibenzo(ah)anthracene - recommended unit: ng/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7636,7636,Dibenzo(ae)pyrene (precip+dry_dep),Dibenzo(ae)pyrene,Dibenzo(ae)pyrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7637,7637,Dibenzo(ah)pyrene (precip+dry_dep),Dibenzo(ah)pyrene,Dibenzo(ah)pyrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7639,7639,Dibenzo(ai)pyrene (precip+dry_dep),Dibenzo(ai)pyrene,Dibenzo(ai)pyrene - recommended unit: µg/m2/day,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7640,7640,Dieldrin (precip+dry_dep),Dieldrin,Dieldrin - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/771,771,Elemental carbon (aerosol),EC,EC - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/772,772,Organic carbon (aerosol),OC,OC - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/773,773,alpha-Endosulfan (air+aerosol),alpha-Endosulfan,alpha-Endosulfan - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7734,7734,cis-CD (precip+dry_dep),cis-CD,cis-CD - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/774,774,beta-Endosulfan (air+aerosol),beta-Endosulfan,beta-Endosulfan - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/775,775,Endosulfan sulfate (air+aerosol),Endosulfan sulfate,Endosulfan sulfate - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7750,7750,"p,p'-DDD (precip+dry_dep)","p,p'-DDD","p,p'-DDD - recommended unit: ng.m-2.day-1",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7751,7751,"p,p'-DDE (precip+dry_dep)","p,p'-DDE","p,p'-DDE - recommended unit: ng.m-2.day-1",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7752,7752,"p,p'-DDT (precip+dry_dep)","p,p'-DDT","p,p'-DDT - recommended unit: ng.m-2.day-1",valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7755,7755,trans-CD (precip+dry_dep),trans-CD,trans-CD - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7757,7757,trans-NO (precip+dry_dep),trans-NO,trans-NO - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/776,776,DCMU (air+aerosol),DCMU,DCMU - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/777,777,Atrazine (air+aerosol),Atrazine,Atrazine - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7773,7773,alpha-Endosulfan (precip+dry_dep),alpha-Endosulfan,alpha-Endosulfan - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7774,7774,beta-Endosulfan (precip+dry_dep),beta-Endosulfan,beta-Endosulfan - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7775,7775,Endosulfan sulfate (precip+dry_dep),Endosulfan sulfate,Endosulfan sulfate - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7776,7776,DCMU (precip+dry_dep),DCMU,DCMU - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7777,7777,Atrazine (precip+dry_dep),Atrazine,Atrazine - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7778,7778,Isoproturon (precip+dry_dep),Isoproturon,Isoproturon - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7779,7779,Heptachlor (precip+dry_dep),Heptachlor,Heptachlor - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/778,778,Isoproturon (air+aerosol),Isoproturon,Isoproturon - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7780,7780,Aldrin (precip+dry_dep),Aldrin,Aldrin - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7781,7781,HCB (precip+dry_dep),HCB,HCB - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/779,779,Heptachlor (air+aerosol),Heptachlor,Heptachlor - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/78,78,Xylene (air),C6H4-(CH3)2,C6H4-(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/780,780,Aldrin (air+aerosol),Aldrin,Aldrin - recommended unit: pg.m-3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7821,7821,TCDD (precip+dry_dep),TCDD,TCDD - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7822,7822,CDD1N (precip+dry_dep),CDD1N,CDD1N - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7823,7823,CDD4X (precip+dry_dep),CDD4X,CDD4X - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7824,7824,CDD6X (precip+dry_dep),CDD6X,CDD6X - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7825,7825,CDD9X (precip+dry_dep),CDD9X,CDD9X - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7826,7826,CDD6P (precip+dry_dep),CDD6P,CDD6P - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7827,7827,CDDO (precip+dry_dep),CDDO,CDDO - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7841,7841,CDF2T (precip+dry_dep),CDF2T,CDF2T - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7842,7842,CDFDN (precip+dry_dep),CDFDN,CDFDN - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7843,7843,CDF2N (precip+dry_dep),CDF2N,CDF2N - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7844,7844,CDFDX (precip+dry_dep),CDFDX,CDFDX - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7845,7845,CDF6X (precip+dry_dep),CDF6X,CDF6X - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7846,7846,CDF9X (precip+dry_dep),CDF9X,CDF9X - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7847,7847,CDF4X (precip+dry_dep),CDF4X,CDF4X - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7848,7848,CDF6P (precip+dry_dep),CDF6P,CDF6P - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7849,7849,CDF9P (precip+dry_dep),CDF9P,CDF9P - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7850,7850,CDFO (precip+dry_dep),CDFO,CDFO - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7851,7851,CDFX1 (precip+dry_dep),CDFX1,CDFX1 - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7852,7852,CDFP2 (precip+dry_dep),CDFP2,CDFP2 - recommended unit: pg.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7901,7901,BDE47 (precip+dry_dep),BDE47,BDE47 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7902,7902,BDE85 (precip+dry_dep),BDE85,BDE85 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7903,7903,BDE99 (precip+dry_dep),BDE99,BDE99 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7904,7904,BDE100 (precip+dry_dep),BDE100,BDE100 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7905,7905,BDE153 (precip+dry_dep),BDE153,BDE153 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7906,7906,BDE154 (precip+dry_dep),BDE154,BDE154 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7907,7907,BDE209 (precip+dry_dep),BDE209,BDE209 - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7908,7908,SCCP (precip+dry_dep),SCCP,SCCP - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7909,7909,MCCP (precip+dry_dep),MCCP,MCCP - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7910,7910,HBCD (precip+dry_dep),HBCD,HBCD - recommended unit: ng.m-2.day-1,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/8,8,Nitrogen dioxide (air),NO2,NO2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/80,80,p-Xylene (air),p-C6H4(CH3)2,p-C6H4(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/81,81,m-Xylene (air),m-C6H4-(CH3)2,m-C6H4-(CH3)2 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/82,82,trans-2-Pentene (air),trans-H3C-HC=CH-CH2-CH3,trans-H3C-HC=CH-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/83,83,cis-2-Pentene (air),cis-H3C-HC=CH-CH2-CH3,cis-H3C-HC=CH-CH2-CH3 - recommended unit: µg/m3,valid
+http://dd.eionet.europa.eu/vocabulary/aq/pollutant/9,9,Nitrogen oxides (air),NOX as NO2,NOX as NO2 - recommended unit: µg/m3,valid
