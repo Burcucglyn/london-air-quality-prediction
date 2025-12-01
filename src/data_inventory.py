@@ -131,3 +131,50 @@ class DataInventory:
         
         self.inventory['meteo'] = pd.DataFrame(results)
         return self.inventory['meteo']
+    
+    def generate_summary(self):
+        """Generate cross-source summary statistics."""
+        summary = {
+            'laqn': {
+                'total_files': len(self.inventory['laqn']),
+                'sites': self.inventory['laqn']['site'].nunique() if not self.inventory['laqn'].empty else 0,
+                'pollutants': self.inventory['laqn']['pollutant'].unique().tolist() if not self.inventory['laqn'].empty else [],
+                'periods': sorted(self.inventory['laqn']['period'].unique().tolist()) if not self.inventory['laqn'].empty else [],
+                'total_records': int(self.inventory['laqn']['records'].sum()) if not self.inventory['laqn'].empty else 0
+            },
+            'defra': {
+                'total_files': len(self.inventory['defra']),
+                'stations': self.inventory['defra']['station'].nunique() if not self.inventory['defra'].empty else 0,
+                'pollutants': self.inventory['defra']['pollutant'].unique().tolist() if not self.inventory['defra'].empty else [],
+                'periods': sorted(self.inventory['defra']['period'].unique().tolist()) if not self.inventory['defra'].empty else [],
+                'total_records': int(self.inventory['defra']['records'].sum()) if not self.inventory['defra'].empty else 0
+            },
+            'meteo': {
+                'total_files': len(self.inventory['meteo']),
+                'periods': sorted(self.inventory['meteo']['period'].unique().tolist()) if not self.inventory['meteo'].empty else [],
+                'total_records': int(self.inventory['meteo']['records'].sum()) if not self.inventory['meteo'].empty else 0,
+                'complete_months': int(self.inventory['meteo']['complete'].sum()) if not self.inventory['meteo'].empty else 0
+            }
+        }
+        
+        self.inventory['summary'] = summary
+        return summary
+    
+    def save_inventory(self, output_dir='data/processed'):
+        """Save inventory reports to disk."""
+        output_path = self.base_path / output_dir
+        output_path.mkdir(parents=True, exist_ok=True)
+        
+        if not self.inventory['laqn'].empty:
+            self.inventory['laqn'].to_csv(output_path / 'laqn_inventory.csv', index=False)
+        
+        if not self.inventory['defra'].empty:
+            self.inventory['defra'].to_csv(output_path / 'defra_inventory.csv', index=False)
+        
+        if not self.inventory['meteo'].empty:
+            self.inventory['meteo'].to_csv(output_path / 'meteo_inventory.csv', index=False)
+        
+        with open(output_path / 'inventory_summary.json', 'w') as f:
+            json.dump(self.inventory['summary'], f, indent=2)
+
+        print(f"Inventory saved to {output_path}.")
