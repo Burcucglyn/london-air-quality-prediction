@@ -306,6 +306,7 @@ class TestDataInventory(unittest.TestCase):
         
         test_output_dir = 'data/processed/test_output'
         output_path = self.base_path / test_output_dir
+
         
         if output_path.exists():
             for file in output_path.glob('*'):
