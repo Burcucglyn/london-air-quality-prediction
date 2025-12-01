@@ -23,7 +23,7 @@ class DataInventory:
         """ scanning function to see laqn monthly data structure."""
         laqn_path = self.base_path / 'data' / 'laqn'/ 'monthly_data'
 
-        results = {}
+        results = [] #list to hold each record as a dict.
 
         for year_month_dir in laqn_path.glob('*'):
             if not year_month_dir.is_dir():
@@ -34,7 +34,7 @@ class DataInventory:
         for csv_file in year_month_dir.glob('*.csv'):
             #parse year and month, site_species_startDate_endData.csv
             parts = csv_file.stem.split('_')
-            if len(parts) != 4:
+            if len(parts) >= 4:
                 site_code = parts[0]
                 species_code = parts[1]
 
