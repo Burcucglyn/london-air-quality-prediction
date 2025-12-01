@@ -56,3 +56,78 @@ class DataInventory:
             
         self.inventory['laqn'] = pd.DataFrame(results)
         return self.inventory['laqn']
+    
+    # Additional methods for defra_data, meteo_data, summary_data can be added similarly.
+    def defra_data(self):
+        """scanning func to see defra data structure."""
+
+        #defra data path description
+        defra_base = self.base_path / 'data' / 'defra'
+
+        
+        results = []
+        for year_dir in defra_base.glob('*measurements'):
+            year = year_dir.name.replace('measurements', '')
+            
+            for station_dir in year_dir.glob('*'):
+                if not station_dir.is_dir():
+                    continue
+                    
+                station_name = station_dir.name
+                
+                for csv_file in station_dir.glob('*.csv'):
+                    # Parse filename: POLLUTANT__YYYY_MM.csv
+                    parts = csv_file.stem.split('__')
+                    if len(parts) == 2:
+                        pollutant = parts[0]
+                        period = parts[1]  # e.g., "2023_01"
+                        
+                        try:
+                            df = pd.read_csv(csv_file)
+                            record_count = len(df)
+                            
+                            results.append({
+                                'source': 'DEFRA',
+                                'period': period,
+                                'station': station_name,
+                                'pollutant': pollutant,
+                                'records': record_count,
+                                'file': str(csv_file.relative_to(self.base_path))
+                            })
+                        except Exception as e:
+                            print(f"Error reading {csv_file}: {e}")
+        
+        self.inventory['defra'] = pd.DataFrame(results)
+        return self.inventory['defra']
+    
+    def scan_meteo_data(self):
+        """Scan meteorological data structure."""
+        meteo_base = self.base_path / 'data' / 'meteo' / 'raw'
+        
+        results = []
+        for year_dir in meteo_base.glob('monthly*'):
+            year = year_dir.name.replace('monthly', '')
+            
+            for csv_file in year_dir.glob('*.csv'):
+                #Filename format YYYY-MM.csv
+                try:
+                    df = pd.read_csv(csv_file)
+                    record_count = len(df)
+                    
+                    # Check for required columns
+                    required_cols = ['date', 'temperature_2m', 'wind_speed_10m', 
+                                   'surface_pressure', 'precipitation', 'relative_humidity_2m']
+                    has_all_cols = all(col in df.columns for col in required_cols)
+                    
+                    results.append({
+                        'source': 'METEO',
+                        'period': csv_file.stem,  # e.g., "2023-01"
+                        'records': record_count,
+                        'complete': has_all_cols,
+                        'file': str(csv_file.relative_to(self.base_path))
+                    })
+                except Exception as e:
+                    print(f"Error reading {csv_file}: {e}")
+        
+        self.inventory['meteo'] = pd.DataFrame(results)
+        return self.inventory['meteo']
