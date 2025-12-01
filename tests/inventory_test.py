@@ -304,15 +304,15 @@ class TestDataInventory(unittest.TestCase):
         self.data_inventory.meteo_data()
         self.data_inventory.generate_summary()
         
-        test_output_dir = 'data/processed/test_output'
+        # Save to data/inventory_test directory (permanent).
+        test_output_dir = 'data/inventory_test'
         output_path = self.base_path / test_output_dir
-
         
+        # Clean old files if they exist.
         if output_path.exists():
             for file in output_path.glob('*'):
                 file.unlink()
-            output_path.rmdir()
-        
+    
         self.data_inventory.save_inventory(output_dir=test_output_dir)
         
         self.assertTrue(output_path.exists())
@@ -366,11 +366,7 @@ class TestDataInventory(unittest.TestCase):
         print("JSON data types are correct. All integers for counts.")
         
         print("\nAll inventory files saved and validated successfully.")
-        
-        for file in output_path.glob('*'):
-            file.unlink()
-        output_path.rmdir()
-        print("Test output cleaned up.")
+        print(f"Files kept in {test_output_dir} directory for future use.")
     
     def test_duplicates(self):
         """Test for duplicate records in each dataset."""
@@ -518,6 +514,5 @@ ok
 Ran 9 tests in 42.681s
 
 OK
-
     """
 
