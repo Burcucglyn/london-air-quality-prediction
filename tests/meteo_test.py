@@ -12,7 +12,7 @@ RAW_DIR = os.path.join("data", "meteo", "raw")
 
 import sys 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from src.meteo_get import MeteoGet
+from src.getData.meteo_get import MeteoGet
 
 
 class MeteoHelper:
@@ -182,5 +182,3 @@ if __name__ == "__main__":
     # Run unit tests
     print(f"\n=== Running unit tests ===")
     unittest.main(argv=[''], exit=False, verbosity=2)
-
-
