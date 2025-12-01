@@ -52,7 +52,7 @@ class TestDataInventory(unittest.TestCase):
     def test_laqn_col(self):
         """Test LAQN data column types and values."""
         print("\n" + "="*80)
-        print("TLAQN data column tests:")
+        print("Test LAQN data column:")
         print("="*80)
         laqn_df = self.data_inventory.laqn_data()
         
@@ -313,4 +313,10 @@ class TestDataInventory(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    # Run tests in definition order
+    loader = unittest.TestLoader()
+    loader.sortTestMethodsUsing = None
+    suite = loader.loadTestsFromTestCase(TestDataInventory)
+    runner = unittest.TextTestRunner(verbosity=2)
+    runner.run(suite)
 
