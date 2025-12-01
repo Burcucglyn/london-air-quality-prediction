@@ -64,7 +64,7 @@ class DataInventory:
         #defra data path description
         defra_base = self.base_path / 'data' / 'defra'
 
-        
+
         results = []
         for year_dir in defra_base.glob('*measurements'):
             year = year_dir.name.replace('measurements', '')
@@ -100,7 +100,7 @@ class DataInventory:
         self.inventory['defra'] = pd.DataFrame(results)
         return self.inventory['defra']
     
-    def scan_meteo_data(self):
+    def meteo_data(self):
         """Scan meteorological data structure."""
         meteo_base = self.base_path / 'data' / 'meteo' / 'raw'
         
@@ -121,7 +121,7 @@ class DataInventory:
                     
                     results.append({
                         'source': 'METEO',
-                        'period': csv_file.stem,  # e.g., "2023-01"
+                        'period': csv_file.stem, 
                         'records': record_count,
                         'complete': has_all_cols,
                         'file': str(csv_file.relative_to(self.base_path))

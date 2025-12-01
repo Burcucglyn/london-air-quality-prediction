@@ -15,7 +15,7 @@ sys.path.insert(0, str(proj_root))
 
 
 
-from src.defra_get import DefraGet, euAirPollutantVocab
+from src.getData.defra_get import DefraGet, euAirPollutantVocab
 from config import Config
 from io import StringIO # for CSV reading from response text.
 

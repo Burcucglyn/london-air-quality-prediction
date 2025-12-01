@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import requests 
-from src.laqn_get import laqnGet
+from src.getData.laqn_get import laqnGet
 from config import Config
 import json
 from dateutil.parser import isoparse
