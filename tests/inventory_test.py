@@ -399,3 +399,125 @@ class TestDataInventory(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main(verbosity=2)
 
+
+    """Terminal output below:
+    test_defra_col (__main__.TestDataInventory.test_defra_col)
+Test DEFRA data column types and values. ... 
+================================================================================
+testing DEFRA data column tests.
+================================================================================
+Sample periods: ['2023_03', '2023_09', '2023_02']
+Sample stations: ['London_Marylebone_Road', 'London_Westminster', 'London_N._Kensington']
+Unique pollutants: ['1,2,3-Trimethylbenzene', '1,2,4-Trimethylbenzene', '1,3,5-Trimethylbenzene', '1-Butene', '1-Pentene', 
+'1.3_Butadiene', 'Benzene', 'Carbon_monoxide', 'Ethane', 'Ethene', 'Ethyl_benzene', 'Ethyne', 'Isoprene', 'Nitrogen_dioxide', 'Nitrogen_monoxide', 'Nitrogen_oxides', 'Ozone', 'Particulate_matter_less_than_10_micro_m', 'Particulate_matter_less_than_2.5_micro_m', 'Propane', 'Propene', 'Sulphur_dioxide', 'Toluene', 'cis-2-Butene', 'i-Butane', 'i-Hexane', 'i-Octane', 'i-Pentane', 'm,p-Xylene', 'n-Butane', 'n-Heptane', 'n-Hexane', 'n-Octane', 'n-Pentane', 'o-Xylene', 'trans-2-Butene', 'trans-2-Pentene']                                                                                                                Min records: 81
+Max records: 746
+Median records: 726
+ok
+test_defra_data (__main__.TestDataInventory.test_defra_data)
+Test the defra_data method. ... 
+================================================================================
+Testing DEFRA data
+================================================================================
+Total records: 3563
+All expected columns present: {'pollutant', 'records', 'station', 'file', 'source', 'period'}
+ok
+test_duplicates (__main__.TestDataInventory.test_duplicates)
+Test for duplicate records in each dataset. ... 
+================================================================================
+Testing for duplicate records in datasets.
+================================================================================
+LAQN No duplicates found (checked 8709 records.)
+DEFRA No duplicates found (checked 3563 records.)
+METEO No duplicates found (checked 35 records)
+
+All datasets passed duplicate validation.
+ok
+test_laqn_col (__main__.TestDataInventory.test_laqn_col)
+Test LAQN data column types and values. ... 
+================================================================================
+Test LAQN data column:
+================================================================================
+Sample periods: ['2023_mar', '2025_feb', '2024_feb']
+Unique pollutants: ['CO', 'NO2', 'O3', 'PM10', 'PM25', 'SO2']
+Min records: 432
+Max records: 720
+Median records: 720
+ok
+test_laqn_data (__main__.TestDataInventory.test_laqn_data)
+Test the laqn_data method. ... 
+================================================================================
+Running test_laqn_data:
+================================================================================
+Total records: 8709
+ All expected col: {'pollutant', 'records', 'file', 'source', 'site', 'period'} are present.
+ok
+test_meteo_col (__main__.TestDataInventory.test_meteo_col)
+Test meteorological data column types and values. ... 
+================================================================================
+Testing METEO data column tests.
+================================================================================
+Sample periods: ['2023-09', '2023-08', '2023-11']
+Date range: 2023-01 to 2025-11
+Min records: 672
+Max records: 744
+Median records: 744
+All meteorological files are complete.
+ok
+test_meteo_data (__main__.TestDataInventory.test_meteo_data)
+Test the meteo_data method. ... 
+================================================================================
+Testing weather forecast data-METEO
+================================================================================
+All expected columns present: {'records', 'file', 'source', 'complete', 'period'}
+All 35 file paths validated
+ok
+test_save_inventory (__main__.TestDataInventory.test_save_inventory)
+Test the save_inventory method. ... 
+================================================================================
+Testing save_inventory function.
+================================================================================
+Output directory created: /Users/burdzhuchaglayan/Desktop/data science projects/air-pollution-levels/data/processed/test_ou
+tput.                                                                                                                      LAQN inventory CSV created.
+LAQN CSV has 8709 records with correct columns.
+DEFRA inventory CSV created.
+DEFRA CSV has 3563 records with correct columns.
+METEO inventory CSV created.
+METEO CSV has 35 records with correct columns.
+Summary JSON created.
+JSON has correct structure with keys: {'laqn', 'defra', 'meteo'}.
+JSON data types are correct. All integers for counts.
+
+All inventory files saved and validated successfully.
+Test output cleaned up.
+ok
+test_summary (__main__.TestDataInventory.test_summary)
+Test the summary method. ... 
+================================================================================
+Testing summary function.
+================================================================================
+Summary is a dictionary.
+Summary has all expected keys: {'laqn', 'defra', 'meteo'}.
+LAQN summary has correct structure.
+Total LAQN files: 8709.
+Total sites: 84.
+Total records: 6,085,344.
+DEFRA summary has correct structure.
+Total DEFRA files: 3563.
+Total stations: 18.
+Total records: 2,454,011.
+METEO summary has correct structure.
+Total METEO files: 35.
+Complete months: 35/35.
+Total records: 25,560.
+Summary stored in inventory correctly.
+
+Summary generation passed all validations.
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 42.681s
+
+OK
+
+    """
+
