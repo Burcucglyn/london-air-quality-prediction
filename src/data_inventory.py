@@ -31,28 +31,28 @@ class DataInventory:
 
             year_month = year_month_dir.name # like year-month 2023_feb
 
-        for csv_file in year_month_dir.glob('*.csv'):
-            #parse year and month, site_species_startDate_endData.csv
-            parts = csv_file.stem.split('_')
-            if len(parts) >= 4:
-                site_code = parts[0]
-                species_code = parts[1]
+            for csv_file in year_month_dir.glob('*.csv'):
+                #parse year and month, site_species_startDate_endData.csv
+                parts = csv_file.stem.split('_')
+                if len(parts) >= 4:
+                    site_code = parts[0]
+                    species_code = parts[1]
 
-                #read the file to get record count and date range
-                try:
-                    df = pd.read_csv(csv_file)
-                    record_count = len(df)
+                    #read the file to get record count and date range
+                    try:
+                        df = pd.read_csv(csv_file)
+                        record_count = len(df)
 
-                    results.append({
-                        'source':'LAQN',
-                        'period':year_month,
-                        'site':site_code,
-                        'pollutant':species_code,
-                        'records':record_count,
-                        'file':str(csv_file.relative_to(self.base_path))
-                    })
-                except Exception as e:
-                    print(f"Error reading {csv_file}: {e}")
+                        results.append({
+                            'source':'LAQN',
+                            'period':year_month,
+                            'site':site_code,
+                            'pollutant':species_code,
+                            'records':record_count,
+                            'file':str(csv_file.relative_to(self.base_path))
+                        })
+                    except Exception as e:
+                        print(f"Error reading {csv_file}: {e}")
             
         self.inventory['laqn'] = pd.DataFrame(results)
         return self.inventory['laqn']
