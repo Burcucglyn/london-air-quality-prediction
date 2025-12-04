@@ -34,6 +34,7 @@ class DefraGet:
         self.capabilities_url = self.config.defra_capabilities_url 
         self.timeout = 30
         self.rest_base_url = self.config.defra_url
+        self.station_url = self.config.defra_station_url
 
     def post_capabilities(self, save_json: bool = True, save_csv: bool = True) -> Dict[str, Any]:
         """ DEFRA uses SOS standard, which is different from LAQN. Order to fetch the data first I need to call capabilities first.
@@ -428,9 +429,6 @@ class DefraGet:
                     out_file = year_dir / f"{safe_poll}__{label}.csv"
                     out.to_csv(out_file, index=False)
                     print(f"Saved: {out_file} ({len(out)} rows)")
-
-    
-
 
 """2. STEP: Fetch and parse EU Air Quality pollutant vocabulary.
 Downloads pollutant definitions from EU EEA (European Environment Agency)
