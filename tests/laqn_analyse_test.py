@@ -17,7 +17,7 @@ sys.path.insert(0, str(proj_root))
 
 
 
-from src.laqn_analyse import SiteSpeciesAnalysis
+from src.dataset_discovery.laqn_analyse import SiteSpeciesAnalysis
 
 def test_site_species_analysis():
     # Define the path to the dataset
