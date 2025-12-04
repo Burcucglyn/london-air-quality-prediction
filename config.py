@@ -9,6 +9,7 @@ class Config:
     eu_pollutant_vocab_url = "http://dd.eionet.europa.eu/vocabulary/aq/pollutant/csv"
     # London bounding box (WGS84 coordinates)
     london_bbox = [-0.5, 51.3, 0.3, 51.7]  # [minLon, minLat, maxLon, maxLat]
+    defra_station_url ="https://uk-air.defra.gov.uk/sos-ukair/api/v1/stations"
 
 
 class MeteoConfig:
