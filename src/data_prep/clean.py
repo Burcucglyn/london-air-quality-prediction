@@ -39,6 +39,51 @@ class LAQNCleaner:
         logger.info(f"Raw data: {self.raw_dir}")
         logger.info(f"Output: {self.clean_dir}")
 
+    def data_quality(self, df: pd.DataFrame, filename:str) -> Dict:
+        """
+        Checking data quality metrics before start cleaning.
+        
+        Returns dict with:
+        - total_rows
+        - missing_values
+        - duplicate_count
+        - negative_values
+        - timestamp_format
+        """
+        assessment = {
+            'filename': filename,
+            'total_rows': len(df),
+            'missing_values': {},
+            'duplicate_count': 0,
+            'negative_values': 0,
+            'timestamp_issues': False
+        }
+        
+        # missing values
+        for col in df.columns:
+            missing = df[col].isnull().sum()
+            if missing > 0:
+                assessment['missing_values'][col] = {
+                    'count': int(missing),
+                    'percentage': round(missing / len(df) * 100, 2)
+                }
+        
+        #  duplicates
+        if '@MeasurementDateGMT' in df.columns:
+            assessment['duplicate_count'] = df.duplicated(
+                subset=['@MeasurementDateGMT']
+            ).sum()
+        
+        #  negative values
+        if '@Value' in df.columns:
+            assessment['negative_values'] = (df['@Value'] < 0).sum()
+        
+        #  timestamp format
+        if '@MeasurementDateGMT' in df.columns:
+            assessment['timestamp_issues'] = df['@MeasurementDateGMT'].dtype == 'object'
+        
+        return assessment
+
     def load_data(self, filename: str) -> pd.DataFrame:
         """ Load LAQN data from a CSV file. """
         file_path = self.data_dir / filename
@@ -55,6 +100,11 @@ class LAQNCleaner:
         """ Save the cleaned data to a CSV file. """
         output_path = self.data_dir / output_filename
         df.to_csv(output_path, index=False, encoding="utf-8")
+
+
+
+
+        
 
 class DEFARACleaner:
     """ Class for cleaning DEFRA datasets. """
