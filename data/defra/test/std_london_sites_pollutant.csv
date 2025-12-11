@@ -1,0 +1,145 @@
+station_id,station_name,pollutant_available,pollutant_air,latitude,longitude,timeseries_id,pollutant,pollutant_std
+785876,Borehamwood Meadow Park,Nitrogen dioxide,air,51.661229,-0.2705499999910774,4565.0,6875 - Borehamwood Meadow Park-Nitrogen dioxide (air),NO2
+785875,Borehamwood Meadow Park,Nitrogen monoxide,air,51.661229,-0.2705499999910774,4564.0,6874 - Borehamwood Meadow Park-Nitrogen monoxide (air),NO
+785877,Borehamwood Meadow Park,Nitrogen oxides,air,51.661229,-0.2705499999910774,4566.0,6876 - Borehamwood Meadow Park-Nitrogen oxides (air),NOx
+787202,Borehamwood Meadow Park,Particulate matter less than 10 micro m,aerosol,51.661229,-0.2705499999910774,4890.0,8893 - Borehamwood Meadow Park-Particulate matter less than 10 micro m (aerosol),PM10
+787203,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,aerosol,51.661229,-0.2705499999910774,4892.0,8894 - Borehamwood Meadow Park-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+804,Camden Kerbside,Nitrogen dioxide,air,51.544233,-0.175227999994221,3.0,804 - Camden Kerbside-Nitrogen dioxide (air),NO2
+1223,Camden Kerbside,Nitrogen monoxide,air,51.544233,-0.175227999994221,4019.0,1223 - Camden Kerbside-Nitrogen monoxide (air),NO
+803,Camden Kerbside,Nitrogen oxides,air,51.544233,-0.175227999994221,4.0,803 - Camden Kerbside-Nitrogen oxides (air),NOx
+805,Camden Kerbside,Particulate matter less than 10 micro m,aerosol,51.54420999999999,-0.1752689999942197,2.0,805 - Camden Kerbside-Particulate matter less than 10 micro m (aerosol),PM10
+806,Camden Kerbside,Particulate matter less than 2.5 micro m,aerosol,51.54420999999999,-0.1752689999942197,5.0,806 - Camden Kerbside-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+780423,Ealing Horn Lane,Particulate matter less than 10 micro m,aerosol,51.51895,-0.26561699999124,174.0,3954 - Ealing Horn Lane-Particulate matter less than 10 micro m (aerosol),PM10
+910,Haringey Roadside,Nitrogen dioxide,air,51.59929999999999,-0.0682179999977501,235.0,910 - Haringey Roadside-Nitrogen dioxide (air),NO2
+1206,Haringey Roadside,Nitrogen monoxide,air,51.59929999999999,-0.0682179999977501,4053.0,1206 - Haringey Roadside-Nitrogen monoxide (air),NO
+909,Haringey Roadside,Nitrogen oxides,air,51.59929999999999,-0.0682179999977501,236.0,909 - Haringey Roadside-Nitrogen oxides (air),NOx
+765,London Bexley,Nitrogen dioxide,air,51.46603,0.1848059999939051,66.0,765 - London Bexley-Nitrogen dioxide (air),NO2
+1229,London Bexley,Nitrogen monoxide,air,51.46603,0.1848059999939051,4007.0,1229 - London Bexley-Nitrogen monoxide (air),NO
+764,London Bexley,Nitrogen oxides,air,51.46603,0.1848059999939051,67.0,764 - London Bexley-Nitrogen oxides (air),NOx
+786378,London Bexley,Particulate matter less than 10 micro m,aerosol,51.46603,0.1848059999939051,4848.0,7802 - London Bexley-Particulate matter less than 10 micro m (aerosol),PM10
+768,London Bexley,Particulate matter less than 2.5 micro m,aerosol,51.46603,0.1848059999939051,68.0,768 - London Bexley-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+841,London Bloomsbury,Nitrogen dioxide,air,51.52229,-0.1258889999958481,148.0,841 - London Bloomsbury-Nitrogen dioxide (air),NO2
+3845,London Bloomsbury,Nitrogen monoxide,air,51.52229,-0.1258889999958481,4030.0,3845 - London Bloomsbury-Nitrogen monoxide (air),NO
+839,London Bloomsbury,Nitrogen oxides,air,51.52229,-0.1258889999958481,149.0,839 - London Bloomsbury-Nitrogen oxides (air),NOx
+840,London Bloomsbury,Ozone,air,51.52229,-0.1258889999958481,150.0,840 - London Bloomsbury-Ozone (air),O3
+844,London Bloomsbury,Particulate matter less than 10 micro m,aerosol,51.52229,-0.1258889999958481,2013.0,7595 - London Bloomsbury-Particulate matter less than 10 micro m (aerosol),PM10
+844,London Bloomsbury,Particulate matter less than 10 micro m,aerosol,51.52229,-0.1258889999958481,147.0,844 - London Bloomsbury-Particulate matter less than 10 micro m (aerosol),PM10
+845,London Bloomsbury,Particulate matter less than 2.5 micro m,aerosol,51.52229,-0.1258889999958481,2017.0,7596 - London Bloomsbury-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+845,London Bloomsbury,Particulate matter less than 2.5 micro m,aerosol,51.52229,-0.1258889999958481,151.0,845 - London Bloomsbury-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+843,London Bloomsbury,Sulphur dioxide,air,51.52229,-0.1258889999958481,152.0,843 - London Bloomsbury-Sulphur dioxide (air),SO2
+2904,London Eltham,"1,2,3-Trimethylbenzene",air,51.45257999999999,0.0707659999976661,599.0,"2904 - London Eltham-1,2,3-Trimethylbenzene (air)","1,2,3-TMB"
+2899,London Eltham,"1,2,4-Trimethylbenzene",air,51.45257999999999,0.0707659999976661,600.0,"2899 - London Eltham-1,2,4-Trimethylbenzene (air)","1,2,4-TMB"
+2900,London Eltham,"1,3,5-Trimethylbenzene",air,51.45257999999999,0.0707659999976661,601.0,"2900 - London Eltham-1,3,5-Trimethylbenzene (air)","1,3,5-TMB"
+2889,London Eltham,1.3 Butadiene,air,51.45257999999999,0.0707659999976661,324.0,2889 - London Eltham-1.3 Butadiene (air),"1,3-Butadiene"
+2885,London Eltham,1-Butene,air,51.45257999999999,0.0707659999976661,602.0,2885 - London Eltham-1-Butene (air),1-Butene
+2901,London Eltham,1-Pentene,air,51.45257999999999,0.0707659999976661,603.0,2901 - London Eltham-1-Pentene (air),1-Pentene
+2905,London Eltham,Benzene,air,51.45257999999999,0.0707659999976661,325.0,2905 - London Eltham-Benzene (air),Benzene
+2886,London Eltham,cis-2-Butene,air,51.45257999999999,0.0707659999976661,613.0,2886 - London Eltham-cis-2-Butene (air),cis-2-Butene
+2877,London Eltham,Ethane,air,51.45257999999999,0.0707659999976661,605.0,2877 - London Eltham-Ethane (air),Ethane
+2878,London Eltham,Ethene,Ethylene) (air,51.45257999999999,0.0707659999976661,607.0,2878 - London Eltham-Ethene (Ethylene) (air),Ethene
+2896,London Eltham,Ethyl benzene,air,51.45257999999999,0.0707659999976661,606.0,2896 - London Eltham-Ethyl benzene (air),Ethylbenzene
+2879,London Eltham,Ethyne,Acetylene) (air,51.45257999999999,0.0707659999976661,608.0,2879 - London Eltham-Ethyne (Acetylene) (air),Ethyne
+2882,London Eltham,i-Butane,2-methylpropane) (air,51.45257999999999,0.0707659999976661,614.0,2882 - London Eltham-i-Butane (2-methylpropane) (air),i-Butane
+2891,London Eltham,i-Hexane,2-methylpentane) (air,51.45257999999999,0.0707659999976661,604.0,2891 - London Eltham-i-Hexane (2-methylpentane) (air),i-Hexane
+2902,London Eltham,i-Octane,"2,2,4-trimethylpentane) (air",51.45257999999999,0.0707659999976661,615.0,"2902 - London Eltham-i-Octane (2,2,4-trimethylpentane) (air)",i-Octane
+2887,London Eltham,i-Pentane,2-methylbutane) (air,51.45257999999999,0.0707659999976661,616.0,2887 - London Eltham-i-Pentane (2-methylbutane) (air),i-Pentane
+2892,London Eltham,Isoprene,"2-methyl-1,3-butadiene) (air",51.45257999999999,0.0707659999976661,609.0,"2892 - London Eltham-Isoprene (2-methyl-1,3-butadiene) (air)",Isoprene
+2897,London Eltham,"m,p-Xylene",air,51.45257999999999,0.0707659999976661,617.0,"2897 - London Eltham-m,p-Xylene (air)","m,p-Xylene"
+2883,London Eltham,n-Butane,air,51.45257999999999,0.0707659999976661,618.0,2883 - London Eltham-n-Butane (air),n-Butane
+2894,London Eltham,n-Heptane,air,51.45257999999999,0.0707659999976661,619.0,2894 - London Eltham-n-Heptane (air),n-Heptane
+2893,London Eltham,n-Hexane,air,51.45257999999999,0.0707659999976661,620.0,2893 - London Eltham-n-Hexane (air),n-Hexane
+999,London Eltham,Nitrogen dioxide,air,51.45257999999999,0.0707659999976661,320.0,999 - London Eltham-Nitrogen dioxide (air),NO2
+1191,London Eltham,Nitrogen monoxide,air,51.45257999999999,0.0707659999976661,4076.0,1191 - London Eltham-Nitrogen monoxide (air),NO
+997,London Eltham,Nitrogen oxides,air,51.45257999999999,0.0707659999976661,321.0,997 - London Eltham-Nitrogen oxides (air),NOx
+2903,London Eltham,n-Octane,air,51.45257999999999,0.0707659999976661,621.0,2903 - London Eltham-n-Octane (air),n-Octane
+2888,London Eltham,n-Pentane,air,51.45257999999999,0.0707659999976661,622.0,2888 - London Eltham-n-Pentane (air),n-Pentane
+2898,London Eltham,o-Xylene,air,51.45257999999999,0.0707659999976661,623.0,2898 - London Eltham-o-Xylene (air),o-Xylene
+998,London Eltham,Ozone,air,51.45257999999999,0.0707659999976661,322.0,998 - London Eltham-Ozone (air),O3
+786707,London Eltham,Particulate matter less than 10 micro m,aerosol,51.45257999999999,0.0707659999976661,4866.0,8899 - London Eltham-Particulate matter less than 10 micro m (aerosol),PM10
+1000,London Eltham,Particulate matter less than 2.5 micro m,aerosol,51.45257999999999,0.0707659999976661,323.0,1000 - London Eltham-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+2880,London Eltham,Propane,air,51.45257999999999,0.0707659999976661,610.0,2880 - London Eltham-Propane (air),Propane
+2881,London Eltham,Propene,air,51.45257999999999,0.0707659999976661,611.0,2881 - London Eltham-Propene (air),Propene
+2895,London Eltham,Toluene,air,51.45257999999999,0.0707659999976661,612.0,2895 - London Eltham-Toluene (air),Toluene
+2884,London Eltham,trans-2-Butene,air,51.45257999999999,0.0707659999976661,624.0,2884 - London Eltham-trans-2-Butene (air),trans-2-Butene
+2890,London Eltham,trans-2-Pentene,air,51.45257999999999,0.0707659999976661,625.0,2890 - London Eltham-trans-2-Pentene (air),trans-2-Pentene
+916,London Haringey Priory Park South,Nitrogen dioxide,air,51.58412799999999,-0.1252539999958691,238.0,916 - London Haringey Priory Park South-Nitrogen dioxide (air),NO2
+1204,London Haringey Priory Park South,Nitrogen monoxide,air,51.58412799999999,-0.1252539999958691,4054.0,1204 - London Haringey Priory Park South-Nitrogen monoxide (air),NO
+917,London Haringey Priory Park South,Nitrogen oxides,air,51.58412799999999,-0.1252539999958691,239.0,917 - London Haringey Priory Park South-Nitrogen oxides (air),NOx
+918,London Haringey Priory Park South,Ozone,air,51.58412799999999,-0.1252539999958691,240.0,918 - London Haringey Priory Park South-Ozone (air),O3
+939,London Harlington,Nitrogen dioxide,air,51.48879,-0.4416139999854361,259.0,939 - London Harlington-Nitrogen dioxide (air),NO2
+3853,London Harlington,Nitrogen monoxide,air,51.48879,-0.4416139999854361,4061.0,3853 - London Harlington-Nitrogen monoxide (air),NO
+938,London Harlington,Nitrogen oxides,air,51.48879,-0.4416139999854361,260.0,938 - London Harlington-Nitrogen oxides (air),NOx
+940,London Harlington,Ozone,air,51.48879,-0.4416139999854361,261.0,940 - London Harlington-Ozone (air),O3
+786039,London Harlington,Particulate matter less than 10 micro m,aerosol,51.48879,-0.4416139999854361,2118.0,7038 - London Harlington-Particulate matter less than 10 micro m (aerosol),PM10
+786040,London Harlington,Particulate matter less than 2.5 micro m,aerosol,51.48879,-0.4416139999854361,2122.0,7039 - London Harlington-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+921,London Hillingdon,Nitrogen dioxide,air,51.49632999999999,-0.4608609999848014,241.0,921 - London Hillingdon-Nitrogen dioxide (air),NO2
+1203,London Hillingdon,Nitrogen monoxide,air,51.49632999999999,-0.4608609999848014,4055.0,1203 - London Hillingdon-Nitrogen monoxide (air),NO
+919,London Hillingdon,Nitrogen oxides,air,51.49632999999999,-0.4608609999848014,242.0,919 - London Hillingdon-Nitrogen oxides (air),NOx
+920,London Hillingdon,Ozone,air,51.49632999999999,-0.4608609999848014,243.0,920 - London Hillingdon-Ozone (air),O3
+787075,London Hillingdon,Particulate matter less than 10 micro m,aerosol,51.49632999999999,-0.4608609999848014,4911.0,8766 - London Hillingdon-Particulate matter less than 10 micro m (aerosol),PM10
+787076,London Hillingdon,Particulate matter less than 2.5 micro m,aerosol,51.49632999999999,-0.4608609999848014,4914.0,8767 - London Hillingdon-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+788122,London Honor Oak Park,Ozone,air,51.449674,-0.0374179999987659,5205.0,10644 - London Honor Oak Park-Ozone (air),O3
+786281,London Honor Oak Park,Particulate matter less than 10 micro m,aerosol,51.449674,-0.0374179999987659,4743.0,7495 - London Honor Oak Park-Particulate matter less than 10 micro m (aerosol),PM10
+786282,London Honor Oak Park,Particulate matter less than 2.5 micro m,aerosol,51.449674,-0.0374179999987659,4744.0,7496 - London Honor Oak Park-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+2933,London Marylebone Road,"1,2,3-Trimethylbenzene",air,51.52253,-0.1546109999949009,2689.0,"2933 - London Marylebone Road-1,2,3-Trimethylbenzene (air)","1,2,3-TMB"
+2906,London Marylebone Road,"1,2,4-Trimethylbenzene",air,51.52253,-0.1546109999949009,2691.0,"2906 - London Marylebone Road-1,2,4-Trimethylbenzene (air)","1,2,4-TMB"
+2907,London Marylebone Road,"1,3,5-Trimethylbenzene",air,51.52253,-0.1546109999949009,2695.0,"2907 - London Marylebone Road-1,3,5-Trimethylbenzene (air)","1,3,5-TMB"
+2908,London Marylebone Road,1.3 Butadiene,air,51.52253,-0.1546109999949009,361.0,2908 - London Marylebone Road-1.3 Butadiene (air),"1,3-Butadiene"
+2909,London Marylebone Road,1-Butene,air,51.52253,-0.1546109999949009,2698.0,2909 - London Marylebone Road-1-Butene (air),1-Butene
+2930,London Marylebone Road,1-Pentene,air,51.52253,-0.1546109999949009,2699.0,2930 - London Marylebone Road-1-Pentene (air),1-Pentene
+2934,London Marylebone Road,Benzene,air,51.52253,-0.1546109999949009,362.0,2934 - London Marylebone Road-Benzene (air),Benzene
+1030,London Marylebone Road,Carbon monoxide,air,51.52253,-0.1546109999949009,354.0,1030 - London Marylebone Road-Carbon monoxide (air),CO
+2911,London Marylebone Road,cis-2-Butene,air,51.52253,-0.1546109999949009,2710.0,2911 - London Marylebone Road-cis-2-Butene (air),cis-2-Butene
+2912,London Marylebone Road,Ethane,air,51.52253,-0.1546109999949009,2701.0,2912 - London Marylebone Road-Ethane (air),Ethane
+2914,London Marylebone Road,Ethene,Ethylene) (air,51.52253,-0.1546109999949009,2703.0,2914 - London Marylebone Road-Ethene (Ethylene) (air),Ethene
+2913,London Marylebone Road,Ethyl benzene,air,51.52253,-0.1546109999949009,2702.0,2913 - London Marylebone Road-Ethyl benzene (air),Ethylbenzene
+2915,London Marylebone Road,Ethyne,Acetylene) (air,51.52253,-0.1546109999949009,2704.0,2915 - London Marylebone Road-Ethyne (Acetylene) (air),Ethyne
+2916,London Marylebone Road,i-Butane,2-methylpropane) (air,51.52253,-0.1546109999949009,2711.0,2916 - London Marylebone Road-i-Butane (2-methylpropane) (air),i-Butane
+2910,London Marylebone Road,i-Hexane,2-methylpentane) (air,51.52253,-0.1546109999949009,2700.0,2910 - London Marylebone Road-i-Hexane (2-methylpentane) (air),i-Hexane
+2931,London Marylebone Road,i-Octane,"2,2,4-trimethylpentane) (air",51.52253,-0.1546109999949009,2712.0,"2931 - London Marylebone Road-i-Octane (2,2,4-trimethylpentane) (air)",i-Octane
+2917,London Marylebone Road,i-Pentane,2-methylbutane) (air,51.52253,-0.1546109999949009,3356.0,2917 - London Marylebone Road-i-Pentane (2-methylbutane) (air),i-Pentane
+2918,London Marylebone Road,Isoprene,"2-methyl-1,3-butadiene) (air",51.52253,-0.1546109999949009,2705.0,"2918 - London Marylebone Road-Isoprene (2-methyl-1,3-butadiene) (air)",Isoprene
+2919,London Marylebone Road,"m,p-Xylene",air,51.52253,-0.1546109999949009,3357.0,"2919 - London Marylebone Road-m,p-Xylene (air)","m,p-Xylene"
+2920,London Marylebone Road,n-Butane,air,51.52253,-0.1546109999949009,3358.0,2920 - London Marylebone Road-n-Butane (air),n-Butane
+2921,London Marylebone Road,n-Heptane,air,51.52253,-0.1546109999949009,3359.0,2921 - London Marylebone Road-n-Heptane (air),n-Heptane
+2922,London Marylebone Road,n-Hexane,air,51.52253,-0.1546109999949009,3360.0,2922 - London Marylebone Road-n-Hexane (air),n-Hexane
+1029,London Marylebone Road,Nitrogen dioxide,air,51.52253,-0.1546109999949009,356.0,1029 - London Marylebone Road-Nitrogen dioxide (air),NO2
+1240,London Marylebone Road,Nitrogen monoxide,air,51.52253,-0.1546109999949009,4085.0,1240 - London Marylebone Road-Nitrogen monoxide (air),NO
+1036,London Marylebone Road,Nitrogen oxides,air,51.52253,-0.1546109999949009,357.0,1036 - London Marylebone Road-Nitrogen oxides (air),NOx
+2932,London Marylebone Road,n-Octane,air,51.52253,-0.1546109999949009,3361.0,2932 - London Marylebone Road-n-Octane (air),n-Octane
+2923,London Marylebone Road,n-Pentane,air,51.52253,-0.1546109999949009,3362.0,2923 - London Marylebone Road-n-Pentane (air),n-Pentane
+2924,London Marylebone Road,o-Xylene,air,51.52253,-0.1546109999949009,3363.0,2924 - London Marylebone Road-o-Xylene (air),o-Xylene
+1028,London Marylebone Road,Ozone,air,51.52253,-0.1546109999949009,358.0,1028 - London Marylebone Road-Ozone (air),O3
+1032,London Marylebone Road,Particulate matter less than 10 micro m,aerosol,51.52253,-0.1546109999949009,355.0,1032 - London Marylebone Road-Particulate matter less than 10 micro m (aerosol),PM10
+1033,London Marylebone Road,Particulate matter less than 2.5 micro m,aerosol,51.52253,-0.1546109999949009,359.0,1033 - London Marylebone Road-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+2925,London Marylebone Road,Propane,air,51.52253,-0.1546109999949009,2706.0,2925 - London Marylebone Road-Propane (air),Propane
+2926,London Marylebone Road,Propene,air,51.52253,-0.1546109999949009,2708.0,2926 - London Marylebone Road-Propene (air),Propene
+1031,London Marylebone Road,Sulphur dioxide,air,51.52253,-0.1546109999949009,360.0,1031 - London Marylebone Road-Sulphur dioxide (air),SO2
+2929,London Marylebone Road,Toluene,air,51.52253,-0.1546109999949009,2709.0,2929 - London Marylebone Road-Toluene (air),Toluene
+2927,London Marylebone Road,trans-2-Butene,air,51.52253,-0.1546109999949009,3364.0,2927 - London Marylebone Road-trans-2-Butene (air),trans-2-Butene
+2928,London Marylebone Road,trans-2-Pentene,air,51.52253,-0.1546109999949009,3365.0,2928 - London Marylebone Road-trans-2-Pentene (air),trans-2-Pentene
+958,London N. Kensington,Carbon monoxide,air,51.52105,-0.2134189999929615,273.0,958 - London N. Kensington-Carbon monoxide (air),CO
+957,London N. Kensington,Nitrogen dioxide,air,51.52105,-0.2134189999929615,275.0,957 - London N. Kensington-Nitrogen dioxide (air),NO2
+3847,London N. Kensington,Nitrogen monoxide,air,51.52105,-0.2134189999929615,4065.0,3847 - London N. Kensington-Nitrogen monoxide (air),NO
+954,London N. Kensington,Nitrogen oxides,air,51.52105,-0.2134189999929615,276.0,954 - London N. Kensington-Nitrogen oxides (air),NOx
+956,London N. Kensington,Ozone,air,51.52105,-0.2134189999929615,277.0,956 - London N. Kensington-Ozone (air),O3
+960,London N. Kensington,Particulate matter less than 10 micro m,aerosol,51.52105,-0.213491999992959,274.0,960 - London N. Kensington-Particulate matter less than 10 micro m (aerosol),PM10
+962,London N. Kensington,Particulate matter less than 2.5 micro m,aerosol,51.52105,-0.213491999992959,278.0,962 - London N. Kensington-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+959,London N. Kensington,Sulphur dioxide,air,51.52105,-0.2134189999929615,279.0,959 - London N. Kensington-Sulphur dioxide (air),SO2
+788720,London Norbury Manor School,Particulate matter less than 10 micro m,aerosol,51.410039999999995,-0.1274799999957957,5489.0,11059 - London Norbury Manor School-Particulate matter less than 10 micro m (aerosol),PM10
+788721,London Norbury Manor School,Particulate matter less than 2.5 micro m,aerosol,51.410039999999995,-0.1274799999957957,5490.0,11060 - London Norbury Manor School-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+786561,London Teddington Bushy Park,Particulate matter less than 10 micro m,aerosol,51.425286,-0.3456059999886021,4846.0,7989 - London Teddington Bushy Park-Particulate matter less than 10 micro m (aerosol),PM10
+3917,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,aerosol,51.425286,-0.3456059999886021,491.0,3917 - London Teddington Bushy Park-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+3917,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,aerosol,51.425286,-0.3456059999886021,2347.0,7988 - London Teddington Bushy Park-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+933,London Westminster,Nitrogen dioxide,air,51.49467,-0.1319309999956489,255.0,933 - London Westminster-Nitrogen dioxide (air),NO2
+1200,London Westminster,Nitrogen monoxide,air,51.49467,-0.1319309999956489,4060.0,1200 - London Westminster-Nitrogen monoxide (air),NO
+931,London Westminster,Nitrogen oxides,air,51.49467,-0.1319309999956489,256.0,931 - London Westminster-Nitrogen oxides (air),NOx
+932,London Westminster,Ozone,air,51.49467,-0.1319309999956489,1296.0,9921 - London Westminster-Ozone (air),O3
+786074,London Westminster,Particulate matter less than 2.5 micro m,aerosol,51.49467,-0.1319309999956489,4692.0,7093 - London Westminster-Particulate matter less than 2.5 micro m (aerosol),PM2.5
+1130,Southwark A2 Old Kent Road,Nitrogen dioxide,air,51.48049900000001,-0.059549999998036,460.0,1130 - Southwark A2 Old Kent Road-Nitrogen dioxide (air),NO2
+1259,Southwark A2 Old Kent Road,Nitrogen monoxide,air,51.48049900000001,-0.059549999998036,4111.0,1259 - Southwark A2 Old Kent Road-Nitrogen monoxide (air),NO
+1129,Southwark A2 Old Kent Road,Nitrogen oxides,air,51.48049900000001,-0.059549999998036,461.0,1129 - Southwark A2 Old Kent Road-Nitrogen oxides (air),NOx
+1131,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,aerosol,51.48049900000001,-0.059549999998036,459.0,1131 - Southwark A2 Old Kent Road-Particulate matter less than 10 micro m (aerosol),PM10
+1158,Tower Hamlets Roadside,Nitrogen dioxide,air,51.52253,-0.0421549999986097,492.0,1158 - Tower Hamlets Roadside-Nitrogen dioxide (air),NO2
+1264,Tower Hamlets Roadside,Nitrogen monoxide,air,51.52253,-0.0421549999986097,4122.0,1264 - Tower Hamlets Roadside-Nitrogen monoxide (air),NO
+1157,Tower Hamlets Roadside,Nitrogen oxides,air,51.52253,-0.0421549999986097,493.0,1157 - Tower Hamlets Roadside-Nitrogen oxides (air),NOx
