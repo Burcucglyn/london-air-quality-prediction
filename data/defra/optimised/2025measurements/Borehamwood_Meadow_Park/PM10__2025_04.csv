@@ -333,7 +333,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-14 19:00:00,7.5,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
 2025-04-14 20:00:00,9.2,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
 2025-04-14 21:00:00,9.0,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
-2025-04-14 22:00:00,-99.0,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
+2025-04-14 22:00:00,,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
 2025-04-14 23:00:00,18.1,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
 2025-04-15 00:00:00,20.7,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774
 2025-04-15 01:00:00,20.5,4890,Borehamwood Meadow Park,Particulate matter less than 10 micro m,PM10,51.661229,-0.2705499999910774

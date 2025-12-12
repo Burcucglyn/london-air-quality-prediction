@@ -81,8 +81,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-05-04 07:00:00,26.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-04 08:00:00,22.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-04 09:00:00,18.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
-2023-05-04 10:00:00,-99.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
-2023-05-04 11:00:00,-99.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
+2023-05-04 10:00:00,,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
+2023-05-04 11:00:00,,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-04 12:00:00,17.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-04 13:00:00,31.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-04 14:00:00,34.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
@@ -709,8 +709,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-05-30 11:00:00,7.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-30 12:00:00,8.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-30 13:00:00,6.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
-2023-05-30 14:00:00,-99.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
-2023-05-30 15:00:00,-99.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
+2023-05-30 14:00:00,,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
+2023-05-30 15:00:00,,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-30 16:00:00,7.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-30 17:00:00,8.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489
 2023-05-30 18:00:00,9.0,4692,London Westminster,Particulate matter less than 2.5 micro m,PM2.5,51.49467,-0.1319309999956489

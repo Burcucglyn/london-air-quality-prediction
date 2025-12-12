@@ -391,14 +391,14 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-03-17 05:00:00,13.196,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 06:00:00,13.196,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 07:00:00,12.24,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
-2024-03-17 08:00:00,-99.0,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
+2024-03-17 08:00:00,,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 09:00:00,19.125,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 10:00:00,19.316,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 11:00:00,14.344,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 12:00:00,13.579,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 13:00:00,10.519,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 14:00:00,10.519,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
-2024-03-17 15:00:00,-99.0,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
+2024-03-17 15:00:00,,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 16:00:00,11.092,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 17:00:00,9.754,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691
 2024-03-17 18:00:00,10.71,239,London Haringey Priory Park South,Nitrogen oxides,NOx,51.58412799999999,-0.1252539999958691

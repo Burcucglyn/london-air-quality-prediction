@@ -135,7 +135,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-06 15:00:00,1.966,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-06 16:00:00,2.357,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-06 17:00:00,1.868,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
-2025-04-06 18:00:00,-99.0,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
+2025-04-06 18:00:00,,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-07 00:00:00,0.912,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-07 01:00:00,0.434,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-07 02:00:00,0.337,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
@@ -554,7 +554,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-24 07:00:00,2.713,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-24 08:00:00,2.775,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-24 09:00:00,2.12,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
-2025-04-24 10:00:00,-99.0,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
+2025-04-24 10:00:00,,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-24 11:00:00,2.557,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-24 12:00:00,2.308,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-04-24 13:00:00,2.183,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361

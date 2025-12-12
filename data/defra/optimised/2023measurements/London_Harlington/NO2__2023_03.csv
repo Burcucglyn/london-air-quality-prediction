@@ -202,8 +202,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-09 08:00:00,44.581,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-03-09 09:00:00,48.88,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-03-09 10:00:00,40.886,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-03-09 11:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-03-09 12:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-03-09 11:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-03-09 12:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-03-09 13:00:00,37.336,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-03-09 14:00:00,52.437,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-03-09 15:00:00,48.351,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361

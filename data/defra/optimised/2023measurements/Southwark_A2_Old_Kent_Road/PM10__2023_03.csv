@@ -392,7 +392,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-17 06:00:00,20.29,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-17 07:00:00,10.628,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-17 08:00:00,15.459,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
-2023-03-17 09:00:00,-99.0,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
+2023-03-17 09:00:00,,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-17 10:00:00,8.696,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-17 11:00:00,17.392,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-17 12:00:00,15.459,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
@@ -658,8 +658,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-30 07:00:00,27.054,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-30 08:00:00,27.054,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-30 09:00:00,30.918,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
-2023-03-30 10:00:00,-99.0,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
-2023-03-30 11:00:00,-99.0,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
+2023-03-30 10:00:00,,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
+2023-03-30 11:00:00,,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-30 12:00:00,24.155,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-30 13:00:00,22.223,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036
 2023-03-30 14:00:00,22.223,459,Southwark A2 Old Kent Road,Particulate matter less than 10 micro m,PM10,51.48049900000001,-0.059549999998036

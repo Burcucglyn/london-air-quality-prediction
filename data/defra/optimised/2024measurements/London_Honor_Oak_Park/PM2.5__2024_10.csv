@@ -245,7 +245,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-11 02:00:00,7.925,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-11 03:00:00,7.453,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-11 04:00:00,7.453,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-11 05:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-11 05:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-11 06:00:00,8.585,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-11 07:00:00,8.679,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-11 08:00:00,10.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
@@ -686,7 +686,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-29 12:00:00,3.302,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-29 13:00:00,3.491,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-29 14:00:00,2.736,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-29 15:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-29 15:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-29 16:00:00,3.585,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-29 17:00:00,3.491,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-29 18:00:00,4.528,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
@@ -698,7 +698,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-30 00:00:00,8.679,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 01:00:00,6.698,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 02:00:00,6.226,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-30 03:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-30 03:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 04:00:00,6.226,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 05:00:00,7.453,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 06:00:00,8.491,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
@@ -706,7 +706,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-30 08:00:00,10.849,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 09:00:00,11.981,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 10:00:00,12.453,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-30 11:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-30 11:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 12:00:00,9.057,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 13:00:00,9.906,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 14:00:00,9.528,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
@@ -719,10 +719,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-30 21:00:00,9.151,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 22:00:00,10.849,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-30 23:00:00,12.17,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-31 00:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-31 00:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 01:00:00,11.415,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 02:00:00,12.076,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-31 03:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-31 03:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 04:00:00,13.113,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 05:00:00,13.396,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 06:00:00,13.868,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
@@ -730,11 +730,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-31 08:00:00,13.585,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 09:00:00,15.472,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 10:00:00,16.132,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-31 11:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-31 11:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 12:00:00,14.434,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 13:00:00,9.434,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 14:00:00,9.623,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2024-10-31 15:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2024-10-31 15:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 16:00:00,8.962,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 17:00:00,11.226,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2024-10-31 18:00:00,10.66,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659

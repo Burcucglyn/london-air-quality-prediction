@@ -333,7 +333,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-14 19:00:00,30.6,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-14 20:00:00,38.25,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-14 21:00:00,63.112,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
-2025-04-14 22:00:00,-99.0,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
+2025-04-14 22:00:00,,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-14 23:00:00,43.222,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-15 00:00:00,37.294,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-15 01:00:00,40.163,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
@@ -504,7 +504,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-21 22:00:00,20.655,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-21 23:00:00,20.655,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-22 00:00:00,20.081,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
-2025-04-22 01:00:00,-99.0,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
+2025-04-22 01:00:00,,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-22 02:00:00,15.491,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-22 03:00:00,15.491,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2025-04-22 04:00:00,23.332,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051

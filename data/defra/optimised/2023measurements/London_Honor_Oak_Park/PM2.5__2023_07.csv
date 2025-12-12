@@ -655,7 +655,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-07-28 05:00:00,0.755,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2023-07-28 06:00:00,0.755,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2023-07-28 07:00:00,0.755,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
-2023-07-28 08:00:00,-99.0,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
+2023-07-28 08:00:00,,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2023-07-28 09:00:00,1.132,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2023-07-28 10:00:00,1.132,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659
 2023-07-28 11:00:00,1.226,4744,London Honor Oak Park,Particulate matter less than 2.5 micro m,PM2.5,51.449674,-0.0374179999987659

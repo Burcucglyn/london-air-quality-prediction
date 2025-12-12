@@ -685,7 +685,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-29 12:00:00,7.3,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2024-10-29 13:00:00,7.5,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2024-10-29 14:00:00,5.6,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
-2024-10-29 15:00:00,-99.0,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
+2024-10-29 15:00:00,,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2024-10-29 16:00:00,8.9,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2024-10-29 17:00:00,9.5,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2024-10-29 18:00:00,12.6,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014

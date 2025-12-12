@@ -130,9 +130,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-06 08:00:00,19.324,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-06 09:00:00,19.324,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-06 10:00:00,18.358,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
-2023-03-06 11:00:00,-99.0,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
-2023-03-06 12:00:00,-99.0,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
-2023-03-06 13:00:00,-99.0,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
+2023-03-06 11:00:00,,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
+2023-03-06 12:00:00,,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
+2023-03-06 13:00:00,,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-06 14:00:00,15.459,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-06 15:00:00,18.358,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-06 16:00:00,12.561,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
@@ -326,8 +326,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-14 12:00:00,15.459,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-14 13:00:00,28.02,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-14 14:00:00,18.358,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
-2023-03-14 15:00:00,-99.0,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
-2023-03-14 16:00:00,-99.0,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
+2023-03-14 15:00:00,,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
+2023-03-14 16:00:00,,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-14 17:00:00,21.256,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-14 18:00:00,4.831,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-14 19:00:00,6.763,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
@@ -479,7 +479,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-20 21:00:00,19.324,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-20 22:00:00,12.561,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-20 23:00:00,14.493,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
-2023-03-21 00:00:00,-99.0,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
+2023-03-21 00:00:00,,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-21 01:00:00,12.561,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-21 02:00:00,19.324,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197
 2023-03-21 03:00:00,20.29,2,Camden Kerbside,Particulate matter less than 10 micro m,PM10,51.54420999999999,-0.1752689999942197

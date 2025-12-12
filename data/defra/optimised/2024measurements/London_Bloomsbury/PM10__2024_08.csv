@@ -1363,10 +1363,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-08-29 08:00:00,15.7,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2024-08-29 09:00:00,11.7,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2024-08-29 09:00:00,11.7,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
-2024-08-29 10:00:00,-99.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
-2024-08-29 10:00:00,-99.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
-2024-08-29 11:00:00,-99.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
-2024-08-29 11:00:00,-99.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
+2024-08-29 10:00:00,,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
+2024-08-29 10:00:00,,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
+2024-08-29 11:00:00,,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
+2024-08-29 11:00:00,,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2024-08-29 12:00:00,15.6,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2024-08-29 12:00:00,15.6,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2024-08-29 13:00:00,14.5,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481

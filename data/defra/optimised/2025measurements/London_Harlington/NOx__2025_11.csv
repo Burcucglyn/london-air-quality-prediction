@@ -131,7 +131,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-06 09:00:00,21.005,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-11-06 10:00:00,20.909,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-11-06 11:00:00,37.02,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2025-11-06 12:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2025-11-06 12:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-11-06 13:00:00,16.572,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-11-06 14:00:00,22.148,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-11-06 15:00:00,19.718,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361

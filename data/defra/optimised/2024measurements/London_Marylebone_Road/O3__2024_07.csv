@@ -57,7 +57,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-07-03 07:00:00,8.382,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-03 08:00:00,11.575,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-03 09:00:00,10.976,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
-2024-07-03 10:00:00,-99.0,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
+2024-07-03 10:00:00,,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-03 11:00:00,9.579,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-03 12:00:00,12.373,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-03 13:00:00,12.373,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
@@ -725,7 +725,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-07-31 06:00:00,43.506,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-31 07:00:00,40.513,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-31 08:00:00,34.126,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
-2024-07-31 09:00:00,-99.0,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
+2024-07-31 09:00:00,,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-31 10:00:00,69.051,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-31 11:00:00,80.028,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-07-31 12:00:00,78.83,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009

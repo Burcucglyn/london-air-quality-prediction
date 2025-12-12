@@ -199,8 +199,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-09 05:00:00,4.615,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-09 06:00:00,7.234,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-09 07:00:00,24.572,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
-2024-10-09 08:00:00,-99.0,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
-2024-10-09 09:00:00,-99.0,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
+2024-10-09 08:00:00,,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
+2024-10-09 09:00:00,,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-09 10:00:00,19.832,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-09 11:00:00,24.447,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-09 12:00:00,10.602,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
@@ -537,7 +537,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-23 08:00:00,22.95,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-23 09:00:00,24.073,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-23 10:00:00,22.077,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
-2024-10-23 11:00:00,-99.0,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
+2024-10-23 11:00:00,,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-23 12:00:00,10.852,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-23 13:00:00,16.09,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-23 14:00:00,13.845,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
@@ -622,7 +622,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-26 21:00:00,17.462,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-26 22:00:00,21.079,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-26 23:00:00,4.864,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
-2024-10-27 01:00:00,-99.0,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
+2024-10-27 01:00:00,,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-27 02:00:00,2.869,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-27 03:00:00,2.37,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2024-10-27 04:00:00,2.994,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221

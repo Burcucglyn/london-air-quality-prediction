@@ -271,10 +271,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-08-12 05:00:00,9.811,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-08-12 06:00:00,9.245,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-08-12 07:00:00,8.396,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2025-08-12 08:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2025-08-12 09:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2025-08-12 10:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2025-08-12 11:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2025-08-12 08:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2025-08-12 09:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2025-08-12 10:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2025-08-12 11:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-08-12 12:00:00,12.736,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-08-12 13:00:00,12.547,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-08-12 14:00:00,12.642,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014

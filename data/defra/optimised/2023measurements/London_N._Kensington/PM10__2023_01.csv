@@ -596,7 +596,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-25 20:00:00,27.1,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
 2023-01-25 21:00:00,27.3,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
 2023-01-25 22:00:00,28.0,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
-2023-01-25 23:00:00,-99.0,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
+2023-01-25 23:00:00,,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
 2023-01-26 00:00:00,7.9,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
 2023-01-26 01:00:00,7.6,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959
 2023-01-26 02:00:00,7.9,274,London N. Kensington,Particulate matter less than 10 micro m,PM10,51.52105,-0.213491999992959

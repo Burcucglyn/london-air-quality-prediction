@@ -464,7 +464,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-06-20 06:00:00,68.726,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2023-06-20 07:00:00,95.668,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2023-06-20 08:00:00,68.352,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
-2023-06-20 09:00:00,-99.0,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
+2023-06-20 09:00:00,,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2023-06-20 10:00:00,26.692,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2023-06-20 11:00:00,9.479,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221
 2023-06-20 12:00:00,8.482,4019,Camden Kerbside,Nitrogen monoxide,NO,51.544233,-0.175227999994221

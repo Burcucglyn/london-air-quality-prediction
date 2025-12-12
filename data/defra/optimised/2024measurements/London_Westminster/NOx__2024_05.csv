@@ -233,7 +233,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-05-10 15:00:00,26.01,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-10 16:00:00,24.289,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-10 17:00:00,19.699,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2024-05-10 18:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2024-05-10 18:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-10 19:00:00,24.098,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-10 20:00:00,24.671,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-10 21:00:00,38.824,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
@@ -263,7 +263,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-05-11 21:00:00,29.07,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-11 22:00:00,26.584,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-11 23:00:00,20.655,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2024-05-12 00:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2024-05-12 00:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-12 01:00:00,21.038,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-12 02:00:00,21.42,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-12 03:00:00,25.054,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
@@ -391,9 +391,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-05-17 05:00:00,19.699,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-17 06:00:00,27.157,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-17 07:00:00,67.129,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2024-05-17 08:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2024-05-17 09:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2024-05-17 10:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2024-05-17 08:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2024-05-17 09:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2024-05-17 10:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-17 11:00:00,31.556,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-17 12:00:00,20.464,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-17 13:00:00,23.715,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
@@ -575,7 +575,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-05-24 21:00:00,38.633,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-24 22:00:00,21.42,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-24 23:00:00,21.229,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2024-05-25 00:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2024-05-25 00:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-25 01:00:00,22.567,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-25 02:00:00,30.409,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2024-05-25 03:00:00,40.545,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489

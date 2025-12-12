@@ -371,9 +371,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-16 09:00:00,4.257,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-16 10:00:00,4.989,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-16 11:00:00,5.189,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2023-03-16 12:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2023-03-16 13:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2023-03-16 14:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2023-03-16 12:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2023-03-16 13:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2023-03-16 14:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-16 15:00:00,1.863,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-16 16:00:00,4.79,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-16 17:00:00,4.257,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
@@ -519,7 +519,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-22 13:00:00,4.347,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-22 14:00:00,4.412,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-22 15:00:00,4.303,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2023-03-22 16:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2023-03-22 16:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-22 17:00:00,5.137,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-22 18:00:00,5.4,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2023-03-22 19:00:00,4.808,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481

@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,0.458,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-01 23:00:00,0.368,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 00:00:00,0.271,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 02:00:00,0.4,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 03:00:00,0.268,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 04:00:00,0.268,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,0.254,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 15:00:00,0.343,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 16:00:00,0.4,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 18:00:00,0.759,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 19:00:00,0.542,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-02 20:00:00,0.443,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
@@ -51,7 +51,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 01:00:00,0.286,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 02:00:00,0.146,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 03:00:00,0.201,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-03 04:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-03 04:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 05:00:00,0.024,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 06:00:00,0.147,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 07:00:00,0.259,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,0.341,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 20:00:00,0.255,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-03 21:00:00,0.253,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-04 03:00:00,0.024,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-04 04:00:00,0.105,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-04 05:00:00,0.138,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,0.527,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-09 01:00:00,0.519,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-09 02:00:00,0.415,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-09 04:00:00,0.642,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-09 05:00:00,0.323,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009
 2025-11-09 06:00:00,0.216,2712,London Marylebone Road,i-Octane,i-Octane,51.52253,-0.1546109999949009

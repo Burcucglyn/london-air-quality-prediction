@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,2.282,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-01 23:00:00,2.399,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 00:00:00,1.947,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 02:00:00,1.926,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 03:00:00,1.329,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 04:00:00,1.096,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,1.778,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 15:00:00,1.351,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 16:00:00,2.007,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 18:00:00,2.737,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 19:00:00,2.821,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-02 20:00:00,2.503,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,2.003,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-03 20:00:00,1.691,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-03 21:00:00,1.794,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-04 03:00:00,0.961,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-04 04:00:00,1.308,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-04 05:00:00,1.142,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,5.204,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-09 01:00:00,4.573,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-09 02:00:00,3.368,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-09 04:00:00,2.907,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-09 05:00:00,3.532,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009
 2025-11-09 06:00:00,2.937,2703,London Marylebone Road,Ethene,Ethene,51.52253,-0.1546109999949009

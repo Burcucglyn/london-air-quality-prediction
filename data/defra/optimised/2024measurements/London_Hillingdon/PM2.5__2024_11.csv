@@ -302,7 +302,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-11-13 12:00:00,6.887,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-13 13:00:00,7.17,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-13 14:00:00,6.604,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-11-13 15:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-11-13 15:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-13 16:00:00,6.887,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-13 17:00:00,8.774,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-13 18:00:00,9.528,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
@@ -329,8 +329,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-11-14 15:00:00,6.509,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-14 16:00:00,7.453,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-14 17:00:00,7.642,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-11-14 18:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-11-14 19:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-11-14 18:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-11-14 19:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-14 20:00:00,8.679,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-14 21:00:00,8.208,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-11-14 22:00:00,7.17,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014

@@ -192,7 +192,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-08 22:00:00,0.748,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-08 23:00:00,0.624,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-09 00:00:00,0.249,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2024-06-09 01:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2024-06-09 01:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-09 02:00:00,0.374,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-09 03:00:00,0.249,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-09 04:00:00,0.998,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
@@ -479,7 +479,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-20 21:00:00,0.374,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-20 22:00:00,0.624,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-20 23:00:00,0.249,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2024-06-21 00:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2024-06-21 00:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-21 01:00:00,0.873,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-21 02:00:00,0.374,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-06-21 03:00:00,0.374,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489

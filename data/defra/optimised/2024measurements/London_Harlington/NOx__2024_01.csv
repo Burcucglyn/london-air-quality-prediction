@@ -37,7 +37,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-01-04 12:00:00,54.876,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-04 13:00:00,55.266,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-04 14:00:00,35.802,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2024-01-04 15:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2024-01-04 15:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-04 16:00:00,43.794,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-04 17:00:00,38.04,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-04 18:00:00,24.774,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
@@ -302,7 +302,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-01-15 13:00:00,18.601,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-15 14:00:00,17.823,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-15 15:00:00,19.359,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2024-01-15 16:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2024-01-15 16:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-15 17:00:00,63.286,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-15 18:00:00,71.403,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-01-15 19:00:00,92.188,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361

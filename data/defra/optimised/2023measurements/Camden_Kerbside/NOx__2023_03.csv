@@ -144,7 +144,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-06 22:00:00,59.288,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-06 23:00:00,51.064,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 00:00:00,31.365,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
-2023-03-07 01:00:00,-99.0,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
+2023-03-07 01:00:00,,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 02:00:00,17.786,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 03:00:00,10.901,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 04:00:00,18.934,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
@@ -156,7 +156,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-07 10:00:00,77.839,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 11:00:00,125.651,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 12:00:00,146.498,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
-2023-03-07 13:00:00,-99.0,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
+2023-03-07 13:00:00,,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 14:00:00,297.202,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 15:00:00,152.809,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221
 2023-03-07 16:00:00,102.319,4,Camden Kerbside,Nitrogen oxides,NOx,51.544233,-0.175227999994221

@@ -177,7 +177,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-08 07:00:00,11.7,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
 2025-09-08 08:00:00,12.7,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
 2025-09-08 09:00:00,9.5,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
-2025-09-08 10:00:00,-99.0,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
+2025-09-08 10:00:00,,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
 2025-09-08 11:00:00,7.6,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
 2025-09-08 12:00:00,6.8,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957
 2025-09-08 13:00:00,8.1,5489,London Norbury Manor School,Particulate matter less than 10 micro m,PM10,51.410039999999995,-0.1274799999957957

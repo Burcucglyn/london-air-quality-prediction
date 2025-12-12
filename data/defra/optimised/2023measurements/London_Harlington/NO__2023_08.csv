@@ -57,7 +57,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-08-03 07:00:00,9.136,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2023-08-03 08:00:00,9.876,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2023-08-03 09:00:00,8.195,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
-2023-08-03 10:00:00,-99.0,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
+2023-08-03 10:00:00,,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2023-08-03 11:00:00,7.993,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2023-08-03 12:00:00,8.329,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2023-08-03 13:00:00,7.455,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361

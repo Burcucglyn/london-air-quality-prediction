@@ -77,10 +77,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-12-04 03:00:00,16.51,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-12-04 04:00:00,13.868,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-12-04 05:00:00,15.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-12-04 06:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-12-04 07:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-12-04 08:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2024-12-04 09:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-12-04 06:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-12-04 07:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-12-04 08:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2024-12-04 09:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-12-04 10:00:00,8.302,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-12-04 11:00:00,8.679,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2024-12-04 12:00:00,8.113,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014

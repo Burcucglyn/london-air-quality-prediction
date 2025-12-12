@@ -107,7 +107,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-05 09:00:00,26.543,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-06-05 10:00:00,36.721,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-06-05 11:00:00,30.734,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
-2024-06-05 12:00:00,-99.0,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
+2024-06-05 12:00:00,,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-06-05 13:00:00,38.517,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-06-05 14:00:00,35.723,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2024-06-05 15:00:00,31.133,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009

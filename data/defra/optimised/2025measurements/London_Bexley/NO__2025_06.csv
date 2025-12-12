@@ -130,7 +130,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-06-06 08:00:00,1.621,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2025-06-06 09:00:00,1.497,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2025-06-06 10:00:00,1.497,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2025-06-06 11:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2025-06-06 11:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2025-06-06 12:00:00,0.748,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2025-06-06 13:00:00,0.748,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2025-06-06 14:00:00,0.748,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051

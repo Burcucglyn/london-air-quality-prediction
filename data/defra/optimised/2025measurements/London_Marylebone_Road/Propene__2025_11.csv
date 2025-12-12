@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,2.164,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-01 23:00:00,2.092,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 00:00:00,1.887,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 02:00:00,2.21,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 03:00:00,1.749,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 04:00:00,1.665,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,1.98,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 15:00:00,1.757,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 16:00:00,2.074,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 18:00:00,2.24,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 19:00:00,2.183,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-02 20:00:00,2.266,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,1.719,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-03 20:00:00,1.727,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-03 21:00:00,2.527,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-04 03:00:00,1.847,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-04 04:00:00,2.639,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-04 05:00:00,1.448,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,3.014,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-09 01:00:00,2.968,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-09 02:00:00,2.581,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-09 04:00:00,2.338,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-09 05:00:00,2.119,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009
 2025-11-09 06:00:00,2.377,2708,London Marylebone Road,Propene,Propene,51.52253,-0.1546109999949009

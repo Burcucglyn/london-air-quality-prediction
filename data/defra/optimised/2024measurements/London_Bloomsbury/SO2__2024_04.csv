@@ -399,7 +399,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-04-17 13:00:00,2.262,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-04-17 14:00:00,2.395,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-04-17 15:00:00,2.461,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2024-04-17 16:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2024-04-17 16:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-04-17 17:00:00,3.637,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-04-17 18:00:00,3.06,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-04-17 19:00:00,2.528,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481

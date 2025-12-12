@@ -406,7 +406,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-17 21:00:00,30.983,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-17 22:00:00,31.556,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-17 23:00:00,35.572,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
-2024-10-18 00:00:00,-99.0,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
+2024-10-18 00:00:00,,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-18 01:00:00,16.256,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-18 02:00:00,15.874,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-18 03:00:00,16.256,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
@@ -695,7 +695,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-29 23:00:00,77.456,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-30 00:00:00,43.031,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-30 01:00:00,27.54,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
-2024-10-30 02:00:00,-99.0,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
+2024-10-30 02:00:00,,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-30 04:00:00,11.092,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-30 05:00:00,16.448,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-30 06:00:00,22.759,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
@@ -723,10 +723,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-31 07:00:00,33.278,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 08:00:00,45.709,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 09:00:00,61.965,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
-2024-10-31 10:00:00,-99.0,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
+2024-10-31 10:00:00,,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 12:00:00,85.68,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 13:00:00,54.315,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
-2024-10-31 14:00:00,-99.0,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
+2024-10-31 14:00:00,,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 16:00:00,18.169,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 17:00:00,24.863,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051
 2024-10-31 18:00:00,34.807,67,London Bexley,Nitrogen oxides,NOx,51.46603,0.1848059999939051

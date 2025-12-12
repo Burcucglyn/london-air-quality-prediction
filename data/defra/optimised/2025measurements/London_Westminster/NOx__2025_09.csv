@@ -143,7 +143,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-06 21:00:00,25.436,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-06 22:00:00,26.201,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-06 23:00:00,24.289,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2025-09-07 00:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2025-09-07 00:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-07 01:00:00,13.77,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-07 02:00:00,11.092,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-07 03:00:00,8.989,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
@@ -191,7 +191,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-08 21:00:00,11.666,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-08 22:00:00,11.092,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-08 23:00:00,9.18,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2025-09-09 00:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2025-09-09 00:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-09 01:00:00,8.989,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-09 02:00:00,10.901,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-09 03:00:00,9.18,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
@@ -263,7 +263,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-11 21:00:00,7.076,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-11 22:00:00,5.929,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-11 23:00:00,4.399,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
-2025-09-12 00:00:00,-99.0,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
+2025-09-12 00:00:00,,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-12 01:00:00,1.913,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-12 02:00:00,1.913,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489
 2025-09-12 03:00:00,2.295,256,London Westminster,Nitrogen oxides,NOx,51.49467,-0.1319309999956489

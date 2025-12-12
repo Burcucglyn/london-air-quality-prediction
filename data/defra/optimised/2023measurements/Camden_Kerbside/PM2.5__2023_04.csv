@@ -126,7 +126,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-06 09:00:00,6.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
 2023-04-06 10:00:00,6.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
 2023-04-06 11:00:00,4.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
-2023-04-06 12:00:00,-99.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
+2023-04-06 12:00:00,,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
 2023-04-06 13:00:00,8.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
 2023-04-06 14:00:00,5.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197
 2023-04-06 15:00:00,5.0,5,Camden Kerbside,Particulate matter less than 2.5 micro m,PM2.5,51.54420999999999,-0.1752689999942197

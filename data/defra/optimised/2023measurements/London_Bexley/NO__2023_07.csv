@@ -393,9 +393,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-07-17 07:00:00,1.996,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-07-17 08:00:00,1.497,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-07-17 09:00:00,2.12,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-07-17 10:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-07-17 11:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-07-17 12:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-07-17 10:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-07-17 11:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-07-17 12:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-07-17 13:00:00,1.497,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-07-17 14:00:00,1.247,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-07-17 15:00:00,0.873,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051

@@ -416,7 +416,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-10-18 06:00:00,39.015,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-10-18 07:00:00,33.278,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-10-18 08:00:00,31.174,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2023-10-18 09:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2023-10-18 09:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-10-18 10:00:00,29.453,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-10-18 11:00:00,34.999,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-10-18 12:00:00,37.676,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481

@@ -486,8 +486,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-07-24 04:00:00,13.627,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-24 05:00:00,14.918,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-24 06:00:00,12.144,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2025-07-24 08:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2025-07-24 09:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2025-07-24 08:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2025-07-24 09:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-24 10:00:00,9.276,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-24 11:00:00,7.554,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-24 12:00:00,8.893,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
@@ -607,9 +607,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-07-29 06:00:00,24.528,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-29 07:00:00,26.966,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-29 08:00:00,20.942,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2025-07-29 09:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2025-07-29 10:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2025-07-29 11:00:00,-99.0,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2025-07-29 09:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2025-07-29 10:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2025-07-29 11:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-29 12:00:00,20.798,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-29 13:00:00,13.627,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2025-07-29 14:00:00,17.882,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361

@@ -131,7 +131,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-06 10:00:00,3.991,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-06 11:00:00,2.495,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-06 12:00:00,2.619,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-01-06 13:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-01-06 13:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-06 14:00:00,2.12,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-06 15:00:00,5.363,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-06 16:00:00,5.239,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
@@ -276,7 +276,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-12 11:00:00,1.123,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-12 12:00:00,1.123,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-12 13:00:00,1.247,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-01-12 14:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-01-12 14:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-12 15:00:00,2.619,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-12 16:00:00,1.996,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-12 17:00:00,0.624,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
@@ -298,8 +298,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-13 09:00:00,1.123,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-13 10:00:00,3.368,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-13 11:00:00,1.497,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-01-13 12:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-01-13 13:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-01-13 12:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-01-13 13:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-13 14:00:00,1.996,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-13 15:00:00,3.867,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-01-13 16:00:00,5.862,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051

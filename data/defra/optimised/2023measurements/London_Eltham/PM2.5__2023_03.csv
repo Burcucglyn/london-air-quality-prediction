@@ -300,8 +300,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-13 10:00:00,13.585,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-13 11:00:00,13.774,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-13 12:00:00,13.774,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
-2023-03-13 13:00:00,-99.0,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
-2023-03-13 14:00:00,-99.0,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
+2023-03-13 13:00:00,,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
+2023-03-13 14:00:00,,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-13 15:00:00,13.113,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-13 16:00:00,11.981,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-13 17:00:00,11.321,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
@@ -599,7 +599,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-25 21:00:00,7.264,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-25 22:00:00,8.396,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-25 23:00:00,9.057,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
-2023-03-26 00:00:00,-99.0,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
+2023-03-26 00:00:00,,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-28 00:00:00,2.547,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-28 01:00:00,2.453,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-03-28 02:00:00,2.925,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661

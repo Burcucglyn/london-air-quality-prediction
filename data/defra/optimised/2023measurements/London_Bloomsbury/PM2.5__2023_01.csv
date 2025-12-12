@@ -931,10 +931,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-20 10:00:00,6.226,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
 2023-01-20 11:00:00,6.321,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
 2023-01-20 11:00:00,6.321,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
-2023-01-20 12:00:00,-99.0,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
-2023-01-20 12:00:00,-99.0,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
-2023-01-20 13:00:00,-99.0,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
-2023-01-20 13:00:00,-99.0,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
+2023-01-20 12:00:00,,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
+2023-01-20 12:00:00,,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
+2023-01-20 13:00:00,,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
+2023-01-20 13:00:00,,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
 2023-01-20 14:00:00,9.434,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
 2023-01-20 14:00:00,9.434,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481
 2023-01-20 15:00:00,8.962,151,London Bloomsbury,Particulate matter less than 2.5 micro m,PM2.5,51.52229,-0.1258889999958481

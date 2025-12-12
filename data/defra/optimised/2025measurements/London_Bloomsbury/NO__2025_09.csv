@@ -84,7 +84,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-04 10:00:00,1.123,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-04 11:00:00,0.998,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-04 12:00:00,0.748,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
-2025-09-04 13:00:00,-99.0,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
+2025-09-04 13:00:00,,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-04 14:00:00,0.748,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-04 15:00:00,1.497,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-04 16:00:00,1.123,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
@@ -455,7 +455,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-19 21:00:00,0.249,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-19 22:00:00,0.249,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-19 23:00:00,0.374,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
-2025-09-20 00:00:00,-99.0,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
+2025-09-20 00:00:00,,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-20 01:00:00,0.125,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-20 02:00:00,0.249,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-20 03:00:00,0.249,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
@@ -704,7 +704,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-30 07:00:00,47.772,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-30 08:00:00,81.449,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-30 09:00:00,59.247,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
-2025-09-30 10:00:00,-99.0,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
+2025-09-30 10:00:00,,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-30 11:00:00,7.11,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-30 12:00:00,6.361,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2025-09-30 13:00:00,6.237,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481

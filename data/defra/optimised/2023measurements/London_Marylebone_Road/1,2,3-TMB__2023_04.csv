@@ -1,5 +1,5 @@
 timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude,longitude
-2023-04-01 00:00:00,-99.0,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
+2023-04-01 00:00:00,,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-01 01:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-01 02:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-01 03:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
@@ -110,10 +110,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-26 03:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-26 04:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-26 05:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
-2023-04-26 06:00:00,-99.0,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
-2023-04-26 07:00:00,-99.0,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
-2023-04-26 08:00:00,-99.0,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
-2023-04-26 09:00:00,-99.0,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
+2023-04-26 06:00:00,,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
+2023-04-26 07:00:00,,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
+2023-04-26 08:00:00,,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
+2023-04-26 09:00:00,,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-26 10:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-26 11:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009
 2023-04-26 12:00:00,0.025,2689,London Marylebone Road,"1,2,3-Trimethylbenzene","1,2,3-TMB",51.52253,-0.1546109999949009

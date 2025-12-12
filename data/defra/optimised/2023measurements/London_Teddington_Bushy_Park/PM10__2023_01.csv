@@ -444,7 +444,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-19 11:00:00,17.25,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-19 12:00:00,15.25,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-19 13:00:00,20.375,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
-2023-01-19 14:00:00,-99.0,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
+2023-01-19 14:00:00,,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-19 15:00:00,12.65,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-19 16:00:00,11.675,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-19 17:00:00,13.9,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
@@ -610,7 +610,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-26 09:00:00,10.275,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-26 10:00:00,10.8,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-26 11:00:00,11.725,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
-2023-01-26 12:00:00,-99.0,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
+2023-01-26 12:00:00,,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-26 13:00:00,16.833,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-26 14:00:00,18.05,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021
 2023-01-26 15:00:00,17.175,4846,London Teddington Bushy Park,Particulate matter less than 10 micro m,PM10,51.425286,-0.3456059999886021

@@ -323,9 +323,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-07-14 09:00:00,4.973,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-14 10:00:00,4.016,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-14 11:00:00,3.825,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
-2025-07-14 12:00:00,-99.0,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
-2025-07-14 13:00:00,-99.0,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
-2025-07-14 14:00:00,-99.0,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
+2025-07-14 12:00:00,,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
+2025-07-14 13:00:00,,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
+2025-07-14 14:00:00,,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-14 15:00:00,5.164,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-14 16:00:00,4.399,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-14 17:00:00,3.634,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
@@ -658,9 +658,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-07-28 08:00:00,9.563,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-28 09:00:00,7.076,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-28 10:00:00,6.12,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
-2025-07-28 11:00:00,-99.0,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
-2025-07-28 12:00:00,-99.0,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
-2025-07-28 13:00:00,-99.0,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
+2025-07-28 11:00:00,,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
+2025-07-28 12:00:00,,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
+2025-07-28 13:00:00,,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-28 14:00:00,7.076,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-28 15:00:00,9.18,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051
 2025-07-28 16:00:00,13.579,66,London Bexley,Nitrogen dioxide,NO2,51.46603,0.1848059999939051

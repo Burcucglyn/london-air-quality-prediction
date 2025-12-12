@@ -291,7 +291,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-09-13 01:00:00,8.415,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-13 02:00:00,10.136,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-13 03:00:00,8.606,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2023-09-13 04:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2023-09-13 04:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-13 05:00:00,13.77,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-13 06:00:00,18.742,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-13 07:00:00,22.95,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
@@ -493,8 +493,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-09-21 11:00:00,9.371,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-21 12:00:00,13.579,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-21 13:00:00,15.3,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2023-09-21 14:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2023-09-21 15:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2023-09-21 14:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2023-09-21 15:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-21 16:00:00,27.349,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-21 17:00:00,40.545,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2023-09-21 18:00:00,25.628,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481

@@ -369,7 +369,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-16 08:00:00,6.321,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-01-16 09:00:00,7.359,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-01-16 10:00:00,6.321,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
-2023-01-16 11:00:00,-99.0,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
+2023-01-16 11:00:00,,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-01-16 12:00:00,8.962,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-01-16 13:00:00,7.17,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
 2023-01-16 14:00:00,6.132,323,London Eltham,Particulate matter less than 2.5 micro m,PM2.5,51.45257999999999,0.0707659999976661
