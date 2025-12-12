@@ -357,8 +357,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-08 09:00:00,3.679,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-08 10:00:00,2.925,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-08 10:00:00,2.925,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
-2025-09-08 11:00:00,-99.0,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
-2025-09-08 11:00:00,-99.0,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
+2025-09-08 11:00:00,,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
+2025-09-08 11:00:00,,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-08 12:00:00,2.736,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-08 12:00:00,2.736,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-08 13:00:00,2.736,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
@@ -1357,8 +1357,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-29 06:00:00,4.057,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-29 07:00:00,5.943,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-29 07:00:00,5.943,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
-2025-09-29 08:00:00,-99.0,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
-2025-09-29 08:00:00,-99.0,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
+2025-09-29 08:00:00,,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
+2025-09-29 08:00:00,,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-29 09:00:00,13.679,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-29 09:00:00,13.679,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021
 2025-09-29 10:00:00,13.113,2347,London Teddington Bushy Park,Particulate matter less than 2.5 micro m,PM2.5,51.425286,-0.3456059999886021

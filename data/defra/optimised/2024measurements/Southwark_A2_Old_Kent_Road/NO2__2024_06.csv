@@ -407,7 +407,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-17 21:00:00,10.901,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-17 22:00:00,16.065,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-17 23:00:00,19.699,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
-2024-06-18 00:00:00,-99.0,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
+2024-06-18 00:00:00,,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-18 01:00:00,24.671,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-18 02:00:00,27.54,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-18 03:00:00,23.715,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
@@ -635,7 +635,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-27 09:00:00,10.136,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-27 10:00:00,5.164,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-27 11:00:00,3.442,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
-2024-06-27 12:00:00,-99.0,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
+2024-06-27 12:00:00,,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-27 13:00:00,2.486,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-27 14:00:00,2.104,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-06-27 15:00:00,2.869,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036

@@ -86,7 +86,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-12-04 12:00:00,1.746,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-04 13:00:00,1.497,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-04 14:00:00,1.746,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-12-04 15:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-12-04 15:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-04 16:00:00,3.243,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-04 17:00:00,3.368,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-05 01:00:00,0.374,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
@@ -242,9 +242,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-12-11 07:00:00,0.374,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-11 08:00:00,0.998,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-11 09:00:00,0.998,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-12-11 10:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-12-11 11:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
-2023-12-11 12:00:00,-99.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-12-11 10:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-12-11 11:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
+2023-12-11 12:00:00,,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-11 13:00:00,0.0,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-11 14:00:00,1.123,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051
 2023-12-11 15:00:00,5.239,4007,London Bexley,Nitrogen monoxide,NO,51.46603,0.1848059999939051

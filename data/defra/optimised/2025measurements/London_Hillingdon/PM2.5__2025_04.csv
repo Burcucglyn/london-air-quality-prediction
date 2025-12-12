@@ -225,7 +225,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-10 07:00:00,8.585,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-10 08:00:00,8.113,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-10 09:00:00,8.302,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2025-04-10 10:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2025-04-10 10:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-10 11:00:00,9.906,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-10 12:00:00,10.849,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-10 13:00:00,11.981,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
@@ -320,7 +320,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-14 06:00:00,8.774,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-14 07:00:00,14.528,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-14 08:00:00,9.528,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2025-04-14 09:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2025-04-14 09:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-14 10:00:00,6.981,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-14 11:00:00,7.264,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2025-04-14 12:00:00,5.755,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014

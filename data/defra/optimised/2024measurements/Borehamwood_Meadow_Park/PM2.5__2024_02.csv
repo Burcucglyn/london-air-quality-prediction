@@ -205,8 +205,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-02-09 12:00:00,3.585,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2024-02-09 13:00:00,2.83,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2024-02-09 14:00:00,5.66,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
-2024-02-09 15:00:00,-99.0,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
-2024-02-09 16:00:00,-99.0,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
+2024-02-09 15:00:00,,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
+2024-02-09 16:00:00,,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2024-02-09 17:00:00,6.038,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2024-02-09 18:00:00,7.359,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2024-02-09 19:00:00,7.453,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774

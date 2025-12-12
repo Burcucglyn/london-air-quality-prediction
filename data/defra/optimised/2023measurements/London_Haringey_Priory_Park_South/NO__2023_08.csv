@@ -514,7 +514,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-08-22 08:00:00,1.871,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
 2023-08-22 09:00:00,1.247,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
 2023-08-22 10:00:00,1.372,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
-2023-08-22 11:00:00,-99.0,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
+2023-08-22 11:00:00,,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
 2023-08-22 12:00:00,0.873,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
 2023-08-22 13:00:00,0.748,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691
 2023-08-22 14:00:00,0.624,4054,London Haringey Priory Park South,Nitrogen monoxide,NO,51.58412799999999,-0.1252539999958691

@@ -1,5 +1,5 @@
 timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude,longitude
-2023-04-01 00:00:00,-99.0,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
+2023-04-01 00:00:00,,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-01 01:00:00,0.2,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-01 02:00:00,0.227,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-01 03:00:00,0.223,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
@@ -110,10 +110,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-26 03:00:00,0.141,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-26 04:00:00,0.136,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-26 05:00:00,0.182,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
-2023-04-26 06:00:00,-99.0,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
-2023-04-26 07:00:00,-99.0,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
-2023-04-26 08:00:00,-99.0,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
-2023-04-26 09:00:00,-99.0,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
+2023-04-26 06:00:00,,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
+2023-04-26 07:00:00,,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
+2023-04-26 08:00:00,,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
+2023-04-26 09:00:00,,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-26 10:00:00,0.188,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-26 11:00:00,0.223,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009
 2023-04-26 12:00:00,0.239,362,London Marylebone Road,Benzene,Benzene,51.52253,-0.1546109999949009

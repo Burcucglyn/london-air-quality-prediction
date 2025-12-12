@@ -82,10 +82,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-03-04 08:00:00,40.736,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2025-03-04 09:00:00,51.064,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2025-03-04 10:00:00,66.555,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2025-03-04 11:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2025-03-04 12:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2025-03-04 13:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2025-03-04 14:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2025-03-04 11:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2025-03-04 12:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2025-03-04 13:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2025-03-04 14:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2025-03-04 15:00:00,22.567,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2025-03-04 16:00:00,22.95,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2025-03-04 17:00:00,19.508,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691

@@ -369,7 +369,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-16 07:00:00,4.016,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-04-16 08:00:00,4.59,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-04-16 09:00:00,6.503,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2025-04-16 10:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2025-04-16 10:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-04-16 11:00:00,3.251,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-04-16 12:00:00,4.399,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-04-16 13:00:00,5.164,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481

@@ -254,7 +254,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-11 12:00:00,7.517,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-11 13:00:00,7.517,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-11 14:00:00,7.451,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2024-06-11 15:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2024-06-11 15:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-11 16:00:00,6.32,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-11 17:00:00,5.721,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-11 18:00:00,5.388,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
@@ -335,7 +335,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-14 21:00:00,3.792,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-14 22:00:00,4.324,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-14 23:00:00,4.058,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2024-06-15 00:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2024-06-15 00:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-15 01:00:00,3.725,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-15 02:00:00,3.858,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2024-06-15 03:00:00,3.725,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481

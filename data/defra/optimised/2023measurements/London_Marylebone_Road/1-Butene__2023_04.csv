@@ -1,5 +1,5 @@
 timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude,longitude
-2023-04-01 00:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2023-04-01 00:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-01 01:00:00,0.432,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-01 02:00:00,0.39,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-01 03:00:00,0.396,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
@@ -110,10 +110,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-26 03:00:00,0.296,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-26 04:00:00,0.296,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-26 05:00:00,0.337,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2023-04-26 06:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2023-04-26 07:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2023-04-26 08:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2023-04-26 09:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2023-04-26 06:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2023-04-26 07:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2023-04-26 08:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2023-04-26 09:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-26 10:00:00,0.012,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-26 11:00:00,0.353,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2023-04-26 12:00:00,0.373,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009

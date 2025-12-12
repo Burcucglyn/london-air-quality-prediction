@@ -699,7 +699,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-08-30 02:00:00,38.441,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-08-30 03:00:00,36.146,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-08-30 04:00:00,37.485,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
-2024-08-30 05:00:00,-99.0,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
+2024-08-30 05:00:00,,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-08-30 06:00:00,34.234,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-08-30 07:00:00,49.343,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-08-30 08:00:00,35.955,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036

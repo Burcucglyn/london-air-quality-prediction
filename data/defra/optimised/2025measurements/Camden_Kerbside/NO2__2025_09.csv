@@ -256,7 +256,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-11 14:00:00,30.026,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-11 15:00:00,20.081,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-11 16:00:00,21.42,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
-2025-09-11 17:00:00,-99.0,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
+2025-09-11 17:00:00,,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-11 18:00:00,20.273,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-11 19:00:00,20.273,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-11 20:00:00,20.846,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
@@ -287,7 +287,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-12 21:00:00,23.715,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-12 22:00:00,22.185,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-12 23:00:00,17.977,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
-2025-09-13 00:00:00,-99.0,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
+2025-09-13 00:00:00,,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-13 01:00:00,6.694,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-13 02:00:00,4.59,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-13 03:00:00,5.164,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
@@ -585,7 +585,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-25 08:00:00,26.966,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-25 09:00:00,18.36,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-25 10:00:00,10.71,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
-2025-09-25 11:00:00,-99.0,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
+2025-09-25 11:00:00,,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-25 12:00:00,18.742,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-25 13:00:00,16.065,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2025-09-25 14:00:00,15.3,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221

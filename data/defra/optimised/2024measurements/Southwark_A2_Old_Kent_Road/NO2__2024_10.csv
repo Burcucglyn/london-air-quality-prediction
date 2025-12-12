@@ -659,7 +659,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-28 11:00:00,7.076,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-28 12:00:00,9.18,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-28 13:00:00,10.328,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
-2024-10-28 14:00:00,-99.0,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
+2024-10-28 14:00:00,,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-28 15:00:00,12.623,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-28 16:00:00,16.639,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-28 17:00:00,17.977,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
@@ -693,7 +693,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-10-29 22:00:00,47.43,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-29 23:00:00,49.534,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-30 00:00:00,32.895,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
-2024-10-30 01:00:00,-99.0,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
+2024-10-30 01:00:00,,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-30 02:00:00,27.349,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-30 04:00:00,20.464,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2024-10-30 05:00:00,20.081,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036

@@ -168,7 +168,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-07 22:00:00,23.967,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-07 23:00:00,29.573,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-08 00:00:00,19.841,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2023-02-08 01:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2023-02-08 01:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-08 02:00:00,25.825,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-08 03:00:00,73.476,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-08 04:00:00,101.412,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
@@ -490,9 +490,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-21 08:00:00,1.732,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-21 09:00:00,5.134,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-21 10:00:00,8.22,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2023-02-21 11:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2023-02-21 12:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2023-02-21 13:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2023-02-21 11:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2023-02-21 12:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2023-02-21 13:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-21 14:00:00,10.015,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-21 15:00:00,16.062,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-21 16:00:00,8.22,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
@@ -542,7 +542,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-23 12:00:00,25.652,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-23 13:00:00,22.312,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-23 14:00:00,8.853,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2023-02-23 15:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2023-02-23 15:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-23 16:00:00,9.21,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-23 17:00:00,8.14,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2023-02-23 18:00:00,3.6,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489

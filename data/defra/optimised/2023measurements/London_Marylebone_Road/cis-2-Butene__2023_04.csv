@@ -1,5 +1,5 @@
 timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude,longitude
-2023-04-01 00:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2023-04-01 00:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-01 01:00:00,0.135,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-01 02:00:00,0.134,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-01 03:00:00,0.149,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
@@ -110,10 +110,10 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-26 03:00:00,0.148,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-26 04:00:00,0.17,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-26 05:00:00,0.181,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2023-04-26 06:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2023-04-26 07:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2023-04-26 08:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2023-04-26 09:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2023-04-26 06:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2023-04-26 07:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2023-04-26 08:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2023-04-26 09:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-26 10:00:00,0.012,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-26 11:00:00,0.176,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2023-04-26 12:00:00,0.187,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009

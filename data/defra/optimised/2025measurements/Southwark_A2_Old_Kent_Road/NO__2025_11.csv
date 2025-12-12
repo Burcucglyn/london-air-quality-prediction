@@ -198,7 +198,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 04:00:00,36.671,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2025-11-09 05:00:00,22.327,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2025-11-09 06:00:00,14.219,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
-2025-11-09 07:00:00,-99.0,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
+2025-11-09 07:00:00,,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2025-11-09 08:00:00,191.71,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2025-11-09 09:00:00,40.413,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2025-11-09 10:00:00,25.32,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036

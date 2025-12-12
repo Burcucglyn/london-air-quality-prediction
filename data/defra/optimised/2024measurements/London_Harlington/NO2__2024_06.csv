@@ -62,7 +62,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-03 12:00:00,12.718,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-03 13:00:00,14.2,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-03 14:00:00,12.192,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2024-06-03 15:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2024-06-03 15:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-03 16:00:00,12.336,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-03 17:00:00,13.148,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-03 18:00:00,17.356,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
@@ -297,7 +297,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-13 07:00:00,22.328,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-13 08:00:00,20.177,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-13 09:00:00,21.133,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2024-06-13 10:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2024-06-13 10:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-13 11:00:00,26.584,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-13 12:00:00,26.536,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-13 13:00:00,27.349,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
@@ -329,7 +329,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-14 15:00:00,16.639,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-14 16:00:00,17.499,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-14 17:00:00,19.173,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2024-06-14 18:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2024-06-14 18:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-14 19:00:00,25.293,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-14 20:00:00,30.265,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-14 21:00:00,38.872,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
@@ -514,7 +514,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-06-22 08:00:00,10.328,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-22 09:00:00,9.897,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-22 10:00:00,8.128,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2024-06-22 11:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2024-06-22 11:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-22 12:00:00,10.264,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-22 13:00:00,9.228,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2024-06-22 14:00:00,10.232,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361

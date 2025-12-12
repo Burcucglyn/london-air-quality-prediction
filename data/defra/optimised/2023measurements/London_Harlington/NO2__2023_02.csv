@@ -469,9 +469,9 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-20 11:00:00,22.484,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-02-20 12:00:00,18.677,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-02-20 13:00:00,26.279,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-02-20 14:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-02-20 15:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-02-20 16:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-02-20 14:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-02-20 15:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-02-20 16:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-02-20 17:00:00,11.057,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-02-20 18:00:00,23.551,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-02-20 19:00:00,34.891,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361

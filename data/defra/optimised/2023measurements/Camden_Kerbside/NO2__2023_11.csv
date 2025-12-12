@@ -96,7 +96,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-11-04 22:00:00,46.282,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-04 23:00:00,49.151,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-05 00:00:00,48.195,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
-2023-11-05 01:00:00,-99.0,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
+2023-11-05 01:00:00,,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-05 02:00:00,51.446,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-05 03:00:00,41.884,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-05 04:00:00,18.36,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
@@ -156,7 +156,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-11-07 10:00:00,33.66,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-07 11:00:00,30.218,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-07 12:00:00,15.874,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
-2023-11-07 13:00:00,-99.0,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
+2023-11-07 13:00:00,,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-07 14:00:00,17.786,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-07 15:00:00,20.846,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-07 16:00:00,28.688,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
@@ -467,7 +467,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-11-20 09:00:00,68.85,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-20 10:00:00,61.965,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-20 11:00:00,81.664,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
-2023-11-20 12:00:00,-99.0,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
+2023-11-20 12:00:00,,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-20 13:00:00,36.911,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-20 14:00:00,70.571,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221
 2023-11-20 15:00:00,66.746,3,Camden Kerbside,Nitrogen dioxide,NO2,51.544233,-0.175227999994221

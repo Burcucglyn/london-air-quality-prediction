@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,2.365,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-01 23:00:00,2.188,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 00:00:00,1.464,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 02:00:00,2.167,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 03:00:00,1.281,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 04:00:00,1.14,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,1.313,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 15:00:00,1.388,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 16:00:00,2.102,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 18:00:00,2.621,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 19:00:00,2.78,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-02 20:00:00,2.202,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,2.142,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-03 20:00:00,1.486,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-03 21:00:00,1.339,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-04 03:00:00,0.102,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-04 04:00:00,0.495,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-04 05:00:00,0.495,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,3.407,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-09 01:00:00,3.123,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-09 02:00:00,2.158,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-09 04:00:00,3.992,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-09 05:00:00,1.875,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009
 2025-11-09 06:00:00,2.006,3357,London Marylebone Road,"m,p-Xylene","m,p-Xylene",51.52253,-0.1546109999949009

@@ -253,7 +253,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-07-11 11:00:00,13.77,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2024-07-11 12:00:00,27.54,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2024-07-11 13:00:00,15.109,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2024-07-11 14:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2024-07-11 14:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2024-07-11 15:00:00,14.726,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2024-07-11 16:00:00,26.775,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2024-07-11 17:00:00,18.934,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481

@@ -518,8 +518,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-03-22 12:00:00,2.067,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2023-03-22 13:00:00,1.781,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2023-03-22 14:00:00,1.177,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
-2023-03-22 15:00:00,-99.0,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
-2023-03-22 16:00:00,-99.0,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
+2023-03-22 15:00:00,,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
+2023-03-22 16:00:00,,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2023-03-22 17:00:00,0.7,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2023-03-22 18:00:00,0.541,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481
 2023-03-22 19:00:00,0.318,4030,London Bloomsbury,Nitrogen monoxide,NO,51.52229,-0.1258889999958481

@@ -439,7 +439,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-12-19 11:00:00,8.033,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2024-12-19 12:00:00,6.12,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2024-12-19 13:00:00,7.268,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2024-12-19 14:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2024-12-19 14:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2024-12-19 15:00:00,8.224,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2024-12-19 16:00:00,11.475,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2024-12-19 17:00:00,14.344,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691

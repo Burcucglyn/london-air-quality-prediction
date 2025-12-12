@@ -130,8 +130,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-06 08:00:00,95.654,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-06 09:00:00,83.093,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-06 10:00:00,78.262,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
-2023-02-06 11:00:00,-99.0,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
-2023-02-06 12:00:00,-99.0,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
+2023-02-06 11:00:00,,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
+2023-02-06 12:00:00,,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-06 13:00:00,47.344,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-06 14:00:00,45.411,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-06 15:00:00,85.026,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
@@ -374,8 +374,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-16 12:00:00,30.918,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-16 13:00:00,28.02,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-16 14:00:00,21.256,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
-2023-02-16 15:00:00,-99.0,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
-2023-02-16 16:00:00,-99.0,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
+2023-02-16 15:00:00,,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
+2023-02-16 16:00:00,,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-16 17:00:00,10.628,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-16 18:00:00,13.527,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124
 2023-02-16 19:00:00,8.696,174,Ealing Horn Lane,Particulate matter less than 10 micro m,PM10,51.51895,-0.26561699999124

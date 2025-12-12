@@ -596,7 +596,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-25 18:00:00,4.913,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2025-10-25 19:00:00,4.881,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2025-10-25 20:00:00,3.953,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
-2025-10-26 04:00:00,-99.0,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
+2025-10-26 04:00:00,,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2025-10-26 05:00:00,2.223,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2025-10-26 06:00:00,2.489,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2025-10-26 07:00:00,3.04,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361

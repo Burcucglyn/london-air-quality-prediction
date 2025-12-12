@@ -215,7 +215,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-09 21:00:00,1.53,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-09 22:00:00,1.53,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-09 23:00:00,1.464,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2025-04-10 00:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2025-04-10 00:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-10 01:00:00,1.685,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-10 02:00:00,1.131,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-10 03:00:00,1.064,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
@@ -368,8 +368,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-16 06:00:00,2.129,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-16 07:00:00,1.796,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-16 08:00:00,2.062,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2025-04-16 09:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2025-04-16 10:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2025-04-16 09:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2025-04-16 10:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-16 11:00:00,2.129,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-16 12:00:00,2.395,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-16 13:00:00,2.328,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
@@ -431,7 +431,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-18 21:00:00,3.326,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-18 22:00:00,3.26,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-18 23:00:00,2.86,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
-2025-04-19 00:00:00,-99.0,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
+2025-04-19 00:00:00,,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-19 01:00:00,2.838,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-19 02:00:00,2.727,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481
 2025-04-19 03:00:00,2.86,152,London Bloomsbury,Sulphur dioxide,SO2,51.52229,-0.1258889999958481

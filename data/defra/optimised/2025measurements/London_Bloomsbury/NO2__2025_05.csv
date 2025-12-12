@@ -191,7 +191,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-05-08 21:00:00,17.977,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-08 22:00:00,17.595,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-08 23:00:00,17.786,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2025-05-09 00:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2025-05-09 00:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-09 01:00:00,16.448,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-09 02:00:00,14.726,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-09 03:00:00,8.415,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
@@ -239,7 +239,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-05-10 21:00:00,27.731,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-10 22:00:00,27.54,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-10 23:00:00,24.863,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2025-05-11 00:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2025-05-11 00:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-11 01:00:00,15.3,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-11 02:00:00,15.109,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-11 03:00:00,14.726,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
@@ -319,8 +319,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-05-14 05:00:00,16.256,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-14 06:00:00,23.332,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-14 07:00:00,26.775,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2025-05-14 08:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2025-05-14 09:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2025-05-14 08:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2025-05-14 09:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-14 10:00:00,25.819,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-14 11:00:00,18.36,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-14 12:00:00,17.212,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
@@ -359,7 +359,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-05-15 21:00:00,14.726,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-15 22:00:00,18.169,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-15 23:00:00,13.005,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
-2025-05-16 00:00:00,-99.0,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
+2025-05-16 00:00:00,,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-16 01:00:00,11.666,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-16 02:00:00,9.754,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481
 2025-05-16 03:00:00,12.431,148,London Bloomsbury,Nitrogen dioxide,NO2,51.52229,-0.1258889999958481

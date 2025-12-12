@@ -287,7 +287,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-12 21:00:00,11.857,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-12 22:00:00,13.005,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-12 23:00:00,15.682,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
-2025-04-13 00:00:00,-99.0,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
+2025-04-13 00:00:00,,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-13 01:00:00,13.579,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-13 02:00:00,13.961,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-13 03:00:00,12.049,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
@@ -584,7 +584,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-04-25 06:00:00,26.584,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-25 07:00:00,27.731,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-25 08:00:00,17.021,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
-2025-04-25 09:00:00,-99.0,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
+2025-04-25 09:00:00,,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-25 10:00:00,11.092,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-25 11:00:00,14.918,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-04-25 12:00:00,13.387,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489

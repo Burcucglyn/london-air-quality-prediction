@@ -270,7 +270,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-08-12 05:00:00,14.938,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-12 06:00:00,14.418,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-12 07:00:00,14.635,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
-2024-08-12 08:00:00,-99.0,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
+2024-08-12 08:00:00,,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-12 09:00:00,15.51,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-12 10:00:00,14.398,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-12 11:00:00,16.093,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
@@ -343,7 +343,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-08-15 06:00:00,9.169,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-15 07:00:00,7.329,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-15 08:00:00,6.653,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
-2024-08-15 09:00:00,-99.0,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
+2024-08-15 09:00:00,,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-15 12:00:00,9.366,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-15 13:00:00,9.958,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-15 14:00:00,9.877,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
@@ -629,7 +629,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-08-27 06:00:00,9.484,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-27 07:00:00,9.031,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-27 08:00:00,9.069,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
-2024-08-27 11:00:00,-99.0,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
+2024-08-27 11:00:00,,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-27 12:00:00,10.561,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-27 13:00:00,9.533,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2024-08-27 14:00:00,10.211,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361

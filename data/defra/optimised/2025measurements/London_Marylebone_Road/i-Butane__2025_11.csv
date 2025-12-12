@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,2.895,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-01 23:00:00,2.855,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 00:00:00,2.04,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 02:00:00,1.965,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 03:00:00,2.31,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 04:00:00,2.027,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,2.292,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 15:00:00,2.338,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 16:00:00,2.862,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 18:00:00,3.618,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 19:00:00,3.558,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-02 20:00:00,3.21,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,1.914,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-03 20:00:00,2.01,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-03 21:00:00,1.726,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-04 03:00:00,0.923,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-04 04:00:00,0.814,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-04 05:00:00,0.815,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,4.98,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-09 01:00:00,4.997,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-09 02:00:00,3.988,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-09 04:00:00,4.114,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-09 05:00:00,3.677,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009
 2025-11-09 06:00:00,3.547,2711,London Marylebone Road,i-Butane,i-Butane,51.52253,-0.1546109999949009

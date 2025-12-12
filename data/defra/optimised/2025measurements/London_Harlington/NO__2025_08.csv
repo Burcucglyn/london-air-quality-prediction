@@ -152,7 +152,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-08-07 06:00:00,4.833,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-08-07 07:00:00,4.553,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-08-07 08:00:00,5.114,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
-2025-08-07 09:00:00,-99.0,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
+2025-08-07 09:00:00,,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-08-07 10:00:00,6.86,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-08-07 11:00:00,5.738,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361
 2025-08-07 12:00:00,4.459,4061,London Harlington,Nitrogen monoxide,NO,51.48879,-0.4416139999854361

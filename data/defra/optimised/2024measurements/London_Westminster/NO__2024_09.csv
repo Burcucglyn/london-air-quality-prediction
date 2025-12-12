@@ -62,7 +62,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-09-03 12:00:00,2.12,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-09-03 13:00:00,4.989,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-09-03 14:00:00,4.366,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
-2024-09-03 15:00:00,-99.0,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
+2024-09-03 15:00:00,,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-09-03 16:00:00,13.221,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-09-03 17:00:00,2.619,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489
 2024-09-03 18:00:00,1.871,4060,London Westminster,Nitrogen monoxide,NO,51.49467,-0.1319309999956489

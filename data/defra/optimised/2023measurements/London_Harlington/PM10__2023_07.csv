@@ -608,7 +608,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-07-26 06:00:00,13.203,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2023-07-26 07:00:00,11.438,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2023-07-26 08:00:00,8.53,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
-2023-07-26 10:00:00,-99.0,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
+2023-07-26 10:00:00,,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2023-07-26 11:00:00,7.575,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2023-07-26 12:00:00,7.063,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361
 2023-07-26 13:00:00,5.921,2118,London Harlington,Particulate matter less than 10 micro m,PM10,51.48879,-0.4416139999854361

@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,0.364,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-01 23:00:00,0.322,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 00:00:00,0.305,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 02:00:00,0.242,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 03:00:00,0.208,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 04:00:00,0.227,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,0.239,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 15:00:00,0.221,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 16:00:00,0.256,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 18:00:00,0.375,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 19:00:00,0.304,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-02 20:00:00,0.372,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
@@ -54,7 +54,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 04:00:00,0.188,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 05:00:00,0.208,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 06:00:00,0.171,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-03 07:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-03 07:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 08:00:00,0.219,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 09:00:00,0.266,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 10:00:00,0.26,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,0.258,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 20:00:00,0.212,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-03 21:00:00,0.317,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-04 03:00:00,0.188,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-04 04:00:00,0.225,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-04 05:00:00,0.146,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,0.507,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-09 01:00:00,0.487,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-09 02:00:00,0.37,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-09 04:00:00,0.318,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-09 05:00:00,0.273,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009
 2025-11-09 06:00:00,0.27,2698,London Marylebone Road,1-Butene,1-Butene,51.52253,-0.1546109999949009

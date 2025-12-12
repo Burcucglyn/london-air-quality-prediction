@@ -468,8 +468,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-07-20 10:00:00,33.802,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-20 11:00:00,12.722,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-20 12:00:00,19.208,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
-2023-07-20 13:00:00,-99.0,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
-2023-07-20 14:00:00,-99.0,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
+2023-07-20 13:00:00,,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
+2023-07-20 14:00:00,,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-20 15:00:00,33.552,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-20 16:00:00,24.572,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-20 17:00:00,34.675,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
@@ -656,8 +656,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-07-28 06:00:00,2.869,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-28 07:00:00,2.744,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-28 08:00:00,3.118,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
-2023-07-28 09:00:00,-99.0,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
-2023-07-28 10:00:00,-99.0,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
+2023-07-28 09:00:00,,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
+2023-07-28 10:00:00,,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-28 11:00:00,5.363,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-28 12:00:00,6.112,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036
 2023-07-28 13:00:00,4.989,4111,Southwark A2 Old Kent Road,Nitrogen monoxide,NO,51.48049900000001,-0.059549999998036

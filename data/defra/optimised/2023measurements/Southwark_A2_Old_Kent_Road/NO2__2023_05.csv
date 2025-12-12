@@ -582,7 +582,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-05-25 04:00:00,34.807,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2023-05-25 05:00:00,58.714,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2023-05-25 06:00:00,39.206,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
-2023-05-25 07:00:00,-99.0,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
+2023-05-25 07:00:00,,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2023-05-25 08:00:00,26.01,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2023-05-25 09:00:00,35.572,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036
 2023-05-25 10:00:00,25.628,460,Southwark A2 Old Kent Road,Nitrogen dioxide,NO2,51.48049900000001,-0.059549999998036

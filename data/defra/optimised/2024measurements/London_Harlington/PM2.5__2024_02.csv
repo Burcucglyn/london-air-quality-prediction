@@ -276,7 +276,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-02-12 11:00:00,2.394,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-12 12:00:00,2.259,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-12 13:00:00,2.212,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
-2024-02-12 15:00:00,-99.0,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
+2024-02-12 15:00:00,,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-12 16:00:00,2.303,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-12 17:00:00,2.362,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-12 18:00:00,3.475,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
@@ -367,8 +367,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-02-16 07:00:00,2.352,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-16 08:00:00,3.422,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-16 09:00:00,5.004,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
-2024-02-16 10:00:00,-99.0,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
-2024-02-16 12:00:00,-99.0,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
+2024-02-16 10:00:00,,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
+2024-02-16 12:00:00,,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-16 13:00:00,2.339,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-16 14:00:00,3.26,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361
 2024-02-16 15:00:00,2.387,2122,London Harlington,Particulate matter less than 2.5 micro m,PM2.5,51.48879,-0.4416139999854361

@@ -62,7 +62,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-09-03 12:00:00,9.371,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2024-09-03 13:00:00,13.196,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2024-09-03 14:00:00,14.535,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
-2024-09-03 15:00:00,-99.0,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
+2024-09-03 15:00:00,,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2024-09-03 16:00:00,15.109,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2024-09-03 17:00:00,18.36,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2024-09-03 18:00:00,19.316,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489

@@ -11,7 +11,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-02-01 09:00:00,10.976,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2023-02-01 10:00:00,13.172,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2023-02-01 11:00:00,16.165,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
-2023-02-01 12:00:00,-99.0,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
+2023-02-01 12:00:00,,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2023-02-01 13:00:00,15.966,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2023-02-01 14:00:00,23.749,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009
 2023-02-01 15:00:00,9.979,358,London Marylebone Road,Ozone,O3,51.52253,-0.1546109999949009

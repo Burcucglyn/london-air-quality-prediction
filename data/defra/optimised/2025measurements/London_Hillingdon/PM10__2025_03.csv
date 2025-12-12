@@ -107,7 +107,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-03-05 09:00:00,59.9,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2025-03-05 10:00:00,74.0,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2025-03-05 11:00:00,65.8,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
-2025-03-05 12:00:00,-99.0,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
+2025-03-05 12:00:00,,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2025-03-05 13:00:00,46.9,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2025-03-05 14:00:00,55.5,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014
 2025-03-05 15:00:00,72.6,4911,London Hillingdon,Particulate matter less than 10 micro m,PM10,51.49632999999999,-0.4608609999848014

@@ -670,7 +670,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-04-28 20:00:00,7.9,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
 2024-04-28 21:00:00,11.3,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
 2024-04-28 22:00:00,11.7,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
-2024-04-28 23:00:00,-99.0,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
+2024-04-28 23:00:00,,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
 2024-04-29 00:00:00,9.9,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
 2024-04-29 01:00:00,10.6,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051
 2024-04-29 02:00:00,10.6,4848,London Bexley,Particulate matter less than 10 micro m,PM10,51.46603,0.1848059999939051

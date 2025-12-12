@@ -143,7 +143,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-06 21:00:00,24.289,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-06 22:00:00,24.671,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-06 23:00:00,22.567,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
-2025-09-07 00:00:00,-99.0,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
+2025-09-07 00:00:00,,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-07 01:00:00,13.005,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-07 02:00:00,10.519,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-07 03:00:00,8.606,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
@@ -191,7 +191,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-08 21:00:00,10.519,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-08 22:00:00,10.328,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-08 23:00:00,8.989,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
-2025-09-09 00:00:00,-99.0,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
+2025-09-09 00:00:00,,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-09 01:00:00,8.606,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-09 02:00:00,10.71,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-09 03:00:00,8.797,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
@@ -263,7 +263,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-09-11 21:00:00,6.694,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-11 22:00:00,5.355,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-11 23:00:00,4.207,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
-2025-09-12 00:00:00,-99.0,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
+2025-09-12 00:00:00,,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-12 01:00:00,1.53,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-12 02:00:00,1.53,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489
 2025-09-12 03:00:00,1.913,255,London Westminster,Nitrogen dioxide,NO2,51.49467,-0.1319309999956489

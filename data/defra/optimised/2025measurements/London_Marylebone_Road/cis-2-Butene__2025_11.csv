@@ -24,7 +24,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-01 22:00:00,0.105,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-01 23:00:00,0.219,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 00:00:00,0.073,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-02 01:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-02 01:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 02:00:00,0.112,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 03:00:00,0.051,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 04:00:00,0.078,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
@@ -40,7 +40,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-02 14:00:00,0.101,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 15:00:00,0.349,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 16:00:00,0.11,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-02 17:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-02 17:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 18:00:00,0.305,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 19:00:00,0.174,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-02 20:00:00,0.315,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
@@ -69,11 +69,11 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-03 19:00:00,0.138,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-03 20:00:00,0.088,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-03 21:00:00,0.111,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-03 22:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-03 23:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-04 00:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-04 01:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-04 02:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-03 22:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-03 23:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-04 00:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-04 01:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-04 02:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-04 03:00:00,0.042,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-04 04:00:00,0.033,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-04 05:00:00,0.012,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
@@ -98,7 +98,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-05 00:00:00,0.061,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-05 01:00:00,0.086,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-05 02:00:00,0.075,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-05 03:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-05 03:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-05 04:00:00,0.092,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-05 05:00:00,0.064,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-05 06:00:00,0.08,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
@@ -128,7 +128,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-06 06:00:00,0.121,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-06 07:00:00,0.093,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-06 08:00:00,0.125,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-06 09:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-06 09:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-06 10:00:00,0.089,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-06 11:00:00,0.143,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-06 12:00:00,0.158,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
@@ -193,7 +193,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-11-09 00:00:00,0.189,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-09 01:00:00,0.139,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-09 02:00:00,0.678,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
-2025-11-09 03:00:00,-99.0,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
+2025-11-09 03:00:00,,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-09 04:00:00,0.135,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-09 05:00:00,0.161,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009
 2025-11-09 06:00:00,0.079,2710,London Marylebone Road,cis-2-Butene,cis-2-Butene,51.52253,-0.1546109999949009

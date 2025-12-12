@@ -47,7 +47,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-02 21:00:00,18.551,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-02 22:00:00,18.934,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-02 23:00:00,19.125,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
-2025-10-03 00:00:00,-99.0,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
+2025-10-03 00:00:00,,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-03 01:00:00,12.049,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-03 02:00:00,14.535,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-03 03:00:00,13.77,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
@@ -239,7 +239,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-10 21:00:00,24.671,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-10 22:00:00,21.611,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-10 23:00:00,13.77,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
-2025-10-11 00:00:00,-99.0,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
+2025-10-11 00:00:00,,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-11 01:00:00,40.545,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-11 02:00:00,45.9,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-11 03:00:00,46.474,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
@@ -263,7 +263,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-11 21:00:00,30.218,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-11 22:00:00,30.791,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-11 23:00:00,35.381,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
-2025-10-12 00:00:00,-99.0,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
+2025-10-12 00:00:00,,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-12 01:00:00,46.665,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-12 02:00:00,56.036,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-12 03:00:00,40.736,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
@@ -359,7 +359,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-15 21:00:00,21.038,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-15 22:00:00,17.212,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-15 23:00:00,15.874,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
-2025-10-16 00:00:00,-99.0,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
+2025-10-16 00:00:00,,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-16 01:00:00,13.961,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-16 02:00:00,11.666,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-16 03:00:00,12.049,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
@@ -503,7 +503,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-21 21:00:00,14.152,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-21 22:00:00,14.726,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-21 23:00:00,18.934,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
-2025-10-22 00:00:00,-99.0,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
+2025-10-22 00:00:00,,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-22 01:00:00,10.71,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-22 02:00:00,8.224,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-22 03:00:00,7.459,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
@@ -660,7 +660,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2025-10-28 11:00:00,19.89,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-28 12:00:00,27.349,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-28 13:00:00,20.081,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
-2025-10-28 14:00:00,-99.0,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
+2025-10-28 14:00:00,,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-28 15:00:00,17.977,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-28 16:00:00,21.229,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481
 2025-10-28 17:00:00,23.715,149,London Bloomsbury,Nitrogen oxides,NOx,51.52229,-0.1258889999958481

@@ -1,6 +1,6 @@
 timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude,longitude
 2023-09-01 00:00:00,20.464,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
-2023-09-01 01:00:00,-99.0,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
+2023-09-01 01:00:00,,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-01 02:00:00,18.36,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-01 04:00:00,20.464,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-01 05:00:00,25.245,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
@@ -153,7 +153,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-09-07 09:00:00,38.633,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-07 10:00:00,34.616,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-07 11:00:00,26.775,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
-2023-09-07 12:00:00,-99.0,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
+2023-09-07 12:00:00,,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-07 13:00:00,25.628,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-07 14:00:00,45.517,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-07 15:00:00,45.709,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
@@ -465,8 +465,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-09-20 09:00:00,5.164,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-20 10:00:00,4.59,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-20 11:00:00,4.399,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
-2023-09-20 12:00:00,-99.0,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
-2023-09-20 13:00:00,-99.0,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
+2023-09-20 12:00:00,,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
+2023-09-20 13:00:00,,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-20 14:00:00,8.224,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-20 15:00:00,10.71,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097
 2023-09-20 16:00:00,10.328,492,Tower Hamlets Roadside,Nitrogen dioxide,NO2,51.52253,-0.0421549999986097

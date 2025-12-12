@@ -82,7 +82,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-04 09:00:00,15.491,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-04 10:00:00,18.169,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-04 11:00:00,12.814,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2023-01-04 12:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2023-01-04 12:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-04 13:00:00,8.033,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-04 14:00:00,8.033,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-04 15:00:00,9.371,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
@@ -394,7 +394,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-17 09:00:00,49.725,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-17 10:00:00,51.638,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-17 11:00:00,48.96,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
-2023-01-17 12:00:00,-99.0,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
+2023-01-17 12:00:00,,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-17 13:00:00,45.9,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-17 14:00:00,55.08,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691
 2023-01-17 15:00:00,52.785,238,London Haringey Priory Park South,Nitrogen dioxide,NO2,51.58412799999999,-0.1252539999958691

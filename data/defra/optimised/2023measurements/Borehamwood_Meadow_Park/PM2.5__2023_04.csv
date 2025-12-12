@@ -602,8 +602,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-26 05:00:00,7.642,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2023-04-26 06:00:00,6.792,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2023-04-26 07:00:00,5.189,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
-2023-04-26 08:00:00,-99.0,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
-2023-04-26 09:00:00,-99.0,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
+2023-04-26 08:00:00,,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
+2023-04-26 09:00:00,,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2023-04-26 10:00:00,5.566,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2023-04-26 11:00:00,6.698,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774
 2023-04-26 12:00:00,7.83,4892,Borehamwood Meadow Park,Particulate matter less than 2.5 micro m,PM2.5,51.661229,-0.2705499999910774

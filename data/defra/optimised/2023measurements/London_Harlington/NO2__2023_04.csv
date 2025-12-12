@@ -82,7 +82,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-04 08:00:00,34.186,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-04 09:00:00,18.934,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-04 10:00:00,20.527,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-04-04 11:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-04-04 11:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-04 12:00:00,21.802,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-04 13:00:00,18.934,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-04 14:00:00,20.846,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
@@ -415,7 +415,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-04-18 05:00:00,9.037,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-18 06:00:00,12.001,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-18 07:00:00,12.431,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
-2023-04-18 08:00:00,-99.0,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
+2023-04-18 08:00:00,,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-18 09:00:00,8.702,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-18 10:00:00,9.371,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361
 2023-04-18 11:00:00,10.949,259,London Harlington,Nitrogen dioxide,NO2,51.48879,-0.4416139999854361

@@ -583,8 +583,8 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-09-13 02:00:00,8.2,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2023-09-13 03:00:00,7.1,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2023-09-13 03:00:00,7.1,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
-2023-09-13 04:00:00,-99.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
-2023-09-13 04:00:00,-99.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
+2023-09-13 04:00:00,,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
+2023-09-13 04:00:00,,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2023-09-13 05:00:00,12.9,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2023-09-13 05:00:00,12.9,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481
 2023-09-13 06:00:00,41.0,2013,London Bloomsbury,Particulate matter less than 10 micro m,PM10,51.52229,-0.1258889999958481

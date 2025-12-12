@@ -560,7 +560,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2023-01-24 07:00:00,12.972,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2023-01-24 08:00:00,13.962,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2023-01-24 09:00:00,12.5,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
-2023-01-24 10:00:00,-99.0,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
+2023-01-24 10:00:00,,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2023-01-24 11:00:00,14.293,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2023-01-24 12:00:00,10.991,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
 2023-01-24 13:00:00,14.882,4914,London Hillingdon,Particulate matter less than 2.5 micro m,PM2.5,51.49632999999999,-0.4608609999848014
