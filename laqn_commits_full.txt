@@ -1,0 +1,256 @@
+commit 69c0ebe460e2e181bb99ec50d126afe6a100011a
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Thu Dec 11 11:16:04 2025 +0000
+
+     re-run the tes.
+
+commit 20862fced62ecc39b254456b1a56dc8b4b5d0155
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Thu Dec 11 11:14:02 2025 +0000
+
+     re-run the function for reanalyse the data quality analysis and issue rate: %38 still very high, and saved a log csv file to /data/laqn/missing/nonActiveSites_rm_log.csv. I won't be doin no further test in laqn for now.
+
+commit 502147d6e37f94ed7ac037ae7b553bd5c3f48ea6
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Thu Dec 11 11:08:38 2025 +0000
+
+    changed the path name.
+
+commit cd1bc9aa14839f48d9b8d502eefb4a9d2322022d
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Thu Dec 11 11:06:21 2025 +0000
+
+    all files removed.
+
+commit a64503d5ee4833dee72276e899b926a17c39984a
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Thu Dec 11 11:04:00 2025 +0000
+
+     Changed the path to point nonActive_siteSpecies.csv file for rm non active site/species at optimased folder. The function name changed as rm_nonActiveSiteSpecies, and it isn't filter %100 missing value column because the file got only non active pollutant site combination. The function only reads siteCode and SpeciesCode colmn for removal process.
+
+commit a78275c504bbae5d26d8de67d436dfd05ceb3a07
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 14:41:31 2025 +0000
+
+    notebook getting slower, moved remove_nonactive_from_active function here from
+    laqn_remove.ipynb started to slow down, so moved the and related update steps to laqn_update.ipynb for better performance and workflow separation.
+
+commit d41afc066b2da42facdd20a1376a5c3458296160
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 14:40:47 2025 +0000
+
+    notebook getting slower, moved remove_nonactive_from_active function
+    laqn_remove.ipynb started to slow down, so moved the remove_nonactive_from_active function and related update steps to laqn_update.ipynb for better performance and workflow separation.
+
+commit db96993bcf44f04ea64c4e1df316535ea302a348
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 14:39:22 2025 +0000
+
+    update active site/species metadata
+    removed all non-active site/species pairs from actv_sites_species.csv using nonActive_siteSpecies.csv, saved as updated_actv_siteSpecies.csv. notebook laqn_update.ipynb documents the process and checks what was removed. ensures only valid monitoring combinations for downstream work.
+
+commit 6c51620dc7f59bca0cc55d4d193b32a1b44380c4
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 14:16:21 2025 +0000
+
+    remove non-active site/species from active metadata filtered actv_sites_species.csv using nonActive_siteSpecies.csv, removed all site/species pairs with no monitoring for 2023-2025 and save the result as updated_actv_siteSpecies.csv only valid monitored combinations remain for accurate analysis.
+
+commit 8e159e5b73c95160d82ae8aa1e5630b2d7d86f66
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 14:01:59 2025 +0000
+
+    Add non-active site-species analysis 2023-2025
+    Identified 38 site-species combinations with consistent missing data: 29  sites affected, complete data absence all around 3 years data, missing pollutants CO 10 sites  SO2 10 sites, PM10 9 sites these combinations have no monitoring equipment for specified pollutants and excluded from predictive modelling.
+
+commit 90d7f33d73d27ca0a911fbda347253316d99cd3d
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 12:51:16 2025 +0000
+
+     Add groupby them site codes and pollutant name month and year columns aswell then save them to data/laqn/missing/affected_sites_species_counts.csv path for further analyse.'
+
+commit f5ef83c453843a15de3a0b618209fd35f674f88c
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 12:49:41 2025 +0000
+
+     To analyse the %100 missing value column files groupby them site codes and pollutant name first and print the result.
+
+commit 1cbd1a67501e98b678f4c47a33816e4adbbe523f
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 01:13:05 2025 +0000
+
+    Add logs_emptyValue_higher80.csv l function to log of LAQN files with ≥80% missing values for further data quality review.
+
+commit db98d1d8609c1822cd51ff6b6e57e29d404259bd
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 00:55:00 2025 +0000
+
+    add function to remove csvs with 100% missing values from optimased folder,  remove_100_missing_files() in laqn_remove.ipynb reads logs_missin_value.csv and deletes files with 100% EmptyValuePercentage.
+
+commit 22875e453014809bfd6475a602c9041edc7476bd
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 00:46:37 2025 +0000
+
+    filter function for missing files.
+
+commit 853475b36070f3ce90b2fae8b7cb46f79236fcb1
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 00:44:46 2025 +0000
+
+    add filter_missing_pollutants function to filter and export missing pollutant logs at data/laqn/missing folder
+     filters logs_missin_value.csv according to %100 match.
+
+commit 6cce1962d440ffaca4a50bdc38c3eac27edfb771
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Wed Dec 10 00:16:42 2025 +0000
+
+     fixed the promlems, add new module on top. fix the paths.
+
+commit 609b0e22fb2a18caa9c488b06ecdc37afc9a5ec8
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 23:41:04 2025 +0000
+
+    Removed st_dir and monthly_data_dir paths to prevent redundant path usage.
+
+commit 21385b75dc2e0b4b8baa67175b85516a276430b4
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 23:31:35 2025 +0000
+
+    return all_issues, and fixed motnth: month_name column.
+
+commit 4ef45115747a6213519a1867f6fcdff91a8c80f1
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 23:25:03 2025 +0000
+
+    Add detailed_data_quality_analysis every check, and removed run_comprehensive_missing_data_analysis funtion.
+
+commit 3fc6a016fce5ad3be830931ad2c3f9d4603ca03d
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:59:52 2025 +0000
+
+    Add the value percentage check this test function change the path and itared extra check.
+
+commit 12cf81ce452a0f5bf2e2a1693d9ac970bf5ed9e8
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:58:01 2025 +0000
+
+    Add the value percentage check this test function change the path and itared extra check.
+
+commit 4fabfa8fb51aee86b7a3beaba01236c2618afedd
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:54:20 2025 +0000
+
+    Removed cross check funtion because I don't need it anymore.
+
+commit 672615ed22f61f50a329751d96ce1906afbeac85
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:53:37 2025 +0000
+
+    Change the paths.
+
+commit a03ccc9ee614a9828b743d5474930ca171fa96dc
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:51:21 2025 +0000
+
+    Move the paths to top.
+
+commit 849aeeaec9762ba53d216857018c5709ad496bf3
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:50:38 2025 +0000
+
+    Move the paths to top.
+
+commit 747fd52b8656ad16a8992b4e589eae865c960edd
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:49:48 2025 +0000
+
+    Move the paths to top.
+
+commit d65de3a680164213e624069df1247a220e90f272
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:48:37 2025 +0000
+
+    I forced to closed due to slow processing, and file didn't saved, so I copy the all the changes to my notepad, copying here again.
+
+commit 72249e631ca49725ac1463d08386c0c88a0ba62b
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 22:46:03 2025 +0000
+
+    move all of the paths to top.
+
+commit 0bb12cea3276b198a0366a9670d71d3188bd4909
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 21:59:40 2025 +0000
+
+     Chang pm25_normalized to pm25_normalised and worked.
+
+commit 58ada5993ef5cbaf7551cd02fdb37e60d616d055
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 21:55:17 2025 +0000
+
+     PM25 and PM2.5 species_lookup not works.
+
+commit 86fe028cda3b6eb361274dd790c88206b7a055c2
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 21:48:39 2025 +0000
+
+     fixed the typos.
+
+commit fb409287d56d98324a83bbbdb5585164ea96ac3b
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 21:48:08 2025 +0000
+
+     pm25 stored on processed folder as pm2.5 that's why the code didnt read the files as it should, add specieas_lookup list
+
+commit a29dfd914549ec460d9f2298f5157cdd14c5167d
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 17:14:51 2025 +0000
+
+    add laqn file standardiSation function after this function column order: @MeasurementDateGMT, @Value, SpeciesCode, SiteCode, SpeciesName, SiteName, SiteType, Latitude, Longitude. And new version of the files at  data/laqn/optimased/year_month/SiteCode_SpeciesCode_timestamp.csv
+
+commit a691edb0d1f2d26fa279d10a66bb061fb71c749b
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 16:05:51 2025 +0000
+
+    add detailed data quality check function for Scans all CSV files in data/laqn/processed/  checks  columns for missing values, validates data types, calculates missing percentage, logs files with >20% missing to data/laqn/missing/logs_missin_value.csv, output columns names  filename, path, siteCode, pollutant, missingPercentage, year, month, totalRows, totalColumns, missingCells.
+
+commit c79258b0869ba1990546606c36196d726ee5713c
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 15:54:30 2025 +0000
+
+    fix path of the functions and typo mistakes.
+
+commit 7df7205097ada1a0138dc634205d9e20567757ce
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 14:59:11 2025 +0000
+
+    Update  missing data test function.
+
+commit 420fa6ae212ca7f6062eaa42c1f169493bc3916d
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 14:55:55 2025 +0000
+
+    add missing data check function and dual log system after restructuring monthly fetch.
+
+commit 59ff1e87af33d0ebe447b1a3dc2003048080f667
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 14:47:20 2025 +0000
+
+    Function that checks what is categorically missing and creates a log entry to track the pattern. useful for understanding why data is missing whether due to system overload, a fetching error/bug, incorrect URL or endpoint requests, or non-responsive endpoints.
+
+commit 9be204a0414be7014e79e3d153d382420b2f306b
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 14:40:39 2025 +0000
+
+    Add the functions first to find what is missing.
+
+commit 65861929fd5737a993a4c2febf4f6720fb8419f7
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 14:10:45 2025 +0000
+
+    create file to find identify the missing values and data gaps in the LAQN dataset and decide how to address them. start by importing the relevant modules and displaying the initial file paths.
+
+commit 733742291b34f5fa528064589afb4c4482ba5417
+Author: Burdzhu Chaglayan <burcucglyn95@gmail.com>
+Date:   Tue Dec 9 14:08:52 2025 +0000
+
+     move the file under laqn folder.
