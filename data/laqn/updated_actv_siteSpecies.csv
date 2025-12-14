@@ -119,7 +119,6 @@ KC1,Kensington and Chelsea - North Ken,Urban Background,NO2,Nitrogen Dioxide,51.
 KC1,Kensington and Chelsea - North Ken,Urban Background,O3,Ozone,51.5210467476039,-0.213492139585065
 KC1,Kensington and Chelsea - North Ken,Urban Background,PM25,PM2.5 Particulate,51.5210467476039,-0.213492139585065
 KC1,Kensington and Chelsea - North Ken,Urban Background,SO2,Sulphur Dioxide,51.5210467476039,-0.213492139585065
-KF1,Kensington and Chelsea - North Ken FIDAS,Urban Background,PM25,PM2.5 Particulate,51.5210467476039,-0.213492139585065
 GT1,Kensington and Chelsea - Station Walk,Urban Background,NO2,Nitrogen Dioxide,51.5140519844289,-0.216532947379263
 GT1,Kensington and Chelsea - Station Walk,Urban Background,PM10,PM10 Particulate,51.5140519844289,-0.216532947379263
 GT1,Kensington and Chelsea - Station Walk,Urban Background,PM25,PM2.5 Particulate,51.5140519844289,-0.216532947379263
@@ -140,7 +139,6 @@ HP1,Lewisham - Honor Oak Park,Urban Background,PM10,PM10 Particulate,51.44967289
 HP1,Lewisham - Honor Oak Park,Urban Background,PM25,PM2.5 Particulate,51.4496728960354,-0.0374153592115306
 TD5,London Teddington Bushy Park ,Suburban,PM10,PM10 Particulate,51.4252560360937,-0.345608290872898
 TD5,London Teddington Bushy Park ,Suburban,PM25,PM2.5 Particulate,51.4252560360937,-0.345608290872898
-MR8,Marylebone Road - BAM,Kerbside,PM25,PM2.5 Particulate,51.5225093597419,-0.154622154656843
 ME2,Merton - Merton Road,Roadside,NO2,Nitrogen Dioxide,51.4161384794862,-0.192230805042824
 ME2,Merton - Merton Road,Roadside,PM10,PM10 Particulate,51.4161384794862,-0.192230805042824
 ME2,Merton - Merton Road,Roadside,PM25,PM2.5 Particulate,51.4161384794862,-0.192230805042824
