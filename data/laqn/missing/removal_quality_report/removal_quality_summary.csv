@@ -1,0 +1,10 @@
+metric,value
+total files to remove,1247
+healthy files to remove,490
+unhealthy files to remove,757
+perfect files to remove,83
+healthy percentage,39.29%
+unhealthy percentage,60.71%
+perfect percentage,6.66%
+benefit ratio,1.54
+recommendation,recommended
