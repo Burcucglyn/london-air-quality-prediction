@@ -1,0 +1,174 @@
+SiteCode,SiteName,SiteType,SpeciesCode,SpeciesName,Latitude,Longitude
+BG1,Barking and Dagenham - Rush Green,Suburban,NO2,Nitrogen Dioxide,51.563752,0.177891
+BG1,Barking and Dagenham - Rush Green,Suburban,SO2,Sulphur Dioxide,51.563752,0.177891
+BG2,Barking and Dagenham - Scrattons Farm,Suburban,NO2,Nitrogen Dioxide,51.529389,0.132857
+BG2,Barking and Dagenham - Scrattons Farm,Suburban,PM10,PM10 Particulate,51.529389,0.132857
+BX2,Bexley - Belvedere,Suburban,NO2,Nitrogen Dioxide,51.4906102082147,0.158914493927518
+BX2,Bexley - Belvedere,Suburban,PM10,PM10 Particulate,51.4906102082147,0.158914493927518
+BX2,Bexley - Belvedere,Suburban,PM25,PM2.5 Particulate,51.4906102082147,0.158914493927518
+BQ7,Bexley - Belvedere West,Urban Background,NO2,Nitrogen Dioxide,51.4946486813055,0.137279111232178
+BQ7,Bexley - Belvedere West,Urban Background,O3,Ozone,51.4946486813055,0.137279111232178
+BQ7,Bexley - Belvedere West,Urban Background,PM10,PM10 Particulate,51.4946486813055,0.137279111232178
+BQ7,Bexley - Belvedere West,Urban Background,PM25,PM2.5 Particulate,51.4946486813055,0.137279111232178
+BX1,Bexley - Slade Green,Suburban,NO2,Nitrogen Dioxide,51.4659832746662,0.184877126994369
+BX1,Bexley - Slade Green,Suburban,O3,Ozone,51.4659832746662,0.184877126994369
+BX1,Bexley - Slade Green,Suburban,SO2,Sulphur Dioxide,51.4659832746662,0.184877126994369
+BQ9,Bexley - Slade Green Fidas,Suburban,PM10,PM10 Particulate,51.4659832746662,0.184877126994369
+BQ9,Bexley - Slade Green Fidas,Suburban,PM25,PM2.5 Particulate,51.4659832746662,0.184877126994369
+BT8,Brent - ARK Franklin Primary Academy,Roadside,NO2,Nitrogen Dioxide,51.5324054617809,-0.217718908639377
+BT8,Brent - ARK Franklin Primary Academy,Roadside,PM10,PM10 Particulate,51.5324054617809,-0.217718908639377
+BT8,Brent - ARK Franklin Primary Academy,Roadside,PM25,PM2.5 Particulate,51.5324054617809,-0.217718908639377
+BT4,Brent - Ikea,Roadside,NO2,Nitrogen Dioxide,51.552476,-0.258089
+BT4,Brent - Ikea,Roadside,PM10,PM10 Particulate,51.552476,-0.258089
+BT4,Brent - Ikea,Roadside,PM25,PM2.5 Particulate,51.552476,-0.258089
+BT6,Brent - John Keble Primary School,Roadside,NO2,Nitrogen Dioxide,51.537799,-0.247793
+BT6,Brent - John Keble Primary School,Roadside,PM10,PM10 Particulate,51.537799,-0.247793
+BT6,Brent - John Keble Primary School,Roadside,PM25,PM2.5 Particulate,51.537799,-0.247793
+BT5,Brent - Neasden Lane,Industrial,NO2,Nitrogen Dioxide,51.552656,-0.248774
+BT5,Brent - Neasden Lane,Industrial,PM10,PM10 Particulate,51.552656,-0.248774
+BT5,Brent - Neasden Lane,Industrial,PM25,PM2.5 Particulate,51.552656,-0.248774
+BY7,Bromley - Harwood Avenue,Roadside,NO2,Nitrogen Dioxide,51.405546,0.018882
+BY7,Bromley - Harwood Avenue,Roadside,PM10,PM10 Particulate,51.405546,0.018882
+BY7,Bromley - Harwood Avenue,Roadside,PM25,PM2.5 Particulate,51.405546,0.018882
+BL0,Camden - Bloomsbury,Urban Background,PM25,PM2.5 Particulate,51.522287,-0.125848
+CD1,Camden - Swiss Cottage,Kerbside,NO2,Nitrogen Dioxide,51.544219,-0.175284
+CD1,Camden - Swiss Cottage,Kerbside,PM10,PM10 Particulate,51.544219,-0.175284
+CD1,Camden - Swiss Cottage,Kerbside,PM25,PM2.5 Particulate,51.544219,-0.175284
+CR5,Croydon - Norbury,Kerbside,NO2,Nitrogen Dioxide,51.411349,-0.12311
+CR8,Croydon - Norbury Manor,Urban Background,PM25,PM2.5 Particulate,51.410039,-0.127523
+CR7,Croydon - Purley Way A23,Roadside,NO2,Nitrogen Dioxide,51.3622305655403,-0.117604507351392
+EA6,Ealing - Hanger Lane Gyratory,Roadside,NO2,Nitrogen Dioxide,51.53085,-0.292488
+EA6,Ealing - Hanger Lane Gyratory,Roadside,PM10,PM10 Particulate,51.53085,-0.292488
+EA8,Ealing - Horn Lane,Industrial,NO2,Nitrogen Dioxide,51.518948,-0.265617
+EA8,Ealing - Horn Lane,Industrial,PM10,PM10 Particulate,51.518948,-0.265617
+EI8,Ealing - Horn Lane TEOM,Industrial,PM10,PM10 Particulate,51.5189160348806,-0.265652052386222
+EI1,Ealing - Western Avenue,Roadside,NO2,Nitrogen Dioxide,51.5236078191481,-0.265502631799754
+EI1,Ealing - Western Avenue,Roadside,PM10,PM10 Particulate,51.5236078191481,-0.265502631799754
+EN5,Enfield - Bowes Primary School,Roadside,NO2,Nitrogen Dioxide,51.613865,-0.125338
+EN5,Enfield - Bowes Primary School,Roadside,PM25,PM2.5 Particulate,51.613865,-0.125338
+EN1,Enfield - Bush Hill Park,Suburban,NO2,Nitrogen Dioxide,51.6450367266602,-0.0661800662229116
+EN4,Enfield - Derby Road,Roadside,NO2,Nitrogen Dioxide,51.614864007,-0.0507658363689
+EN7,Enfield - Prince of Wales School,Urban Background,NO2,Nitrogen Dioxide,51.66864334727,-0.02200720557
+GN0,Greenwich - A206 Burrage Grove,Roadside,NO2,Nitrogen Dioxide,51.490532,0.074003
+GN0,Greenwich - A206 Burrage Grove,Roadside,PM10,PM10 Particulate,51.490532,0.074003
+GN0,Greenwich - A206 Burrage Grove,Roadside,PM25,PM2.5 Particulate,51.490532,0.074003
+GR7,Greenwich - Blackheath,Roadside,NO2,Nitrogen Dioxide,51.472504,-0.012381
+GR7,Greenwich - Blackheath,Roadside,PM10,PM10 Particulate,51.472504,-0.012381
+GR4,Greenwich - Eltham,Suburban,PM25,PM2.5 Particulate,51.45258,0.070766
+GB6,Greenwich - Falconwood,Roadside,NO2,Nitrogen Dioxide,51.4563,0.085606
+GB6,Greenwich - Falconwood,Roadside,O3,Ozone,51.4563,0.085606
+GB6,Greenwich - Falconwood,Roadside,PM10,PM10 Particulate,51.4563,0.085606
+GB0,Greenwich - Falconwood FDMS,Roadside,PM25,PM2.5 Particulate,51.4563,0.085606
+GN4,Greenwich - Fiveways Sidcup Rd A20,Roadside,NO2,Nitrogen Dioxide,51.4346627060562,0.0642224671704697
+GN4,Greenwich - Fiveways Sidcup Rd A20,Roadside,PM10,PM10 Particulate,51.4346627060562,0.0642224671704697
+GN6,Greenwich - John Harrison Way,Roadside,NO2,Nitrogen Dioxide,51.4937746695818,0.0107796237032558
+GN6,Greenwich - John Harrison Way,Roadside,PM10,PM10 Particulate,51.4937746695818,0.0107796237032558
+GN6,Greenwich - John Harrison Way,Roadside,PM25,PM2.5 Particulate,51.4937746695818,0.0107796237032558
+GN3,Greenwich - Plumstead High Street,Roadside,NO2,Nitrogen Dioxide,51.486957,0.095111
+GN3,Greenwich - Plumstead High Street,Roadside,O3,Ozone,51.486957,0.095111
+GN3,Greenwich - Plumstead High Street,Roadside,PM10,PM10 Particulate,51.486957,0.095111
+GN3,Greenwich - Plumstead High Street,Roadside,PM25,PM2.5 Particulate,51.486957,0.095111
+GN5,Greenwich - Trafalgar Road (Hoskins St),Roadside,NO2,Nitrogen Dioxide,51.4839072533485,0.0004073969358497
+GN5,Greenwich - Trafalgar Road (Hoskins St),Roadside,PM10,PM10 Particulate,51.4839072533485,0.0004073969358497
+TL4,Greenwich - Tunnel Avenue,Roadside,NO2,Nitrogen Dioxide,51.495057,0.0041074676
+GR9,Greenwich - Westhorne Avenue,Roadside,NO2,Nitrogen Dioxide,51.456357,0.040725
+GR9,Greenwich - Westhorne Avenue,Roadside,PM10,PM10 Particulate,51.456357,0.040725
+GR9,Greenwich - Westhorne Avenue,Roadside,PM25,PM2.5 Particulate,51.456357,0.040725
+GR8,Greenwich - Woolwich Flyover,Roadside,NO2,Nitrogen Dioxide,51.486884,0.017901
+GR8,Greenwich - Woolwich Flyover,Roadside,PM10,PM10 Particulate,51.486884,0.017901
+GR8,Greenwich - Woolwich Flyover,Roadside,PM10,PM10 Particulate,51.486884,0.017901
+GR8,Greenwich - Woolwich Flyover,Roadside,PM25,PM2.5 Particulate,51.486884,0.017901
+HK6,Hackney - Old Street,Roadside,PM25,PM2.5 Particulate,51.526454,-0.08491
+HG4,Haringey  - Priory Park South,Urban Background,NO2,Nitrogen Dioxide,51.5839769007709,-0.125400278484885
+HG4,Haringey  - Priory Park South,Urban Background,O3,Ozone,51.5839769007709,-0.125400278484885
+HG1,Haringey - Haringey Town Hall,Roadside,NO2,Nitrogen Dioxide,51.599302,-0.068218
+HG1,Haringey - Haringey Town Hall,Roadside,NO2,Nitrogen Dioxide,51.599302,-0.068218
+HG1,Haringey - Haringey Town Hall,Roadside,PM25,PM2.5 Particulate,51.599302,-0.068218
+HV1,Havering - Rainham,Roadside,NO2,Nitrogen Dioxide,51.520787459334,0.205460705694044
+HV1,Havering - Rainham,Roadside,PM25,PM2.5 Particulate,51.520787459334,0.205460705694044
+HV3,Havering - Romford,Roadside,NO2,Nitrogen Dioxide,51.572976,0.179079
+HV3,Havering - Romford,Roadside,NO2,Nitrogen Dioxide,51.572976,0.179079
+HV3,Havering - Romford,Roadside,PM10,PM10 Particulate,51.572976,0.179079
+LH0,Hillingdon - Harlington,Urban Background,PM25,PM2.5 Particulate,51.48878,-0.441627
+IS6,Islington - Arsenal,Urban Background,NO2,Nitrogen Dioxide,51.557895,-0.106989
+IS6,Islington - Arsenal,Urban Background,PM10,PM10 Particulate,51.557895,-0.106989
+IS6,Islington - Arsenal,Urban Background,PM25,PM2.5 Particulate,51.557895,-0.106989
+IS2,Islington - Holloway Road,Roadside,NO2,Nitrogen Dioxide,51.555378,-0.116146
+IS2,Islington - Holloway Road,Roadside,PM10,PM10 Particulate,51.555378,-0.116146
+IS2,Islington - Holloway Road,Roadside,PM25,PM2.5 Particulate,51.555378,-0.116146
+KC1,Kensington and Chelsea - North Ken,Urban Background,CO,Carbon Monoxide,51.5210467476039,-0.213492139585065
+KC1,Kensington and Chelsea - North Ken,Urban Background,NO2,Nitrogen Dioxide,51.5210467476039,-0.213492139585065
+KC1,Kensington and Chelsea - North Ken,Urban Background,O3,Ozone,51.5210467476039,-0.213492139585065
+KC1,Kensington and Chelsea - North Ken,Urban Background,PM25,PM2.5 Particulate,51.5210467476039,-0.213492139585065
+KC1,Kensington and Chelsea - North Ken,Urban Background,SO2,Sulphur Dioxide,51.5210467476039,-0.213492139585065
+GT1,Kensington and Chelsea - Station Walk,Urban Background,PM25,PM2.5 Particulate,51.5140519844289,-0.216532947379263
+LB4,Lambeth - Brixton Road,Kerbside,NO2,Nitrogen Dioxide,51.464113541162,-0.11458102695123
+LB4,Lambeth - Brixton Road,Kerbside,PM10,PM10 Particulate,51.464113541162,-0.11458102695123
+LB4,Lambeth - Brixton Road,Kerbside,PM25,PM2.5 Particulate,51.464113541162,-0.11458102695123
+LB6,Lambeth - Streatham Green,Urban Background,NO2,Nitrogen Dioxide,51.4282131429499,-0.13186863879576
+LB6,Lambeth - Streatham Green,Urban Background,PM10,PM10 Particulate,51.4282131429499,-0.13186863879576
+WAC,Lavender Hill,Roadside,PM10,PM10 Particulate,51.4636903568111,-0.166713485994806
+WAC,Lavender Hill,Roadside,PM25,PM2.5 Particulate,51.4636903568111,-0.166713485994806
+HP1,Lewisham - Honor Oak Park,Urban Background,NO2,Nitrogen Dioxide,51.4496728960354,-0.0374153592115306
+HP1,Lewisham - Honor Oak Park,Urban Background,O3,Ozone,51.4496728960354,-0.0374153592115306
+HP1,Lewisham - Honor Oak Park,Urban Background,PM10,PM10 Particulate,51.4496728960354,-0.0374153592115306
+HP1,Lewisham - Honor Oak Park,Urban Background,PM25,PM2.5 Particulate,51.4496728960354,-0.0374153592115306
+TD5,London Teddington Bushy Park ,Suburban,PM25,PM2.5 Particulate,51.4252560360937,-0.345608290872898
+ME2,Merton - Merton Road,Roadside,PM25,PM2.5 Particulate,51.4161384794862,-0.192230805042824
+MEA,Merton - Mitcham,Roadside,PM25,PM2.5 Particulate,51.4055473441872,-0.164596893540707
+ME9,Merton - Morden Civic Centre 2,Roadside,NO2,Nitrogen Dioxide,51.40162,-0.19589212
+MEB,Merton - Plough Lane Wimbledon,Roadside,PM25,PM2.5 Particulate,51.4304273690564,-0.185811823620255
+TL6,Newham - Britannia Gate,Roadside,NO2,Nitrogen Dioxide,51.503858,0.020574415
+TL6,Newham - Britannia Gate,Roadside,PM25,PM2.5 Particulate,51.503858,0.020574415
+TL5,Newham - Hoola Tower,Roadside,NO2,Nitrogen Dioxide,51.508198,0.015002152
+CE3,Regent Street (The Crown Estate),Roadside,NO2,Nitrogen Dioxide,51.5113771448991,-0.139249367757023
+CE3,Regent Street (The Crown Estate),Roadside,PM10,PM10 Particulate,51.5113771448991,-0.139249367757023
+CE3,Regent Street (The Crown Estate),Roadside,PM25,PM2.5 Particulate,51.5113771448991,-0.139249367757023
+RI2,Richmond Upon Thames - Barnes Wetlands,Suburban,NO2,Nitrogen Dioxide,51.476168,-0.230427
+RI2,Richmond Upon Thames - Barnes Wetlands,Suburban,O3,Ozone,51.476168,-0.230427
+RI2,Richmond Upon Thames - Barnes Wetlands,Suburban,PM10,PM10 Particulate,51.476168,-0.230427
+RI2,Richmond Upon Thames - Barnes Wetlands,Suburban,PM25,PM2.5 Particulate,51.476168,-0.230427
+RI1,Richmond Upon Thames - Castelnau,Roadside,NO2,Nitrogen Dioxide,51.480189,-0.237335
+RI1,Richmond Upon Thames - Castelnau,Roadside,PM10,PM10 Particulate,51.480189,-0.237335
+RHI,Richmond Upon Thames - Richmond,Kerbside,PM25,PM2.5 Particulate,51.4638976490621,-0.301685013378926
+SK5,Southwark - A2 Old Kent Road,Roadside,NO2,Nitrogen Dioxide,51.4804994936467,-0.0595528932573422
+SK5,Southwark - A2 Old Kent Road,Roadside,PM10,PM10 Particulate,51.4804994936467,-0.0595528932573422
+TH4,Tower Hamlets - Blackwall,Roadside,NO2,Nitrogen Dioxide,51.5150461674013,-0.0084184926564274
+TH4,Tower Hamlets - Blackwall,Roadside,O3,Ozone,51.5150461674013,-0.0084184926564274
+TH4,Tower Hamlets - Blackwall,Roadside,PM10,PM10 Particulate,51.5150461674013,-0.0084184926564274
+TH4,Tower Hamlets - Blackwall,Roadside,PM25,PM2.5 Particulate,51.5150461674013,-0.0084184926564274
+CW3,Tower Hamlets - Jubilee Park,Urban Background,NO2,Nitrogen Dioxide,51.5029878731458,-0.0180219908165375
+CW3,Tower Hamlets - Jubilee Park,Urban Background,PM10,PM10 Particulate,51.5029878731458,-0.0180219908165375
+CW3,Tower Hamlets - Jubilee Park,Urban Background,PM25,PM2.5 Particulate,51.5029878731458,-0.0180219908165375
+TH7,Tower Hamlets - King Edward Memorial Park,Urban Background,PM25,PM2.5 Particulate,51.5094228799835,-0.0505278232872832
+TH2,Tower Hamlets - Mile End Road,Roadside,NO2,Nitrogen Dioxide,51.5225462561171,-0.0420823040635312
+TH2,Tower Hamlets - Mile End Road,Roadside,PM25,PM2.5 Particulate,51.5225462561171,-0.0420823040635312
+TH5,Tower Hamlets - Victoria Park,Urban Background,PM25,PM2.5 Particulate,51.5399327394691,-0.0331740581778178
+WAA,Wandsworth - Battersea,Roadside,NO2,Nitrogen Dioxide,51.4794395281222,-0.141786953606306
+WAA,Wandsworth - Battersea,Roadside,PM10,PM10 Particulate,51.4794395281222,-0.141786953606306
+WAA,Wandsworth - Battersea,Roadside,PM25,PM2.5 Particulate,51.4794395281222,-0.141786953606306
+WA9,Wandsworth - Putney,Urban Background,PM10,PM10 Particulate,51.4650325059122,-0.215824580947572
+WA9,Wandsworth - Putney,Urban Background,PM25,PM2.5 Particulate,51.4650325059122,-0.215824580947572
+WA7,Wandsworth - Putney High Street,Kerbside,NO2,Nitrogen Dioxide,51.463429,-0.215871
+WA7,Wandsworth - Putney High Street,Kerbside,PM10,PM10 Particulate,51.463429,-0.215871
+WA7,Wandsworth - Putney High Street,Kerbside,PM25,PM2.5 Particulate,51.463429,-0.215871
+WAB,Wandsworth - Tooting High Street,Roadside,NO2,Nitrogen Dioxide,51.429331,-0.166524
+WAB,Wandsworth - Tooting High Street,Roadside,PM10,PM10 Particulate,51.429331,-0.166524
+WAB,Wandsworth - Tooting High Street,Roadside,PM25,PM2.5 Particulate,51.429331,-0.166524
+CE2,Waterloo Place (The Crown Estate),Roadside,NO2,Nitrogen Dioxide,51.5075819137762,-0.133068372704093
+CE2,Waterloo Place (The Crown Estate),Roadside,O3,Ozone,51.5075819137762,-0.133068372704093
+CE2,Waterloo Place (The Crown Estate),Roadside,PM10,PM10 Particulate,51.5075819137762,-0.133068372704093
+CE2,Waterloo Place (The Crown Estate),Roadside,PM25,PM2.5 Particulate,51.5075819137762,-0.133068372704093
+WM5,Westminster - Covent Garden,Urban Background,NO2,Nitrogen Dioxide,51.5119769825798,-0.12162720332856
+WM5,Westminster - Covent Garden,Urban Background,PM25,PM2.5 Particulate,51.5119769825798,-0.12162720332856
+WMD,Westminster - Elizabeth Bridge,Roadside,NO2,Nitrogen Dioxide,51.4922482333024,-0.147114752900186
+WMD,Westminster - Elizabeth Bridge,Roadside,PM25,PM2.5 Particulate,51.4922482333024,-0.147114752900186
+WM0,Westminster - Horseferry Road,Urban Background,PM25,PM2.5 Particulate,51.494681,-0.131938
+MY1,Westminster - Marylebone Road,Kerbside,CO,Carbon Monoxide,51.52254,-0.15459
+MY1,Westminster - Marylebone Road,Kerbside,NO2,Nitrogen Dioxide,51.52254,-0.15459
+MY1,Westminster - Marylebone Road,Kerbside,O3,Ozone,51.52254,-0.15459
+MY1,Westminster - Marylebone Road,Kerbside,SO2,Sulphur Dioxide,51.52254,-0.15459
+WM6,Westminster - Oxford Street,Kerbside,NO2,Nitrogen Dioxide,51.5139287404213,-0.152792701881935
+WM6,Westminster - Oxford Street,Kerbside,PM10,PM10 Particulate,51.5139287404213,-0.152792701881935
+WM6,Westminster - Oxford Street,Kerbside,PM25,PM2.5 Particulate,51.5139287404213,-0.152792701881935
+WME,Westminster - Queens Park Gardens,Urban Background,PM25,PM2.5 Particulate,51.5286629697555,-0.20875365618309
