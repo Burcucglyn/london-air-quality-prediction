@@ -68,7 +68,6 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.4.7
 notebook_shim==0.2.4
-numpy==2.3.4
 overrides==7.7.0
 packaging==25.0
 pandas==2.3.3
@@ -101,8 +100,8 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rfc3987-syntax==1.1.0
 rpds-py==0.28.0
-scikit-learn==1.7.2
-scipy==1.16.3
+scikit-learn>=1.2,<1.7
+scipy>=1.7.0,<1.14.0
 seaborn==0.13.2
 Send2Trash==1.8.3
 shapely==2.1.2
@@ -115,7 +114,7 @@ terminado==0.18.1
 threadpoolctl==3.6.0
 tinycss2==1.4.0
 tornado==6.5.2
-tqdm==4.67.1
+tqdm==4.66.1
 traitlets==5.14.3
 typing_extensions==4.15.0
 tzdata==2025.2
@@ -131,3 +130,13 @@ beautifulsoup4>=4.12.0
 openmeteo-requests>=1.0.0
 requests-cache>=1.0.0
 retry-requests>=2.0.0
+camelot-py[cv]==1.0.9
+numpy<2.0
+opencv-python-headless>=4.7.0.68
+pdfminer-six>=20240706
+pypdf>=3.17,<4.0
+pypdfium2>=4
+tabulate>=0.9.0
+openpyxl>=3.1.0
+chardet>=5.1.0
+pdfplumber>=0.11.0
