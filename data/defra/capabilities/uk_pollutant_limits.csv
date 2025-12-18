@@ -1,0 +1,15 @@
+pollutant,pollutant_std,limit,unit,objective,concentration measured as,applies
+PM10 Particles,PM10,50.0,µg/m3,50 µg/m3 not to be,24 hour mean,UK
+PM10 Particles,PM10,40.0,µg/m3,40 µg/m3,annual mean,UK
+PM2.5 Particles,PM2.5,20.0,µg/m3,20 µg/m3 not to be,annual mean,UK
+Nitrogen dioxide,NO2,40.0,µg/m3,40 µg/m3,annual mean,UK
+Ozone,O3,100.0,µg/m3,100 µg/m3 not to be exceeded more than 10 times a year,8 hour mean,UK
+Sulphur dioxide,SO2,125.0,µg/m3,125 µg/m3 not to be,24 hour mean,UK
+Polycyclic Aromatic Hydrocarbons,PAH,0.25,ng/m3,0.25 ng/m3 B[a]P,as annual average,UK
+Benzene,Benzene,16.25,µg/m3,16.25 µg/m3,running annual,UK
+"1,3-butadiene",BUTADIENE,2.25,µg/m3,2.25 µg/m3,running annual mean,UK
+Carbon monoxide,CO,10.0,mg/m3,10 mg/m3,maximum daily,UK
+Lead,LEAD,0.5,µg/m3,0.5 µg/m3,annual mean,UK
+Nitrogen oxides,NOx,30.0,µg/m3,30 µg/m3,annual mean,UK
+Sulphur dioxide,SO2,20.0,µg/m3,20 µg/m3,annual mean,UK
+
