@@ -1,0 +1,11 @@
+pollutant,pollutant_code,objective,averaging_period,limit_value,unit,total_measurements,exceedances,exceedance_pct
+Ozone,O3,100 µg/m3 not to be exceeded more than 10 times a year,8 hour mean,100.0,µg/m3,167149,2831,1.69
+Nitrogen oxides,NOx,30 µg/m3,annual mean,30.0,µg/m3,300423,107709,35.85
+1.3 Butadiene,"1,3-butadiene",2.25 µg/m3,running annual mean,2.25,µg/m3,25248,5,0.02
+Benzene,Benzene,16.25 µg/m3,running annual,16.25,µg/m3,25063,3,0.01
+Nitrogen dioxide,NO2,40 µg/m3,annual mean,40.0,µg/m3,300643,37422,12.45
+Sulphur dioxide,SO2,125 µg/m3 not to be,24 hour mean,125.0,µg/m3,65747,2,0.0
+Particulate matter less than 2.5 micro m,PM2.5,20 µg/m3 not to be,annual mean,20.0,µg/m3,205125,11194,5.46
+Carbon monoxide,CO,10 mg/m3,maximum daily,10.0,mg/m3,45500,0,0.0
+Particulate matter less than 10 micro m,PM10,50 µg/m3 not to be,24 hour mean,50.0,µg/m3,189562,1986,1.05
+Particulate matter less than 10 micro m,PM10,40 µg/m3,annual mean,40.0,µg/m3,189562,4462,2.35
