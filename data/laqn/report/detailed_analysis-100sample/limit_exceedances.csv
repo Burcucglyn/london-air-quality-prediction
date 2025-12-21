@@ -1,0 +1,7 @@
+pollutant,pollutant_code,objective,averaging_period,limit_value,unit,total_measurements,exceedances,exceedance_pct
+PM10,PM10,50 µg/m3 not to be,24 hour mean,50.0,µg/m3,17539,288,1.64
+PM10,PM10,40 µg/m3,annual mean,40.0,µg/m3,17539,673,3.84
+NO2,NO2,40 µg/m3,annual mean,40.0,µg/m3,26495,4220,15.93
+SO2,SO2,125 µg/m3 not to be,24 hour mean,125.0,µg/m3,984,0,0.0
+CO,CO,10 mg/m3,maximum daily,10.0,mg/m3,1230,0,0.0
+O3,O3,100 µg/m3 not to be exceeded more than 10 times a year,8 hour mean,100.0,µg/m3,3980,75,1.88
