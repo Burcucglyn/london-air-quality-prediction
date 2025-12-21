@@ -144,7 +144,7 @@ timestamp,value,timeseries_id,station_name,pollutant_name,pollutant_std,latitude
 2024-04-06 22:00:00,10.829,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-04-06 23:00:00,1.127,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-04-07 00:00:00,0.849,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
-2024-04-07 01:00:00,-0.457,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
+2024-04-07 01:00:00,,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-04-07 02:00:00,0.196,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-04-07 03:00:00,1.225,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
 2024-04-07 04:00:00,3.43,260,London Harlington,Nitrogen oxides,NOx,51.48879,-0.4416139999854361
