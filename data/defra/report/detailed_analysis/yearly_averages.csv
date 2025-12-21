@@ -12,12 +12,12 @@ year,pollutant_name,mean,median,std,count
 2023,Ethyl benzene,0.35,0.2,0.71,11081
 2023,Ethyne,0.54,0.39,0.61,11073
 2023,Isoprene,0.13,0.06,0.24,11073
-2023,Nitrogen dioxide,21.95,17.02,17.51,112565
-2023,Nitrogen monoxide,9.26,2.37,20.0,112568
+2023,Nitrogen dioxide,21.95,17.02,17.51,112554
+2023,Nitrogen monoxide,9.26,2.37,20.0,112522
 2023,Nitrogen oxides,36.2,21.61,44.57,112203
-2023,Ozone,45.61,46.9,24.19,58109
+2023,Ozone,45.62,46.9,24.17,58085
 2023,Particulate matter less than 10 micro m,13.82,10.9,10.9,71696
-2023,Particulate matter less than 2.5 micro m,8.16,6.13,7.31,82373
+2023,Particulate matter less than 2.5 micro m,8.16,6.13,7.31,82370
 2023,Propane,4.1,2.62,8.92,11073
 2023,Propene,0.67,0.57,0.56,11075
 2023,Sulphur dioxide,2.01,1.6,1.85,23829
@@ -49,10 +49,10 @@ year,pollutant_name,mean,median,std,count
 2024,Ethyl benzene,0.61,0.32,1.51,7481
 2024,Ethyne,0.61,0.53,0.41,7680
 2024,Isoprene,0.16,0.1,0.19,7685
-2024,Nitrogen dioxide,20.35,16.45,15.0,109638
-2024,Nitrogen monoxide,7.29,2.37,13.06,109616
-2024,Nitrogen oxides,31.48,21.04,32.26,109700
-2024,Ozone,44.86,45.5,22.88,57906
+2024,Nitrogen dioxide,20.35,16.5,15.0,109605
+2024,Nitrogen monoxide,7.3,2.37,13.07,109417
+2024,Nitrogen oxides,31.49,21.04,32.26,109692
+2024,Ozone,44.88,45.5,22.87,57880
 2024,Particulate matter less than 10 micro m,11.8,9.7,10.17,59946
 2024,Particulate matter less than 2.5 micro m,7.0,5.28,5.8,60786
 2024,Propane,4.62,3.85,3.93,7687
@@ -86,10 +86,10 @@ year,pollutant_name,mean,median,std,count
 2025,Ethyl benzene,1.2,0.5,9.99,6495
 2025,Ethyne,0.69,0.6,0.46,6448
 2025,Isoprene,0.22,0.14,0.28,6519
-2025,Nitrogen dioxide,19.75,15.11,15.85,78440
-2025,Nitrogen monoxide,7.0,1.87,15.49,78433
-2025,Nitrogen oxides,30.56,18.93,35.73,78520
-2025,Ozone,49.85,49.09,24.92,51134
+2025,Nitrogen dioxide,19.75,15.11,15.85,78427
+2025,Nitrogen monoxide,7.03,1.87,15.51,78178
+2025,Nitrogen oxides,30.56,18.93,35.73,78513
+2025,Ozone,49.85,49.09,24.91,51128
 2025,Particulate matter less than 10 micro m,13.94,11.2,10.17,57920
 2025,Particulate matter less than 2.5 micro m,8.1,5.66,7.69,61966
 2025,Propane,4.84,3.71,4.15,6542
