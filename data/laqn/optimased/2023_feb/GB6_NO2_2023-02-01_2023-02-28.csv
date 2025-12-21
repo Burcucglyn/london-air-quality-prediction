@@ -410,8 +410,8 @@
 2023-02-18 00:00:00,3.0,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2023-02-18 01:00:00,0.9,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2023-02-18 02:00:00,0.9,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2023-02-18 03:00:00,-0.2,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2023-02-18 04:00:00,-0.7,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2023-02-18 03:00:00,,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2023-02-18 04:00:00,,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2023-02-18 05:00:00,0.9,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2023-02-18 06:00:00,1.9,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2023-02-18 07:00:00,1.8,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606

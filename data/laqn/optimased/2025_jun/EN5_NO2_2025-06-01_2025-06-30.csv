@@ -96,9 +96,9 @@
 2025-06-04 22:00:00,2.2,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-04 23:00:00,1.1,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-05 00:00:00,0.9,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
-2025-06-05 01:00:00,-0.4,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
-2025-06-05 02:00:00,-0.4,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
-2025-06-05 03:00:00,-0.1,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
+2025-06-05 01:00:00,,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
+2025-06-05 02:00:00,,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
+2025-06-05 03:00:00,,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-05 04:00:00,0.8,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-05 05:00:00,2.6,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-05 06:00:00,4.4,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
@@ -146,8 +146,8 @@
 2025-06-07 00:00:00,3.7,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-07 01:00:00,0.8,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-07 02:00:00,0.9,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
-2025-06-07 03:00:00,-0.3,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
-2025-06-07 04:00:00,-0.2,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
+2025-06-07 03:00:00,,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
+2025-06-07 04:00:00,,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-07 05:00:00,0.9,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-07 06:00:00,2.6,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338
 2025-06-07 07:00:00,7.5,NO2,EN5,Nitrogen Dioxide,Enfield - Bowes Primary School,Roadside,51.613865,-0.125338

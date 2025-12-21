@@ -305,9 +305,9 @@
 2023-10-13 15:00:00,14.5,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-13 16:00:00,9.2,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-13 17:00:00,8.1,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2023-10-13 18:00:00,-0.3,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2023-10-13 19:00:00,-0.1,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2023-10-13 20:00:00,-0.2,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2023-10-13 18:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2023-10-13 19:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2023-10-13 20:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-13 21:00:00,3.1,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-13 22:00:00,3.6,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-13 23:00:00,6.4,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
@@ -342,8 +342,8 @@
 2023-10-15 04:00:00,3.8,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-15 05:00:00,4.3,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-15 06:00:00,2.0,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2023-10-15 07:00:00,-4.7,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2023-10-15 08:00:00,-1.0,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2023-10-15 07:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2023-10-15 08:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-15 09:00:00,4.1,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-15 10:00:00,9.1,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2023-10-15 11:00:00,3.7,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989

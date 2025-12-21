@@ -334,10 +334,10 @@
 2025-09-14 20:00:00,2.7,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-14 21:00:00,0.0,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-14 22:00:00,0.4,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2025-09-14 23:00:00,-2.0,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2025-09-15 00:00:00,-3.4,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2025-09-15 01:00:00,-3.8,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2025-09-15 02:00:00,-2.2,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2025-09-14 23:00:00,,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2025-09-15 00:00:00,,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2025-09-15 01:00:00,,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2025-09-15 02:00:00,,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-15 03:00:00,0.5,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-15 04:00:00,2.9,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-15 05:00:00,12.1,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
@@ -480,7 +480,7 @@
 2025-09-20 22:00:00,10.9,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-20 23:00:00,8.5,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-21 00:00:00,0.9,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2025-09-21 01:00:00,-1.0,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2025-09-21 01:00:00,,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-21 02:00:00,1.3,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-21 03:00:00,3.8,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2025-09-21 04:00:00,6.9,NO2,EA6,Nitrogen Dioxide,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488

@@ -38,7 +38,7 @@
 2025-05-02 12:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-02 13:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-02 14:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-02 15:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-02 15:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-02 16:00:00,0.2,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-02 17:00:00,0.2,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-02 18:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -81,7 +81,7 @@
 2025-05-04 07:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-04 08:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-04 09:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-04 10:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-04 10:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-04 11:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-04 12:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-04 13:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -103,8 +103,8 @@
 2025-05-05 05:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-05 06:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-05 07:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-05 08:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-05 09:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-05 08:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-05 09:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-05 10:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-05 11:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-05 12:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -125,10 +125,10 @@
 2025-05-06 03:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 04:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 05:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-06 06:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-06 06:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 07:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 08:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-06 09:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-06 09:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 10:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 11:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-06 12:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -153,8 +153,8 @@
 2025-05-07 07:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-07 08:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-07 09:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-07 10:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-05-07 11:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-07 10:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-05-07 11:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-07 12:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-07 13:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-05-07 14:00:00,0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459

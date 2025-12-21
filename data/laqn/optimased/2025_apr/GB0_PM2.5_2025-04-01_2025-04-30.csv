@@ -307,7 +307,7 @@
 2025-04-13 17:00:00,3.1,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-13 18:00:00,3.0,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-13 19:00:00,3.1,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
-2025-04-13 20:00:00,-1.2,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
+2025-04-13 20:00:00,,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-13 21:00:00,6.9,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-13 22:00:00,5.1,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-13 23:00:00,9.0,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
@@ -323,9 +323,9 @@
 2025-04-14 09:00:00,7.0,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-14 10:00:00,3.7,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-14 11:00:00,6.6,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
-2025-04-14 12:00:00,-0.5,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
+2025-04-14 12:00:00,,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-14 13:00:00,5.5,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
-2025-04-14 14:00:00,-1.5,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
+2025-04-14 14:00:00,,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-14 15:00:00,8.5,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-14 16:00:00,9.3,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-14 17:00:00,2.0,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
@@ -376,8 +376,8 @@
 2025-04-16 14:00:00,6.3,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-16 15:00:00,3.2,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-16 16:00:00,6.4,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
-2025-04-16 17:00:00,-5.4,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
-2025-04-16 18:00:00,-2.7,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
+2025-04-16 17:00:00,,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
+2025-04-16 18:00:00,,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-16 19:00:00,4.5,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-16 20:00:00,4.8,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-16 21:00:00,5.0,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
@@ -513,7 +513,7 @@
 2025-04-22 07:00:00,8.9,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-22 08:00:00,12.3,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-22 09:00:00,8.6,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
-2025-04-22 10:00:00,-1.2,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
+2025-04-22 10:00:00,,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-22 11:00:00,6.3,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-22 12:00:00,4.6,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606
 2025-04-22 13:00:00,6.7,PM2.5,GB0,PM2.5 Particulate,Greenwich - Falconwood FDMS,Roadside,51.4563,0.085606

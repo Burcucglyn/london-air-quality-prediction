@@ -1,5 +1,5 @@
 @MeasurementDateGMT,@Value,SpeciesCode,SiteCode,SpeciesName,SiteName,SiteType,Latitude,Longitude
-2024-10-01 00:00:00,-1.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-01 00:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-01 01:00:00,0.6,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-01 02:00:00,3.2,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-01 03:00:00,0.5,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
@@ -142,7 +142,7 @@
 2024-10-06 20:00:00,6.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-06 21:00:00,5.1,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-06 22:00:00,6.4,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-06 23:00:00,-0.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-06 23:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-07 00:00:00,0.0,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-07 01:00:00,0.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-07 02:00:00,9.4,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
@@ -212,14 +212,14 @@
 2024-10-09 18:00:00,1.2,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-09 19:00:00,0.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-09 20:00:00,0.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-09 21:00:00,-1.5,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-09 21:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-09 22:00:00,7.0,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-09 23:00:00,-0.3,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-09 23:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 00:00:00,1.4,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 01:00:00,0.4,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 02:00:00,0.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 03:00:00,1.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-10 04:00:00,-1.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-10 04:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 05:00:00,2.3,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 06:00:00,9.6,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-10 07:00:00,12.3,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
@@ -285,12 +285,12 @@
 2024-10-12 19:00:00,1.1,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-12 20:00:00,5.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-12 21:00:00,0.3,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-12 22:00:00,-0.4,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-12 22:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-12 23:00:00,6.0,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-13 00:00:00,6.0,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-13 01:00:00,4.2,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-13 02:00:00,-2.6,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-13 03:00:00,-0.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-13 02:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-13 03:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-13 04:00:00,3.9,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-13 05:00:00,2.5,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-13 06:00:00,4.5,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
@@ -323,7 +323,7 @@
 2024-10-14 09:00:00,1.9,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-14 10:00:00,5.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-14 11:00:00,0.8,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
-2024-10-14 12:00:00,-1.0,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
+2024-10-14 12:00:00,,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-14 13:00:00,11.6,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-14 14:00:00,5.7,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488
 2024-10-14 15:00:00,8.4,PM10,EA6,PM10 Particulate,Ealing - Hanger Lane Gyratory,Roadside,51.53085,-0.292488

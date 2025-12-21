@@ -357,9 +357,9 @@
 2024-02-15 19:00:00,2.8,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-15 20:00:00,2.2,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-15 21:00:00,2.6,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2024-02-15 22:00:00,-0.2,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2024-02-15 23:00:00,-1.2,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2024-02-16 00:00:00,-1.5,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2024-02-15 22:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2024-02-15 23:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2024-02-16 00:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-16 01:00:00,4.9,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-16 02:00:00,7.2,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-16 03:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -429,7 +429,7 @@
 2024-02-18 19:00:00,8.9,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-18 20:00:00,10.4,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-18 21:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2024-02-18 22:00:00,-1.5,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2024-02-18 22:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-18 23:00:00,0.9,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-19 00:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-19 01:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -454,7 +454,7 @@
 2024-02-19 20:00:00,7.6,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-19 21:00:00,4.5,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-19 22:00:00,2.3,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2024-02-19 23:00:00,-0.1,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2024-02-19 23:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-20 00:00:00,7.3,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-20 01:00:00,17.7,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-20 02:00:00,15.8,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -571,7 +571,7 @@
 2024-02-24 17:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-24 18:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-24 19:00:00,0.7,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2024-02-24 20:00:00,-3.2,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2024-02-24 20:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-24 21:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-24 22:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2024-02-24 23:00:00,,O3,MY1,Ozone,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459

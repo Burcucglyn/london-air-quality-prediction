@@ -32,7 +32,7 @@
 2024-04-02 06:00:00,7.1,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-02 07:00:00,0.5,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-02 08:00:00,5.5,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2024-04-02 09:00:00,-0.1,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2024-04-02 09:00:00,,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-02 10:00:00,4.6,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-02 11:00:00,5.1,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-02 12:00:00,2.6,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
@@ -351,7 +351,7 @@
 2024-04-15 13:00:00,9.2,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-15 14:00:00,4.5,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-15 15:00:00,3.0,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2024-04-15 16:00:00,-1.8,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2024-04-15 16:00:00,,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-15 17:00:00,5.7,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-15 18:00:00,6.5,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-15 19:00:00,3.3,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
@@ -513,7 +513,7 @@
 2024-04-22 07:00:00,13.2,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-22 08:00:00,10.5,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-22 09:00:00,10.4,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2024-04-22 10:00:00,-0.3,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2024-04-22 10:00:00,,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-22 11:00:00,4.4,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-22 12:00:00,9.3,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2024-04-22 13:00:00,7.0,PM2.5,GN0,PM2.5 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003

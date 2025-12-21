@@ -29,7 +29,7 @@
 2025-01-02 03:00:00,3.8,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-02 04:00:00,2.0,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-02 05:00:00,4.1,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-01-02 06:00:00,-0.5,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-01-02 06:00:00,,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-02 07:00:00,6.0,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-02 08:00:00,5.5,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-02 09:00:00,3.8,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -105,7 +105,7 @@
 2025-01-05 07:00:00,5.8,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-05 08:00:00,2.8,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-05 09:00:00,0.6,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-01-05 10:00:00,-0.8,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-01-05 10:00:00,,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-05 11:00:00,1.0,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-05 12:00:00,1.9,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-05 13:00:00,3.7,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -129,7 +129,7 @@
 2025-01-06 07:00:00,4.9,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-06 08:00:00,3.8,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-06 09:00:00,4.3,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-01-06 10:00:00,-0.9,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-01-06 10:00:00,,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-06 11:00:00,3.6,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-06 12:00:00,4.2,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-06 13:00:00,4.2,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -634,10 +634,10 @@
 2025-01-27 08:00:00,2.4,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 09:00:00,8.6,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 10:00:00,2.7,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-01-27 11:00:00,-0.6,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-01-27 11:00:00,,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 12:00:00,6.0,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 13:00:00,11.2,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-01-27 14:00:00,-0.5,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-01-27 14:00:00,,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 15:00:00,2.5,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 16:00:00,3.4,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-01-27 17:00:00,7.3,PM2.5,GN3,PM2.5 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111

@@ -203,7 +203,7 @@
 2024-04-09 09:00:00,11.5,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-09 10:00:00,0.3,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-09 11:00:00,4.1,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-09 12:00:00,-0.4,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-09 12:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-09 13:00:00,6.3,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-09 14:00:00,7.0,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-09 15:00:00,10.4,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
@@ -351,7 +351,7 @@
 2024-04-15 13:00:00,12.4,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-15 14:00:00,12.9,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-15 15:00:00,10.4,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-15 16:00:00,-2.2,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-15 16:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-15 17:00:00,11.3,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-15 18:00:00,12.3,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-15 19:00:00,14.8,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
@@ -374,8 +374,8 @@
 2024-04-16 12:00:00,11.1,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-16 13:00:00,6.5,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-16 14:00:00,19.6,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-16 15:00:00,-0.8,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-16 16:00:00,-1.1,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-16 15:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-16 16:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-16 17:00:00,13.5,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-16 18:00:00,21.8,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-16 19:00:00,5.9,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
@@ -653,11 +653,11 @@
 2024-04-28 03:00:00,2.2,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-28 04:00:00,3.1,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-28 05:00:00,1.6,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-28 06:00:00,-0.9,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-28 07:00:00,-1.3,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-28 06:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-28 07:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-28 08:00:00,1.6,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-28 09:00:00,-4.7,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
-2024-04-28 10:00:00,-0.2,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-28 09:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
+2024-04-28 10:00:00,,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-28 11:00:00,2.1,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-28 12:00:00,8.9,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335
 2024-04-28 13:00:00,12.7,PM10,RI1,PM10 Particulate,Richmond Upon Thames - Castelnau,Roadside,51.480189,-0.237335

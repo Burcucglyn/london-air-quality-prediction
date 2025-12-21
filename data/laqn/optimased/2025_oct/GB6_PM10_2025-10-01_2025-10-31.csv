@@ -62,7 +62,7 @@
 2025-10-03 12:00:00,9.7,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-03 13:00:00,14.8,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-03 14:00:00,7.2,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2025-10-03 15:00:00,-0.3,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2025-10-03 15:00:00,,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-03 16:00:00,6.3,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-03 17:00:00,10.6,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-03 18:00:00,17.4,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
@@ -75,7 +75,7 @@
 2025-10-04 01:00:00,1.7,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-04 02:00:00,6.3,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-04 03:00:00,4.6,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2025-10-04 04:00:00,-0.2,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2025-10-04 04:00:00,,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-04 05:00:00,6.7,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-04 06:00:00,12.0,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-04 07:00:00,9.1,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
@@ -453,7 +453,7 @@
 2025-10-19 19:00:00,12.8,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-19 20:00:00,11.9,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-19 21:00:00,10.7,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2025-10-19 22:00:00,-0.5,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2025-10-19 22:00:00,,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-19 23:00:00,3.5,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-20 00:00:00,7.4,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-20 01:00:00,10.0,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
@@ -536,7 +536,7 @@
 2025-10-23 06:00:00,1.1,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 07:00:00,1.8,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 08:00:00,0.5,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2025-10-23 09:00:00,-2.3,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2025-10-23 09:00:00,,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 10:00:00,2.7,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 11:00:00,5.3,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 12:00:00,3.6,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
@@ -545,8 +545,8 @@
 2025-10-23 15:00:00,7.8,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 16:00:00,6.2,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 17:00:00,0.8,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2025-10-23 18:00:00,-0.2,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2025-10-23 19:00:00,-0.8,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2025-10-23 18:00:00,,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2025-10-23 19:00:00,,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 20:00:00,6.7,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 21:00:00,5.1,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2025-10-23 22:00:00,5.1,PM10,GB6,PM10 Particulate,Greenwich - Falconwood,Roadside,51.4563,0.085606

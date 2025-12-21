@@ -192,8 +192,8 @@
 2024-10-08 22:00:00,0.7,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2024-10-08 23:00:00,0.7,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2024-10-09 00:00:00,0.9,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2024-10-09 01:00:00,-0.4,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
-2024-10-09 02:00:00,-0.2,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2024-10-09 01:00:00,,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
+2024-10-09 02:00:00,,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2024-10-09 03:00:00,3.6,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2024-10-09 04:00:00,6.1,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606
 2024-10-09 05:00:00,13.3,NO2,GB6,Nitrogen Dioxide,Greenwich - Falconwood,Roadside,51.4563,0.085606

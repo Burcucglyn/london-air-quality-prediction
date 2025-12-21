@@ -43,7 +43,7 @@
 2025-10-02 17:00:00,21.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-02 18:00:00,24.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-02 19:00:00,21.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
-2025-10-02 20:00:00,-2.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
+2025-10-02 20:00:00,,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-02 21:00:00,22.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-02 22:00:00,15.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-02 23:00:00,15.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
@@ -191,7 +191,7 @@
 2025-10-08 21:00:00,13.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-08 22:00:00,13.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-08 23:00:00,19.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
-2025-10-09 00:00:00,-2.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
+2025-10-09 00:00:00,,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-09 01:00:00,23.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-09 02:00:00,26.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-09 03:00:00,14.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
@@ -385,7 +385,7 @@
 2025-10-16 23:00:00,20.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-17 00:00:00,15.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-17 01:00:00,18.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
-2025-10-17 02:00:00,-6.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
+2025-10-17 02:00:00,,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-17 03:00:00,11.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-17 04:00:00,17.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2025-10-17 05:00:00,26.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089

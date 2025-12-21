@@ -5,7 +5,7 @@
 2023-03-01 03:00:00,6.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-01 04:00:00,6.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-01 05:00:00,4.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2023-03-01 06:00:00,-1.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2023-03-01 06:00:00,,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-01 07:00:00,5.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-01 08:00:00,8.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-01 09:00:00,7.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
@@ -226,7 +226,7 @@
 2023-03-10 08:00:00,3.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-10 09:00:00,4.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-10 10:00:00,1.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2023-03-10 11:00:00,-5.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2023-03-10 11:00:00,,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-10 12:00:00,2.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-10 13:00:00,8.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-10 14:00:00,12.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
@@ -606,8 +606,8 @@
 2023-03-26 04:00:00,5.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-26 05:00:00,3.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-26 06:00:00,2.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2023-03-26 07:00:00,-2.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2023-03-26 08:00:00,-2.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2023-03-26 07:00:00,,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2023-03-26 08:00:00,,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-26 09:00:00,0.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-26 10:00:00,2.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2023-03-26 11:00:00,5.0,PM10,BY7,PM10 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882

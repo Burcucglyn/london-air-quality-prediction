@@ -16,7 +16,7 @@
 2025-08-01 14:00:00,6.1,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-01 15:00:00,8.7,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-01 16:00:00,8.2,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-01 17:00:00,-3.9,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-01 17:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-01 18:00:00,0.3,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-01 19:00:00,9.3,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-01 20:00:00,4.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -65,9 +65,9 @@
 2025-08-03 15:00:00,7.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-03 16:00:00,23.8,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-03 17:00:00,8.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-03 18:00:00,-1.2,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-03 18:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-03 19:00:00,4.7,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-03 20:00:00,-3.4,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-03 20:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-03 21:00:00,9.1,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-03 22:00:00,10.3,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-03 23:00:00,12.4,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -89,7 +89,7 @@
 2025-08-04 15:00:00,11.7,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-04 16:00:00,4.7,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-04 17:00:00,11.3,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-04 18:00:00,-1.1,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-04 18:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-04 19:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-04 20:00:00,7.2,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-04 21:00:00,8.0,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -558,7 +558,7 @@
 2025-08-24 04:00:00,6.7,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-24 05:00:00,6.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-24 06:00:00,5.4,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-24 07:00:00,-0.2,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-24 07:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-24 08:00:00,7.9,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-24 09:00:00,3.8,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-24 10:00:00,9.3,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -583,7 +583,7 @@
 2025-08-25 05:00:00,8.9,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-25 06:00:00,9.2,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-25 07:00:00,1.5,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-25 08:00:00,-1.8,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-25 08:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-25 09:00:00,6.8,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-25 10:00:00,7.9,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-25 11:00:00,6.4,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -611,7 +611,7 @@
 2025-08-26 09:00:00,14.8,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-26 10:00:00,8.0,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-26 11:00:00,6.0,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-26 12:00:00,-0.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-26 12:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-26 13:00:00,0.9,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-26 14:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-26 15:00:00,15.3,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -690,7 +690,7 @@
 2025-08-29 16:00:00,4.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-29 17:00:00,5.8,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-29 18:00:00,6.9,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-08-29 19:00:00,-4.6,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-08-29 19:00:00,,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-29 20:00:00,8.2,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-29 21:00:00,7.1,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-08-29 22:00:00,6.7,PM10,GN3,PM10 Particulate,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111

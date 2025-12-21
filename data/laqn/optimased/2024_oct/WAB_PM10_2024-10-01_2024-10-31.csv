@@ -1,6 +1,6 @@
 @MeasurementDateGMT,@Value,SpeciesCode,SiteCode,SpeciesName,SiteName,SiteType,Latitude,Longitude
 2024-10-01 00:00:00,4.0,PM10,WAB,PM10 Particulate,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
-2024-10-01 01:00:00,-1.0,PM10,WAB,PM10 Particulate,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
+2024-10-01 01:00:00,,PM10,WAB,PM10 Particulate,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2024-10-01 02:00:00,7.0,PM10,WAB,PM10 Particulate,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2024-10-01 03:00:00,2.0,PM10,WAB,PM10 Particulate,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2024-10-01 04:00:00,3.0,PM10,WAB,PM10 Particulate,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524

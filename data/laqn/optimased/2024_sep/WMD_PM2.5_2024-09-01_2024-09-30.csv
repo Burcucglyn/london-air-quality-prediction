@@ -45,7 +45,7 @@
 2024-09-02 19:00:00,3.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-02 20:00:00,1.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-02 21:00:00,0.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
-2024-09-02 22:00:00,-1.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
+2024-09-02 22:00:00,,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-02 23:00:00,5.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-03 00:00:00,6.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-03 01:00:00,5.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
@@ -597,7 +597,7 @@
 2024-09-25 19:00:00,5.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-25 20:00:00,6.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-25 21:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
-2024-09-25 22:00:00,-1.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
+2024-09-25 22:00:00,,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-25 23:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 00:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 01:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
@@ -615,7 +615,7 @@
 2024-09-26 13:00:00,5.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 14:00:00,4.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 15:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
-2024-09-26 16:00:00,-1.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
+2024-09-26 16:00:00,,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 17:00:00,1.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 18:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186
 2024-09-26 19:00:00,2.0,PM2.5,WMD,PM2.5 Particulate,Westminster - Elizabeth Bridge,Roadside,51.4922482333024,-0.147114752900186

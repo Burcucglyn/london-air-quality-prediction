@@ -408,10 +408,10 @@
 2025-08-17 22:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-17 23:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-18 00:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-08-18 01:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-08-18 01:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-18 02:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-18 03:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-08-18 04:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-08-18 04:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-18 05:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-18 06:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-18 07:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -435,7 +435,7 @@
 2025-08-19 01:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-19 02:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-19 03:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2025-08-19 04:00:00,-0.1,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2025-08-19 04:00:00,,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-19 05:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-19 06:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2025-08-19 07:00:00,0.0,CO,MY1,Carbon Monoxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459

@@ -336,8 +336,8 @@
 2025-09-14 22:00:00,6.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-14 23:00:00,5.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-15 00:00:00,3.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
-2025-09-15 01:00:00,-1.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
-2025-09-15 02:00:00,-1.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
+2025-09-15 01:00:00,,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
+2025-09-15 02:00:00,,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-15 03:00:00,0.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-15 04:00:00,2.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-15 05:00:00,8.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
@@ -362,7 +362,7 @@
 2025-09-16 00:00:00,0.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-16 01:00:00,0.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-16 02:00:00,0.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
-2025-09-16 03:00:00,-1.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
+2025-09-16 03:00:00,,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-16 04:00:00,2.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-16 05:00:00,9.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-16 06:00:00,13.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
@@ -481,9 +481,9 @@
 2025-09-20 23:00:00,5.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-21 00:00:00,7.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-21 01:00:00,1.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
-2025-09-21 02:00:00,-1.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
+2025-09-21 02:00:00,,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-21 03:00:00,0.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
-2025-09-21 04:00:00,-1.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
+2025-09-21 04:00:00,,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-21 05:00:00,2.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-21 06:00:00,6.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524
 2025-09-21 07:00:00,6.0,NO2,WAB,Nitrogen Dioxide,Wandsworth - Tooting High Street,Roadside,51.429331,-0.166524

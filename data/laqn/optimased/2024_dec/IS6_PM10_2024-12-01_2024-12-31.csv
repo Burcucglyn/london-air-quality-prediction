@@ -162,7 +162,7 @@
 2024-12-07 16:00:00,2.6,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-07 17:00:00,1.0,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-07 18:00:00,1.8,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2024-12-07 19:00:00,-0.2,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2024-12-07 19:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-07 20:00:00,3.0,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-07 21:00:00,1.6,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-07 22:00:00,3.5,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
@@ -172,11 +172,11 @@
 2024-12-08 02:00:00,1.7,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 03:00:00,1.3,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 04:00:00,5.7,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2024-12-08 05:00:00,-1.2,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2024-12-08 05:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 06:00:00,5.5,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 07:00:00,0.4,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2024-12-08 08:00:00,-1.8,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2024-12-08 09:00:00,-0.6,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2024-12-08 08:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2024-12-08 09:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 10:00:00,3.0,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 11:00:00,2.9,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-08 12:00:00,6.5,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
@@ -345,7 +345,7 @@
 2024-12-15 07:00:00,1.2,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-15 08:00:00,3.7,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-15 09:00:00,0.3,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
-2024-12-15 10:00:00,-0.5,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
+2024-12-15 10:00:00,,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-15 11:00:00,5.6,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-15 12:00:00,8.8,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989
 2024-12-15 13:00:00,9.6,PM10,IS6,PM10 Particulate,Islington - Arsenal,Urban Background,51.557895,-0.106989

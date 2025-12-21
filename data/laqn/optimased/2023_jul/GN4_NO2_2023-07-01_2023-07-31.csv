@@ -360,9 +360,9 @@
 2023-07-15 22:00:00,2.7,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
 2023-07-15 23:00:00,1.7,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
 2023-07-16 00:00:00,0.1,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
-2023-07-16 01:00:00,-0.5,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
-2023-07-16 02:00:00,-0.8,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
-2023-07-16 03:00:00,-0.9,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
+2023-07-16 01:00:00,,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
+2023-07-16 02:00:00,,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
+2023-07-16 03:00:00,,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
 2023-07-16 04:00:00,0.9,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
 2023-07-16 05:00:00,4.7,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697
 2023-07-16 06:00:00,3.1,NO2,GN4,Nitrogen Dioxide,Greenwich - Fiveways Sidcup Rd A20,Roadside,51.4346627060562,0.0642224671704697

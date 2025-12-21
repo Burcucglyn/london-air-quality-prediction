@@ -20,8 +20,8 @@
 2024-01-01 18:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-01 19:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-01 20:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2024-01-01 21:00:00,-3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2024-01-01 22:00:00,-3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2024-01-01 21:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2024-01-01 22:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-01 23:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-02 00:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-02 01:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -544,7 +544,7 @@
 2024-01-23 14:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-23 15:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-23 16:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2024-01-23 17:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2024-01-23 17:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-23 18:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-23 19:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-23 20:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -603,7 +603,7 @@
 2024-01-26 01:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-26 02:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-26 03:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2024-01-26 04:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2024-01-26 04:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-26 05:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-26 06:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2024-01-26 07:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415

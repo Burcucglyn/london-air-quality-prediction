@@ -1,6 +1,6 @@
 @MeasurementDateGMT,@Value,SpeciesCode,SiteCode,SpeciesName,SiteName,SiteType,Latitude,Longitude
 2023-01-01 00:00:00,16.5,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-01 01:00:00,-2.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-01 01:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-01 02:00:00,5.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-01 03:00:00,10.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-01 04:00:00,13.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -27,7 +27,7 @@
 2023-01-02 01:00:00,2.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-02 02:00:00,1.6,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-02 03:00:00,3.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-02 04:00:00,-2.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-02 04:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-02 05:00:00,5.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-02 06:00:00,2.0,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-02 07:00:00,3.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -79,7 +79,7 @@
 2023-01-04 05:00:00,6.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-04 06:00:00,7.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-04 07:00:00,4.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-04 08:00:00,-0.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-04 08:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-04 09:00:00,6.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-04 10:00:00,11.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-04 11:00:00,9.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -121,7 +121,7 @@
 2023-01-05 23:00:00,9.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-06 00:00:00,8.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-06 01:00:00,6.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-06 02:00:00,-5.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-06 02:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-06 03:00:00,2.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-06 04:00:00,1.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-06 05:00:00,5.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -161,7 +161,7 @@
 2023-01-07 15:00:00,6.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-07 16:00:00,11.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-07 17:00:00,5.5,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-07 18:00:00,-6.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-07 18:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-07 19:00:00,3.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-07 20:00:00,10.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-07 21:00:00,12.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -182,9 +182,9 @@
 2023-01-08 12:00:00,10.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 13:00:00,102.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 14:00:00,6.6,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-08 15:00:00,-1.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-08 15:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 16:00:00,5.0,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-08 17:00:00,-2.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-08 17:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 18:00:00,2.6,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 19:00:00,4.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 20:00:00,8.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -192,9 +192,9 @@
 2023-01-08 22:00:00,12.0,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-08 23:00:00,9.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-09 00:00:00,3.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-09 01:00:00,-0.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-09 01:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-09 02:00:00,2.0,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-09 03:00:00,-0.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-09 03:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-09 04:00:00,3.5,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-09 05:00:00,8.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-09 06:00:00,10.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -237,8 +237,8 @@
 2023-01-10 19:00:00,6.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-10 20:00:00,6.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-10 21:00:00,1.6,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-10 22:00:00,-1.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-10 23:00:00,-12.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-10 22:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-10 23:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-11 00:00:00,3.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-11 01:00:00,4.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-11 02:00:00,8.6,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -324,10 +324,10 @@
 2023-01-14 10:00:00,6.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-14 11:00:00,5.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-14 12:00:00,3.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-14 13:00:00,-1.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-14 14:00:00,-1.5,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-14 13:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-14 14:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-14 15:00:00,5.4,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-14 16:00:00,-7.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-14 16:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-14 17:00:00,5.0,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-14 18:00:00,5.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-14 19:00:00,9.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -363,7 +363,7 @@
 2023-01-16 01:00:00,19.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 02:00:00,12.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 03:00:00,3.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-16 04:00:00,-1.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-16 04:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 05:00:00,1.1,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 06:00:00,1.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 07:00:00,3.9,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
@@ -375,7 +375,7 @@
 2023-01-16 13:00:00,9.0,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 14:00:00,5.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 15:00:00,10.2,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
-2023-01-16 16:00:00,-0.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
+2023-01-16 16:00:00,,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 17:00:00,0.8,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 18:00:00,6.3,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857
 2023-01-16 19:00:00,7.7,PM10,BG2,PM10 Particulate,Barking and Dagenham - Scrattons Farm,Suburban,51.529389,0.132857

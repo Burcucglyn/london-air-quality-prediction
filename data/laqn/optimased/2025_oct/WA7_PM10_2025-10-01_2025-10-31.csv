@@ -71,7 +71,7 @@
 2025-10-03 21:00:00,6.4,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-03 22:00:00,5.9,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-03 23:00:00,5.6,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
-2025-10-04 00:00:00,-1.5,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
+2025-10-04 00:00:00,,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-04 01:00:00,7.3,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-04 02:00:00,7.1,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-04 03:00:00,2.8,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
@@ -533,9 +533,9 @@
 2025-10-23 03:00:00,4.5,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-23 04:00:00,4.2,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-23 05:00:00,3.3,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
-2025-10-23 06:00:00,-0.1,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
+2025-10-23 06:00:00,,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-23 07:00:00,0.7,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
-2025-10-23 08:00:00,-1.2,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
+2025-10-23 08:00:00,,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-23 09:00:00,2.7,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-23 10:00:00,5.3,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871
 2025-10-23 11:00:00,2.3,PM10,WA7,PM10 Particulate,Wandsworth - Putney High Street,Kerbside,51.463429,-0.215871

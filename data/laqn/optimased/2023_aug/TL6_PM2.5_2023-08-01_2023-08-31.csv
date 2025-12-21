@@ -26,11 +26,11 @@
 2023-08-02 00:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 01:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 02:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-02 03:00:00,-2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-02 04:00:00,-4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-02 03:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-02 04:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 05:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 06:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-02 07:00:00,-2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-02 07:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 08:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 09:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 10:00:00,8.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -39,7 +39,7 @@
 2023-08-02 13:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 14:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 15:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-02 16:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-02 16:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 17:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 18:00:00,8.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 19:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -47,7 +47,7 @@
 2023-08-02 21:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 22:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-02 23:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-03 00:00:00,-5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-03 00:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-03 01:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-03 02:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-03 03:00:00,8.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -108,7 +108,7 @@
 2023-08-05 10:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-05 11:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-05 12:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-05 13:00:00,-2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-05 13:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-05 14:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-05 15:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-05 16:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -246,7 +246,7 @@
 2023-08-11 04:00:00,9.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-11 05:00:00,8.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-11 06:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-11 07:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-11 07:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-11 08:00:00,10.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-11 09:00:00,12.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-11 10:00:00,9.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -473,7 +473,7 @@
 2023-08-20 15:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-20 16:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-20 17:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-20 18:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-20 18:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-20 19:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-20 20:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-20 21:00:00,8.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -599,8 +599,8 @@
 2023-08-25 21:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-25 22:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-25 23:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-26 00:00:00,-2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-26 01:00:00,-2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-26 00:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-26 01:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 02:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 03:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 04:00:00,3.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -613,7 +613,7 @@
 2023-08-26 11:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 12:00:00,6.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 13:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-26 14:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-26 14:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 15:00:00,7.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 16:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-26 17:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
@@ -658,9 +658,9 @@
 2023-08-28 08:00:00,5.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-28 09:00:00,4.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-28 10:00:00,1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-28 11:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-28 12:00:00,-2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
-2023-08-28 13:00:00,-1.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-28 11:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-28 12:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
+2023-08-28 13:00:00,,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-28 14:00:00,0.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-28 15:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415
 2023-08-28 16:00:00,2.0,PM2.5,TL6,PM2.5 Particulate,Newham - Britannia Gate,Roadside,51.503858,0.020574415

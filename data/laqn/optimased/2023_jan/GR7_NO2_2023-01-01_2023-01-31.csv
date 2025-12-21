@@ -264,9 +264,9 @@
 2023-01-11 22:00:00,5.6,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-11 23:00:00,7.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-12 00:00:00,8.2,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2023-01-12 01:00:00,-0.7,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2023-01-12 02:00:00,-2.2,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2023-01-12 03:00:00,-1.7,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2023-01-12 01:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2023-01-12 02:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2023-01-12 03:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-12 04:00:00,0.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-12 05:00:00,0.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-12 06:00:00,5.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
@@ -289,8 +289,8 @@
 2023-01-12 23:00:00,3.4,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-13 00:00:00,1.5,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-13 01:00:00,0.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2023-01-13 02:00:00,-1.7,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2023-01-13 03:00:00,-1.7,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2023-01-13 02:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2023-01-13 03:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-13 04:00:00,0.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-13 05:00:00,0.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2023-01-13 06:00:00,5.6,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381

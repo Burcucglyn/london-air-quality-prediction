@@ -510,8 +510,8 @@
 2023-12-22 04:00:00,2.9,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-22 05:00:00,2.7,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-22 06:00:00,3.4,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2023-12-22 07:00:00,-1.6,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2023-12-22 08:00:00,-0.1,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2023-12-22 07:00:00,,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2023-12-22 08:00:00,,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-22 09:00:00,1.9,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-22 10:00:00,4.3,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-22 11:00:00,5.3,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
@@ -573,7 +573,7 @@
 2023-12-24 19:00:00,2.1,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-24 20:00:00,2.2,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-24 21:00:00,3.4,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2023-12-24 22:00:00,-1.1,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2023-12-24 22:00:00,,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-24 23:00:00,1.8,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-25 00:00:00,2.1,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-25 01:00:00,2.0,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
@@ -596,9 +596,9 @@
 2023-12-25 18:00:00,3.3,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-25 19:00:00,3.7,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-25 20:00:00,2.4,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2023-12-25 21:00:00,-0.1,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2023-12-25 21:00:00,,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-25 22:00:00,0.3,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
-2023-12-25 23:00:00,-1.5,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
+2023-12-25 23:00:00,,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-26 00:00:00,3.9,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-26 01:00:00,5.8,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003
 2023-12-26 02:00:00,4.2,PM10,GN0,PM10 Particulate,Greenwich - A206 Burrage Grove,Roadside,51.490532,0.074003

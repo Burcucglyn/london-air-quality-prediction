@@ -551,9 +551,9 @@
 2025-02-23 21:00:00,1.3,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-02-23 22:00:00,1.3,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-02-23 23:00:00,0.9,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2025-02-24 00:00:00,-0.5,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2025-02-24 01:00:00,-0.7,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2025-02-24 02:00:00,-0.2,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2025-02-24 00:00:00,,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2025-02-24 01:00:00,,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2025-02-24 02:00:00,,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-02-24 03:00:00,0.7,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-02-24 04:00:00,3.5,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-02-24 05:00:00,3.9,NO2,BT5,Nitrogen Dioxide,Brent - Neasden Lane,Industrial,51.552656,-0.248774

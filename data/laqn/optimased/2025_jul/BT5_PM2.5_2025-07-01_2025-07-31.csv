@@ -339,7 +339,7 @@
 2025-07-15 01:00:00,10.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-15 02:00:00,5.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-15 03:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2025-07-15 04:00:00,-3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2025-07-15 04:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-15 05:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-15 06:00:00,7.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-15 07:00:00,6.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -482,7 +482,7 @@
 2025-07-21 00:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-21 01:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-21 02:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2025-07-21 03:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2025-07-21 03:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-21 04:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-21 05:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-21 06:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -613,7 +613,7 @@
 2025-07-26 11:00:00,5.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-26 12:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-26 13:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2025-07-26 14:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2025-07-26 14:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-26 15:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-26 16:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2025-07-26 17:00:00,6.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774

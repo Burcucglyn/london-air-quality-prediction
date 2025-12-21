@@ -193,8 +193,8 @@
 2024-08-08 23:00:00,9.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-09 00:00:00,1.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-09 01:00:00,0.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
-2024-08-09 02:00:00,-3.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
-2024-08-09 03:00:00,-2.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
+2024-08-09 02:00:00,,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
+2024-08-09 03:00:00,,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-09 04:00:00,5.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-09 05:00:00,18.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-09 06:00:00,26.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
@@ -362,8 +362,8 @@
 2024-08-16 00:00:00,4.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-16 01:00:00,1.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-16 02:00:00,0.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
-2024-08-16 03:00:00,-2.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
-2024-08-16 04:00:00,-2.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
+2024-08-16 03:00:00,,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
+2024-08-16 04:00:00,,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-16 05:00:00,2.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-16 06:00:00,6.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497
 2024-08-16 07:00:00,4.0,NO2,GN5,Nitrogen Dioxide,Greenwich - Trafalgar Road (Hoskins St),Roadside,51.4839072533485,0.0004073969358497

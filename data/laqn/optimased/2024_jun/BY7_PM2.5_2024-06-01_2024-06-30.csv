@@ -71,7 +71,7 @@
 2024-06-03 21:00:00,6.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-03 22:00:00,8.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-03 23:00:00,18.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2024-06-04 00:00:00,-2.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2024-06-04 00:00:00,,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-04 01:00:00,8.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-04 02:00:00,10.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-04 03:00:00,8.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
@@ -506,8 +506,8 @@
 2024-06-22 00:00:00,5.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-22 01:00:00,3.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-22 02:00:00,2.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2024-06-22 03:00:00,-1.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2024-06-22 04:00:00,-3.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2024-06-22 03:00:00,,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2024-06-22 04:00:00,,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-22 05:00:00,4.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-22 06:00:00,3.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-22 07:00:00,5.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
@@ -532,13 +532,13 @@
 2024-06-23 02:00:00,2.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 03:00:00,3.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 04:00:00,1.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2024-06-23 05:00:00,-3.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2024-06-23 06:00:00,-3.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2024-06-23 05:00:00,,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2024-06-23 06:00:00,,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 07:00:00,1.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 08:00:00,2.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 09:00:00,5.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 10:00:00,2.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
-2024-06-23 11:00:00,-1.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
+2024-06-23 11:00:00,,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 12:00:00,5.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 13:00:00,7.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882
 2024-06-23 14:00:00,7.0,PM2.5,BY7,PM2.5 Particulate,Bromley - Harwood Avenue,Roadside,51.405546,0.018882

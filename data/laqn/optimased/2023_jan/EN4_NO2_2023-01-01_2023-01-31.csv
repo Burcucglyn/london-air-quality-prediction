@@ -73,7 +73,7 @@
 2023-01-03 23:00:00,3.6,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-04 00:00:00,2.4,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-04 01:00:00,0.8,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
-2023-01-04 02:00:00,-0.3,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
+2023-01-04 02:00:00,,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-04 03:00:00,0.4,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-04 04:00:00,1.2,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-04 05:00:00,3.1,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
@@ -265,9 +265,9 @@
 2023-01-11 23:00:00,6.2,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-12 00:00:00,3.4,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-12 01:00:00,0.8,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
-2023-01-12 02:00:00,-0.3,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
-2023-01-12 03:00:00,-1.0,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
-2023-01-12 04:00:00,-0.4,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
+2023-01-12 02:00:00,,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
+2023-01-12 03:00:00,,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
+2023-01-12 04:00:00,,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-12 05:00:00,3.8,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-12 06:00:00,7.8,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689
 2023-01-12 07:00:00,12.6,NO2,EN4,Nitrogen Dioxide,Enfield - Derby Road,Roadside,51.614864007,-0.0507658363689

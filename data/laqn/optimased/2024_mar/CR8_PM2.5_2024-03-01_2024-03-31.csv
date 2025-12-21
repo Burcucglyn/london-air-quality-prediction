@@ -35,7 +35,7 @@
 2024-03-02 09:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-02 10:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-02 11:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-02 12:00:00,-2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-02 12:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-02 13:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-02 14:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-02 15:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -287,7 +287,7 @@
 2024-03-12 21:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-12 22:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-12 23:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-13 00:00:00,-1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-13 00:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 01:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 02:00:00,4.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 03:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -303,7 +303,7 @@
 2024-03-13 13:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 14:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 15:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-13 16:00:00,-2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-13 16:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 17:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 18:00:00,4.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-13 19:00:00,4.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -375,7 +375,7 @@
 2024-03-16 13:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-16 14:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-16 15:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-16 16:00:00,-1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-16 16:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-16 17:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-16 18:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-16 19:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -394,7 +394,7 @@
 2024-03-17 08:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-17 09:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-17 10:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-17 11:00:00,-2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-17 11:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-17 12:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-17 13:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-17 14:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -445,7 +445,7 @@
 2024-03-19 11:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 12:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 13:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-19 14:00:00,-1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-19 14:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 15:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 16:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 17:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -455,7 +455,7 @@
 2024-03-19 21:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 22:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-19 23:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-20 00:00:00,-2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-20 00:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-20 01:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-20 02:00:00,6.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-20 03:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -542,9 +542,9 @@
 2024-03-23 12:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-23 13:00:00,5.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-23 14:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-23 15:00:00,-2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-23 15:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-23 16:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-23 17:00:00,-2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-23 17:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-23 18:00:00,1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-23 19:00:00,4.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-23 20:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -568,7 +568,7 @@
 2024-03-24 14:00:00,2.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-24 15:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-24 16:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-24 17:00:00,-1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-24 17:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-24 18:00:00,7.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-24 19:00:00,8.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-24 20:00:00,13.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
@@ -623,8 +623,8 @@
 2024-03-26 21:00:00,4.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-26 22:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-26 23:00:00,3.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-27 00:00:00,-1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
-2024-03-27 01:00:00,-1.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-27 00:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
+2024-03-27 01:00:00,,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-27 02:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-27 03:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523
 2024-03-27 04:00:00,0.0,PM2.5,CR8,PM2.5 Particulate,Croydon - Norbury Manor,Urban Background,51.410039,-0.127523

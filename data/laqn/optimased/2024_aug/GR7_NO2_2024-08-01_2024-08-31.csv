@@ -579,13 +579,13 @@
 2024-08-25 01:00:00,2.6,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 02:00:00,0.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 03:00:00,0.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2024-08-25 04:00:00,-0.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2024-08-25 04:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 05:00:00,2.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 06:00:00,2.6,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 07:00:00,3.2,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 08:00:00,3.7,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 09:00:00,2.0,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2024-08-25 10:00:00,-0.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2024-08-25 10:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 11:00:00,1.4,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 12:00:00,1.4,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-25 13:00:00,0.9,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
@@ -608,9 +608,9 @@
 2024-08-26 06:00:00,7.8,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-26 07:00:00,4.4,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-26 08:00:00,1.5,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2024-08-26 09:00:00,-0.8,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2024-08-26 09:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-26 10:00:00,2.1,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
-2024-08-26 11:00:00,-0.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
+2024-08-26 11:00:00,,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-26 12:00:00,0.3,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-26 13:00:00,3.2,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381
 2024-08-26 14:00:00,2.6,NO2,GR7,Nitrogen Dioxide,Greenwich - Blackheath,Roadside,51.472504,-0.012381

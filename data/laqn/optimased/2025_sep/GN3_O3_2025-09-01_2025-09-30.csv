@@ -124,8 +124,8 @@
 2025-09-06 02:00:00,22.2,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-06 03:00:00,9.9,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-06 04:00:00,0.5,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-06 05:00:00,-2.5,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-06 06:00:00,-2.5,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-06 05:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-06 06:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-06 07:00:00,2.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-06 08:00:00,19.3,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-06 09:00:00,39.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -671,13 +671,13 @@
 2025-09-28 21:00:00,0.5,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-28 22:00:00,0.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-28 23:00:00,0.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 00:00:00,-0.7,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 00:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-29 01:00:00,0.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 02:00:00,-0.5,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 03:00:00,-1.5,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 04:00:00,-1.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 05:00:00,-1.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 06:00:00,-1.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 02:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 03:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 04:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 05:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 06:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-29 07:00:00,2.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-29 08:00:00,4.9,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-29 09:00:00,11.9,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
@@ -694,4 +694,4 @@
 2025-09-29 20:00:00,3.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-29 21:00:00,0.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
 2025-09-29 22:00:00,0.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
-2025-09-29 23:00:00,-2.0,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111
+2025-09-29 23:00:00,,O3,GN3,Ozone,Greenwich - Plumstead High Street,Roadside,51.486957,0.095111

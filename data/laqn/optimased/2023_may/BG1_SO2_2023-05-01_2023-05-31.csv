@@ -29,7 +29,7 @@
 2023-05-02 03:00:00,0.2,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-02 04:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-02 05:00:00,0.0,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
-2023-05-02 06:00:00,-0.2,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
+2023-05-02 06:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-02 07:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-02 08:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-02 09:00:00,0.2,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
@@ -50,8 +50,8 @@
 2023-05-03 00:00:00,0.0,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 01:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 02:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
-2023-05-03 03:00:00,-0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
-2023-05-03 04:00:00,-0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
+2023-05-03 03:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
+2023-05-03 04:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 05:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 06:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 07:00:00,0.2,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
@@ -68,7 +68,7 @@
 2023-05-03 18:00:00,0.3,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 19:00:00,0.3,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 20:00:00,0.0,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
-2023-05-03 21:00:00,-0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
+2023-05-03 21:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 22:00:00,0.2,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-03 23:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-04 00:00:00,0.1,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
@@ -658,7 +658,7 @@
 2023-05-28 08:00:00,0.4,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-28 09:00:00,0.5,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-28 10:00:00,0.3,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
-2023-05-28 11:00:00,-0.2,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
+2023-05-28 11:00:00,,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-28 12:00:00,0.3,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-28 13:00:00,0.4,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891
 2023-05-28 14:00:00,0.3,SO2,BG1,Sulphur Dioxide,Barking and Dagenham - Rush Green,Suburban,51.563752,0.177891

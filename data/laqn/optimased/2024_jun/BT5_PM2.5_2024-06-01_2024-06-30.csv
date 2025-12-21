@@ -176,13 +176,13 @@
 2024-06-08 06:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 07:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 08:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-08 09:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-08 09:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 10:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 11:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 12:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 13:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 14:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-08 15:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-08 15:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 16:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 17:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-08 18:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -220,7 +220,7 @@
 2024-06-10 02:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-10 03:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-10 04:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-10 05:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-10 05:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-10 06:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-10 07:00:00,5.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-10 08:00:00,21.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -313,9 +313,9 @@
 2024-06-13 23:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-14 00:00:00,5.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-14 01:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-14 02:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-14 02:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-14 03:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-14 04:00:00,-2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-14 04:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-14 05:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-14 06:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-14 07:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -339,7 +339,7 @@
 2024-06-15 01:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-15 02:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-15 03:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-15 04:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-15 04:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-15 05:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-15 06:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-15 07:00:00,5.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -452,8 +452,8 @@
 2024-06-19 18:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-19 19:00:00,6.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-19 20:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-19 21:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-19 22:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-19 21:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-19 22:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-19 23:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 00:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 01:00:00,5.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -466,7 +466,7 @@
 2024-06-20 08:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 09:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 10:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-20 11:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-20 11:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 12:00:00,1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 13:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-20 14:00:00,6.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
@@ -533,7 +533,7 @@
 2024-06-23 03:00:00,3.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-23 04:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-23 05:00:00,0.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
-2024-06-23 06:00:00,-1.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
+2024-06-23 06:00:00,,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-23 07:00:00,2.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-23 08:00:00,4.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774
 2024-06-23 09:00:00,6.0,PM2.5,BT5,PM2.5 Particulate,Brent - Neasden Lane,Industrial,51.552656,-0.248774

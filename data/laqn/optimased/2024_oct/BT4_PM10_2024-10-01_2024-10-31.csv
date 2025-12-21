@@ -1,6 +1,6 @@
 @MeasurementDateGMT,@Value,SpeciesCode,SiteCode,SpeciesName,SiteName,SiteType,Latitude,Longitude
 2024-10-01 00:00:00,3.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
-2024-10-01 01:00:00,-2.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
+2024-10-01 01:00:00,,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-01 02:00:00,7.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-01 03:00:00,6.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-01 04:00:00,5.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
@@ -676,7 +676,7 @@
 2024-10-29 02:00:00,8.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-29 03:00:00,7.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-29 04:00:00,6.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
-2024-10-29 05:00:00,-2.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
+2024-10-29 05:00:00,,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-29 06:00:00,0.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-29 07:00:00,5.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089
 2024-10-29 08:00:00,5.0,PM10,BT4,PM10 Particulate,Brent - Ikea,Roadside,51.552476,-0.258089

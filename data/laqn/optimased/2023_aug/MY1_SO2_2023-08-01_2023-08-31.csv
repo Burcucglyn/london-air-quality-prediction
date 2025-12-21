@@ -663,7 +663,7 @@
 2023-08-28 13:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 14:00:00,0.3,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 15:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2023-08-28 16:00:00,-0.3,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2023-08-28 16:00:00,,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 17:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 18:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 19:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
@@ -671,9 +671,9 @@
 2023-08-28 21:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 22:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-28 23:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2023-08-29 00:00:00,-0.3,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2023-08-29 00:00:00,,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-29 01:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
-2023-08-29 02:00:00,-0.3,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
+2023-08-29 02:00:00,,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-29 03:00:00,0.0,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-29 04:00:00,0.5,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
 2023-08-29 05:00:00,0.5,SO2,MY1,Sulphur Dioxide,Westminster - Marylebone Road,Kerbside,51.52254,-0.15459
