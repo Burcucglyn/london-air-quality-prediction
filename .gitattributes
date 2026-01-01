@@ -1,3 +1,9 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 data/meteo/test/*.csv filter=lfs diff=lfs merge=lfs -text
 data/meteo/test/*.parquet filter=lfs diff=lfs merge=lfs -text
+data/laqn/monthly_data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/laqn/optimised/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/laqn/processed/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/defra/optimised/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/defra/processed/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/defra/raw_data/**/*.csv filter=lfs diff=lfs merge=lfs -text
