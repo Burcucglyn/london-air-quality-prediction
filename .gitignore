@@ -20,22 +20,19 @@ git_diff.txt
 git_diff.txt
 data/laqn/year_2023/
 #laqn and defra's ml files are  local only, too large for GitHub and I don't wanna pay extra for large storage.
-
 data/*/ml_prep_all/
-
 data/*/rf_model_all/
-
 data/*/cnn_model_all/
-
 *.npy
-
 *.joblib
-
 *.h5
-
 *.keras
-
 #Misc large files
-
 git_diff.txt
-
+#adding venv here:
+#Virtual environments
+.venv/
+.venv_defra/
+.venv_defra_37/
+venv/
+env/
