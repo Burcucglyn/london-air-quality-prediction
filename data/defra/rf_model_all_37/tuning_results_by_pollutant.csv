@@ -1,0 +1,12 @@
+pollutant,best_score,time_min
+Alkane,0.24,70.7
+Alkene,0.5784,37.6
+Aromatic_VOC,0.3355,34.3
+CO,0.6849,37.3
+NO2,0.696,37.5
+Nitrogen,0.6971,35.0
+O3,0.8415,19.0
+Other_VOC,0.3798,36.3
+PM10,0.6436,37.2
+PM25,0.632,37.0
+SO2,0.8924,36.7
