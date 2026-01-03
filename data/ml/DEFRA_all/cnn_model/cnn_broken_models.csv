@@ -1,0 +1,2 @@
+target,pollutant,test_r2,test_rmse,test_mae,epochs,site
+Tower_Hamlets_Roadside_NO2,NO2,-8.279771601393835e+29,0.025255700394019122,0.018306680936358344,39,Tower_Hamlets_Roadside
